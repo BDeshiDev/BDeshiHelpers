@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 using Object = UnityEngine.Object;
 
-namespace com.bdeshi.helpers.Utility
+namespace Bdeshi.Helpers.Utility
 {
     public class AutoMonobehaviourPool<T> where T : MonoBehaviour, AutoPoolable<T>
     {
-        private List<T> pool;
+        private List<T> _pool;
         private HashSet<T> loaned = new HashSet<T>();
         
         protected T prefab;
@@ -18,7 +18,7 @@ namespace com.bdeshi.helpers.Utility
         {
             this.prefab = prefab;
             this.spawnParent = spawnParent;
-            pool = new List<T>();
+            _pool = new List<T>();
             while (initialCount > 0)
             {
                 initialCount--;
@@ -49,16 +49,16 @@ namespace com.bdeshi.helpers.Utility
             var item = createItem();
             
             item.gameObject.SetActive(false);
-            pool.Add(item);
+            _pool.Add(item);
         }
 
         public T getItem()
         {
             T item = null;
-            if (pool.Count > 0)
+            if (_pool.Count > 0)
             {
-                item = pool[pool.Count -1];
-                pool.RemoveAt(pool.Count - 1);
+                item = _pool[_pool.Count -1];
+                _pool.RemoveAt(_pool.Count - 1);
                 item.gameObject.SetActive(true);
             }
             else
@@ -75,7 +75,7 @@ namespace com.bdeshi.helpers.Utility
 
         public void ensurePoolHasAtleast(int count)
         {
-            for (int i = pool.Count; i <= count; i++)
+            for (int i = _pool.Count; i <= count; i++)
             {
                 createAndAddToPool();
             }
@@ -104,7 +104,7 @@ namespace com.bdeshi.helpers.Utility
             item.gameObject.SetActive(false);
             item.NormalReturnCallback -= handleNormalNormalReturn;
 
-            pool.Add(item);
+            _pool.Add(item);
         }
     }
     

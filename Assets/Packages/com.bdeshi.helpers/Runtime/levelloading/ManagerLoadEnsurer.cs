@@ -10,23 +10,23 @@ having the manager scene already loaded is not a problem
 In general, ensure that everything in the manager scene goes to don'tdestroyonload
 and that they are singletons
 */
-namespace com.bdeshi.helpers.levelloading
+namespace Bdeshi.Helpers.levelloading
 {
     public class ManagerLoadEnsurer : MonoBehaviour
     {
-        public static bool loadedManager = false;
-        public string managerSceneName = "ManagerScene";
+        public static bool LoadedManager = false;
+        public string ManagerSceneName = "ManagerScene";
         private void Awake()
         {
-            ensureLoad();
+            EnsureLoad();
         }
 
-        public  void ensureLoad()
+        public void EnsureLoad()
         {
-            if (!loadedManager)
+            if (!LoadedManager)
             {
-                loadedManager = true;
-                SceneManager.LoadScene(managerSceneName, LoadSceneMode.Additive);
+                LoadedManager = true;
+                SceneManager.LoadScene(ManagerSceneName, LoadSceneMode.Additive);
             }
         }
 

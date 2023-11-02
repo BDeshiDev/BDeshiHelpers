@@ -1,18 +1,18 @@
 using UnityEngine;
 
-namespace com.bdeshi.helpers.Utility
+namespace Bdeshi.Helpers.Utility
 {
     public class PathComponent:MonoBehaviour
     {
-        [SerializeField] public Color gizmoColor = Color.yellow;
-        public Vector3[] path;
+        [SerializeField] public Color GizmoColor = Color.yellow;
+        public Vector3[] Path;
         
         private void OnDrawGizmosSelected()
         {
-            Gizmos.color = gizmoColor;
+            Gizmos.color = GizmoColor;
 
 
-            drawPathGizmos(path);
+            drawPathGizmos(Path);
         }
 
         private void drawPathGizmos(Vector3[] p)

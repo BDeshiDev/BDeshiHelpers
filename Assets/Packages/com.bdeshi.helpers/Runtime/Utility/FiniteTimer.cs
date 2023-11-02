@@ -1,29 +1,29 @@
 ﻿using UnityEngine;
 
-namespace com.bdeshi.helpers.Utility
+namespace Bdeshi.Helpers.Utility
 {
     [System.Serializable]
     public struct FiniteTimer
     {
-        public float timer;
-        public float maxValue;
+        public float Timer;
+        public float MaxValue;
 
         public void init(float maxval, float startVal = 0)
         {
-            timer = startVal;
-            maxValue = maxval;
+            Timer = startVal;
+            MaxValue = maxval;
         }
 
         public FiniteTimer(float timerStart, float maxVal, bool completed = false)
         {
-            timer = completed ? maxVal : timerStart;
-            maxValue = maxVal;
+            Timer = completed ? maxVal : timerStart;
+            MaxValue = maxVal;
         }
 
         public FiniteTimer(float maxVal = 3, bool completed = false)
         {
-            timer = completed ? maxVal : 0;
-            maxValue = maxVal;
+            Timer = completed ? maxVal : 0;
+            MaxValue = maxVal;
         }
 
 
@@ -31,7 +31,7 @@ namespace com.bdeshi.helpers.Utility
 
         public void updateTimer(float delta)
         {
-            timer += delta;
+            Timer += delta;
         }
         /// <summary>
         /// return true if this is completed before or after updating
@@ -62,10 +62,10 @@ namespace com.bdeshi.helpers.Utility
             remainder = delta;
             if (isComplete)
                 return true;
-            timer += delta;
-            if (timer > maxValue)
+            Timer += delta;
+            if (Timer > MaxValue)
             {
-                remainder = timer - maxValue;
+                remainder = Timer - MaxValue;
                 return true;
             }
 
@@ -77,18 +77,18 @@ namespace com.bdeshi.helpers.Utility
         public bool tryEmptyTimer(float delta, out float remainder)
         {
             remainder = delta;
-            if (timer <= 0)
+            if (Timer <= 0)
                 return true;
 
-            if (timer <= delta)
+            if (Timer <= delta)
             {
-                timer = 0;
-                remainder -= timer;
+                Timer = 0;
+                remainder -= Timer;
                 return true;
             }
             else
             {
-                timer -= remainder;
+                Timer -= remainder;
                 remainder = 0;
             }
             return false;
@@ -96,28 +96,28 @@ namespace com.bdeshi.helpers.Utility
 
         public void clampedUpdateTimer(float delta)
         {
-            timer = Mathf.Clamp(timer + delta, 0, maxValue);
+            Timer = Mathf.Clamp(Timer + delta, 0, MaxValue);
         }
 
         public void safeUpdateTimer(float delta)
         {
-            timer = Mathf.Clamp(timer + delta, 0, maxValue);
+            Timer = Mathf.Clamp(Timer + delta, 0, MaxValue);
         }
         
         public void safeSubtractTimer(float delta)
         {
-            timer = Mathf.Clamp(timer - delta, 0, maxValue);
+            Timer = Mathf.Clamp(Timer - delta, 0, MaxValue);
         }
 
 
         public void reset()
         {
-            timer = 0;
+            Timer = 0;
         }
 
         public void resetByFractionOfMax(float frac)
         {
-            timer = Mathf.Max(0, timer - frac * maxValue);
+            Timer = Mathf.Max(0, Timer - frac * MaxValue);
         }
         
         /// <summary>
@@ -126,74 +126,74 @@ namespace com.bdeshi.helpers.Utility
         /// <param name="newMax"></param>
         public void reset(float newMax)
         {
-            maxValue = newMax;
+            MaxValue = newMax;
             reset();
         }
         
         public void resetAndSetToMax(float newMax)
         {
-            timer = maxValue = newMax;
+            Timer = MaxValue = newMax;
         }
 
         public void resetAndSetMax(float newMax)
         {
-            maxValue = newMax;
+            MaxValue = newMax;
             reset();
         }
         public void resetAndKeepExtra()
         {
-            if (timer > maxValue)
-                timer -= maxValue;
+            if (Timer > MaxValue)
+                Timer -= MaxValue;
             else
                 reset();
         }
 
         public void complete()
         {
-            timer = maxValue;
+            Timer = MaxValue;
         }
 
-        public bool isComplete => timer >= maxValue;
+        public bool isComplete => Timer >= MaxValue;
 
         public bool exceedsRatio(float ratioToExceed)
         {
             return Ratio >= ratioToExceed;
         }
 
-        public float Ratio => Mathf.Clamp01(timer / maxValue);
+        public float Ratio => Mathf.Clamp01(Timer / MaxValue);
 
         public float ReverseRatio => 1 - Ratio;
 
         public float remaingValue()
         {
-            if (timer >= maxValue)
+            if (Timer >= MaxValue)
                 return 0;
-            return maxValue - timer;
+            return MaxValue - Timer;
         }
     }
     
     [System.Serializable]
     public class SafeFiniteTimer
     {
-        public float timer;
-        public float maxValue;
+        public float Timer;
+        public float MaxValue;
 
         public void init(float maxval, float startVal = 0)
         {
-            timer = startVal;
-            maxValue = maxval;
+            Timer = startVal;
+            MaxValue = maxval;
         }
 
         public SafeFiniteTimer(float timerStart, float maxVal, bool completed = false)
         {
-            timer = completed ? maxVal : timerStart;
-            maxValue = maxVal;
+            Timer = completed ? maxVal : timerStart;
+            MaxValue = maxVal;
         }
 
         public SafeFiniteTimer(float maxVal = 3, bool completed = false)
         {
-            timer = completed ? maxVal : 0;
-            maxValue = maxVal;
+            Timer = completed ? maxVal : 0;
+            MaxValue = maxVal;
         }
 
 
@@ -201,7 +201,7 @@ namespace com.bdeshi.helpers.Utility
 
         public void updateTimer(float delta)
         {
-            timer += delta;
+            Timer += delta;
         }
         /// <summary>
         /// return true if this is completed before or after updating
@@ -218,10 +218,10 @@ namespace com.bdeshi.helpers.Utility
             remainder = delta;
             if (isComplete)
                 return true;
-            timer += delta;
-            if (timer > maxValue)
+            Timer += delta;
+            if (Timer > MaxValue)
             {
-                remainder = timer - maxValue;
+                remainder = Timer - MaxValue;
                 return true;
             }
 
@@ -233,18 +233,18 @@ namespace com.bdeshi.helpers.Utility
         public bool tryEmptyTimer(float delta, out float remainder)
         {
             remainder = delta;
-            if (timer <= 0)
+            if (Timer <= 0)
                 return true;
 
-            if (timer <= delta)
+            if (Timer <= delta)
             {
-                timer = 0;
-                remainder -= timer;
+                Timer = 0;
+                remainder -= Timer;
                 return true;
             }
             else
             {
-                timer -= remainder;
+                Timer -= remainder;
                 remainder = 0;
             }
             return false;
@@ -252,23 +252,23 @@ namespace com.bdeshi.helpers.Utility
 
         public void clampedUpdateTimer(float delta)
         {
-            timer = Mathf.Clamp(timer + delta, 0, maxValue);
+            Timer = Mathf.Clamp(Timer + delta, 0, MaxValue);
         }
 
         public void safeUpdateTimer(float delta)
         {
-            if (timer < maxValue)
-                timer += delta;
+            if (Timer < MaxValue)
+                Timer += delta;
         }
 
         public void reset()
         {
-            timer = 0;
+            Timer = 0;
         }
 
         public void resetByFractionOfMax(float frac)
         {
-            timer = Mathf.Max(0, timer - frac * maxValue);
+            Timer = Mathf.Max(0, Timer - frac * MaxValue);
         }
         
         /// <summary>
@@ -277,31 +277,31 @@ namespace com.bdeshi.helpers.Utility
         /// <param name="newMax"></param>
         public void reset(float newMax)
         {
-            maxValue = newMax;
+            MaxValue = newMax;
             reset();
         }
 
         public void resetAndKeepExtra()
         {
-            if (timer > maxValue)
-                timer -= maxValue;
+            if (Timer > MaxValue)
+                Timer -= MaxValue;
             else
                 reset();
         }
 
         public void complete()
         {
-            timer = maxValue;
+            Timer = MaxValue;
         }
 
-        public bool isComplete => timer >= maxValue;
+        public bool isComplete => Timer >= MaxValue;
 
         public bool exceedsRatio(float ratioToExceed)
         {
             return Ratio >= ratioToExceed;
         }
 
-        public float Ratio => Mathf.Clamp01(timer / maxValue);
+        public float Ratio => Mathf.Clamp01(Timer / MaxValue);
 
         public float ReverseRatio => 1 - Ratio;
     }

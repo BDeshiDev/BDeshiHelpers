@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace com.bdeshi.helpers.Utility
+namespace Bdeshi.Helpers.Utility
 {
     public class MonoBehaviourLazySingleton<T> : MonoBehaviour
         where T : MonoBehaviourLazySingleton<T> 
@@ -13,7 +13,7 @@ namespace com.bdeshi.helpers.Utility
                 if (_instance == null)
                 {
 
-                    if (appicationQuitting)
+                    if (_appicationQuitting)
                     {
                         Debug.Log("app quit  " + _instance, _instance);
 
@@ -29,7 +29,7 @@ namespace com.bdeshi.helpers.Utility
                         // Debug.Log(obj + "create");
                         //obj.hideFlags = HideFlags.HideAndDontSave;
                         _instance = obj.AddComponent<T>();
-                        _instance.initialize();
+                        _instance.Initialize();
                     }
                 }
                 // Debug.Log("end "+ (_instance == null));
@@ -39,9 +39,11 @@ namespace com.bdeshi.helpers.Utility
         }
 
 
-        private static bool appicationQuitting;
-
-        protected virtual void initialize() { }
+        private static bool _appicationQuitting;
+        /// <summary>
+        /// Initialize is called on awake only if this is the first instance
+        /// </summary>
+        protected virtual void Initialize() { }
 
         protected virtual void Awake()
         {
@@ -59,12 +61,12 @@ namespace com.bdeshi.helpers.Utility
 
         private void OnApplicationQuit()
         {
-            appicationQuitting = true;
+            _appicationQuitting = true;
         }
 
         public static void PlayModeEnterCleanup()
         {
-            appicationQuitting = false;
+            _appicationQuitting = false;
 
             if (_instance != null)
                 _instance.PlayModeEnterCleanupInternal();

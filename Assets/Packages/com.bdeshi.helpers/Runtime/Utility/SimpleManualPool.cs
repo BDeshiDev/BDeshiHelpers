@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 
-namespace com.bdeshi.helpers.Utility
+namespace Bdeshi.Helpers.Utility
 {
     /// <summary>
     /// manual pool for POCOs
@@ -12,49 +12,49 @@ namespace com.bdeshi.helpers.Utility
     /// <typeparam name="T"></typeparam>
     public class SimpleManualPool<T>
     {
-        [SerializeField] private List<T> pool;
-        private Func<T> CreationMethod;
+        [SerializeField] private List<T> _pool;
+        private readonly Func<T> _creationMethod;
 
         public SimpleManualPool(Func<T> creationMethod)
         {
-            CreationMethod = creationMethod;
-            pool = new List<T>();
+            _creationMethod = creationMethod;
+            _pool = new List<T>();
         }
 
-        void createAndAddToPool()
+        void CreateAndAddToPool()
         {
-            var item = CreationMethod();
+            var item = _creationMethod();
 
-            pool.Add(item);
+            _pool.Add(item);
         }
 
-        public T getItem()
+        public T GetItem()
         {
             T item = default;
-            if (pool.Count > 0)
+            if (_pool.Count > 0)
             {
-                item = pool[pool.Count -1];
-                pool.RemoveAt(pool.Count - 1);
+                item = _pool[_pool.Count -1];
+                _pool.RemoveAt(_pool.Count - 1);
             }
             else
             {
-                item = CreationMethod();
+                item = _creationMethod();
             }
 
             return item;
         }
 
-        public void ensurePoolHasAtleast(int count)
+        public void EnsurePoolHasAtleast(int count)
         {
-            for (int i = pool.Count; i <= count; i++)
+            for (int i = _pool.Count; i <= count; i++)
             {
-                createAndAddToPool();
+                CreateAndAddToPool();
             }
         }
 
-        public void returnItem(T item)
+        public void ReturnItem(T item)
         {
-            pool.Add(item);
+            _pool.Add(item);
         }
     }
 }

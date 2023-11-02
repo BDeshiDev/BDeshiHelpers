@@ -1,22 +1,22 @@
 using UnityEngine;
 using UnityEngine.Events;
 
-namespace com.bdeshi.helpers.Utility
+namespace Bdeshi.Helpers.Utility
 {
     public class EventOnAwake : MonoBehaviour
     {
-        public bool callInAwake = true;
-        public bool callInStart = false;
+        public bool CallInAwake = true;
+        public bool CallInStart = false;
         public UnityEvent e;
         private void Awake()
         {
-            if(callInAwake)
+            if(CallInAwake)
                 e.Invoke();
         }
 
         private void Start()
         {
-            if(callInStart)
+            if(CallInStart)
                 e.Invoke();
         }
     }

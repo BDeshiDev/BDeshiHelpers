@@ -2,47 +2,45 @@
 using UnityEngine;
 using Object = UnityEngine.Object;
 
-namespace com.bdeshi.helpers.Utility
+namespace Bdeshi.Helpers.Utility
 {
     public class AutoMonoBehaviourPoolComponent<T>: MonoBehaviour 
         where T : MonoBehaviour, AutoPoolable<T>
     {
-        private List<T> pool;
-        private HashSet<T> loaned;
+        private List<T> _pool;
+        private HashSet<T> _loaned;
         
         [SerializeField]protected T prefab;
-        [SerializeField] private Transform spawnParent;
-        public bool debug = false;
-        public int initialCount = 1;
-        private int spawnCount = 0;
+        [SerializeField] private Transform _spawnParent;
+        public bool Debug = false;
+        public int InitialCount = 1;
+        private int _spawnCount = 0;
         private void Awake()
         {
-            pool = new List<T>();
-            loaned = new HashSet<T>();
-            while (initialCount > 0)
+            _pool = new List<T>();
+            _loaned = new HashSet<T>();
+            while (InitialCount > 0)
             {
-                initialCount--;
+                InitialCount--;
                 createAndAddToPool();
             }
         }
-
-
 
         T createItem()
         {
             T item = default(T);
                         
-            if (spawnParent != null)
+            if (_spawnParent != null)
             {
-                item = Object.Instantiate(this.prefab, spawnParent,false);
+                item = Object.Instantiate(this.prefab, _spawnParent,false);
             }
             else
             {
                 item = Object.Instantiate(this.prefab);
             }
 
-            spawnCount++;
-            item.gameObject.name += "_" + spawnCount;
+            _spawnCount++;
+            item.gameObject.name += "_" + _spawnCount;
 
             return item;
         }
@@ -53,16 +51,16 @@ namespace com.bdeshi.helpers.Utility
             var item = createItem();
             
             item.gameObject.SetActive(false);
-            pool.Add(item);
+            _pool.Add(item);
         }
 
         public T getItem()
         {
             T item = null;
-            if (pool.Count > 0)
+            if (_pool.Count > 0)
             {
-                item = pool[pool.Count -1];
-                pool.RemoveAt(pool.Count - 1);
+                item = _pool[_pool.Count -1];
+                _pool.RemoveAt(_pool.Count - 1);
                 item.gameObject.SetActive(true);
             }
             else
@@ -72,14 +70,14 @@ namespace com.bdeshi.helpers.Utility
             item.NormalReturnCallback += handleNormalNormalReturn;
             item.initialize();
             
-            loaned.Add(item);
+            _loaned.Add(item);
             
             return item;
         }
 
         public void ensurePoolHasAtleast(int count)
         {
-            for (int i = pool.Count; i <= count; i++)
+            for (int i = _pool.Count; i <= count; i++)
             {
                 createAndAddToPool();
             }
@@ -87,20 +85,20 @@ namespace com.bdeshi.helpers.Utility
 
         public void returnAll()
         {
-            foreach (var item in loaned)
+            foreach (var item in _loaned)
             {
                 item.handleReturned();
                 handleReturnInternal(item);
             }
             
-            loaned.Clear();
+            _loaned.Clear();
         }
 
 
         void handleNormalNormalReturn(T item)
         {
             handleReturnInternal(item);
-            loaned.Remove(item);
+            _loaned.Remove(item);
         }
 
         void handleReturnInternal(T item)
@@ -108,7 +106,7 @@ namespace com.bdeshi.helpers.Utility
             item.gameObject.SetActive(false);
             item.NormalReturnCallback -= handleNormalNormalReturn;
 
-            pool.Add(item);
+            _pool.Add(item);
         }
     }
  

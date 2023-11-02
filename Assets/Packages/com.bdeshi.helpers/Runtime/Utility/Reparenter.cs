@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace com.bdeshi.helpers.Utility
+namespace Bdeshi.Helpers.Utility
 {
     public class Reparenter: MonoBehaviour
     {

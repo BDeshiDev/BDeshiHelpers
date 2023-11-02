@@ -2,7 +2,7 @@
 using UnityEngine;
 
 
-namespace com.bdeshi.helpers.Utility
+namespace Bdeshi.Helpers.Utility
 {
     /// <summary>
     /// Simple pool with normal instantiation automated.
@@ -11,62 +11,62 @@ namespace com.bdeshi.helpers.Utility
     public class SimpleManualMonoBehaviourPoolComponent<T>: MonoBehaviour
         where T : MonoBehaviour
     {
-        public int initialCount = 10;
-        [SerializeField]private List<T> pool;
-        [SerializeField]protected T prefab;
+        public int InitialCount = 10;
+        [SerializeField] private List<T> _pool;
+        [SerializeField] protected T _prefab;
 
         private void Awake()
         {
-            pool = new List<T>();
-            while (initialCount > 0)
+            _pool = new List<T>();
+            while (InitialCount > 0)
             {
-                initialCount--;
-                createAndAddToPool();
+                InitialCount--;
+                CreateAndAddToPool();
             }
         }
 
-        T createItem()
+        T CreateItem()
         {
-            return Instantiate(this.prefab, transform,false);
+            return Instantiate(this._prefab, transform,false);
         }
 
 
-        void createAndAddToPool()
+        void CreateAndAddToPool()
         {
-            var item = createItem();
+            var item = CreateItem();
             item.gameObject.SetActive(false);
-            pool.Add(item);
+            _pool.Add(item);
         }
 
-        public T getItem()
+        public T GetItem()
         {
             T item = null;
-            if (pool.Count > 0)
+            if (_pool.Count > 0)
             {
-                item = pool[pool.Count -1];
-                pool.RemoveAt(pool.Count - 1);
+                item = _pool[_pool.Count -1];
+                _pool.RemoveAt(_pool.Count - 1);
                 item.gameObject.SetActive(true);
             }
             else
             {
-                item = createItem();
+                item = CreateItem();
             }
 
             return item;
         }
 
-        public void ensurePoolHasAtleast(int count)
+        public void EnsurePoolHasAtleast(int count)
         {
-            for (int i = pool.Count; i <= count; i++)
+            for (int i = _pool.Count; i <= count; i++)
             {
-                createAndAddToPool();
+                CreateAndAddToPool();
             }
         }
 
-        public void returnItem(T item)
+        public void ReturnItem(T item)
         {
             item.gameObject.SetActive(false);
-            pool.Add(item);
+            _pool.Add(item);
         }
     }
 

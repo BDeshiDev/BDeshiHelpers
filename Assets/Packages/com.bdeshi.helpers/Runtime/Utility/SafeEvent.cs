@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
-using com.bdeshi.helpers.Utility.Extensions;
+using Bdeshi.Helpers.Utility.Extensions;
 using UnityEngine;
 
-namespace com.bdeshi.helpers.Utility
+namespace Bdeshi.Helpers.Utility
 {
     public class SafeEvent<T1,T2>
     {
@@ -13,13 +13,13 @@ namespace com.bdeshi.helpers.Utility
         {
             for (int i = actions.Count -1 ; i >=0; i--)
             {
-                if (actions[i].go == null)
+                if (actions[i].Go == null)
                 {
-                    actions.removeAndSwapToLast(i);
+                    actions.removeAndSwapWithLast(i);
                 }
                 else
                 {
-                    actions[i].action.Invoke(ctx1, ctx2);
+                    actions[i].Action.Invoke(ctx1, ctx2);
                 }
             }
         }
@@ -42,13 +42,13 @@ namespace com.bdeshi.helpers.Utility
         {
             for (int i = actions.Count -1 ; i >=0; i--)
             {
-                if (actions[i].go == null)
+                if (actions[i].Go == null)
                 {
-                    actions.removeAndSwapToLast(i);
+                    actions.removeAndSwapWithLast(i);
                 }
                 else
                 {
-                    actions[i].action.Invoke(ctx);
+                    actions[i].Action.Invoke(ctx);
                 }
             }
         }
@@ -62,7 +62,7 @@ namespace com.bdeshi.helpers.Utility
         {
             foreach (var sa in actions)
             {
-                Debug.Log(" action with " , sa.go);
+                Debug.Log(" action with " , sa.Go);
             }
         }
 
@@ -80,13 +80,13 @@ namespace com.bdeshi.helpers.Utility
         {
             for (int i = actions.Count -1 ; i >=0; i--)
             {
-                if (actions[i].go == null)
+                if (actions[i].Go == null)
                 {
-                    actions.removeAndSwapToLast(i);
+                    actions.removeAndSwapWithLast(i);
                 }
                 else
                 {
-                    actions[i].action.Invoke();
+                    actions[i].Action.Invoke();
                 }
             }
         }

@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace com.bdeshi.helpers.Utility
+namespace Bdeshi.Helpers.Utility
 {
     [Serializable]
     public class ChargableList<TItem> : IEnumerable<TItem>
@@ -92,7 +92,7 @@ namespace com.bdeshi.helpers.Utility
         public void decreaseCharge(float amount, Action<TItem> levelChangeCallback = null)
         {
             bool changed = false;
-            while ( amount > 0 && items[chargeIndex].chargeTimer.timer >= 0)
+            while ( amount > 0 && items[chargeIndex].chargeTimer.Timer >= 0)
             {
                 if(items[chargeIndex].chargeTimer.tryEmptyTimer(amount, out float remainder))
                 {
@@ -124,7 +124,7 @@ namespace com.bdeshi.helpers.Utility
             return items[chargeIndex].item;
         }
 
-        public float getFirstChargeCost() => items[0].chargeTimer.maxValue; 
+        public float getFirstChargeCost() => items[0].chargeTimer.MaxValue; 
         public TItem getItem(int index)
         {
             return items[index].item;
@@ -132,7 +132,7 @@ namespace com.bdeshi.helpers.Utility
 
         public bool isEmpty()
         {
-            return chargeIndex == 0 && items[0].chargeTimer.timer <= 0;
+            return chargeIndex == 0 && items[0].chargeTimer.Timer <= 0;
         }
 
         public float getCurrentLevelChargeRatio()
@@ -177,7 +177,7 @@ namespace com.bdeshi.helpers.Utility
             {
                 if (i == chargeIndex && items[i].chargeTimer.Ratio < 1)
                     break;
-                total += items[i].chargeTimer.timer;
+                total += items[i].chargeTimer.Timer;
             }
 
             return total;
@@ -188,7 +188,7 @@ namespace com.bdeshi.helpers.Utility
             float total = 0;
             for (int i = 0; i <= chargeIndex && i < items.Count; i++)
             {
-                total += items[i].chargeTimer.timer;
+                total += items[i].chargeTimer.Timer;
             }
 
             return total;
@@ -203,7 +203,7 @@ namespace com.bdeshi.helpers.Utility
         {
             for (int i = 0; i < items.Count; i++)
             {
-                items[i].chargeTimer.maxValue = to;
+                items[i].chargeTimer.MaxValue = to;
             }
         }
 
@@ -247,7 +247,7 @@ namespace com.bdeshi.helpers.Utility
             resultingChargeLevel = 0;
             foreach (var item in items)
             {
-                float newSum = chargeCostSum + item.chargeTimer.maxValue;
+                float newSum = chargeCostSum + item.chargeTimer.MaxValue;
                 if (newSum > normalizedChargeLevelThreshold || resultingChargeLevel >= (items.Count - 1))
                 {
                     break;
