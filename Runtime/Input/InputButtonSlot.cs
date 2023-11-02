@@ -1,11 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
-using com.bdeshi.helpers.Utility;
-using com.bdeshi.helpers.Utility.Extensions;
+using Bdeshi.Helpers.Utility;
+using Bdeshi.Helpers.Utility.Extensions;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-namespace com.bdeshi.helpers.Input
+namespace Bdeshi.Helpers.Input
 {
     /// <summary>
     /// You may also assume that this can be safely stored in fields
@@ -13,55 +13,55 @@ namespace com.bdeshi.helpers.Input
     /// </summary>
     public class InputButtonSlot
     {
-        private List<SafeAction> onPerformedCallbacks = new List<SafeAction>();
-        private List<SafeAction> OnCancelledCallbacks = new List<SafeAction>();
+        private List<SafeAction> _onPerformedCallbacks = new List<SafeAction>();
+        private List<SafeAction> _onCancelledCallbacks = new List<SafeAction>();
             
-        public bool isHeld { get; private set; }
-        public float lastHeld;
-        private InputActionReference action;
-        public string buttonName;
+        public bool IsHeld { get; private set; }
+        public float LastHeld;
+        private InputActionReference _action;
+        public string ButtonName;
 
         public InputButtonSlot(string buttonName)
         {
-            this.buttonName = buttonName;
+            this.ButtonName = buttonName;
         }
 
-        public bool wasHeld(float heldWithinThreshold)
+        public bool WasHeld(float heldWithinThreshold)
         {
-            return isHeld || (Time.time - lastHeld) < heldWithinThreshold;
+            return IsHeld || (Time.time - LastHeld) < heldWithinThreshold;
         }
         
-        public bool wasReleased(float heldWithinThreshold)
+        public bool WasReleased(float heldWithinThreshold)
         {
-            return !isHeld && (Time.time - lastHeld) < heldWithinThreshold;
+            return !IsHeld && (Time.time - LastHeld) < heldWithinThreshold;
         }
 
-        public void clearPressedStatus()
+        public void ClearPressedStatus()
         {
-            isHeld = false;
+            IsHeld = false;
         }
 
-        public void addPerformedCallback(GameObject go, Action a)
+        public void AddPerformedCallback(GameObject go, Action a)
         {
-            onPerformedCallbacks.Add(new SafeAction(go ,a ));
+            _onPerformedCallbacks.Add(new SafeAction(go ,a ));
         }
             
-        public void addCancelledCallback(GameObject go, Action a)
+        public void AddCancelledCallback(GameObject go, Action a)
         {
-            OnCancelledCallbacks.Add(new SafeAction(go ,a ));
+            _onCancelledCallbacks.Add(new SafeAction(go ,a ));
         }
 
-        public void bind(InputActionReference iar)
+        public void Bind(InputActionReference iar)
         {
             if(iar == null)
                 return;
 
-            action = iar;
+            _action = iar;
             iar.action.performed += ActionOnperformed;
             iar.action.canceled += ActionOncanceled;
         }
 
-        private void unBind(InputActionReference iar)
+        private void UnBind(InputActionReference iar)
         {               
             if(iar == null)
                 return;
@@ -69,69 +69,69 @@ namespace com.bdeshi.helpers.Input
             iar.action.canceled -= ActionOncanceled;
         }
         
-        public void unBind()
+        public void UnBind()
         {
-            unBind(action);
-            action = null;
+            UnBind(_action);
+            _action = null;
         }
 
         private void ActionOncanceled(InputAction.CallbackContext obj)
         {
-            isHeld = false;
-            for (int i = OnCancelledCallbacks.Count -1 ; i >=0; i--)
+            IsHeld = false;
+            for (int i = _onCancelledCallbacks.Count -1 ; i >=0; i--)
             {
-                if (OnCancelledCallbacks[i].go == null)
+                if (_onCancelledCallbacks[i].Go == null)
                 {
-                    OnCancelledCallbacks.removeAndSwapToLast(i);
+                    _onCancelledCallbacks.removeAndSwapWithLast(i);
                 }
                 else
                 {
-                    OnCancelledCallbacks[i].action.Invoke();
+                    _onCancelledCallbacks[i].Action.Invoke();
                 }
             }
         }
 
         private void ActionOnperformed(InputAction.CallbackContext obj)
         {
-            isHeld = true;
-            lastHeld = Time.time;
+            IsHeld = true;
+            LastHeld = Time.time;
 
-            for (int i = onPerformedCallbacks.Count -1 ; i >=0; i--)
+            for (int i = _onPerformedCallbacks.Count -1 ; i >=0; i--)
             {
-                if (onPerformedCallbacks[i].go == null)
+                if (_onPerformedCallbacks[i].Go == null)
                 {
-                    onPerformedCallbacks.removeAndSwapToLast(i);
+                    _onPerformedCallbacks.removeAndSwapWithLast(i);
                 }
                 else
                 {
-                    onPerformedCallbacks[i].action.Invoke();
+                    _onPerformedCallbacks[i].Action.Invoke();
                 }
             }
         }
 
-        public void debugLog()
+        public void DebugLog()
         {
-            Debug.Log(buttonName + "  performed x " + onPerformedCallbacks.Count);
-            for (int i = onPerformedCallbacks.Count -1 ; i >=0; i--)
+            Debug.Log(ButtonName + "  performed x " + _onPerformedCallbacks.Count);
+            for (int i = _onPerformedCallbacks.Count -1 ; i >=0; i--)
             {
-                var go = onPerformedCallbacks[i].go;
+                var go = _onPerformedCallbacks[i].Go;
                 Debug.Log((go != null ? go : "null") + " subbed ", go);
             }
             
-            Debug.Log( buttonName + " cancelled x " + OnCancelledCallbacks.Count);
-            for (int i = OnCancelledCallbacks.Count -1 ; i >=0; i--)
+            Debug.Log( ButtonName + " cancelled x " + _onCancelledCallbacks.Count);
+            for (int i = _onCancelledCallbacks.Count -1 ; i >=0; i--)
             {
-                var go = OnCancelledCallbacks[i].go;
+                var go = _onCancelledCallbacks[i].Go;
                 Debug.Log((go != null ? go : "null") + " subbed ", go);
             }
         }
         
-        public void cleanup()
+        public void Cleanup()
         {
-            isHeld = false;
-            onPerformedCallbacks.Clear();
-            OnCancelledCallbacks.Clear();
-            lastHeld = -9999;
+            IsHeld = false;
+            _onPerformedCallbacks.Clear();
+            _onCancelledCallbacks.Clear();
+            LastHeld = -9999;
         }
 
 

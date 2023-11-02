@@ -2,7 +2,7 @@
 using JetBrains.Annotations;
 using UnityEngine;
 
-namespace com.bdeshi.helpers.Utility.Extensions
+namespace Bdeshi.Helpers.Utility.Extensions
 {
     public static class Csharp
     {
@@ -57,7 +57,7 @@ namespace com.bdeshi.helpers.Utility.Extensions
         public static int getRandomIndex<T>(this List<T> list, int maxIndexPlusOne) => Random.Range(0, maxIndexPlusOne);
         public static T getRandomItem<T>(this List<T> list, int maxIndexPlusOne) => list[Random.Range(0, maxIndexPlusOne)];
 
-        public static void removeAndSwapToLast<T>(this List<T> list, T item) where T : class
+        public static void removeItemAndSwapWithLast<T>(this List<T> list, T item) where T : class
         {
             for (int i = 0; i < list.Count; i++)
             {
@@ -76,7 +76,7 @@ namespace com.bdeshi.helpers.Utility.Extensions
         }
         
 
-        public static void removeAndSwapToLast<T>(this List<T> list, int index)
+        public static void removeAndSwapWithLast<T>(this List<T> list, int index)
         {
             if(index < 0 || index > list.Count)
                 return;
@@ -84,8 +84,8 @@ namespace com.bdeshi.helpers.Utility.Extensions
             if (index != (list.Count - 1))
             {
                 (list[index], list[list.Count - 1]) = (list[list.Count - 1], list[index]);
-                list.RemoveAt(list.Count - 1);
             }
+            list.RemoveAt(list.Count - 1);
         }
         
         public static void swapToLast<T>(this List<T> list, int index)
