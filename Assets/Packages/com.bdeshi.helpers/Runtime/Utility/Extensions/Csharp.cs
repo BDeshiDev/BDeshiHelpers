@@ -84,8 +84,8 @@ namespace Bdeshi.Helpers.Utility.Extensions
             if (index != (list.Count - 1))
             {
                 (list[index], list[list.Count - 1]) = (list[list.Count - 1], list[index]);
+                list.RemoveAt(list.Count - 1);
             }
-            list.RemoveAt(list.Count - 1);
         }
         
         public static void swapToLast<T>(this List<T> list, int index)

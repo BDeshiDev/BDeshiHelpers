@@ -74,7 +74,7 @@ namespace Bdeshi.Helpers.Utility
         public void ReturnItem(T item)
         {
             item.gameObject.SetActive(false);
-            _pool.Add(item);
+            pool.Add(item);
         }
         
         /// <summary>
@@ -100,7 +100,61 @@ namespace Bdeshi.Helpers.Utility
                     ReturnItem(item);
                 }
             }
-            
+        }
+        
+        /// <summary>
+        /// Will fill/trim a list to match a desired count using  pool
+        /// excess is returned to pool
+        /// additional items are fetched from pool
+        /// </summary>
+        /// <param name="spawnedList"></param>
+        /// <param name="desiredSpawnCount"></param>
+        public void EnsureSpawnListCount(List<T> spawnedList, int desiredSpawnCount,Action<T> addedCallback, Action<T> removedCallback)
+        {
+            if (spawnedList.Count != desiredSpawnCount)
+            {
+                for (int i = spawnedList.Count; i <= desiredSpawnCount; i++)
+                {
+                    var item = GetItem();
+                    spawnedList.Add(item);
+                    addedCallback.Invoke(item);
+                }
+                for (int i = spawnedList.Count-1 ; i >= desiredSpawnCount; i--)
+                {
+                    var item = spawnedList[i];
+                    spawnedList.RemoveAt(i);
+                
+                    ReturnItem(item);
+                    removedCallback.Invoke(item);
+                }
+            }
+        }
+        
+                /// <summary>
+        /// Will fill/trim a list to match a desired count using  pool
+        /// excess is returned to pool
+        /// additional items are fetched from pool
+        /// </summary>
+        /// <param name="spawnedList"></param>
+        /// <param name="desiredSpawnCount"></param>
+        public void EnsureSpawnListCount(List<T> spawnedList, int desiredSpawnCount,Action<T> addedCallback)
+        {
+            if (spawnedList.Count != desiredSpawnCount)
+            {
+                for (int i = spawnedList.Count; i <= desiredSpawnCount; i++)
+                {
+                    var item = GetItem();
+                    spawnedList.Add(item);
+                    addedCallback.Invoke(item);
+                }
+                for (int i = spawnedList.Count-1 ; i >= desiredSpawnCount; i--)
+                {
+                    var item = spawnedList[i];
+                    spawnedList.RemoveAt(i);
+                
+                    ReturnItem(item);
+                }
+            }
         }
     }
 
