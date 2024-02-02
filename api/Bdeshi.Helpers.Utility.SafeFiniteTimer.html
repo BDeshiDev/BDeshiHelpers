@@ -1,0 +1,827 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class SafeFiniteTimer |  |  </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class SafeFiniteTimer |  |  ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      <meta name="docfx:disablenewtab" content="true">
+      
+      <meta name="docfx:docurl" content="https://github.com/BDeshiDev/BDeshiHelpers/new/main/apiSpec/new?filename=Bdeshi_Helpers_Utility_SafeFiniteTimer.md&amp;value=---%0Auid%3A%20Bdeshi.Helpers.Utility.SafeFiniteTimer%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+  </head>
+
+  <script type="module" src="./../public/docfx.min.js"></script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="Bdeshi.Helpers.Utility.SafeFiniteTimer">
+
+
+
+  <h1 id="Bdeshi_Helpers_Utility_SafeFiniteTimer" data-uid="Bdeshi.Helpers.Utility.SafeFiniteTimer" class="text-break">
+Class SafeFiniteTimer  <a class="header-action link-secondary" title="View source" href="https://github.com/BDeshiDev/BDeshiHelpers/blob/main/Assets/Packages/com.bdeshi.helpers/Runtime/Utility/FiniteTimer.cs/#L175"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Bdeshi.html">Bdeshi</a>.<a class="xref" href="Bdeshi.Helpers.html">Helpers</a>.<a class="xref" href="Bdeshi.Helpers.Utility.html">Utility</a></dd></dl>
+  
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Serializable]
+public class SafeFiniteTimer</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">SafeFiniteTimer</span></div>
+    </dd>
+  </dl>
+
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="Bdeshi_Helpers_Utility_SafeFiniteTimer__ctor_" data-uid="Bdeshi.Helpers.Utility.SafeFiniteTimer.#ctor*"></a>
+
+  <h3 id="Bdeshi_Helpers_Utility_SafeFiniteTimer__ctor_System_Single_System_Boolean_" data-uid="Bdeshi.Helpers.Utility.SafeFiniteTimer.#ctor(System.Single,System.Boolean)">
+  SafeFiniteTimer(float, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/BDeshiDev/BDeshiHelpers/blob/main/Assets/Packages/com.bdeshi.helpers/Runtime/Utility/FiniteTimer.cs/#L193"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SafeFiniteTimer(float maxVal = 3, bool completed = false)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>maxVal</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>completed</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Bdeshi_Helpers_Utility_SafeFiniteTimer__ctor_" data-uid="Bdeshi.Helpers.Utility.SafeFiniteTimer.#ctor*"></a>
+
+  <h3 id="Bdeshi_Helpers_Utility_SafeFiniteTimer__ctor_System_Single_System_Single_System_Boolean_" data-uid="Bdeshi.Helpers.Utility.SafeFiniteTimer.#ctor(System.Single,System.Single,System.Boolean)">
+  SafeFiniteTimer(float, float, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/BDeshiDev/BDeshiHelpers/blob/main/Assets/Packages/com.bdeshi.helpers/Runtime/Utility/FiniteTimer.cs/#L187"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SafeFiniteTimer(float timerStart, float maxVal, bool completed = false)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>timerStart</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>maxVal</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>completed</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="fields">Fields
+</h2>
+
+
+
+  <h3 id="Bdeshi_Helpers_Utility_SafeFiniteTimer_MaxValue" data-uid="Bdeshi.Helpers.Utility.SafeFiniteTimer.MaxValue">
+  MaxValue
+  <a class="header-action link-secondary" title="View source" href="https://github.com/BDeshiDev/BDeshiHelpers/blob/main/Assets/Packages/com.bdeshi.helpers/Runtime/Utility/FiniteTimer.cs/#L179"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float MaxValue</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Bdeshi_Helpers_Utility_SafeFiniteTimer_Timer" data-uid="Bdeshi.Helpers.Utility.SafeFiniteTimer.Timer">
+  Timer
+  <a class="header-action link-secondary" title="View source" href="https://github.com/BDeshiDev/BDeshiHelpers/blob/main/Assets/Packages/com.bdeshi.helpers/Runtime/Utility/FiniteTimer.cs/#L178"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float Timer</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="Bdeshi_Helpers_Utility_SafeFiniteTimer_Ratio_" data-uid="Bdeshi.Helpers.Utility.SafeFiniteTimer.Ratio*"></a>
+
+  <h3 id="Bdeshi_Helpers_Utility_SafeFiniteTimer_Ratio" data-uid="Bdeshi.Helpers.Utility.SafeFiniteTimer.Ratio">
+  Ratio
+  <a class="header-action link-secondary" title="View source" href="https://github.com/BDeshiDev/BDeshiHelpers/blob/main/Assets/Packages/com.bdeshi.helpers/Runtime/Utility/FiniteTimer.cs/#L304"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float Ratio { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Bdeshi_Helpers_Utility_SafeFiniteTimer_ReverseRatio_" data-uid="Bdeshi.Helpers.Utility.SafeFiniteTimer.ReverseRatio*"></a>
+
+  <h3 id="Bdeshi_Helpers_Utility_SafeFiniteTimer_ReverseRatio" data-uid="Bdeshi.Helpers.Utility.SafeFiniteTimer.ReverseRatio">
+  ReverseRatio
+  <a class="header-action link-secondary" title="View source" href="https://github.com/BDeshiDev/BDeshiHelpers/blob/main/Assets/Packages/com.bdeshi.helpers/Runtime/Utility/FiniteTimer.cs/#L306"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float ReverseRatio { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Bdeshi_Helpers_Utility_SafeFiniteTimer_isComplete_" data-uid="Bdeshi.Helpers.Utility.SafeFiniteTimer.isComplete*"></a>
+
+  <h3 id="Bdeshi_Helpers_Utility_SafeFiniteTimer_isComplete" data-uid="Bdeshi.Helpers.Utility.SafeFiniteTimer.isComplete">
+  isComplete
+  <a class="header-action link-secondary" title="View source" href="https://github.com/BDeshiDev/BDeshiHelpers/blob/main/Assets/Packages/com.bdeshi.helpers/Runtime/Utility/FiniteTimer.cs/#L297"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool isComplete { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="Bdeshi_Helpers_Utility_SafeFiniteTimer_clampedUpdateTimer_" data-uid="Bdeshi.Helpers.Utility.SafeFiniteTimer.clampedUpdateTimer*"></a>
+
+  <h3 id="Bdeshi_Helpers_Utility_SafeFiniteTimer_clampedUpdateTimer_System_Single_" data-uid="Bdeshi.Helpers.Utility.SafeFiniteTimer.clampedUpdateTimer(System.Single)">
+  clampedUpdateTimer(float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/BDeshiDev/BDeshiHelpers/blob/main/Assets/Packages/com.bdeshi.helpers/Runtime/Utility/FiniteTimer.cs/#L253"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void clampedUpdateTimer(float delta)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>delta</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Bdeshi_Helpers_Utility_SafeFiniteTimer_complete_" data-uid="Bdeshi.Helpers.Utility.SafeFiniteTimer.complete*"></a>
+
+  <h3 id="Bdeshi_Helpers_Utility_SafeFiniteTimer_complete" data-uid="Bdeshi.Helpers.Utility.SafeFiniteTimer.complete">
+  complete()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/BDeshiDev/BDeshiHelpers/blob/main/Assets/Packages/com.bdeshi.helpers/Runtime/Utility/FiniteTimer.cs/#L292"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void complete()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Bdeshi_Helpers_Utility_SafeFiniteTimer_exceedsRatio_" data-uid="Bdeshi.Helpers.Utility.SafeFiniteTimer.exceedsRatio*"></a>
+
+  <h3 id="Bdeshi_Helpers_Utility_SafeFiniteTimer_exceedsRatio_System_Single_" data-uid="Bdeshi.Helpers.Utility.SafeFiniteTimer.exceedsRatio(System.Single)">
+  exceedsRatio(float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/BDeshiDev/BDeshiHelpers/blob/main/Assets/Packages/com.bdeshi.helpers/Runtime/Utility/FiniteTimer.cs/#L299"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool exceedsRatio(float ratioToExceed)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>ratioToExceed</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Bdeshi_Helpers_Utility_SafeFiniteTimer_init_" data-uid="Bdeshi.Helpers.Utility.SafeFiniteTimer.init*"></a>
+
+  <h3 id="Bdeshi_Helpers_Utility_SafeFiniteTimer_init_System_Single_System_Single_" data-uid="Bdeshi.Helpers.Utility.SafeFiniteTimer.init(System.Single,System.Single)">
+  init(float, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/BDeshiDev/BDeshiHelpers/blob/main/Assets/Packages/com.bdeshi.helpers/Runtime/Utility/FiniteTimer.cs/#L181"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void init(float maxval, float startVal = 0)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>maxval</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>startVal</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Bdeshi_Helpers_Utility_SafeFiniteTimer_reset_" data-uid="Bdeshi.Helpers.Utility.SafeFiniteTimer.reset*"></a>
+
+  <h3 id="Bdeshi_Helpers_Utility_SafeFiniteTimer_reset" data-uid="Bdeshi.Helpers.Utility.SafeFiniteTimer.reset">
+  reset()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/BDeshiDev/BDeshiHelpers/blob/main/Assets/Packages/com.bdeshi.helpers/Runtime/Utility/FiniteTimer.cs/#L264"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void reset()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Bdeshi_Helpers_Utility_SafeFiniteTimer_reset_" data-uid="Bdeshi.Helpers.Utility.SafeFiniteTimer.reset*"></a>
+
+  <h3 id="Bdeshi_Helpers_Utility_SafeFiniteTimer_reset_System_Single_" data-uid="Bdeshi.Helpers.Utility.SafeFiniteTimer.reset(System.Single)">
+  reset(float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/BDeshiDev/BDeshiHelpers/blob/main/Assets/Packages/com.bdeshi.helpers/Runtime/Utility/FiniteTimer.cs/#L278"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Reset and set max</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void reset(float newMax)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>newMax</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Bdeshi_Helpers_Utility_SafeFiniteTimer_resetAndKeepExtra_" data-uid="Bdeshi.Helpers.Utility.SafeFiniteTimer.resetAndKeepExtra*"></a>
+
+  <h3 id="Bdeshi_Helpers_Utility_SafeFiniteTimer_resetAndKeepExtra" data-uid="Bdeshi.Helpers.Utility.SafeFiniteTimer.resetAndKeepExtra">
+  resetAndKeepExtra()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/BDeshiDev/BDeshiHelpers/blob/main/Assets/Packages/com.bdeshi.helpers/Runtime/Utility/FiniteTimer.cs/#L284"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void resetAndKeepExtra()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Bdeshi_Helpers_Utility_SafeFiniteTimer_resetByFractionOfMax_" data-uid="Bdeshi.Helpers.Utility.SafeFiniteTimer.resetByFractionOfMax*"></a>
+
+  <h3 id="Bdeshi_Helpers_Utility_SafeFiniteTimer_resetByFractionOfMax_System_Single_" data-uid="Bdeshi.Helpers.Utility.SafeFiniteTimer.resetByFractionOfMax(System.Single)">
+  resetByFractionOfMax(float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/BDeshiDev/BDeshiHelpers/blob/main/Assets/Packages/com.bdeshi.helpers/Runtime/Utility/FiniteTimer.cs/#L269"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void resetByFractionOfMax(float frac)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>frac</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Bdeshi_Helpers_Utility_SafeFiniteTimer_safeUpdateTimer_" data-uid="Bdeshi.Helpers.Utility.SafeFiniteTimer.safeUpdateTimer*"></a>
+
+  <h3 id="Bdeshi_Helpers_Utility_SafeFiniteTimer_safeUpdateTimer_System_Single_" data-uid="Bdeshi.Helpers.Utility.SafeFiniteTimer.safeUpdateTimer(System.Single)">
+  safeUpdateTimer(float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/BDeshiDev/BDeshiHelpers/blob/main/Assets/Packages/com.bdeshi.helpers/Runtime/Utility/FiniteTimer.cs/#L258"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void safeUpdateTimer(float delta)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>delta</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Bdeshi_Helpers_Utility_SafeFiniteTimer_tryCompleteTimer_" data-uid="Bdeshi.Helpers.Utility.SafeFiniteTimer.tryCompleteTimer*"></a>
+
+  <h3 id="Bdeshi_Helpers_Utility_SafeFiniteTimer_tryCompleteTimer_System_Single_" data-uid="Bdeshi.Helpers.Utility.SafeFiniteTimer.tryCompleteTimer(System.Single)">
+  tryCompleteTimer(float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/BDeshiDev/BDeshiHelpers/blob/main/Assets/Packages/com.bdeshi.helpers/Runtime/Utility/FiniteTimer.cs/#L211"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>return true if this is completed before or after updating</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool tryCompleteTimer(float delta)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>delta</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Bdeshi_Helpers_Utility_SafeFiniteTimer_tryCompleteTimer_" data-uid="Bdeshi.Helpers.Utility.SafeFiniteTimer.tryCompleteTimer*"></a>
+
+  <h3 id="Bdeshi_Helpers_Utility_SafeFiniteTimer_tryCompleteTimer_System_Single_System_Single__" data-uid="Bdeshi.Helpers.Utility.SafeFiniteTimer.tryCompleteTimer(System.Single,System.Single@)">
+  tryCompleteTimer(float, out float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/BDeshiDev/BDeshiHelpers/blob/main/Assets/Packages/com.bdeshi.helpers/Runtime/Utility/FiniteTimer.cs/#L216"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool tryCompleteTimer(float delta, out float remainder)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>delta</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>remainder</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Bdeshi_Helpers_Utility_SafeFiniteTimer_tryEmptyTimer_" data-uid="Bdeshi.Helpers.Utility.SafeFiniteTimer.tryEmptyTimer*"></a>
+
+  <h3 id="Bdeshi_Helpers_Utility_SafeFiniteTimer_tryEmptyTimer_System_Single_System_Single__" data-uid="Bdeshi.Helpers.Utility.SafeFiniteTimer.tryEmptyTimer(System.Single,System.Single@)">
+  tryEmptyTimer(float, out float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/BDeshiDev/BDeshiHelpers/blob/main/Assets/Packages/com.bdeshi.helpers/Runtime/Utility/FiniteTimer.cs/#L233"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool tryEmptyTimer(float delta, out float remainder)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>delta</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>remainder</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Bdeshi_Helpers_Utility_SafeFiniteTimer_updateTimer_" data-uid="Bdeshi.Helpers.Utility.SafeFiniteTimer.updateTimer*"></a>
+
+  <h3 id="Bdeshi_Helpers_Utility_SafeFiniteTimer_updateTimer_System_Single_" data-uid="Bdeshi.Helpers.Utility.SafeFiniteTimer.updateTimer(System.Single)">
+  updateTimer(float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/BDeshiDev/BDeshiHelpers/blob/main/Assets/Packages/com.bdeshi.helpers/Runtime/Utility/FiniteTimer.cs/#L202"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void updateTimer(float delta)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>delta</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made by <a href="https://github.com/BDeshiDev" target="_blank">BDeshiDev</a> using <a href="https://dotnet.github.io/docfx" target="_blank">DocFX</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

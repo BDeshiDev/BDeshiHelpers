@@ -1,0 +1,431 @@
+{
+  "sitemap": {
+    "baseUrl": "https://bdeshidev.github.io/BDeshiHelpers/"
+  },
+  "source_base_path": "/home/runner/work/BDeshiHelpers/BDeshiHelpers/Documentation~",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      }
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Bdeshi.Helpers.Input.InputButtonSlot.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Bdeshi.Helpers.Input.InputButtonSlot.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Bdeshi.Helpers.Input.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Bdeshi.Helpers.Input.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Bdeshi.Helpers.Utility.ArrowLiner.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Bdeshi.Helpers.Utility.ArrowLiner.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Bdeshi.Helpers.Utility.AutoMonoBehaviourPoolComponent-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Bdeshi.Helpers.Utility.AutoMonoBehaviourPoolComponent-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Bdeshi.Helpers.Utility.AutoMonobehaviourPool-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Bdeshi.Helpers.Utility.AutoMonobehaviourPool-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Bdeshi.Helpers.Utility.AutoPoolable-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Bdeshi.Helpers.Utility.AutoPoolable-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Bdeshi.Helpers.Utility.ChargableList-1.ChargableListSlot.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Bdeshi.Helpers.Utility.ChargableList-1.ChargableListSlot.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Bdeshi.Helpers.Utility.ChargableList-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Bdeshi.Helpers.Utility.ChargableList-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Bdeshi.Helpers.Utility.EventOnAwake.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Bdeshi.Helpers.Utility.EventOnAwake.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Bdeshi.Helpers.Utility.Extensions.Csharp.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Bdeshi.Helpers.Utility.Extensions.Csharp.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Bdeshi.Helpers.Utility.Extensions.Unity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Bdeshi.Helpers.Utility.Extensions.Unity.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Bdeshi.Helpers.Utility.Extensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Bdeshi.Helpers.Utility.Extensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Bdeshi.Helpers.Utility.FiniteTimer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Bdeshi.Helpers.Utility.FiniteTimer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Bdeshi.Helpers.Utility.GenericDictionary-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Bdeshi.Helpers.Utility.GenericDictionary-2.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Bdeshi.Helpers.Utility.MonoBehaviourLazySingleton-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Bdeshi.Helpers.Utility.MonoBehaviourLazySingleton-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Bdeshi.Helpers.Utility.MonoBehaviourSingletonPersistent-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Bdeshi.Helpers.Utility.MonoBehaviourSingletonPersistent-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Bdeshi.Helpers.Utility.PathComponent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Bdeshi.Helpers.Utility.PathComponent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Bdeshi.Helpers.Utility.Reparenter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Bdeshi.Helpers.Utility.Reparenter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Bdeshi.Helpers.Utility.SafeAction-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Bdeshi.Helpers.Utility.SafeAction-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Bdeshi.Helpers.Utility.SafeAction-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Bdeshi.Helpers.Utility.SafeAction-2.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Bdeshi.Helpers.Utility.SafeAction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Bdeshi.Helpers.Utility.SafeAction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Bdeshi.Helpers.Utility.SafeEvent-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Bdeshi.Helpers.Utility.SafeEvent-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Bdeshi.Helpers.Utility.SafeEvent-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Bdeshi.Helpers.Utility.SafeEvent-2.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Bdeshi.Helpers.Utility.SafeEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Bdeshi.Helpers.Utility.SafeEvent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Bdeshi.Helpers.Utility.SafeFiniteTimer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Bdeshi.Helpers.Utility.SafeFiniteTimer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Bdeshi.Helpers.Utility.SerializableStack-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Bdeshi.Helpers.Utility.SerializableStack-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Bdeshi.Helpers.Utility.SimpleManualMonoBehaviourPool-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Bdeshi.Helpers.Utility.SimpleManualMonoBehaviourPool-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Bdeshi.Helpers.Utility.SimpleManualMonoBehaviourPoolComponent-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Bdeshi.Helpers.Utility.SimpleManualMonoBehaviourPoolComponent-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Bdeshi.Helpers.Utility.SimpleManualPool-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Bdeshi.Helpers.Utility.SimpleManualPool-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Bdeshi.Helpers.Utility.SingleUnityLayer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Bdeshi.Helpers.Utility.SingleUnityLayer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Bdeshi.Helpers.Utility.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Bdeshi.Helpers.Utility.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Bdeshi.Helpers.levelloading.ManagerLoadEnsurer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Bdeshi.Helpers.levelloading.ManagerLoadEnsurer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Bdeshi.Helpers.levelloading.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Bdeshi.Helpers.levelloading.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html"
+        },
+        ".json": {
+          "relative_path": "api/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "license/LICENSE.md",
+      "output": {
+        ".html": {
+          "relative_path": "license/LICENSE.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "license/toc.md",
+      "output": {
+        ".html": {
+          "relative_path": "license/toc.html"
+        },
+        ".json": {
+          "relative_path": "license/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
