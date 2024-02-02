@@ -1,10 +1,9 @@
 ﻿using System.Collections.Generic;
 using UnityEngine;
-using Object = UnityEngine.Object;
 
 
 
-namespace com.bdeshi.helpers.Utility
+namespace Bdeshi.Helpers.Utility
 {
     /// <summary>
     /// Simple pool with normal instantiation automated.
@@ -12,70 +11,70 @@ namespace com.bdeshi.helpers.Utility
     /// <typeparam name="T"></typeparam>
     public class SimpleManualMonoBehaviourPool<T> where T : MonoBehaviour
     {
-        private List<T> pool;
-        protected T prefab;
-        public Transform spawnParent;
+        private List<T> _pool;
+        protected T _prefab;
+        public Transform SpawnParent;
 
         public SimpleManualMonoBehaviourPool(T prefab, int initialCount, Transform spawnParent = null)
         {
-            this.prefab = prefab;
-            this.spawnParent = spawnParent;
-            pool = new List<T>();
+            this._prefab = prefab;
+            this.SpawnParent = spawnParent;
+            _pool = new List<T>();
             while (initialCount > 0)
             {
                 initialCount--;
-                createAndAddToPool();
+                CreateAndAddToPool();
             }
         }
 
-        T createItem()
+        T CreateItem()
         {
-            if (spawnParent != null)
+            if (SpawnParent != null)
             {
-                return Object.Instantiate(this.prefab, spawnParent,false);
+                return Object.Instantiate(this._prefab, SpawnParent,false);
             }
 
-            return Object.Instantiate(this.prefab);
+            return Object.Instantiate(this._prefab);
         }
 
 
-        void createAndAddToPool()
+        void CreateAndAddToPool()
         {
-            var item = createItem();
+            var item = CreateItem();
             item.gameObject.SetActive(false);
-            pool.Add(item);
+            _pool.Add(item);
         }
 
-        public T getItem()
+        public T GetItem()
         {
             T item = null;
-            if (pool.Count > 0)
+            if (_pool.Count > 0)
             {
-                item = pool[pool.Count -1];
-                pool.RemoveAt(pool.Count - 1);
-                item.transform.SetParent(spawnParent, false); 
+                item = _pool[_pool.Count -1];
+                _pool.RemoveAt(_pool.Count - 1);
+                item.transform.SetParent(SpawnParent, false); 
                 item.gameObject.SetActive(true);
             }
             else
             {
-                item = createItem();
+                item = CreateItem();
             }
 
             return item;
         }
 
-        public void ensurePoolHasAtleast(int count)
+        public void EnsurePoolHasAtleast(int count)
         {
-            for (int i = pool.Count; i <= count; i++)
+            for (int i = _pool.Count; i <= count; i++)
             {
-                createAndAddToPool();
+                CreateAndAddToPool();
             }
         }
 
-        public void returnItem(T item)
+        public void ReturnItem(T item)
         {
             item.gameObject.SetActive(false);
-            pool.Add(item);
+            _pool.Add(item);
         }
         
         /// <summary>
@@ -85,20 +84,20 @@ namespace com.bdeshi.helpers.Utility
         /// </summary>
         /// <param name="spawnedList"></param>
         /// <param name="desiredSpawnCount"></param>
-        public void updateSpawnListSize(List<T> spawnedList, int desiredSpawnCount)
+        public void EnsureSpawnListCount(List<T> spawnedList, int desiredSpawnCount)
         {
             if (spawnedList.Count != desiredSpawnCount)
             {
                 for (int i = spawnedList.Count; i <= desiredSpawnCount; i++)
                 {
-                    spawnedList.Add(getItem());
+                    spawnedList.Add(GetItem());
                 }
                 for (int i = spawnedList.Count-1 ; i >= desiredSpawnCount; i--)
                 {
                     var item = spawnedList[i];
                     spawnedList.RemoveAt(i);
                 
-                    returnItem(item);
+                    ReturnItem(item);
                 }
             }
             

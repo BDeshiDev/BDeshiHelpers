@@ -1,28 +1,28 @@
 ﻿using UnityEngine;
 
-namespace com.bdeshi.helpers.Utility
+namespace Bdeshi.Helpers.Utility
 {
     [System.Serializable]
     public class SingleUnityLayer
     {
         [SerializeField]
-        private int m_LayerIndex = 0;
+        private int _layerIndex = 0;
         public int LayerIndex
         {
-            get { return m_LayerIndex; }
+            get { return _layerIndex; }
         }
  
         public void Set(int _layerIndex)
         {
             if (_layerIndex > 0 && _layerIndex < 32)
             {
-                m_LayerIndex = _layerIndex;
+                this._layerIndex = _layerIndex;
             }
         }
  
         public int Mask
         {
-            get { return 1 << m_LayerIndex; }
+            get { return 1 << _layerIndex; }
         }
     }
 }

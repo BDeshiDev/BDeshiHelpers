@@ -1,15 +1,5 @@
 {
   "dependencies": {
-    "com.bdeshi.helpers": {
-      "version": "https://github.com/BDeshiDev/BDeshiHelpers.git#upm",
-      "depth": 0,
-      "source": "git",
-      "dependencies": {
-        "com.unity.inputsystem": "1.7.0",
-        "com.unity.modules.ui": "1.0.0"
-      },
-      "hash": "864f4477a313c805f49e89c05ca153fbbcd5a9fb"
-    },
     "com.unity.editorcoroutines": {
       "version": "1.0.0",
       "depth": 1,

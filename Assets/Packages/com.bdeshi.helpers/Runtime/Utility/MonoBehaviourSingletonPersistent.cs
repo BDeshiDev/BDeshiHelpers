@@ -1,12 +1,12 @@
 ﻿using UnityEngine;
 
-namespace com.bdeshi.helpers.Utility
+namespace Bdeshi.Helpers.Utility
 {
     public abstract class MonoBehaviourSingletonPersistent<T> : MonoBehaviour
         where T : Component
     {
         public static T Instance { get; private set; }
-        protected bool willGetDestroyed = false;
+        protected bool _willGetDestroyed = false;
         protected virtual void Awake()
         {
             if (Instance == null)
@@ -14,11 +14,11 @@ namespace com.bdeshi.helpers.Utility
                 Instance = this as T;
                 DontDestroyOnLoad(this);
 
-                initialize();
+                Initialize();
             }
             else
             {
-                willGetDestroyed = true;
+                _willGetDestroyed = true;
 
                 Destroy(gameObject);
             }
@@ -27,7 +27,7 @@ namespace com.bdeshi.helpers.Utility
         /// <summary>
         /// Initialize is called on awake only if this is the first instance
         /// </summary>
-        protected abstract void initialize();
+        protected abstract void Initialize();
     }
 
 }

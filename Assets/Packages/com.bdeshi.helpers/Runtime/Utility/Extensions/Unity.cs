@@ -2,7 +2,7 @@
 using UnityEditor;
 using UnityEngine;
 
-namespace com.bdeshi.helpers.Utility.Extensions
+namespace Bdeshi.Helpers.Utility.Extensions
 {
     public static class Unity
     {

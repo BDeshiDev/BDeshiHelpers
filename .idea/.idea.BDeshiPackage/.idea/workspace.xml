@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="87e161c7-d300-4501-bd1b-504aceb482df" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Packages/com.bdeshi.helpers/Runtime/Utility/SerializableStack.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Packages/com.bdeshi.helpers/Runtime/Utility/SerializableStack.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.BDeshiPackage/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BDeshiPackage/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/com.bdeshi.helpers/Runtime/Input/InputButtonSlot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/com.bdeshi.helpers/Runtime/Input/InputButtonSlot.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/com.bdeshi.helpers/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/com.bdeshi.helpers/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,7 +32,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "dev",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -39,8 +42,8 @@
   },
   "keyToStringList": {
     "rider.external.source.directories": [
-      "C:\\Users\\BS656\\AppData\\Roaming\\JetBrains\\Rider2023.2\\resharper-host\\DecompilerCache",
-      "C:\\Users\\BS656\\AppData\\Roaming\\JetBrains\\Rider2023.2\\resharper-host\\SourcesCache",
+      "C:\\Users\\BS656\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\DecompilerCache",
+      "C:\\Users\\BS656\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\SourcesCache",
       "C:\\Users\\BS656\\AppData\\Local\\Symbols\\src"
     ]
   }
@@ -93,6 +96,7 @@
       <updated>1696918709665</updated>
       <workItem from="1696918710719" duration="104000" />
       <workItem from="1696919638959" duration="1214000" />
+      <workItem from="1706847328489" duration="255000" />
     </task>
     <servers />
   </component>

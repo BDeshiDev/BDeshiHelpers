@@ -1,74 +1,74 @@
 ﻿using UnityEngine;
 
-namespace com.bdeshi.helpers.Utility
+namespace Bdeshi.Helpers.Utility
 {
     public class ArrowLiner : MonoBehaviour
     {
-        public LineRenderer mainLiner { get; private set; }
-        public LineRenderer tipLiner { get; private set; }
+        public LineRenderer MainLiner { get; private set; }
+        public LineRenderer TipLiner { get; private set; }
 
-        public float mainLineWidth = .25f;
-        public float tipWidth = .25f;
-        public float tipLenMax = .25f;
+        public float MainLineWidth = .25f;
+        public float TipWidth = .25f;
+        public float TipLenMax = .25f;
 
-        [SerializeField] Vector3 startPoint;
-        [SerializeField] Vector3 endPoint;
+        [SerializeField] Vector3 _startPoint;
+        [SerializeField] Vector3 _endPoint;
 
-        public Vector3 mainLineEndPoint { get; private set; }
+        public Vector3 MainLineEndPoint { get; private set; }
 
-        public void setColor(Color color)
+        public void SetColor(Color color)
         {
-            mainLiner.startColor = mainLiner.endColor = tipLiner.startColor = tipLiner.endColor = color;
+            MainLiner.startColor = MainLiner.endColor = TipLiner.startColor = TipLiner.endColor = color;
         }
 
         private void Awake()
         {
-            mainLiner = GetComponent<LineRenderer>();
-            tipLiner = transform.GetChild(0).GetComponent<LineRenderer>();
+            MainLiner = GetComponent<LineRenderer>();
+            TipLiner = transform.GetChild(0).GetComponent<LineRenderer>();
         }
 
         private void OnValidate()
         {
-            if (mainLiner == null)
+            if (MainLiner == null)
             {
-                mainLiner = GetComponent<LineRenderer>();
+                MainLiner = GetComponent<LineRenderer>();
             }
 
-            if (tipLiner == null)
+            if (TipLiner == null)
             {
-                tipLiner = transform.GetChild(0).GetComponent<LineRenderer>();
+                TipLiner = transform.GetChild(0).GetComponent<LineRenderer>();
             }
 
-            mainLiner.widthMultiplier = mainLineWidth;
-            tipLiner.widthMultiplier = tipWidth;
+            MainLiner.widthMultiplier = MainLineWidth;
+            TipLiner.widthMultiplier = TipWidth;
 
             updateLineRenderers();
         }
 
         public void updateArrowEndPoints(Vector3 start,Vector3 end)
         {
-            startPoint = start;
-            endPoint = end;
+            _startPoint = start;
+            _endPoint = end;
 
             updateLineRenderers();
         }
 
         private void updateLineRenderers()
         {
-            Vector3 dir = endPoint - startPoint;
+            Vector3 dir = _endPoint - _startPoint;
             float len = dir.magnitude;
 
-            mainLineEndPoint = startPoint + dir.normalized * Mathf.Max(len - tipLenMax, 0);
-            mainLiner.SetPosition(0, startPoint);
-            mainLiner.SetPosition(1, mainLineEndPoint);
+            MainLineEndPoint = _startPoint + dir.normalized * Mathf.Max(len - TipLenMax, 0);
+            MainLiner.SetPosition(0, _startPoint);
+            MainLiner.SetPosition(1, MainLineEndPoint);
 
-            tipLiner.SetPosition(0, mainLineEndPoint);
-            tipLiner.SetPosition(1, endPoint);
+            TipLiner.SetPosition(0, MainLineEndPoint);
+            TipLiner.SetPosition(1, _endPoint);
         }
 
         public void toggleLineRenderers(bool shouldBeOn)
         {
-            mainLiner.enabled = tipLiner.enabled = shouldBeOn;
+            MainLiner.enabled = TipLiner.enabled = shouldBeOn;
         }
     }
 }
