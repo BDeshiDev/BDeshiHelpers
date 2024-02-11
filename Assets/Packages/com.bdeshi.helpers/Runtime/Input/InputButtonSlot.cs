@@ -19,6 +19,7 @@ namespace Bdeshi.Helpers.Input
         public bool IsHeld { get; private set; }
         public float LastHeld;
         private InputActionReference _action;
+        public InputActionReference Action => _action;
         public string ButtonName;
 
         public InputButtonSlot(string buttonName)
