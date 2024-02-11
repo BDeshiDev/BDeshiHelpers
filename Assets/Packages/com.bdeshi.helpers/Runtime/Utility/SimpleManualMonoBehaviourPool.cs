@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using UnityEngine;
 
 
@@ -31,10 +32,10 @@ namespace Bdeshi.Helpers.Utility
         {
             if (SpawnParent != null)
             {
-                return Object.Instantiate(this._prefab, SpawnParent,false);
+                return UnityEngine.Object.Instantiate(this._prefab, SpawnParent,false);
             }
 
-            return Object.Instantiate(this._prefab);
+            return UnityEngine.Object.Instantiate(this._prefab);
         }
 
 
@@ -74,7 +75,7 @@ namespace Bdeshi.Helpers.Utility
         public void ReturnItem(T item)
         {
             item.gameObject.SetActive(false);
-            pool.Add(item);
+            _pool.Add(item);
         }
         
         /// <summary>

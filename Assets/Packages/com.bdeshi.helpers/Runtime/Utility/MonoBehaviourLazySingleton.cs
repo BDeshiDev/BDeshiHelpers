@@ -16,9 +16,10 @@ namespace Bdeshi.Helpers.Utility
                     if (_appicationQuitting)
                     {
                         # if UNITY_EDITOR
-                            appicationQuitting = false;
+                            //this never fires in the editor but causes issue with domain reload
+                            _appicationQuitting = false;
                         #else
-                        return null;
+                            return null;
                         #endif
                     }
 

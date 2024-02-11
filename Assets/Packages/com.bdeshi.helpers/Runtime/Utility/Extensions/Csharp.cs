@@ -1,6 +1,8 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using JetBrains.Annotations;
-using UnityEngine;
+using Object = System.Object;
+using Random = UnityEngine.Random;
 
 namespace Bdeshi.Helpers.Utility.Extensions
 {
@@ -26,7 +28,12 @@ namespace Bdeshi.Helpers.Utility.Extensions
             {
                 return list[randomIndex];
             }
-
+        }
+        public static string ObjectNullOrToString(Object o)
+        {
+            if (o == null)
+                return "null";
+            return o.ToString();
         }
 
         public static T binarySearchFirstGreater<T>(this List<T> list, T val)
