@@ -58,7 +58,7 @@ namespace Bdeshi.Helpers.Input
                 return;
 
             _action = iar;
-            iar.action.performed += ActionOnperformed;
+            iar.action.performed += ActionOnPerformed;
             iar.action.canceled += ActionOncanceled;
         }
 
@@ -66,7 +66,7 @@ namespace Bdeshi.Helpers.Input
         {               
             if(iar == null)
                 return;
-            iar.action.performed -= ActionOnperformed;
+            iar.action.performed -= ActionOnPerformed;
             iar.action.canceled -= ActionOncanceled;
         }
         
@@ -92,7 +92,9 @@ namespace Bdeshi.Helpers.Input
             }
         }
 
-        private void ActionOnperformed(InputAction.CallbackContext obj)
+        public void ManualPerform() => ActionOnPerformed(default);
+        public void ManualCancel() => ActionOncanceled(default);
+        private void ActionOnPerformed(InputAction.CallbackContext obj)
         {
             IsHeld = true;
             LastHeld = Time.time;
