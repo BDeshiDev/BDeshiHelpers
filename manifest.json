@@ -185,6 +185,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Bdeshi.Helpers.Utility.PooledMonoBehaviorList-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Bdeshi.Helpers.Utility.PooledMonoBehaviorList-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Bdeshi.Helpers.Utility.Reparenter.yml",
       "output": {
         ".html": {

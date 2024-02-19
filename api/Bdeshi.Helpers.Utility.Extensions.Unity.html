@@ -89,7 +89,7 @@
 
 
   <h1 id="Bdeshi_Helpers_Utility_Extensions_Unity" data-uid="Bdeshi.Helpers.Utility.Extensions.Unity" class="text-break">
-Class Unity  <a class="header-action link-secondary" title="View source" href="https://github.com/BDeshiDev/BDeshiHelpers/blob/main/Assets/Packages/com.bdeshi.helpers/Runtime/Utility/Extensions/Unity.cs/#L7"><i class="bi bi-code-slash"></i></a>
+Class Unity  <a class="header-action link-secondary" title="View source" href="https://github.com/BDeshiDev/BDeshiHelpers/blob/main/Assets/Packages/com.bdeshi.helpers/Runtime/Utility/Extensions/Unity.cs/#L10"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -156,7 +156,7 @@ Class Unity  <a class="header-action link-secondary" title="View source" href="h
 
   <h3 id="Bdeshi_Helpers_Utility_Extensions_Unity_Contains_LayerMask_GameObject_" data-uid="Bdeshi.Helpers.Utility.Extensions.Unity.Contains(LayerMask,GameObject)">
   Contains(LayerMask, GameObject)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/BDeshiDev/BDeshiHelpers/blob/main/Assets/Packages/com.bdeshi.helpers/Runtime/Utility/Extensions/Unity.cs/#L121"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/BDeshiDev/BDeshiHelpers/blob/main/Assets/Packages/com.bdeshi.helpers/Runtime/Utility/Extensions/Unity.cs/#L144"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -194,7 +194,7 @@ Class Unity  <a class="header-action link-secondary" title="View source" href="h
 
   <h3 id="Bdeshi_Helpers_Utility_Extensions_Unity_Contains_LayerMask_RaycastHit_" data-uid="Bdeshi.Helpers.Utility.Extensions.Unity.Contains(LayerMask,RaycastHit)">
   Contains(LayerMask, RaycastHit)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/BDeshiDev/BDeshiHelpers/blob/main/Assets/Packages/com.bdeshi.helpers/Runtime/Utility/Extensions/Unity.cs/#L135"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/BDeshiDev/BDeshiHelpers/blob/main/Assets/Packages/com.bdeshi.helpers/Runtime/Utility/Extensions/Unity.cs/#L158"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -232,7 +232,7 @@ Class Unity  <a class="header-action link-secondary" title="View source" href="h
 
   <h3 id="Bdeshi_Helpers_Utility_Extensions_Unity_Contains_LayerMask_RaycastHit2D_" data-uid="Bdeshi.Helpers.Utility.Extensions.Unity.Contains(LayerMask,RaycastHit2D)">
   Contains(LayerMask, RaycastHit2D)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/BDeshiDev/BDeshiHelpers/blob/main/Assets/Packages/com.bdeshi.helpers/Runtime/Utility/Extensions/Unity.cs/#L131"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/BDeshiDev/BDeshiHelpers/blob/main/Assets/Packages/com.bdeshi.helpers/Runtime/Utility/Extensions/Unity.cs/#L154"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -271,7 +271,7 @@ Class Unity  <a class="header-action link-secondary" title="View source" href="h
 
   <h3 id="Bdeshi_Helpers_Utility_Extensions_Unity_Contains_LayerMask_System_Int32_" data-uid="Bdeshi.Helpers.Utility.Extensions.Unity.Contains(LayerMask,System.Int32)">
   Contains(LayerMask, int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/BDeshiDev/BDeshiHelpers/blob/main/Assets/Packages/com.bdeshi.helpers/Runtime/Utility/Extensions/Unity.cs/#L116"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/BDeshiDev/BDeshiHelpers/blob/main/Assets/Packages/com.bdeshi.helpers/Runtime/Utility/Extensions/Unity.cs/#L139"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -305,11 +305,700 @@ Class Unity  <a class="header-action link-secondary" title="View source" href="h
 
 
 
+  <a id="Bdeshi_Helpers_Utility_Extensions_Unity_CreateChildScriptable_" data-uid="Bdeshi.Helpers.Utility.Extensions.Unity.CreateChildScriptable*"></a>
+
+  <h3 id="Bdeshi_Helpers_Utility_Extensions_Unity_CreateChildScriptable__1_ScriptableObject_System_Action___0__" data-uid="Bdeshi.Helpers.Utility.Extensions.Unity.CreateChildScriptable``1(ScriptableObject,System.Action{``0})">
+  CreateChildScriptable&lt;T&gt;(ScriptableObject, Action&lt;T&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/BDeshiDev/BDeshiHelpers/blob/main/Assets/Packages/com.bdeshi.helpers/Runtime/Utility/Extensions/Unity.cs/#L35"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static T CreateChildScriptable&lt;T&gt;(this ScriptableObject parentSO, Action&lt;T&gt; initializeFunc) where T : ScriptableObject</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>parentSO</code> <span class="xref">ScriptableObject</span></dt>
+    <dd></dd>
+    <dt><code>initializeFunc</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;T&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">T</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="Bdeshi_Helpers_Utility_Extensions_Unity_GenerateDifferentColors_" data-uid="Bdeshi.Helpers.Utility.Extensions.Unity.GenerateDifferentColors*"></a>
+
+  <h3 id="Bdeshi_Helpers_Utility_Extensions_Unity_GenerateDifferentColors_System_Int32_System_Single_" data-uid="Bdeshi.Helpers.Utility.Extensions.Unity.GenerateDifferentColors(System.Int32,System.Single)">
+  GenerateDifferentColors(int, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/BDeshiDev/BDeshiHelpers/blob/main/Assets/Packages/com.bdeshi.helpers/Runtime/Utility/Extensions/Unity.cs/#L254"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static List&lt;Color&gt; GenerateDifferentColors(int n, float alpha = 0.69)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>n</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>alpha</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<span class="xref">Color</span>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Bdeshi_Helpers_Utility_Extensions_Unity_MaintainX_" data-uid="Bdeshi.Helpers.Utility.Extensions.Unity.MaintainX*"></a>
+
+  <h3 id="Bdeshi_Helpers_Utility_Extensions_Unity_MaintainX_Vector3_Vector3_" data-uid="Bdeshi.Helpers.Utility.Extensions.Unity.MaintainX(Vector3,Vector3)">
+  MaintainX(Vector3, Vector3)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/BDeshiDev/BDeshiHelpers/blob/main/Assets/Packages/com.bdeshi.helpers/Runtime/Utility/Extensions/Unity.cs/#L248"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Vector3 MaintainX(this Vector3 vec1, Vector3 vec2)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>vec1</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>vec2</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Vector3</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Bdeshi_Helpers_Utility_Extensions_Unity_MaintainX_" data-uid="Bdeshi.Helpers.Utility.Extensions.Unity.MaintainX*"></a>
+
+  <h3 id="Bdeshi_Helpers_Utility_Extensions_Unity_MaintainX_Vector3Int_Vector3Int_" data-uid="Bdeshi.Helpers.Utility.Extensions.Unity.MaintainX(Vector3Int,Vector3Int)">
+  MaintainX(Vector3Int, Vector3Int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/BDeshiDev/BDeshiHelpers/blob/main/Assets/Packages/com.bdeshi.helpers/Runtime/Utility/Extensions/Unity.cs/#L252"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Vector3Int MaintainX(this Vector3Int vec1, Vector3Int vec2)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>vec1</code> <span class="xref">Vector3Int</span></dt>
+    <dd></dd>
+    <dt><code>vec2</code> <span class="xref">Vector3Int</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Vector3Int</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Bdeshi_Helpers_Utility_Extensions_Unity_MaintainY_" data-uid="Bdeshi.Helpers.Utility.Extensions.Unity.MaintainY*"></a>
+
+  <h3 id="Bdeshi_Helpers_Utility_Extensions_Unity_MaintainY_Vector3_Vector3_" data-uid="Bdeshi.Helpers.Utility.Extensions.Unity.MaintainY(Vector3,Vector3)">
+  MaintainY(Vector3, Vector3)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/BDeshiDev/BDeshiHelpers/blob/main/Assets/Packages/com.bdeshi.helpers/Runtime/Utility/Extensions/Unity.cs/#L249"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Vector3 MaintainY(this Vector3 vec1, Vector3 vec2)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>vec1</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>vec2</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Vector3</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Bdeshi_Helpers_Utility_Extensions_Unity_MaintainY_" data-uid="Bdeshi.Helpers.Utility.Extensions.Unity.MaintainY*"></a>
+
+  <h3 id="Bdeshi_Helpers_Utility_Extensions_Unity_MaintainY_Vector3Int_Vector3Int_" data-uid="Bdeshi.Helpers.Utility.Extensions.Unity.MaintainY(Vector3Int,Vector3Int)">
+  MaintainY(Vector3Int, Vector3Int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/BDeshiDev/BDeshiHelpers/blob/main/Assets/Packages/com.bdeshi.helpers/Runtime/Utility/Extensions/Unity.cs/#L253"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Vector3Int MaintainY(this Vector3Int vec1, Vector3Int vec2)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>vec1</code> <span class="xref">Vector3Int</span></dt>
+    <dd></dd>
+    <dt><code>vec2</code> <span class="xref">Vector3Int</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Vector3Int</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Bdeshi_Helpers_Utility_Extensions_Unity_MaintainZ_" data-uid="Bdeshi.Helpers.Utility.Extensions.Unity.MaintainZ*"></a>
+
+  <h3 id="Bdeshi_Helpers_Utility_Extensions_Unity_MaintainZ_Vector3_Vector3_" data-uid="Bdeshi.Helpers.Utility.Extensions.Unity.MaintainZ(Vector3,Vector3)">
+  MaintainZ(Vector3, Vector3)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/BDeshiDev/BDeshiHelpers/blob/main/Assets/Packages/com.bdeshi.helpers/Runtime/Utility/Extensions/Unity.cs/#L250"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Vector3 MaintainZ(this Vector3 vec1, Vector3 vec2)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>vec1</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>vec2</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Vector3</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Bdeshi_Helpers_Utility_Extensions_Unity_MaintainZ_" data-uid="Bdeshi.Helpers.Utility.Extensions.Unity.MaintainZ*"></a>
+
+  <h3 id="Bdeshi_Helpers_Utility_Extensions_Unity_MaintainZ_Vector3Int_Vector3Int_" data-uid="Bdeshi.Helpers.Utility.Extensions.Unity.MaintainZ(Vector3Int,Vector3Int)">
+  MaintainZ(Vector3Int, Vector3Int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/BDeshiDev/BDeshiHelpers/blob/main/Assets/Packages/com.bdeshi.helpers/Runtime/Utility/Extensions/Unity.cs/#L251"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Vector3Int MaintainZ(this Vector3Int vec1, Vector3Int vec2)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>vec1</code> <span class="xref">Vector3Int</span></dt>
+    <dd></dd>
+    <dt><code>vec2</code> <span class="xref">Vector3Int</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Vector3Int</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Bdeshi_Helpers_Utility_Extensions_Unity_OverrideX_" data-uid="Bdeshi.Helpers.Utility.Extensions.Unity.OverrideX*"></a>
+
+  <h3 id="Bdeshi_Helpers_Utility_Extensions_Unity_OverrideX_Vector2_System_Single_" data-uid="Bdeshi.Helpers.Utility.Extensions.Unity.OverrideX(Vector2,System.Single)">
+  OverrideX(Vector2, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/BDeshiDev/BDeshiHelpers/blob/main/Assets/Packages/com.bdeshi.helpers/Runtime/Utility/Extensions/Unity.cs/#L244"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Vector2 OverrideX(this Vector2 vec, float x)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>vec</code> <span class="xref">Vector2</span></dt>
+    <dd></dd>
+    <dt><code>x</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Vector2</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Bdeshi_Helpers_Utility_Extensions_Unity_OverrideX_" data-uid="Bdeshi.Helpers.Utility.Extensions.Unity.OverrideX*"></a>
+
+  <h3 id="Bdeshi_Helpers_Utility_Extensions_Unity_OverrideX_Vector2Int_System_Int32_" data-uid="Bdeshi.Helpers.Utility.Extensions.Unity.OverrideX(Vector2Int,System.Int32)">
+  OverrideX(Vector2Int, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/BDeshiDev/BDeshiHelpers/blob/main/Assets/Packages/com.bdeshi.helpers/Runtime/Utility/Extensions/Unity.cs/#L243"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Vector2Int OverrideX(this Vector2Int vec, int x)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>vec</code> <span class="xref">Vector2Int</span></dt>
+    <dd></dd>
+    <dt><code>x</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Vector2Int</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Bdeshi_Helpers_Utility_Extensions_Unity_OverrideX_" data-uid="Bdeshi.Helpers.Utility.Extensions.Unity.OverrideX*"></a>
+
+  <h3 id="Bdeshi_Helpers_Utility_Extensions_Unity_OverrideX_Vector3_System_Single_" data-uid="Bdeshi.Helpers.Utility.Extensions.Unity.OverrideX(Vector3,System.Single)">
+  OverrideX(Vector3, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/BDeshiDev/BDeshiHelpers/blob/main/Assets/Packages/com.bdeshi.helpers/Runtime/Utility/Extensions/Unity.cs/#L237"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Vector3 OverrideX(this Vector3 vec, float x)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>vec</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>x</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Vector3</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Bdeshi_Helpers_Utility_Extensions_Unity_OverrideX_" data-uid="Bdeshi.Helpers.Utility.Extensions.Unity.OverrideX*"></a>
+
+  <h3 id="Bdeshi_Helpers_Utility_Extensions_Unity_OverrideX_Vector3Int_System_Int32_" data-uid="Bdeshi.Helpers.Utility.Extensions.Unity.OverrideX(Vector3Int,System.Int32)">
+  OverrideX(Vector3Int, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/BDeshiDev/BDeshiHelpers/blob/main/Assets/Packages/com.bdeshi.helpers/Runtime/Utility/Extensions/Unity.cs/#L236"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Vector3Int OverrideX(this Vector3Int vec, int x)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>vec</code> <span class="xref">Vector3Int</span></dt>
+    <dd></dd>
+    <dt><code>x</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Vector3Int</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Bdeshi_Helpers_Utility_Extensions_Unity_OverrideY_" data-uid="Bdeshi.Helpers.Utility.Extensions.Unity.OverrideY*"></a>
+
+  <h3 id="Bdeshi_Helpers_Utility_Extensions_Unity_OverrideY_Vector2_System_Single_" data-uid="Bdeshi.Helpers.Utility.Extensions.Unity.OverrideY(Vector2,System.Single)">
+  OverrideY(Vector2, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/BDeshiDev/BDeshiHelpers/blob/main/Assets/Packages/com.bdeshi.helpers/Runtime/Utility/Extensions/Unity.cs/#L246"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Vector2 OverrideY(this Vector2 vec, float y)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>vec</code> <span class="xref">Vector2</span></dt>
+    <dd></dd>
+    <dt><code>y</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Vector2</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Bdeshi_Helpers_Utility_Extensions_Unity_OverrideY_" data-uid="Bdeshi.Helpers.Utility.Extensions.Unity.OverrideY*"></a>
+
+  <h3 id="Bdeshi_Helpers_Utility_Extensions_Unity_OverrideY_Vector2Int_System_Int32_" data-uid="Bdeshi.Helpers.Utility.Extensions.Unity.OverrideY(Vector2Int,System.Int32)">
+  OverrideY(Vector2Int, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/BDeshiDev/BDeshiHelpers/blob/main/Assets/Packages/com.bdeshi.helpers/Runtime/Utility/Extensions/Unity.cs/#L245"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Vector2Int OverrideY(this Vector2Int vec, int y)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>vec</code> <span class="xref">Vector2Int</span></dt>
+    <dd></dd>
+    <dt><code>y</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Vector2Int</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Bdeshi_Helpers_Utility_Extensions_Unity_OverrideY_" data-uid="Bdeshi.Helpers.Utility.Extensions.Unity.OverrideY*"></a>
+
+  <h3 id="Bdeshi_Helpers_Utility_Extensions_Unity_OverrideY_Vector3_System_Single_" data-uid="Bdeshi.Helpers.Utility.Extensions.Unity.OverrideY(Vector3,System.Single)">
+  OverrideY(Vector3, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/BDeshiDev/BDeshiHelpers/blob/main/Assets/Packages/com.bdeshi.helpers/Runtime/Utility/Extensions/Unity.cs/#L239"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Vector3 OverrideY(this Vector3 vec, float y)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>vec</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>y</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Vector3</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Bdeshi_Helpers_Utility_Extensions_Unity_OverrideY_" data-uid="Bdeshi.Helpers.Utility.Extensions.Unity.OverrideY*"></a>
+
+  <h3 id="Bdeshi_Helpers_Utility_Extensions_Unity_OverrideY_Vector3Int_System_Int32_" data-uid="Bdeshi.Helpers.Utility.Extensions.Unity.OverrideY(Vector3Int,System.Int32)">
+  OverrideY(Vector3Int, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/BDeshiDev/BDeshiHelpers/blob/main/Assets/Packages/com.bdeshi.helpers/Runtime/Utility/Extensions/Unity.cs/#L238"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Vector3Int OverrideY(this Vector3Int vec, int y)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>vec</code> <span class="xref">Vector3Int</span></dt>
+    <dd></dd>
+    <dt><code>y</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Vector3Int</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Bdeshi_Helpers_Utility_Extensions_Unity_OverrideZ_" data-uid="Bdeshi.Helpers.Utility.Extensions.Unity.OverrideZ*"></a>
+
+  <h3 id="Bdeshi_Helpers_Utility_Extensions_Unity_OverrideZ_Vector3_System_Single_" data-uid="Bdeshi.Helpers.Utility.Extensions.Unity.OverrideZ(Vector3,System.Single)">
+  OverrideZ(Vector3, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/BDeshiDev/BDeshiHelpers/blob/main/Assets/Packages/com.bdeshi.helpers/Runtime/Utility/Extensions/Unity.cs/#L241"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Vector3 OverrideZ(this Vector3 vec, float z)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>vec</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>z</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Vector3</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Bdeshi_Helpers_Utility_Extensions_Unity_OverrideZ_" data-uid="Bdeshi.Helpers.Utility.Extensions.Unity.OverrideZ*"></a>
+
+  <h3 id="Bdeshi_Helpers_Utility_Extensions_Unity_OverrideZ_Vector3Int_System_Int32_" data-uid="Bdeshi.Helpers.Utility.Extensions.Unity.OverrideZ(Vector3Int,System.Int32)">
+  OverrideZ(Vector3Int, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/BDeshiDev/BDeshiHelpers/blob/main/Assets/Packages/com.bdeshi.helpers/Runtime/Utility/Extensions/Unity.cs/#L240"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Vector3Int OverrideZ(this Vector3Int vec, int z)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>vec</code> <span class="xref">Vector3Int</span></dt>
+    <dd></dd>
+    <dt><code>z</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Vector3Int</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
   <a id="Bdeshi_Helpers_Utility_Extensions_Unity_Rotate_" data-uid="Bdeshi.Helpers.Utility.Extensions.Unity.Rotate*"></a>
 
   <h3 id="Bdeshi_Helpers_Utility_Extensions_Unity_Rotate_Vector2_System_Single_" data-uid="Bdeshi.Helpers.Utility.Extensions.Unity.Rotate(Vector2,System.Single)">
   Rotate(Vector2, float)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/BDeshiDev/BDeshiHelpers/blob/main/Assets/Packages/com.bdeshi.helpers/Runtime/Utility/Extensions/Unity.cs/#L95"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/BDeshiDev/BDeshiHelpers/blob/main/Assets/Packages/com.bdeshi.helpers/Runtime/Utility/Extensions/Unity.cs/#L118"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -342,7 +1031,7 @@ Class Unity  <a class="header-action link-secondary" title="View source" href="h
 
   <h3 id="Bdeshi_Helpers_Utility_Extensions_Unity_Rotated_Vector2_System_Single_" data-uid="Bdeshi.Helpers.Utility.Extensions.Unity.Rotated(Vector2,System.Single)">
   Rotated(Vector2, float)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/BDeshiDev/BDeshiHelpers/blob/main/Assets/Packages/com.bdeshi.helpers/Runtime/Utility/Extensions/Unity.cs/#L106"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/BDeshiDev/BDeshiHelpers/blob/main/Assets/Packages/com.bdeshi.helpers/Runtime/Utility/Extensions/Unity.cs/#L129"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -376,11 +1065,42 @@ Class Unity  <a class="header-action link-secondary" title="View source" href="h
 
 
 
+  <a id="Bdeshi_Helpers_Utility_Extensions_Unity_SetDirty_" data-uid="Bdeshi.Helpers.Utility.Extensions.Unity.SetDirty*"></a>
+
+  <h3 id="Bdeshi_Helpers_Utility_Extensions_Unity_SetDirty_UnityEngine_Object_" data-uid="Bdeshi.Helpers.Utility.Extensions.Unity.SetDirty(UnityEngine.Object)">
+  SetDirty(Object)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/BDeshiDev/BDeshiHelpers/blob/main/Assets/Packages/com.bdeshi.helpers/Runtime/Utility/Extensions/Unity.cs/#L88"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void SetDirty(this UnityEngine.Object obj)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>obj</code> <span class="xref">Object</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
   <a id="Bdeshi_Helpers_Utility_Extensions_Unity_Shuffle_" data-uid="Bdeshi.Helpers.Utility.Extensions.Unity.Shuffle*"></a>
 
   <h3 id="Bdeshi_Helpers_Utility_Extensions_Unity_Shuffle__1_System_Collections_Generic_IList___0__" data-uid="Bdeshi.Helpers.Utility.Extensions.Unity.Shuffle``1(System.Collections.Generic.IList{``0})">
   Shuffle&lt;T&gt;(IList&lt;T&gt;)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/BDeshiDev/BDeshiHelpers/blob/main/Assets/Packages/com.bdeshi.helpers/Runtime/Utility/Extensions/Unity.cs/#L189"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/BDeshiDev/BDeshiHelpers/blob/main/Assets/Packages/com.bdeshi.helpers/Runtime/Utility/Extensions/Unity.cs/#L212"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -416,7 +1136,7 @@ Class Unity  <a class="header-action link-secondary" title="View source" href="h
 
   <h3 id="Bdeshi_Helpers_Utility_Extensions_Unity_addAngleOffset_Transform_System_Single_" data-uid="Bdeshi.Helpers.Utility.Extensions.Unity.addAngleOffset(Transform,System.Single)">
   addAngleOffset(Transform, float)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/BDeshiDev/BDeshiHelpers/blob/main/Assets/Packages/com.bdeshi.helpers/Runtime/Utility/Extensions/Unity.cs/#L57"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/BDeshiDev/BDeshiHelpers/blob/main/Assets/Packages/com.bdeshi.helpers/Runtime/Utility/Extensions/Unity.cs/#L73"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -449,7 +1169,7 @@ Class Unity  <a class="header-action link-secondary" title="View source" href="h
 
   <h3 id="Bdeshi_Helpers_Utility_Extensions_Unity_allignToDir_Rigidbody2D_Vector2_" data-uid="Bdeshi.Helpers.Utility.Extensions.Unity.allignToDir(Rigidbody2D,Vector2)">
   allignToDir(Rigidbody2D, Vector2)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/BDeshiDev/BDeshiHelpers/blob/main/Assets/Packages/com.bdeshi.helpers/Runtime/Utility/Extensions/Unity.cs/#L22"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/BDeshiDev/BDeshiHelpers/blob/main/Assets/Packages/com.bdeshi.helpers/Runtime/Utility/Extensions/Unity.cs/#L25"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -482,7 +1202,7 @@ Class Unity  <a class="header-action link-secondary" title="View source" href="h
 
   <h3 id="Bdeshi_Helpers_Utility_Extensions_Unity_allignToDir2D_Transform_Vector2_" data-uid="Bdeshi.Helpers.Utility.Extensions.Unity.allignToDir2D(Transform,Vector2)">
   allignToDir2D(Transform, Vector2)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/BDeshiDev/BDeshiHelpers/blob/main/Assets/Packages/com.bdeshi.helpers/Runtime/Utility/Extensions/Unity.cs/#L9"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/BDeshiDev/BDeshiHelpers/blob/main/Assets/Packages/com.bdeshi.helpers/Runtime/Utility/Extensions/Unity.cs/#L12"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -515,7 +1235,7 @@ Class Unity  <a class="header-action link-secondary" title="View source" href="h
 
   <h3 id="Bdeshi_Helpers_Utility_Extensions_Unity_allignToDir2D_Transform_Vector2_System_Single_" data-uid="Bdeshi.Helpers.Utility.Extensions.Unity.allignToDir2D(Transform,Vector2,System.Single)">
   allignToDir2D(Transform, Vector2, float)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/BDeshiDev/BDeshiHelpers/blob/main/Assets/Packages/com.bdeshi.helpers/Runtime/Utility/Extensions/Unity.cs/#L15"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/BDeshiDev/BDeshiHelpers/blob/main/Assets/Packages/com.bdeshi.helpers/Runtime/Utility/Extensions/Unity.cs/#L18"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -550,7 +1270,7 @@ Class Unity  <a class="header-action link-secondary" title="View source" href="h
 
   <h3 id="Bdeshi_Helpers_Utility_Extensions_Unity_distanceBetween_Transform_Transform_" data-uid="Bdeshi.Helpers.Utility.Extensions.Unity.distanceBetween(Transform,Transform)">
   distanceBetween(Transform, Transform)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/BDeshiDev/BDeshiHelpers/blob/main/Assets/Packages/com.bdeshi.helpers/Runtime/Utility/Extensions/Unity.cs/#L147"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/BDeshiDev/BDeshiHelpers/blob/main/Assets/Packages/com.bdeshi.helpers/Runtime/Utility/Extensions/Unity.cs/#L170"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -588,7 +1308,7 @@ Class Unity  <a class="header-action link-secondary" title="View source" href="h
 
   <h3 id="Bdeshi_Helpers_Utility_Extensions_Unity_evaluateCurve_Bdeshi_Helpers_Utility_FiniteTimer_AnimationCurve_" data-uid="Bdeshi.Helpers.Utility.Extensions.Unity.evaluateCurve(Bdeshi.Helpers.Utility.FiniteTimer,AnimationCurve)">
   evaluateCurve(FiniteTimer, AnimationCurve)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/BDeshiDev/BDeshiHelpers/blob/main/Assets/Packages/com.bdeshi.helpers/Runtime/Utility/Extensions/Unity.cs/#L202"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/BDeshiDev/BDeshiHelpers/blob/main/Assets/Packages/com.bdeshi.helpers/Runtime/Utility/Extensions/Unity.cs/#L225"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -626,7 +1346,7 @@ Class Unity  <a class="header-action link-secondary" title="View source" href="h
 
   <h3 id="Bdeshi_Helpers_Utility_Extensions_Unity_exceedsDist_Vector3_System_Single_" data-uid="Bdeshi.Helpers.Utility.Extensions.Unity.exceedsDist(Vector3,System.Single)">
   exceedsDist(Vector3, float)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/BDeshiDev/BDeshiHelpers/blob/main/Assets/Packages/com.bdeshi.helpers/Runtime/Utility/Extensions/Unity.cs/#L27"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/BDeshiDev/BDeshiHelpers/blob/main/Assets/Packages/com.bdeshi.helpers/Runtime/Utility/Extensions/Unity.cs/#L30"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -664,7 +1384,7 @@ Class Unity  <a class="header-action link-secondary" title="View source" href="h
 
   <h3 id="Bdeshi_Helpers_Utility_Extensions_Unity_get2dAngle_Transform_" data-uid="Bdeshi.Helpers.Utility.Extensions.Unity.get2dAngle(Transform)">
   get2dAngle(Transform)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/BDeshiDev/BDeshiHelpers/blob/main/Assets/Packages/com.bdeshi.helpers/Runtime/Utility/Extensions/Unity.cs/#L76"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/BDeshiDev/BDeshiHelpers/blob/main/Assets/Packages/com.bdeshi.helpers/Runtime/Utility/Extensions/Unity.cs/#L99"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -700,7 +1420,7 @@ Class Unity  <a class="header-action link-secondary" title="View source" href="h
 
   <h3 id="Bdeshi_Helpers_Utility_Extensions_Unity_get2dAngle_Vector2_" data-uid="Bdeshi.Helpers.Utility.Extensions.Unity.get2dAngle(Vector2)">
   get2dAngle(Vector2)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/BDeshiDev/BDeshiHelpers/blob/main/Assets/Packages/com.bdeshi.helpers/Runtime/Utility/Extensions/Unity.cs/#L72"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/BDeshiDev/BDeshiHelpers/blob/main/Assets/Packages/com.bdeshi.helpers/Runtime/Utility/Extensions/Unity.cs/#L95"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -736,7 +1456,7 @@ Class Unity  <a class="header-action link-secondary" title="View source" href="h
 
   <h3 id="Bdeshi_Helpers_Utility_Extensions_Unity_get2dAngle_Vector3_" data-uid="Bdeshi.Helpers.Utility.Extensions.Unity.get2dAngle(Vector3)">
   get2dAngle(Vector3)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/BDeshiDev/BDeshiHelpers/blob/main/Assets/Packages/com.bdeshi.helpers/Runtime/Utility/Extensions/Unity.cs/#L67"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/BDeshiDev/BDeshiHelpers/blob/main/Assets/Packages/com.bdeshi.helpers/Runtime/Utility/Extensions/Unity.cs/#L83"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Get 2d angle of this vector</p>
@@ -774,7 +1494,7 @@ Class Unity  <a class="header-action link-secondary" title="View source" href="h
 
   <h3 id="Bdeshi_Helpers_Utility_Extensions_Unity_getRaycastEndpoint2D_Vector2_Vector2_System_Single_LayerMask_RaycastHit2D__" data-uid="Bdeshi.Helpers.Utility.Extensions.Unity.getRaycastEndpoint2D(Vector2,Vector2,System.Single,LayerMask,RaycastHit2D@)">
   getRaycastEndpoint2D(Vector2, Vector2, float, LayerMask, out RaycastHit2D)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/BDeshiDev/BDeshiHelpers/blob/main/Assets/Packages/com.bdeshi.helpers/Runtime/Utility/Extensions/Unity.cs/#L162"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/BDeshiDev/BDeshiHelpers/blob/main/Assets/Packages/com.bdeshi.helpers/Runtime/Utility/Extensions/Unity.cs/#L185"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -818,7 +1538,7 @@ Class Unity  <a class="header-action link-secondary" title="View source" href="h
 
   <h3 id="Bdeshi_Helpers_Utility_Extensions_Unity_isWithinAngleWith_Vector3_Vector3_System_Single_System_Single__" data-uid="Bdeshi.Helpers.Utility.Extensions.Unity.isWithinAngleWith(Vector3,Vector3,System.Single,System.Single@)">
   isWithinAngleWith(Vector3, Vector3, float, out float)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/BDeshiDev/BDeshiHelpers/blob/main/Assets/Packages/com.bdeshi.helpers/Runtime/Utility/Extensions/Unity.cs/#L40"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/BDeshiDev/BDeshiHelpers/blob/main/Assets/Packages/com.bdeshi.helpers/Runtime/Utility/Extensions/Unity.cs/#L56"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Imagine a cone with the &quot;with&quot; vec as forward, is the &quot;dir&quot; within a given angle with &quot;with&quot;</p>
@@ -861,7 +1581,7 @@ Class Unity  <a class="header-action link-secondary" title="View source" href="h
 
   <h3 id="Bdeshi_Helpers_Utility_Extensions_Unity_lookAlongTopDown_Transform_Vector3_" data-uid="Bdeshi.Helpers.Utility.Extensions.Unity.lookAlongTopDown(Transform,Vector3)">
   lookAlongTopDown(Transform, Vector3)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/BDeshiDev/BDeshiHelpers/blob/main/Assets/Packages/com.bdeshi.helpers/Runtime/Utility/Extensions/Unity.cs/#L80"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/BDeshiDev/BDeshiHelpers/blob/main/Assets/Packages/com.bdeshi.helpers/Runtime/Utility/Extensions/Unity.cs/#L103"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -894,7 +1614,7 @@ Class Unity  <a class="header-action link-secondary" title="View source" href="h
 
   <h3 id="Bdeshi_Helpers_Utility_Extensions_Unity_multiplyDimensions_Vector2_Vector2_" data-uid="Bdeshi.Helpers.Utility.Extensions.Unity.multiplyDimensions(Vector2,Vector2)">
   multiplyDimensions(Vector2, Vector2)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/BDeshiDev/BDeshiHelpers/blob/main/Assets/Packages/com.bdeshi.helpers/Runtime/Utility/Extensions/Unity.cs/#L170"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/BDeshiDev/BDeshiHelpers/blob/main/Assets/Packages/com.bdeshi.helpers/Runtime/Utility/Extensions/Unity.cs/#L193"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -932,7 +1652,7 @@ Class Unity  <a class="header-action link-secondary" title="View source" href="h
 
   <h3 id="Bdeshi_Helpers_Utility_Extensions_Unity_multiplyDimensions_Vector3_Vector3_" data-uid="Bdeshi.Helpers.Utility.Extensions.Unity.multiplyDimensions(Vector3,Vector3)">
   multiplyDimensions(Vector3, Vector3)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/BDeshiDev/BDeshiHelpers/blob/main/Assets/Packages/com.bdeshi.helpers/Runtime/Utility/Extensions/Unity.cs/#L175"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/BDeshiDev/BDeshiHelpers/blob/main/Assets/Packages/com.bdeshi.helpers/Runtime/Utility/Extensions/Unity.cs/#L198"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -970,7 +1690,7 @@ Class Unity  <a class="header-action link-secondary" title="View source" href="h
 
   <h3 id="Bdeshi_Helpers_Utility_Extensions_Unity_overrideAlpha_Color_System_Single_" data-uid="Bdeshi.Helpers.Utility.Extensions.Unity.overrideAlpha(Color,System.Single)">
   overrideAlpha(Color, float)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/BDeshiDev/BDeshiHelpers/blob/main/Assets/Packages/com.bdeshi.helpers/Runtime/Utility/Extensions/Unity.cs/#L207"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/BDeshiDev/BDeshiHelpers/blob/main/Assets/Packages/com.bdeshi.helpers/Runtime/Utility/Extensions/Unity.cs/#L230"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -1008,7 +1728,7 @@ Class Unity  <a class="header-action link-secondary" title="View source" href="h
 
   <h3 id="Bdeshi_Helpers_Utility_Extensions_Unity_raycastFromInsideCollider2D_Vector2_Vector2_System_Single_LayerMask_" data-uid="Bdeshi.Helpers.Utility.Extensions.Unity.raycastFromInsideCollider2D(Vector2,Vector2,System.Single,LayerMask)">
   raycastFromInsideCollider2D(Vector2, Vector2, float, LayerMask)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/BDeshiDev/BDeshiHelpers/blob/main/Assets/Packages/com.bdeshi.helpers/Runtime/Utility/Extensions/Unity.cs/#L152"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/BDeshiDev/BDeshiHelpers/blob/main/Assets/Packages/com.bdeshi.helpers/Runtime/Utility/Extensions/Unity.cs/#L175"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -1050,7 +1770,7 @@ Class Unity  <a class="header-action link-secondary" title="View source" href="h
 
   <h3 id="Bdeshi_Helpers_Utility_Extensions_Unity_reparentAndReset_Transform_Transform_" data-uid="Bdeshi.Helpers.Utility.Extensions.Unity.reparentAndReset(Transform,Transform)">
   reparentAndReset(Transform, Transform)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/BDeshiDev/BDeshiHelpers/blob/main/Assets/Packages/com.bdeshi.helpers/Runtime/Utility/Extensions/Unity.cs/#L140"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/BDeshiDev/BDeshiHelpers/blob/main/Assets/Packages/com.bdeshi.helpers/Runtime/Utility/Extensions/Unity.cs/#L163"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -1083,7 +1803,7 @@ Class Unity  <a class="header-action link-secondary" title="View source" href="h
 
   <h3 id="Bdeshi_Helpers_Utility_Extensions_Unity_set2dRotation_Transform_System_Single_" data-uid="Bdeshi.Helpers.Utility.Extensions.Unity.set2dRotation(Transform,System.Single)">
   set2dRotation(Transform, float)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/BDeshiDev/BDeshiHelpers/blob/main/Assets/Packages/com.bdeshi.helpers/Runtime/Utility/Extensions/Unity.cs/#L52"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/BDeshiDev/BDeshiHelpers/blob/main/Assets/Packages/com.bdeshi.helpers/Runtime/Utility/Extensions/Unity.cs/#L68"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -1116,7 +1836,7 @@ Class Unity  <a class="header-action link-secondary" title="View source" href="h
 
   <h3 id="Bdeshi_Helpers_Utility_Extensions_Unity_toTopDown_Vector2_" data-uid="Bdeshi.Helpers.Utility.Extensions.Unity.toTopDown(Vector2)">
   toTopDown(Vector2)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/BDeshiDev/BDeshiHelpers/blob/main/Assets/Packages/com.bdeshi.helpers/Runtime/Utility/Extensions/Unity.cs/#L90"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/BDeshiDev/BDeshiHelpers/blob/main/Assets/Packages/com.bdeshi.helpers/Runtime/Utility/Extensions/Unity.cs/#L113"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -1152,7 +1872,7 @@ Class Unity  <a class="header-action link-secondary" title="View source" href="h
 
   <h3 id="Bdeshi_Helpers_Utility_Extensions_Unity_withinRange_Vector2_System_Single_" data-uid="Bdeshi.Helpers.Utility.Extensions.Unity.withinRange(Vector2,System.Single)">
   withinRange(Vector2, float)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/BDeshiDev/BDeshiHelpers/blob/main/Assets/Packages/com.bdeshi.helpers/Runtime/Utility/Extensions/Unity.cs/#L85"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/BDeshiDev/BDeshiHelpers/blob/main/Assets/Packages/com.bdeshi.helpers/Runtime/Utility/Extensions/Unity.cs/#L108"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -1190,7 +1910,7 @@ Class Unity  <a class="header-action link-secondary" title="View source" href="h
 
   <h3 id="Bdeshi_Helpers_Utility_Extensions_Unity_withinRange_Vector3_System_Single_System_Single_" data-uid="Bdeshi.Helpers.Utility.Extensions.Unity.withinRange(Vector3,System.Single,System.Single)">
   withinRange(Vector3, float, float)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/BDeshiDev/BDeshiHelpers/blob/main/Assets/Packages/com.bdeshi.helpers/Runtime/Utility/Extensions/Unity.cs/#L46"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/BDeshiDev/BDeshiHelpers/blob/main/Assets/Packages/com.bdeshi.helpers/Runtime/Utility/Extensions/Unity.cs/#L62"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>

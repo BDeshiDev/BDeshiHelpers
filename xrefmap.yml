@@ -148,6 +148,32 @@ references:
   commentId: F:Bdeshi.Helpers.Input.InputButtonSlot.LastHeld
   fullName: Bdeshi.Helpers.Input.InputButtonSlot.LastHeld
   nameWithType: InputButtonSlot.LastHeld
+- uid: Bdeshi.Helpers.Input.InputButtonSlot.ManualCancel
+  name: ManualCancel()
+  href: api/Bdeshi.Helpers.Input.InputButtonSlot.html#Bdeshi_Helpers_Input_InputButtonSlot_ManualCancel
+  commentId: M:Bdeshi.Helpers.Input.InputButtonSlot.ManualCancel
+  fullName: Bdeshi.Helpers.Input.InputButtonSlot.ManualCancel()
+  nameWithType: InputButtonSlot.ManualCancel()
+- uid: Bdeshi.Helpers.Input.InputButtonSlot.ManualCancel*
+  name: ManualCancel
+  href: api/Bdeshi.Helpers.Input.InputButtonSlot.html#Bdeshi_Helpers_Input_InputButtonSlot_ManualCancel_
+  commentId: Overload:Bdeshi.Helpers.Input.InputButtonSlot.ManualCancel
+  isSpec: "True"
+  fullName: Bdeshi.Helpers.Input.InputButtonSlot.ManualCancel
+  nameWithType: InputButtonSlot.ManualCancel
+- uid: Bdeshi.Helpers.Input.InputButtonSlot.ManualPerform
+  name: ManualPerform()
+  href: api/Bdeshi.Helpers.Input.InputButtonSlot.html#Bdeshi_Helpers_Input_InputButtonSlot_ManualPerform
+  commentId: M:Bdeshi.Helpers.Input.InputButtonSlot.ManualPerform
+  fullName: Bdeshi.Helpers.Input.InputButtonSlot.ManualPerform()
+  nameWithType: InputButtonSlot.ManualPerform()
+- uid: Bdeshi.Helpers.Input.InputButtonSlot.ManualPerform*
+  name: ManualPerform
+  href: api/Bdeshi.Helpers.Input.InputButtonSlot.html#Bdeshi_Helpers_Input_InputButtonSlot_ManualPerform_
+  commentId: Overload:Bdeshi.Helpers.Input.InputButtonSlot.ManualPerform
+  isSpec: "True"
+  fullName: Bdeshi.Helpers.Input.InputButtonSlot.ManualPerform
+  nameWithType: InputButtonSlot.ManualPerform
 - uid: Bdeshi.Helpers.Input.InputButtonSlot.UnBind
   name: UnBind()
   href: api/Bdeshi.Helpers.Input.InputButtonSlot.html#Bdeshi_Helpers_Input_InputButtonSlot_UnBind
@@ -1022,6 +1048,22 @@ references:
   commentId: T:Bdeshi.Helpers.Utility.Extensions.Csharp
   fullName: Bdeshi.Helpers.Utility.Extensions.Csharp
   nameWithType: Csharp
+- uid: Bdeshi.Helpers.Utility.Extensions.Csharp.ObjectNullOrToString(System.Object)
+  name: ObjectNullOrToString(object)
+  href: api/Bdeshi.Helpers.Utility.Extensions.Csharp.html#Bdeshi_Helpers_Utility_Extensions_Csharp_ObjectNullOrToString_System_Object_
+  commentId: M:Bdeshi.Helpers.Utility.Extensions.Csharp.ObjectNullOrToString(System.Object)
+  name.vb: ObjectNullOrToString(Object)
+  fullName: Bdeshi.Helpers.Utility.Extensions.Csharp.ObjectNullOrToString(object)
+  fullName.vb: Bdeshi.Helpers.Utility.Extensions.Csharp.ObjectNullOrToString(Object)
+  nameWithType: Csharp.ObjectNullOrToString(object)
+  nameWithType.vb: Csharp.ObjectNullOrToString(Object)
+- uid: Bdeshi.Helpers.Utility.Extensions.Csharp.ObjectNullOrToString*
+  name: ObjectNullOrToString
+  href: api/Bdeshi.Helpers.Utility.Extensions.Csharp.html#Bdeshi_Helpers_Utility_Extensions_Csharp_ObjectNullOrToString_
+  commentId: Overload:Bdeshi.Helpers.Utility.Extensions.Csharp.ObjectNullOrToString
+  isSpec: "True"
+  fullName: Bdeshi.Helpers.Utility.Extensions.Csharp.ObjectNullOrToString
+  nameWithType: Csharp.ObjectNullOrToString
 - uid: Bdeshi.Helpers.Utility.Extensions.Csharp.binarySearchFirstGreater*
   name: binarySearchFirstGreater
   href: api/Bdeshi.Helpers.Utility.Extensions.Csharp.html#Bdeshi_Helpers_Utility_Extensions_Csharp_binarySearchFirstGreater_
@@ -1183,6 +1225,206 @@ references:
   isSpec: "True"
   fullName: Bdeshi.Helpers.Utility.Extensions.Unity.Contains
   nameWithType: Unity.Contains
+- uid: Bdeshi.Helpers.Utility.Extensions.Unity.CreateChildScriptable*
+  name: CreateChildScriptable
+  href: api/Bdeshi.Helpers.Utility.Extensions.Unity.html#Bdeshi_Helpers_Utility_Extensions_Unity_CreateChildScriptable_
+  commentId: Overload:Bdeshi.Helpers.Utility.Extensions.Unity.CreateChildScriptable
+  isSpec: "True"
+  fullName: Bdeshi.Helpers.Utility.Extensions.Unity.CreateChildScriptable
+  nameWithType: Unity.CreateChildScriptable
+- uid: Bdeshi.Helpers.Utility.Extensions.Unity.CreateChildScriptable``1(ScriptableObject,System.Action{``0})
+  name: CreateChildScriptable<T>(ScriptableObject, Action<T>)
+  href: api/Bdeshi.Helpers.Utility.Extensions.Unity.html#Bdeshi_Helpers_Utility_Extensions_Unity_CreateChildScriptable__1_ScriptableObject_System_Action___0__
+  commentId: M:Bdeshi.Helpers.Utility.Extensions.Unity.CreateChildScriptable``1(ScriptableObject,System.Action{``0})
+  name.vb: CreateChildScriptable(Of T)(ScriptableObject, Action(Of T))
+  fullName: Bdeshi.Helpers.Utility.Extensions.Unity.CreateChildScriptable<T>(ScriptableObject, System.Action<T>)
+  fullName.vb: Bdeshi.Helpers.Utility.Extensions.Unity.CreateChildScriptable(Of T)(ScriptableObject, System.Action(Of T))
+  nameWithType: Unity.CreateChildScriptable<T>(ScriptableObject, Action<T>)
+  nameWithType.vb: Unity.CreateChildScriptable(Of T)(ScriptableObject, Action(Of T))
+- uid: Bdeshi.Helpers.Utility.Extensions.Unity.GenerateDifferentColors(System.Int32,System.Single)
+  name: GenerateDifferentColors(int, float)
+  href: api/Bdeshi.Helpers.Utility.Extensions.Unity.html#Bdeshi_Helpers_Utility_Extensions_Unity_GenerateDifferentColors_System_Int32_System_Single_
+  commentId: M:Bdeshi.Helpers.Utility.Extensions.Unity.GenerateDifferentColors(System.Int32,System.Single)
+  name.vb: GenerateDifferentColors(Integer, Single)
+  fullName: Bdeshi.Helpers.Utility.Extensions.Unity.GenerateDifferentColors(int, float)
+  fullName.vb: Bdeshi.Helpers.Utility.Extensions.Unity.GenerateDifferentColors(Integer, Single)
+  nameWithType: Unity.GenerateDifferentColors(int, float)
+  nameWithType.vb: Unity.GenerateDifferentColors(Integer, Single)
+- uid: Bdeshi.Helpers.Utility.Extensions.Unity.GenerateDifferentColors*
+  name: GenerateDifferentColors
+  href: api/Bdeshi.Helpers.Utility.Extensions.Unity.html#Bdeshi_Helpers_Utility_Extensions_Unity_GenerateDifferentColors_
+  commentId: Overload:Bdeshi.Helpers.Utility.Extensions.Unity.GenerateDifferentColors
+  isSpec: "True"
+  fullName: Bdeshi.Helpers.Utility.Extensions.Unity.GenerateDifferentColors
+  nameWithType: Unity.GenerateDifferentColors
+- uid: Bdeshi.Helpers.Utility.Extensions.Unity.MaintainX(Vector3,Vector3)
+  name: MaintainX(Vector3, Vector3)
+  href: api/Bdeshi.Helpers.Utility.Extensions.Unity.html#Bdeshi_Helpers_Utility_Extensions_Unity_MaintainX_Vector3_Vector3_
+  commentId: M:Bdeshi.Helpers.Utility.Extensions.Unity.MaintainX(Vector3,Vector3)
+  fullName: Bdeshi.Helpers.Utility.Extensions.Unity.MaintainX(Vector3, Vector3)
+  nameWithType: Unity.MaintainX(Vector3, Vector3)
+- uid: Bdeshi.Helpers.Utility.Extensions.Unity.MaintainX(Vector3Int,Vector3Int)
+  name: MaintainX(Vector3Int, Vector3Int)
+  href: api/Bdeshi.Helpers.Utility.Extensions.Unity.html#Bdeshi_Helpers_Utility_Extensions_Unity_MaintainX_Vector3Int_Vector3Int_
+  commentId: M:Bdeshi.Helpers.Utility.Extensions.Unity.MaintainX(Vector3Int,Vector3Int)
+  fullName: Bdeshi.Helpers.Utility.Extensions.Unity.MaintainX(Vector3Int, Vector3Int)
+  nameWithType: Unity.MaintainX(Vector3Int, Vector3Int)
+- uid: Bdeshi.Helpers.Utility.Extensions.Unity.MaintainX*
+  name: MaintainX
+  href: api/Bdeshi.Helpers.Utility.Extensions.Unity.html#Bdeshi_Helpers_Utility_Extensions_Unity_MaintainX_
+  commentId: Overload:Bdeshi.Helpers.Utility.Extensions.Unity.MaintainX
+  isSpec: "True"
+  fullName: Bdeshi.Helpers.Utility.Extensions.Unity.MaintainX
+  nameWithType: Unity.MaintainX
+- uid: Bdeshi.Helpers.Utility.Extensions.Unity.MaintainY(Vector3,Vector3)
+  name: MaintainY(Vector3, Vector3)
+  href: api/Bdeshi.Helpers.Utility.Extensions.Unity.html#Bdeshi_Helpers_Utility_Extensions_Unity_MaintainY_Vector3_Vector3_
+  commentId: M:Bdeshi.Helpers.Utility.Extensions.Unity.MaintainY(Vector3,Vector3)
+  fullName: Bdeshi.Helpers.Utility.Extensions.Unity.MaintainY(Vector3, Vector3)
+  nameWithType: Unity.MaintainY(Vector3, Vector3)
+- uid: Bdeshi.Helpers.Utility.Extensions.Unity.MaintainY(Vector3Int,Vector3Int)
+  name: MaintainY(Vector3Int, Vector3Int)
+  href: api/Bdeshi.Helpers.Utility.Extensions.Unity.html#Bdeshi_Helpers_Utility_Extensions_Unity_MaintainY_Vector3Int_Vector3Int_
+  commentId: M:Bdeshi.Helpers.Utility.Extensions.Unity.MaintainY(Vector3Int,Vector3Int)
+  fullName: Bdeshi.Helpers.Utility.Extensions.Unity.MaintainY(Vector3Int, Vector3Int)
+  nameWithType: Unity.MaintainY(Vector3Int, Vector3Int)
+- uid: Bdeshi.Helpers.Utility.Extensions.Unity.MaintainY*
+  name: MaintainY
+  href: api/Bdeshi.Helpers.Utility.Extensions.Unity.html#Bdeshi_Helpers_Utility_Extensions_Unity_MaintainY_
+  commentId: Overload:Bdeshi.Helpers.Utility.Extensions.Unity.MaintainY
+  isSpec: "True"
+  fullName: Bdeshi.Helpers.Utility.Extensions.Unity.MaintainY
+  nameWithType: Unity.MaintainY
+- uid: Bdeshi.Helpers.Utility.Extensions.Unity.MaintainZ(Vector3,Vector3)
+  name: MaintainZ(Vector3, Vector3)
+  href: api/Bdeshi.Helpers.Utility.Extensions.Unity.html#Bdeshi_Helpers_Utility_Extensions_Unity_MaintainZ_Vector3_Vector3_
+  commentId: M:Bdeshi.Helpers.Utility.Extensions.Unity.MaintainZ(Vector3,Vector3)
+  fullName: Bdeshi.Helpers.Utility.Extensions.Unity.MaintainZ(Vector3, Vector3)
+  nameWithType: Unity.MaintainZ(Vector3, Vector3)
+- uid: Bdeshi.Helpers.Utility.Extensions.Unity.MaintainZ(Vector3Int,Vector3Int)
+  name: MaintainZ(Vector3Int, Vector3Int)
+  href: api/Bdeshi.Helpers.Utility.Extensions.Unity.html#Bdeshi_Helpers_Utility_Extensions_Unity_MaintainZ_Vector3Int_Vector3Int_
+  commentId: M:Bdeshi.Helpers.Utility.Extensions.Unity.MaintainZ(Vector3Int,Vector3Int)
+  fullName: Bdeshi.Helpers.Utility.Extensions.Unity.MaintainZ(Vector3Int, Vector3Int)
+  nameWithType: Unity.MaintainZ(Vector3Int, Vector3Int)
+- uid: Bdeshi.Helpers.Utility.Extensions.Unity.MaintainZ*
+  name: MaintainZ
+  href: api/Bdeshi.Helpers.Utility.Extensions.Unity.html#Bdeshi_Helpers_Utility_Extensions_Unity_MaintainZ_
+  commentId: Overload:Bdeshi.Helpers.Utility.Extensions.Unity.MaintainZ
+  isSpec: "True"
+  fullName: Bdeshi.Helpers.Utility.Extensions.Unity.MaintainZ
+  nameWithType: Unity.MaintainZ
+- uid: Bdeshi.Helpers.Utility.Extensions.Unity.OverrideX(Vector2,System.Single)
+  name: OverrideX(Vector2, float)
+  href: api/Bdeshi.Helpers.Utility.Extensions.Unity.html#Bdeshi_Helpers_Utility_Extensions_Unity_OverrideX_Vector2_System_Single_
+  commentId: M:Bdeshi.Helpers.Utility.Extensions.Unity.OverrideX(Vector2,System.Single)
+  name.vb: OverrideX(Vector2, Single)
+  fullName: Bdeshi.Helpers.Utility.Extensions.Unity.OverrideX(Vector2, float)
+  fullName.vb: Bdeshi.Helpers.Utility.Extensions.Unity.OverrideX(Vector2, Single)
+  nameWithType: Unity.OverrideX(Vector2, float)
+  nameWithType.vb: Unity.OverrideX(Vector2, Single)
+- uid: Bdeshi.Helpers.Utility.Extensions.Unity.OverrideX(Vector2Int,System.Int32)
+  name: OverrideX(Vector2Int, int)
+  href: api/Bdeshi.Helpers.Utility.Extensions.Unity.html#Bdeshi_Helpers_Utility_Extensions_Unity_OverrideX_Vector2Int_System_Int32_
+  commentId: M:Bdeshi.Helpers.Utility.Extensions.Unity.OverrideX(Vector2Int,System.Int32)
+  name.vb: OverrideX(Vector2Int, Integer)
+  fullName: Bdeshi.Helpers.Utility.Extensions.Unity.OverrideX(Vector2Int, int)
+  fullName.vb: Bdeshi.Helpers.Utility.Extensions.Unity.OverrideX(Vector2Int, Integer)
+  nameWithType: Unity.OverrideX(Vector2Int, int)
+  nameWithType.vb: Unity.OverrideX(Vector2Int, Integer)
+- uid: Bdeshi.Helpers.Utility.Extensions.Unity.OverrideX(Vector3,System.Single)
+  name: OverrideX(Vector3, float)
+  href: api/Bdeshi.Helpers.Utility.Extensions.Unity.html#Bdeshi_Helpers_Utility_Extensions_Unity_OverrideX_Vector3_System_Single_
+  commentId: M:Bdeshi.Helpers.Utility.Extensions.Unity.OverrideX(Vector3,System.Single)
+  name.vb: OverrideX(Vector3, Single)
+  fullName: Bdeshi.Helpers.Utility.Extensions.Unity.OverrideX(Vector3, float)
+  fullName.vb: Bdeshi.Helpers.Utility.Extensions.Unity.OverrideX(Vector3, Single)
+  nameWithType: Unity.OverrideX(Vector3, float)
+  nameWithType.vb: Unity.OverrideX(Vector3, Single)
+- uid: Bdeshi.Helpers.Utility.Extensions.Unity.OverrideX(Vector3Int,System.Int32)
+  name: OverrideX(Vector3Int, int)
+  href: api/Bdeshi.Helpers.Utility.Extensions.Unity.html#Bdeshi_Helpers_Utility_Extensions_Unity_OverrideX_Vector3Int_System_Int32_
+  commentId: M:Bdeshi.Helpers.Utility.Extensions.Unity.OverrideX(Vector3Int,System.Int32)
+  name.vb: OverrideX(Vector3Int, Integer)
+  fullName: Bdeshi.Helpers.Utility.Extensions.Unity.OverrideX(Vector3Int, int)
+  fullName.vb: Bdeshi.Helpers.Utility.Extensions.Unity.OverrideX(Vector3Int, Integer)
+  nameWithType: Unity.OverrideX(Vector3Int, int)
+  nameWithType.vb: Unity.OverrideX(Vector3Int, Integer)
+- uid: Bdeshi.Helpers.Utility.Extensions.Unity.OverrideX*
+  name: OverrideX
+  href: api/Bdeshi.Helpers.Utility.Extensions.Unity.html#Bdeshi_Helpers_Utility_Extensions_Unity_OverrideX_
+  commentId: Overload:Bdeshi.Helpers.Utility.Extensions.Unity.OverrideX
+  isSpec: "True"
+  fullName: Bdeshi.Helpers.Utility.Extensions.Unity.OverrideX
+  nameWithType: Unity.OverrideX
+- uid: Bdeshi.Helpers.Utility.Extensions.Unity.OverrideY(Vector2,System.Single)
+  name: OverrideY(Vector2, float)
+  href: api/Bdeshi.Helpers.Utility.Extensions.Unity.html#Bdeshi_Helpers_Utility_Extensions_Unity_OverrideY_Vector2_System_Single_
+  commentId: M:Bdeshi.Helpers.Utility.Extensions.Unity.OverrideY(Vector2,System.Single)
+  name.vb: OverrideY(Vector2, Single)
+  fullName: Bdeshi.Helpers.Utility.Extensions.Unity.OverrideY(Vector2, float)
+  fullName.vb: Bdeshi.Helpers.Utility.Extensions.Unity.OverrideY(Vector2, Single)
+  nameWithType: Unity.OverrideY(Vector2, float)
+  nameWithType.vb: Unity.OverrideY(Vector2, Single)
+- uid: Bdeshi.Helpers.Utility.Extensions.Unity.OverrideY(Vector2Int,System.Int32)
+  name: OverrideY(Vector2Int, int)
+  href: api/Bdeshi.Helpers.Utility.Extensions.Unity.html#Bdeshi_Helpers_Utility_Extensions_Unity_OverrideY_Vector2Int_System_Int32_
+  commentId: M:Bdeshi.Helpers.Utility.Extensions.Unity.OverrideY(Vector2Int,System.Int32)
+  name.vb: OverrideY(Vector2Int, Integer)
+  fullName: Bdeshi.Helpers.Utility.Extensions.Unity.OverrideY(Vector2Int, int)
+  fullName.vb: Bdeshi.Helpers.Utility.Extensions.Unity.OverrideY(Vector2Int, Integer)
+  nameWithType: Unity.OverrideY(Vector2Int, int)
+  nameWithType.vb: Unity.OverrideY(Vector2Int, Integer)
+- uid: Bdeshi.Helpers.Utility.Extensions.Unity.OverrideY(Vector3,System.Single)
+  name: OverrideY(Vector3, float)
+  href: api/Bdeshi.Helpers.Utility.Extensions.Unity.html#Bdeshi_Helpers_Utility_Extensions_Unity_OverrideY_Vector3_System_Single_
+  commentId: M:Bdeshi.Helpers.Utility.Extensions.Unity.OverrideY(Vector3,System.Single)
+  name.vb: OverrideY(Vector3, Single)
+  fullName: Bdeshi.Helpers.Utility.Extensions.Unity.OverrideY(Vector3, float)
+  fullName.vb: Bdeshi.Helpers.Utility.Extensions.Unity.OverrideY(Vector3, Single)
+  nameWithType: Unity.OverrideY(Vector3, float)
+  nameWithType.vb: Unity.OverrideY(Vector3, Single)
+- uid: Bdeshi.Helpers.Utility.Extensions.Unity.OverrideY(Vector3Int,System.Int32)
+  name: OverrideY(Vector3Int, int)
+  href: api/Bdeshi.Helpers.Utility.Extensions.Unity.html#Bdeshi_Helpers_Utility_Extensions_Unity_OverrideY_Vector3Int_System_Int32_
+  commentId: M:Bdeshi.Helpers.Utility.Extensions.Unity.OverrideY(Vector3Int,System.Int32)
+  name.vb: OverrideY(Vector3Int, Integer)
+  fullName: Bdeshi.Helpers.Utility.Extensions.Unity.OverrideY(Vector3Int, int)
+  fullName.vb: Bdeshi.Helpers.Utility.Extensions.Unity.OverrideY(Vector3Int, Integer)
+  nameWithType: Unity.OverrideY(Vector3Int, int)
+  nameWithType.vb: Unity.OverrideY(Vector3Int, Integer)
+- uid: Bdeshi.Helpers.Utility.Extensions.Unity.OverrideY*
+  name: OverrideY
+  href: api/Bdeshi.Helpers.Utility.Extensions.Unity.html#Bdeshi_Helpers_Utility_Extensions_Unity_OverrideY_
+  commentId: Overload:Bdeshi.Helpers.Utility.Extensions.Unity.OverrideY
+  isSpec: "True"
+  fullName: Bdeshi.Helpers.Utility.Extensions.Unity.OverrideY
+  nameWithType: Unity.OverrideY
+- uid: Bdeshi.Helpers.Utility.Extensions.Unity.OverrideZ(Vector3,System.Single)
+  name: OverrideZ(Vector3, float)
+  href: api/Bdeshi.Helpers.Utility.Extensions.Unity.html#Bdeshi_Helpers_Utility_Extensions_Unity_OverrideZ_Vector3_System_Single_
+  commentId: M:Bdeshi.Helpers.Utility.Extensions.Unity.OverrideZ(Vector3,System.Single)
+  name.vb: OverrideZ(Vector3, Single)
+  fullName: Bdeshi.Helpers.Utility.Extensions.Unity.OverrideZ(Vector3, float)
+  fullName.vb: Bdeshi.Helpers.Utility.Extensions.Unity.OverrideZ(Vector3, Single)
+  nameWithType: Unity.OverrideZ(Vector3, float)
+  nameWithType.vb: Unity.OverrideZ(Vector3, Single)
+- uid: Bdeshi.Helpers.Utility.Extensions.Unity.OverrideZ(Vector3Int,System.Int32)
+  name: OverrideZ(Vector3Int, int)
+  href: api/Bdeshi.Helpers.Utility.Extensions.Unity.html#Bdeshi_Helpers_Utility_Extensions_Unity_OverrideZ_Vector3Int_System_Int32_
+  commentId: M:Bdeshi.Helpers.Utility.Extensions.Unity.OverrideZ(Vector3Int,System.Int32)
+  name.vb: OverrideZ(Vector3Int, Integer)
+  fullName: Bdeshi.Helpers.Utility.Extensions.Unity.OverrideZ(Vector3Int, int)
+  fullName.vb: Bdeshi.Helpers.Utility.Extensions.Unity.OverrideZ(Vector3Int, Integer)
+  nameWithType: Unity.OverrideZ(Vector3Int, int)
+  nameWithType.vb: Unity.OverrideZ(Vector3Int, Integer)
+- uid: Bdeshi.Helpers.Utility.Extensions.Unity.OverrideZ*
+  name: OverrideZ
+  href: api/Bdeshi.Helpers.Utility.Extensions.Unity.html#Bdeshi_Helpers_Utility_Extensions_Unity_OverrideZ_
+  commentId: Overload:Bdeshi.Helpers.Utility.Extensions.Unity.OverrideZ
+  isSpec: "True"
+  fullName: Bdeshi.Helpers.Utility.Extensions.Unity.OverrideZ
+  nameWithType: Unity.OverrideZ
 - uid: Bdeshi.Helpers.Utility.Extensions.Unity.Rotate(Vector2,System.Single)
   name: Rotate(Vector2, float)
   href: api/Bdeshi.Helpers.Utility.Extensions.Unity.html#Bdeshi_Helpers_Utility_Extensions_Unity_Rotate_Vector2_System_Single_
@@ -1215,6 +1457,19 @@ references:
   isSpec: "True"
   fullName: Bdeshi.Helpers.Utility.Extensions.Unity.Rotated
   nameWithType: Unity.Rotated
+- uid: Bdeshi.Helpers.Utility.Extensions.Unity.SetDirty(UnityEngine.Object)
+  name: SetDirty(Object)
+  href: api/Bdeshi.Helpers.Utility.Extensions.Unity.html#Bdeshi_Helpers_Utility_Extensions_Unity_SetDirty_UnityEngine_Object_
+  commentId: M:Bdeshi.Helpers.Utility.Extensions.Unity.SetDirty(UnityEngine.Object)
+  fullName: Bdeshi.Helpers.Utility.Extensions.Unity.SetDirty(UnityEngine.Object)
+  nameWithType: Unity.SetDirty(UnityEngine.Object)
+- uid: Bdeshi.Helpers.Utility.Extensions.Unity.SetDirty*
+  name: SetDirty
+  href: api/Bdeshi.Helpers.Utility.Extensions.Unity.html#Bdeshi_Helpers_Utility_Extensions_Unity_SetDirty_
+  commentId: Overload:Bdeshi.Helpers.Utility.Extensions.Unity.SetDirty
+  isSpec: "True"
+  fullName: Bdeshi.Helpers.Utility.Extensions.Unity.SetDirty
+  nameWithType: Unity.SetDirty
 - uid: Bdeshi.Helpers.Utility.Extensions.Unity.Shuffle*
   name: Shuffle
   href: api/Bdeshi.Helpers.Utility.Extensions.Unity.html#Bdeshi_Helpers_Utility_Extensions_Unity_Shuffle_
@@ -1584,6 +1839,19 @@ references:
   commentId: F:Bdeshi.Helpers.Utility.FiniteTimer.Timer
   fullName: Bdeshi.Helpers.Utility.FiniteTimer.Timer
   nameWithType: FiniteTimer.Timer
+- uid: Bdeshi.Helpers.Utility.FiniteTimer.ToString
+  name: ToString()
+  href: api/Bdeshi.Helpers.Utility.FiniteTimer.html#Bdeshi_Helpers_Utility_FiniteTimer_ToString
+  commentId: M:Bdeshi.Helpers.Utility.FiniteTimer.ToString
+  fullName: Bdeshi.Helpers.Utility.FiniteTimer.ToString()
+  nameWithType: FiniteTimer.ToString()
+- uid: Bdeshi.Helpers.Utility.FiniteTimer.ToString*
+  name: ToString
+  href: api/Bdeshi.Helpers.Utility.FiniteTimer.html#Bdeshi_Helpers_Utility_FiniteTimer_ToString_
+  commentId: Overload:Bdeshi.Helpers.Utility.FiniteTimer.ToString
+  isSpec: "True"
+  fullName: Bdeshi.Helpers.Utility.FiniteTimer.ToString
+  nameWithType: FiniteTimer.ToString
 - uid: Bdeshi.Helpers.Utility.FiniteTimer.clampedUpdateTimer(System.Single)
   name: clampedUpdateTimer(float)
   href: api/Bdeshi.Helpers.Utility.FiniteTimer.html#Bdeshi_Helpers_Utility_FiniteTimer_clampedUpdateTimer_System_Single_
@@ -1658,6 +1926,19 @@ references:
   isSpec: "True"
   fullName: Bdeshi.Helpers.Utility.FiniteTimer.isComplete
   nameWithType: FiniteTimer.isComplete
+- uid: Bdeshi.Helpers.Utility.FiniteTimer.isEmpty
+  name: isEmpty
+  href: api/Bdeshi.Helpers.Utility.FiniteTimer.html#Bdeshi_Helpers_Utility_FiniteTimer_isEmpty
+  commentId: P:Bdeshi.Helpers.Utility.FiniteTimer.isEmpty
+  fullName: Bdeshi.Helpers.Utility.FiniteTimer.isEmpty
+  nameWithType: FiniteTimer.isEmpty
+- uid: Bdeshi.Helpers.Utility.FiniteTimer.isEmpty*
+  name: isEmpty
+  href: api/Bdeshi.Helpers.Utility.FiniteTimer.html#Bdeshi_Helpers_Utility_FiniteTimer_isEmpty_
+  commentId: Overload:Bdeshi.Helpers.Utility.FiniteTimer.isEmpty
+  isSpec: "True"
+  fullName: Bdeshi.Helpers.Utility.FiniteTimer.isEmpty
+  nameWithType: FiniteTimer.isEmpty
 - uid: Bdeshi.Helpers.Utility.FiniteTimer.remaingValue
   name: remaingValue()
   href: api/Bdeshi.Helpers.Utility.FiniteTimer.html#Bdeshi_Helpers_Utility_FiniteTimer_remaingValue
@@ -1786,6 +2067,22 @@ references:
   isSpec: "True"
   fullName: Bdeshi.Helpers.Utility.FiniteTimer.safeUpdateTimer
   nameWithType: FiniteTimer.safeUpdateTimer
+- uid: Bdeshi.Helpers.Utility.FiniteTimer.subtractTimer(System.Single)
+  name: subtractTimer(float)
+  href: api/Bdeshi.Helpers.Utility.FiniteTimer.html#Bdeshi_Helpers_Utility_FiniteTimer_subtractTimer_System_Single_
+  commentId: M:Bdeshi.Helpers.Utility.FiniteTimer.subtractTimer(System.Single)
+  name.vb: subtractTimer(Single)
+  fullName: Bdeshi.Helpers.Utility.FiniteTimer.subtractTimer(float)
+  fullName.vb: Bdeshi.Helpers.Utility.FiniteTimer.subtractTimer(Single)
+  nameWithType: FiniteTimer.subtractTimer(float)
+  nameWithType.vb: FiniteTimer.subtractTimer(Single)
+- uid: Bdeshi.Helpers.Utility.FiniteTimer.subtractTimer*
+  name: subtractTimer
+  href: api/Bdeshi.Helpers.Utility.FiniteTimer.html#Bdeshi_Helpers_Utility_FiniteTimer_subtractTimer_
+  commentId: Overload:Bdeshi.Helpers.Utility.FiniteTimer.subtractTimer
+  isSpec: "True"
+  fullName: Bdeshi.Helpers.Utility.FiniteTimer.subtractTimer
+  nameWithType: FiniteTimer.subtractTimer
 - uid: Bdeshi.Helpers.Utility.FiniteTimer.tryCompleteOnce(System.Single)
   name: tryCompleteOnce(float)
   href: api/Bdeshi.Helpers.Utility.FiniteTimer.html#Bdeshi_Helpers_Utility_FiniteTimer_tryCompleteOnce_System_Single_
@@ -1827,6 +2124,15 @@ references:
   isSpec: "True"
   fullName: Bdeshi.Helpers.Utility.FiniteTimer.tryCompleteTimer
   nameWithType: FiniteTimer.tryCompleteTimer
+- uid: Bdeshi.Helpers.Utility.FiniteTimer.tryEmptyTimer(System.Single)
+  name: tryEmptyTimer(float)
+  href: api/Bdeshi.Helpers.Utility.FiniteTimer.html#Bdeshi_Helpers_Utility_FiniteTimer_tryEmptyTimer_System_Single_
+  commentId: M:Bdeshi.Helpers.Utility.FiniteTimer.tryEmptyTimer(System.Single)
+  name.vb: tryEmptyTimer(Single)
+  fullName: Bdeshi.Helpers.Utility.FiniteTimer.tryEmptyTimer(float)
+  fullName.vb: Bdeshi.Helpers.Utility.FiniteTimer.tryEmptyTimer(Single)
+  nameWithType: FiniteTimer.tryEmptyTimer(float)
+  nameWithType.vb: FiniteTimer.tryEmptyTimer(Single)
 - uid: Bdeshi.Helpers.Utility.FiniteTimer.tryEmptyTimer(System.Single,System.Single@)
   name: tryEmptyTimer(float, out float)
   href: api/Bdeshi.Helpers.Utility.FiniteTimer.html#Bdeshi_Helpers_Utility_FiniteTimer_tryEmptyTimer_System_Single_System_Single__
@@ -2172,6 +2478,23 @@ references:
   fullName.vb: Bdeshi.Helpers.Utility.MonoBehaviourLazySingleton(Of T).Awake
   nameWithType: MonoBehaviourLazySingleton<T>.Awake
   nameWithType.vb: MonoBehaviourLazySingleton(Of T).Awake
+- uid: Bdeshi.Helpers.Utility.MonoBehaviourLazySingleton`1.GoName
+  name: GoName
+  href: api/Bdeshi.Helpers.Utility.MonoBehaviourLazySingleton-1.html#Bdeshi_Helpers_Utility_MonoBehaviourLazySingleton_1_GoName
+  commentId: P:Bdeshi.Helpers.Utility.MonoBehaviourLazySingleton`1.GoName
+  fullName: Bdeshi.Helpers.Utility.MonoBehaviourLazySingleton<T>.GoName
+  fullName.vb: Bdeshi.Helpers.Utility.MonoBehaviourLazySingleton(Of T).GoName
+  nameWithType: MonoBehaviourLazySingleton<T>.GoName
+  nameWithType.vb: MonoBehaviourLazySingleton(Of T).GoName
+- uid: Bdeshi.Helpers.Utility.MonoBehaviourLazySingleton`1.GoName*
+  name: GoName
+  href: api/Bdeshi.Helpers.Utility.MonoBehaviourLazySingleton-1.html#Bdeshi_Helpers_Utility_MonoBehaviourLazySingleton_1_GoName_
+  commentId: Overload:Bdeshi.Helpers.Utility.MonoBehaviourLazySingleton`1.GoName
+  isSpec: "True"
+  fullName: Bdeshi.Helpers.Utility.MonoBehaviourLazySingleton<T>.GoName
+  fullName.vb: Bdeshi.Helpers.Utility.MonoBehaviourLazySingleton(Of T).GoName
+  nameWithType: MonoBehaviourLazySingleton<T>.GoName
+  nameWithType.vb: MonoBehaviourLazySingleton(Of T).GoName
 - uid: Bdeshi.Helpers.Utility.MonoBehaviourLazySingleton`1.Initialize
   name: Initialize()
   href: api/Bdeshi.Helpers.Utility.MonoBehaviourLazySingleton-1.html#Bdeshi_Helpers_Utility_MonoBehaviourLazySingleton_1_Initialize
@@ -2343,6 +2666,165 @@ references:
   commentId: F:Bdeshi.Helpers.Utility.PathComponent.Path
   fullName: Bdeshi.Helpers.Utility.PathComponent.Path
   nameWithType: PathComponent.Path
+- uid: Bdeshi.Helpers.Utility.PooledMonoBehaviorList`1
+  name: PooledMonoBehaviorList<T>
+  href: api/Bdeshi.Helpers.Utility.PooledMonoBehaviorList-1.html
+  commentId: T:Bdeshi.Helpers.Utility.PooledMonoBehaviorList`1
+  name.vb: PooledMonoBehaviorList(Of T)
+  fullName: Bdeshi.Helpers.Utility.PooledMonoBehaviorList<T>
+  fullName.vb: Bdeshi.Helpers.Utility.PooledMonoBehaviorList(Of T)
+  nameWithType: PooledMonoBehaviorList<T>
+  nameWithType.vb: PooledMonoBehaviorList(Of T)
+- uid: Bdeshi.Helpers.Utility.PooledMonoBehaviorList`1.#ctor(`0,System.Int32,Transform)
+  name: PooledMonoBehaviorList(T, int, Transform)
+  href: api/Bdeshi.Helpers.Utility.PooledMonoBehaviorList-1.html#Bdeshi_Helpers_Utility_PooledMonoBehaviorList_1__ctor__0_System_Int32_Transform_
+  commentId: M:Bdeshi.Helpers.Utility.PooledMonoBehaviorList`1.#ctor(`0,System.Int32,Transform)
+  name.vb: New(T, Integer, Transform)
+  fullName: Bdeshi.Helpers.Utility.PooledMonoBehaviorList<T>.PooledMonoBehaviorList(T, int, Transform)
+  fullName.vb: Bdeshi.Helpers.Utility.PooledMonoBehaviorList(Of T).New(T, Integer, Transform)
+  nameWithType: PooledMonoBehaviorList<T>.PooledMonoBehaviorList(T, int, Transform)
+  nameWithType.vb: PooledMonoBehaviorList(Of T).New(T, Integer, Transform)
+- uid: Bdeshi.Helpers.Utility.PooledMonoBehaviorList`1.#ctor*
+  name: PooledMonoBehaviorList
+  href: api/Bdeshi.Helpers.Utility.PooledMonoBehaviorList-1.html#Bdeshi_Helpers_Utility_PooledMonoBehaviorList_1__ctor_
+  commentId: Overload:Bdeshi.Helpers.Utility.PooledMonoBehaviorList`1.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Bdeshi.Helpers.Utility.PooledMonoBehaviorList<T>.PooledMonoBehaviorList
+  fullName.vb: Bdeshi.Helpers.Utility.PooledMonoBehaviorList(Of T).New
+  nameWithType: PooledMonoBehaviorList<T>.PooledMonoBehaviorList
+  nameWithType.vb: PooledMonoBehaviorList(Of T).New
+- uid: Bdeshi.Helpers.Utility.PooledMonoBehaviorList`1.ClearAndForget(System.Int32)
+  name: ClearAndForget(int)
+  href: api/Bdeshi.Helpers.Utility.PooledMonoBehaviorList-1.html#Bdeshi_Helpers_Utility_PooledMonoBehaviorList_1_ClearAndForget_System_Int32_
+  commentId: M:Bdeshi.Helpers.Utility.PooledMonoBehaviorList`1.ClearAndForget(System.Int32)
+  name.vb: ClearAndForget(Integer)
+  fullName: Bdeshi.Helpers.Utility.PooledMonoBehaviorList<T>.ClearAndForget(int)
+  fullName.vb: Bdeshi.Helpers.Utility.PooledMonoBehaviorList(Of T).ClearAndForget(Integer)
+  nameWithType: PooledMonoBehaviorList<T>.ClearAndForget(int)
+  nameWithType.vb: PooledMonoBehaviorList(Of T).ClearAndForget(Integer)
+- uid: Bdeshi.Helpers.Utility.PooledMonoBehaviorList`1.ClearAndForget*
+  name: ClearAndForget
+  href: api/Bdeshi.Helpers.Utility.PooledMonoBehaviorList-1.html#Bdeshi_Helpers_Utility_PooledMonoBehaviorList_1_ClearAndForget_
+  commentId: Overload:Bdeshi.Helpers.Utility.PooledMonoBehaviorList`1.ClearAndForget
+  isSpec: "True"
+  fullName: Bdeshi.Helpers.Utility.PooledMonoBehaviorList<T>.ClearAndForget
+  fullName.vb: Bdeshi.Helpers.Utility.PooledMonoBehaviorList(Of T).ClearAndForget
+  nameWithType: PooledMonoBehaviorList<T>.ClearAndForget
+  nameWithType.vb: PooledMonoBehaviorList(Of T).ClearAndForget
+- uid: Bdeshi.Helpers.Utility.PooledMonoBehaviorList`1.ClearAndReturnToPool
+  name: ClearAndReturnToPool()
+  href: api/Bdeshi.Helpers.Utility.PooledMonoBehaviorList-1.html#Bdeshi_Helpers_Utility_PooledMonoBehaviorList_1_ClearAndReturnToPool
+  commentId: M:Bdeshi.Helpers.Utility.PooledMonoBehaviorList`1.ClearAndReturnToPool
+  fullName: Bdeshi.Helpers.Utility.PooledMonoBehaviorList<T>.ClearAndReturnToPool()
+  fullName.vb: Bdeshi.Helpers.Utility.PooledMonoBehaviorList(Of T).ClearAndReturnToPool()
+  nameWithType: PooledMonoBehaviorList<T>.ClearAndReturnToPool()
+  nameWithType.vb: PooledMonoBehaviorList(Of T).ClearAndReturnToPool()
+- uid: Bdeshi.Helpers.Utility.PooledMonoBehaviorList`1.ClearAndReturnToPool*
+  name: ClearAndReturnToPool
+  href: api/Bdeshi.Helpers.Utility.PooledMonoBehaviorList-1.html#Bdeshi_Helpers_Utility_PooledMonoBehaviorList_1_ClearAndReturnToPool_
+  commentId: Overload:Bdeshi.Helpers.Utility.PooledMonoBehaviorList`1.ClearAndReturnToPool
+  isSpec: "True"
+  fullName: Bdeshi.Helpers.Utility.PooledMonoBehaviorList<T>.ClearAndReturnToPool
+  fullName.vb: Bdeshi.Helpers.Utility.PooledMonoBehaviorList(Of T).ClearAndReturnToPool
+  nameWithType: PooledMonoBehaviorList<T>.ClearAndReturnToPool
+  nameWithType.vb: PooledMonoBehaviorList(Of T).ClearAndReturnToPool
+- uid: Bdeshi.Helpers.Utility.PooledMonoBehaviorList`1.EnsureCount(System.Int32)
+  name: EnsureCount(int)
+  href: api/Bdeshi.Helpers.Utility.PooledMonoBehaviorList-1.html#Bdeshi_Helpers_Utility_PooledMonoBehaviorList_1_EnsureCount_System_Int32_
+  commentId: M:Bdeshi.Helpers.Utility.PooledMonoBehaviorList`1.EnsureCount(System.Int32)
+  name.vb: EnsureCount(Integer)
+  fullName: Bdeshi.Helpers.Utility.PooledMonoBehaviorList<T>.EnsureCount(int)
+  fullName.vb: Bdeshi.Helpers.Utility.PooledMonoBehaviorList(Of T).EnsureCount(Integer)
+  nameWithType: PooledMonoBehaviorList<T>.EnsureCount(int)
+  nameWithType.vb: PooledMonoBehaviorList(Of T).EnsureCount(Integer)
+- uid: Bdeshi.Helpers.Utility.PooledMonoBehaviorList`1.EnsureCount(System.Int32,System.Action{`0},System.Action{`0})
+  name: EnsureCount(int, Action<T>, Action<T>)
+  href: api/Bdeshi.Helpers.Utility.PooledMonoBehaviorList-1.html#Bdeshi_Helpers_Utility_PooledMonoBehaviorList_1_EnsureCount_System_Int32_System_Action__0__System_Action__0__
+  commentId: M:Bdeshi.Helpers.Utility.PooledMonoBehaviorList`1.EnsureCount(System.Int32,System.Action{`0},System.Action{`0})
+  name.vb: EnsureCount(Integer, Action(Of T), Action(Of T))
+  fullName: Bdeshi.Helpers.Utility.PooledMonoBehaviorList<T>.EnsureCount(int, System.Action<T>, System.Action<T>)
+  fullName.vb: Bdeshi.Helpers.Utility.PooledMonoBehaviorList(Of T).EnsureCount(Integer, System.Action(Of T), System.Action(Of T))
+  nameWithType: PooledMonoBehaviorList<T>.EnsureCount(int, Action<T>, Action<T>)
+  nameWithType.vb: PooledMonoBehaviorList(Of T).EnsureCount(Integer, Action(Of T), Action(Of T))
+- uid: Bdeshi.Helpers.Utility.PooledMonoBehaviorList`1.EnsureCount*
+  name: EnsureCount
+  href: api/Bdeshi.Helpers.Utility.PooledMonoBehaviorList-1.html#Bdeshi_Helpers_Utility_PooledMonoBehaviorList_1_EnsureCount_
+  commentId: Overload:Bdeshi.Helpers.Utility.PooledMonoBehaviorList`1.EnsureCount
+  isSpec: "True"
+  fullName: Bdeshi.Helpers.Utility.PooledMonoBehaviorList<T>.EnsureCount
+  fullName.vb: Bdeshi.Helpers.Utility.PooledMonoBehaviorList(Of T).EnsureCount
+  nameWithType: PooledMonoBehaviorList<T>.EnsureCount
+  nameWithType.vb: PooledMonoBehaviorList(Of T).EnsureCount
+- uid: Bdeshi.Helpers.Utility.PooledMonoBehaviorList`1.Get(System.Int32)
+  name: Get(int)
+  href: api/Bdeshi.Helpers.Utility.PooledMonoBehaviorList-1.html#Bdeshi_Helpers_Utility_PooledMonoBehaviorList_1_Get_System_Int32_
+  commentId: M:Bdeshi.Helpers.Utility.PooledMonoBehaviorList`1.Get(System.Int32)
+  name.vb: Get(Integer)
+  fullName: Bdeshi.Helpers.Utility.PooledMonoBehaviorList<T>.Get(int)
+  fullName.vb: Bdeshi.Helpers.Utility.PooledMonoBehaviorList(Of T).Get(Integer)
+  nameWithType: PooledMonoBehaviorList<T>.Get(int)
+  nameWithType.vb: PooledMonoBehaviorList(Of T).Get(Integer)
+- uid: Bdeshi.Helpers.Utility.PooledMonoBehaviorList`1.Get*
+  name: Get
+  href: api/Bdeshi.Helpers.Utility.PooledMonoBehaviorList-1.html#Bdeshi_Helpers_Utility_PooledMonoBehaviorList_1_Get_
+  commentId: Overload:Bdeshi.Helpers.Utility.PooledMonoBehaviorList`1.Get
+  isSpec: "True"
+  fullName: Bdeshi.Helpers.Utility.PooledMonoBehaviorList<T>.Get
+  fullName.vb: Bdeshi.Helpers.Utility.PooledMonoBehaviorList(Of T).Get
+  nameWithType: PooledMonoBehaviorList<T>.Get
+  nameWithType.vb: PooledMonoBehaviorList(Of T).Get
+- uid: Bdeshi.Helpers.Utility.PooledMonoBehaviorList`1.GetNewItem
+  name: GetNewItem()
+  href: api/Bdeshi.Helpers.Utility.PooledMonoBehaviorList-1.html#Bdeshi_Helpers_Utility_PooledMonoBehaviorList_1_GetNewItem
+  commentId: M:Bdeshi.Helpers.Utility.PooledMonoBehaviorList`1.GetNewItem
+  fullName: Bdeshi.Helpers.Utility.PooledMonoBehaviorList<T>.GetNewItem()
+  fullName.vb: Bdeshi.Helpers.Utility.PooledMonoBehaviorList(Of T).GetNewItem()
+  nameWithType: PooledMonoBehaviorList<T>.GetNewItem()
+  nameWithType.vb: PooledMonoBehaviorList(Of T).GetNewItem()
+- uid: Bdeshi.Helpers.Utility.PooledMonoBehaviorList`1.GetNewItem*
+  name: GetNewItem
+  href: api/Bdeshi.Helpers.Utility.PooledMonoBehaviorList-1.html#Bdeshi_Helpers_Utility_PooledMonoBehaviorList_1_GetNewItem_
+  commentId: Overload:Bdeshi.Helpers.Utility.PooledMonoBehaviorList`1.GetNewItem
+  isSpec: "True"
+  fullName: Bdeshi.Helpers.Utility.PooledMonoBehaviorList<T>.GetNewItem
+  fullName.vb: Bdeshi.Helpers.Utility.PooledMonoBehaviorList(Of T).GetNewItem
+  nameWithType: PooledMonoBehaviorList<T>.GetNewItem
+  nameWithType.vb: PooledMonoBehaviorList(Of T).GetNewItem
+- uid: Bdeshi.Helpers.Utility.PooledMonoBehaviorList`1.List
+  name: List
+  href: api/Bdeshi.Helpers.Utility.PooledMonoBehaviorList-1.html#Bdeshi_Helpers_Utility_PooledMonoBehaviorList_1_List
+  commentId: P:Bdeshi.Helpers.Utility.PooledMonoBehaviorList`1.List
+  fullName: Bdeshi.Helpers.Utility.PooledMonoBehaviorList<T>.List
+  fullName.vb: Bdeshi.Helpers.Utility.PooledMonoBehaviorList(Of T).List
+  nameWithType: PooledMonoBehaviorList<T>.List
+  nameWithType.vb: PooledMonoBehaviorList(Of T).List
+- uid: Bdeshi.Helpers.Utility.PooledMonoBehaviorList`1.List*
+  name: List
+  href: api/Bdeshi.Helpers.Utility.PooledMonoBehaviorList-1.html#Bdeshi_Helpers_Utility_PooledMonoBehaviorList_1_List_
+  commentId: Overload:Bdeshi.Helpers.Utility.PooledMonoBehaviorList`1.List
+  isSpec: "True"
+  fullName: Bdeshi.Helpers.Utility.PooledMonoBehaviorList<T>.List
+  fullName.vb: Bdeshi.Helpers.Utility.PooledMonoBehaviorList(Of T).List
+  nameWithType: PooledMonoBehaviorList<T>.List
+  nameWithType.vb: PooledMonoBehaviorList(Of T).List
+- uid: Bdeshi.Helpers.Utility.PooledMonoBehaviorList`1.Pool
+  name: Pool
+  href: api/Bdeshi.Helpers.Utility.PooledMonoBehaviorList-1.html#Bdeshi_Helpers_Utility_PooledMonoBehaviorList_1_Pool
+  commentId: P:Bdeshi.Helpers.Utility.PooledMonoBehaviorList`1.Pool
+  fullName: Bdeshi.Helpers.Utility.PooledMonoBehaviorList<T>.Pool
+  fullName.vb: Bdeshi.Helpers.Utility.PooledMonoBehaviorList(Of T).Pool
+  nameWithType: PooledMonoBehaviorList<T>.Pool
+  nameWithType.vb: PooledMonoBehaviorList(Of T).Pool
+- uid: Bdeshi.Helpers.Utility.PooledMonoBehaviorList`1.Pool*
+  name: Pool
+  href: api/Bdeshi.Helpers.Utility.PooledMonoBehaviorList-1.html#Bdeshi_Helpers_Utility_PooledMonoBehaviorList_1_Pool_
+  commentId: Overload:Bdeshi.Helpers.Utility.PooledMonoBehaviorList`1.Pool
+  isSpec: "True"
+  fullName: Bdeshi.Helpers.Utility.PooledMonoBehaviorList<T>.Pool
+  fullName.vb: Bdeshi.Helpers.Utility.PooledMonoBehaviorList(Of T).Pool
+  nameWithType: PooledMonoBehaviorList<T>.Pool
+  nameWithType.vb: PooledMonoBehaviorList(Of T).Pool
 - uid: Bdeshi.Helpers.Utility.Reparenter
   name: Reparenter
   href: api/Bdeshi.Helpers.Utility.Reparenter.html
@@ -3160,6 +3642,24 @@ references:
   fullName.vb: Bdeshi.Helpers.Utility.SimpleManualMonoBehaviourPool(Of T).EnsureSpawnListCount(System.Collections.Generic.List(Of T), Integer)
   nameWithType: SimpleManualMonoBehaviourPool<T>.EnsureSpawnListCount(List<T>, int)
   nameWithType.vb: SimpleManualMonoBehaviourPool(Of T).EnsureSpawnListCount(List(Of T), Integer)
+- uid: Bdeshi.Helpers.Utility.SimpleManualMonoBehaviourPool`1.EnsureSpawnListCount(System.Collections.Generic.List{`0},System.Int32,System.Action{`0})
+  name: EnsureSpawnListCount(List<T>, int, Action<T>)
+  href: api/Bdeshi.Helpers.Utility.SimpleManualMonoBehaviourPool-1.html#Bdeshi_Helpers_Utility_SimpleManualMonoBehaviourPool_1_EnsureSpawnListCount_System_Collections_Generic_List__0__System_Int32_System_Action__0__
+  commentId: M:Bdeshi.Helpers.Utility.SimpleManualMonoBehaviourPool`1.EnsureSpawnListCount(System.Collections.Generic.List{`0},System.Int32,System.Action{`0})
+  name.vb: EnsureSpawnListCount(List(Of T), Integer, Action(Of T))
+  fullName: Bdeshi.Helpers.Utility.SimpleManualMonoBehaviourPool<T>.EnsureSpawnListCount(System.Collections.Generic.List<T>, int, System.Action<T>)
+  fullName.vb: Bdeshi.Helpers.Utility.SimpleManualMonoBehaviourPool(Of T).EnsureSpawnListCount(System.Collections.Generic.List(Of T), Integer, System.Action(Of T))
+  nameWithType: SimpleManualMonoBehaviourPool<T>.EnsureSpawnListCount(List<T>, int, Action<T>)
+  nameWithType.vb: SimpleManualMonoBehaviourPool(Of T).EnsureSpawnListCount(List(Of T), Integer, Action(Of T))
+- uid: Bdeshi.Helpers.Utility.SimpleManualMonoBehaviourPool`1.EnsureSpawnListCount(System.Collections.Generic.List{`0},System.Int32,System.Action{`0},System.Action{`0})
+  name: EnsureSpawnListCount(List<T>, int, Action<T>, Action<T>)
+  href: api/Bdeshi.Helpers.Utility.SimpleManualMonoBehaviourPool-1.html#Bdeshi_Helpers_Utility_SimpleManualMonoBehaviourPool_1_EnsureSpawnListCount_System_Collections_Generic_List__0__System_Int32_System_Action__0__System_Action__0__
+  commentId: M:Bdeshi.Helpers.Utility.SimpleManualMonoBehaviourPool`1.EnsureSpawnListCount(System.Collections.Generic.List{`0},System.Int32,System.Action{`0},System.Action{`0})
+  name.vb: EnsureSpawnListCount(List(Of T), Integer, Action(Of T), Action(Of T))
+  fullName: Bdeshi.Helpers.Utility.SimpleManualMonoBehaviourPool<T>.EnsureSpawnListCount(System.Collections.Generic.List<T>, int, System.Action<T>, System.Action<T>)
+  fullName.vb: Bdeshi.Helpers.Utility.SimpleManualMonoBehaviourPool(Of T).EnsureSpawnListCount(System.Collections.Generic.List(Of T), Integer, System.Action(Of T), System.Action(Of T))
+  nameWithType: SimpleManualMonoBehaviourPool<T>.EnsureSpawnListCount(List<T>, int, Action<T>, Action<T>)
+  nameWithType.vb: SimpleManualMonoBehaviourPool(Of T).EnsureSpawnListCount(List(Of T), Integer, Action(Of T), Action(Of T))
 - uid: Bdeshi.Helpers.Utility.SimpleManualMonoBehaviourPool`1.EnsureSpawnListCount*
   name: EnsureSpawnListCount
   href: api/Bdeshi.Helpers.Utility.SimpleManualMonoBehaviourPool-1.html#Bdeshi_Helpers_Utility_SimpleManualMonoBehaviourPool_1_EnsureSpawnListCount_
