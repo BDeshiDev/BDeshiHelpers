@@ -1,7 +1,10 @@
 ﻿using System.Collections.Generic;
-using UnityEditor;
 using UnityEngine;
-
+using System;
+using Random = UnityEngine.Random;
+#if UNITY_EDITOR
+using UnityEditor;
+# endif
 namespace Bdeshi.Helpers.Utility.Extensions
 {
     public static class Unity
@@ -27,6 +30,19 @@ namespace Bdeshi.Helpers.Utility.Extensions
         public static bool exceedsDist(this Vector3 vec, float dist)
         {
             return vec.sqrMagnitude > (dist * dist);
+        }
+
+        public static T CreateChildScriptable<T>(this ScriptableObject parentSO, Action<T> initializeFunc)
+        where T : ScriptableObject
+        {
+            var childSO = ScriptableObject.CreateInstance<T>();
+            initializeFunc(childSO);
+
+            AssetDatabase.AddObjectToAsset(childSO, parentSO);
+            AssetDatabase.SaveAssets();
+
+            EditorUtility.SetDirty(parentSO);
+            return childSO; 
         }
         
         /// <summary>
@@ -67,6 +83,13 @@ namespace Bdeshi.Helpers.Utility.Extensions
         public static float get2dAngle(this Vector3 normalizedDir)
         {
             return Mathf.Atan2(normalizedDir.y, normalizedDir.x) * Mathf.Rad2Deg;
+        }
+
+        public static void SetDirty(this UnityEngine.Object obj)
+        {
+# if UNITY_EDITOR
+            EditorUtility.SetDirty(obj);
+# endif
         }
 
         public static float get2dAngle(this Vector2 dir)
@@ -208,6 +231,83 @@ namespace Bdeshi.Helpers.Utility.Extensions
         {
             return new Color(color.r, color.g, color.b, a);
         }
+
+
+        public static Vector3Int OverrideX(this Vector3Int vec, int x) => new Vector3Int(x, vec.y, vec.z);
+        public static Vector3 OverrideX(this Vector3 vec, float x) => new Vector3(x, vec.y, vec.z);
+        public static Vector3Int OverrideY(this Vector3Int vec, int y) => new Vector3Int(vec.x, y, vec.z);
+        public static Vector3 OverrideY(this Vector3 vec, float y) => new Vector3(vec.x, y, vec.z);
+        public static Vector3Int OverrideZ(this Vector3Int vec, int z) => new Vector3Int(vec.x, vec.y, z);
+        public static Vector3 OverrideZ(this Vector3 vec, float z) => new Vector3(vec.x, vec.y, z);
+        
+        public static Vector2Int OverrideX(this Vector2Int vec, int x) => new Vector2Int(x, vec.y);
+        public static Vector2 OverrideX(this Vector2 vec, float x) => new Vector2(x, vec.y);
+        public static Vector2Int OverrideY(this Vector2Int vec, int y) => new Vector2Int(vec.x, y);
+        public static Vector2 OverrideY(this Vector2 vec, float y) => new Vector2(vec.x, y);
+
+        public static Vector3 MaintainX(this Vector3 vec1, Vector3 vec2) => new Vector3(vec1.x, vec2.y, vec2.z);
+        public static Vector3 MaintainY(this Vector3 vec1, Vector3 vec2) => new Vector3(vec2.x, vec1.y, vec2.z);
+        public static Vector3 MaintainZ(this Vector3 vec1, Vector3 vec2) => new Vector3(vec2.x, vec2.y, vec1.z);
+        public static Vector3Int MaintainZ(this Vector3Int vec1, Vector3Int vec2) => new Vector3Int(vec2.x, vec2.y, vec1.z);
+        public static Vector3Int MaintainX(this Vector3Int vec1, Vector3Int vec2) => new Vector3Int(vec1.x, vec2.y, vec2.z);
+        public static Vector3Int MaintainY(this Vector3Int vec1, Vector3Int vec2) => new Vector3Int(vec2.x, vec1.y, vec2.z);
+        public static List<Color> GenerateDifferentColors(int n, float alpha = .69f)
+        {
+            List<Color> colors = new List<Color>();
+
+            // Starting hue value
+            float startHue = 0;
+
+            for (int i = 0; i < n; i++)
+            {
+                float hue = (startHue + (float)i / (float)n) % 1f; // Calculate hue
+
+                // Convert HSL to RGB
+                Color color = HSLToRGB(hue, 0.5f, 0.5f);
+                color.a = alpha;
+                colors.Add(color); // Add the color to the list
+            }
+
+            return colors;
+        }
+
+        // Helper function to convert HSL to RGB
+        private static Color HSLToRGB(float hue, float saturation, float lightness)
+        {
+            float c = (1 - Mathf.Abs(2 * lightness - 1)) * saturation;
+            float x = c * (1 - Mathf.Abs((hue * 6) % 2 - 1));
+            float m = lightness - c / 2;
+
+            float r, g, b;
+
+            if (0 <= hue && hue < 1 / 6f)
+            {
+                r = c; g = x; b = 0;
+            }
+            else if (1 / 6f <= hue && hue < 2 / 6f)
+            {
+                r = x; g = c; b = 0;
+            }
+            else if (2 / 6f <= hue && hue < 3 / 6f)
+            {
+                r = 0; g = c; b = x;
+            }
+            else if (3 / 6f <= hue && hue < 4 / 6f)
+            {
+                r = 0; g = x; b = c;
+            }
+            else if (4 / 6f <= hue && hue < 5 / 6f)
+            {
+                r = x; g = 0; b = c;
+            }
+            else
+            {
+                r = c; g = 0; b = x;
+            }
+
+            return new Color(r + m, g + m, b + m);
+        }
+
 
 #if UNITY_EDITOR
         public static void DrawWireCapsule(Vector3 _pos, Quaternion _rot, float _radius, float _height, Color _color = default(Color))

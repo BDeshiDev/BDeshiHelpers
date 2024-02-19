@@ -73,7 +73,23 @@ namespace Bdeshi.Helpers.Utility
             return false;
         }
         
-        
+        public bool tryEmptyTimer(float delta)
+        {
+            if (Timer <= 0)
+                return true;
+
+            if (Timer <= delta)
+            {
+                Timer = 0;
+                return true;
+            }
+            else
+            {
+                Timer -= delta;
+            }
+            return false;
+        }
+
         public bool tryEmptyTimer(float delta, out float remainder)
         {
             remainder = delta;
@@ -107,6 +123,11 @@ namespace Bdeshi.Helpers.Utility
         public void safeSubtractTimer(float delta)
         {
             Timer = Mathf.Clamp(Timer - delta, 0, MaxValue);
+        }
+        
+        public void subtractTimer(float delta)
+        {
+            Timer -= delta;
         }
 
 
@@ -154,6 +175,7 @@ namespace Bdeshi.Helpers.Utility
         }
 
         public bool isComplete => Timer >= MaxValue;
+        public bool isEmpty => Timer <=0;
 
         public bool exceedsRatio(float ratioToExceed)
         {
@@ -169,6 +191,11 @@ namespace Bdeshi.Helpers.Utility
             if (Timer >= MaxValue)
                 return 0;
             return MaxValue - Timer;
+        }
+
+        public override string ToString()
+        {
+            return $"{Timer}/{MaxValue} {Ratio*100}%";
         }
     }
     

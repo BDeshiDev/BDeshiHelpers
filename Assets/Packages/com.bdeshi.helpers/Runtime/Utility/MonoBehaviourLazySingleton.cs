@@ -15,36 +15,37 @@ namespace Bdeshi.Helpers.Utility
 
                     if (_appicationQuitting)
                     {
-                        Debug.Log("app quit  " + _instance, _instance);
-
-                        return null;
-
+                        # if UNITY_EDITOR
+                            //this never fires in the editor but causes issue with domain reload
+                            _appicationQuitting = false;
+                        #else
+                            return null;
+                        #endif
                     }
-
 
                     _instance = FindObjectOfType<T>();
                     if (_instance == null)
                     {
                         GameObject obj = new GameObject(typeof(T).ToString());
-                        // Debug.Log(obj + "create");
                         //obj.hideFlags = HideFlags.HideAndDontSave;
                         _instance = obj.AddComponent<T>();
                         _instance.Initialize();
+                        #if UNITY_EDITOR
+                        _instance.gameObject.name = _instance.GoName;
+                        #endif
                     }
                 }
-                // Debug.Log("end "+ (_instance == null));
-
                 return _instance;
             }
         }
 
-
         private static bool _appicationQuitting;
+
+        public virtual string GoName => typeof(T).ToString();
         /// <summary>
         /// Initialize is called on awake only if this is the first instance
         /// </summary>
         protected virtual void Initialize() { }
-
         protected virtual void Awake()
         {
             if (_instance == null)
