@@ -1,0 +1,23 @@
+{
+    "name": "com.bdeshi.helpers",
+    "version": "2.0.4",
+    "displayName": "Bdeshi-dev's helper code",
+    "description": "Contains misc. helper classes  for singletons, pooling, safe events, extensions etc",
+    "unity": "2022.3",
+    "unityRelease": "9f1",
+    "dependencies": {
+      "com.unity.inputsystem": "1.7.0",
+      "com.unity.modules.ui": "1.0.0"
+    },
+    "keywords": [
+        "Utility"
+        ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/BDeshiDev/BDeshiHelpers.git"    
+        },
+        "license": "MIT",  
+        "author": {
+            "name": "B-DeshiDev"
+        }
+  }
