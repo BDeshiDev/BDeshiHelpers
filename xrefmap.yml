@@ -1225,22 +1225,6 @@ references:
   isSpec: "True"
   fullName: Bdeshi.Helpers.Utility.Extensions.Unity.Contains
   nameWithType: Unity.Contains
-- uid: Bdeshi.Helpers.Utility.Extensions.Unity.CreateChildScriptable*
-  name: CreateChildScriptable
-  href: api/Bdeshi.Helpers.Utility.Extensions.Unity.html#Bdeshi_Helpers_Utility_Extensions_Unity_CreateChildScriptable_
-  commentId: Overload:Bdeshi.Helpers.Utility.Extensions.Unity.CreateChildScriptable
-  isSpec: "True"
-  fullName: Bdeshi.Helpers.Utility.Extensions.Unity.CreateChildScriptable
-  nameWithType: Unity.CreateChildScriptable
-- uid: Bdeshi.Helpers.Utility.Extensions.Unity.CreateChildScriptable``1(ScriptableObject,System.Action{``0})
-  name: CreateChildScriptable<T>(ScriptableObject, Action<T>)
-  href: api/Bdeshi.Helpers.Utility.Extensions.Unity.html#Bdeshi_Helpers_Utility_Extensions_Unity_CreateChildScriptable__1_ScriptableObject_System_Action___0__
-  commentId: M:Bdeshi.Helpers.Utility.Extensions.Unity.CreateChildScriptable``1(ScriptableObject,System.Action{``0})
-  name.vb: CreateChildScriptable(Of T)(ScriptableObject, Action(Of T))
-  fullName: Bdeshi.Helpers.Utility.Extensions.Unity.CreateChildScriptable<T>(ScriptableObject, System.Action<T>)
-  fullName.vb: Bdeshi.Helpers.Utility.Extensions.Unity.CreateChildScriptable(Of T)(ScriptableObject, System.Action(Of T))
-  nameWithType: Unity.CreateChildScriptable<T>(ScriptableObject, Action<T>)
-  nameWithType.vb: Unity.CreateChildScriptable(Of T)(ScriptableObject, Action(Of T))
 - uid: Bdeshi.Helpers.Utility.Extensions.Unity.GenerateDifferentColors(System.Int32,System.Single)
   name: GenerateDifferentColors(int, float)
   href: api/Bdeshi.Helpers.Utility.Extensions.Unity.html#Bdeshi_Helpers_Utility_Extensions_Unity_GenerateDifferentColors_System_Int32_System_Single_
