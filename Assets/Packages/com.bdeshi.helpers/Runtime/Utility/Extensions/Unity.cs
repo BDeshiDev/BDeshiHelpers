@@ -31,9 +31,9 @@ namespace Bdeshi.Helpers.Utility.Extensions
         {
             return vec.sqrMagnitude > (dist * dist);
         }
-
+#if UNITY_EDITOR
         public static T CreateChildScriptable<T>(this ScriptableObject parentSO, Action<T> initializeFunc)
-        where T : ScriptableObject
+            where T : ScriptableObject
         {
             var childSO = ScriptableObject.CreateInstance<T>();
             initializeFunc(childSO);
@@ -44,6 +44,8 @@ namespace Bdeshi.Helpers.Utility.Extensions
             EditorUtility.SetDirty(parentSO);
             return childSO; 
         }
+# endif
+        
         
         /// <summary>
         /// Imagine a cone with the "with" vec as forward, is the "dir" within a given angle with "with" 
