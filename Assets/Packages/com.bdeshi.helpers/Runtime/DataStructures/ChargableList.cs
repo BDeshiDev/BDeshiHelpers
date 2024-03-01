@@ -1,9 +1,10 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using Bdeshi.Helpers.Utility;
 using UnityEngine;
 
-namespace Bdeshi.Helpers.Utility
+namespace Bdeshi.Helpers.DataStructures
 {
     [Serializable]
     public class ChargableList<TItem> : IEnumerable<TItem>

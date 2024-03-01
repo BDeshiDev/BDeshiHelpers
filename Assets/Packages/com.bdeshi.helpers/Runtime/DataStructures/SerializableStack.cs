@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace Bdeshi.Helpers.Utility
+namespace Bdeshi.Helpers.DataStructures
 {
     public class SerializableStack<T>
     {

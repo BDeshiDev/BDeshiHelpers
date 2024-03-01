@@ -12,15 +12,9 @@ namespace Bdeshi.Helpers.Utility
             {
                 if (_instance == null)
                 {
-
                     if (_appicationQuitting)
                     {
-                        # if UNITY_EDITOR
-                            //this never fires in the editor but causes issue with domain reload
-                            _appicationQuitting = false;
-                        #else
-                            return null;
-                        #endif
+                        return null;
                     }
 
                     _instance = FindObjectOfType<T>();
@@ -76,11 +70,13 @@ namespace Bdeshi.Helpers.Utility
         public static void PlayModeExitCleanup()
         {
             _instance = null;
+            _appicationQuitting = false;
         }
+        
         
         protected virtual void PlayModeEnterCleanupInternal()
         {
-
+            
         }
     }
 }

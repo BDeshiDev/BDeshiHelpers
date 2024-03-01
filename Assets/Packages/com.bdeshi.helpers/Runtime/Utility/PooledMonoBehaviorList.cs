@@ -8,8 +8,8 @@ namespace Bdeshi.Helpers.Utility
     public class PooledMonoBehaviorList<T>
     where T: MonoBehaviour
     {
-        private List<T> _list = new ();
-        public List<T> List => _list;
+        [SerializeField] private List<T> _spawnedItems = new ();
+        public List<T> SpawnedItems => _spawnedItems;
         private SimpleManualMonoBehaviourPool<T> _pool;
         public SimpleManualMonoBehaviourPool<T> Pool => _pool;
         
@@ -17,7 +17,10 @@ namespace Bdeshi.Helpers.Utility
         {
             _pool = new SimpleManualMonoBehaviourPool<T>(prefab, initialPooledCount, spawnParent);
         }
-
+        public T this[int key]
+        {
+            get => _spawnedItems[key];
+        }
         /// <summary>
         /// If list has enough elements, return element at index i
         /// else, add elements to list until we have enough, then return element at index
@@ -26,42 +29,45 @@ namespace Bdeshi.Helpers.Utility
         /// <returns></returns>
         public T Get(int index)
         {
-            if (_list.Count <= index)
+            Debug.Log($"{index} {_spawnedItems.Count}");
+            if (index >= _spawnedItems.Count)
             {
-                _pool.EnsureSpawnListCount(_list, index+1);
+                Debug.Log($"add new item {index} {_spawnedItems.Count}");
+
+                return GetNewItem();
             }
 
-            return _list[index];
+            return _spawnedItems[index];
         }
         
         public T GetNewItem()
         {
             var item = _pool.GetItem();
-            _list.Add(item);
+            _spawnedItems.Add(item);
             return item;
         }
         
         public void ClearAndReturnToPool()
         {
-            foreach (var item in _list)
+            foreach (var item in _spawnedItems)
             {
                 _pool.ReturnItem(item);
             }
-            _list.Clear();
+            _spawnedItems.Clear();
         }
         
         public void ClearAndForget(int index)
         {
-            _list.Clear();
+            _spawnedItems.Clear();
         }
         
         public void EnsureCount(int count)
         {
-            _pool.EnsureSpawnListCount(_list, count);
+            _pool.EnsureSpawnListCount(_spawnedItems, count);
         }
         public void EnsureCount(int count, Action<T> addedCallback, Action<T> removedCallback)
         {
-            _pool.EnsureSpawnListCount(_list, count,addedCallback,removedCallback);
+            _pool.EnsureSpawnListCount(_spawnedItems, count,addedCallback,removedCallback);
         }
     }
 }
