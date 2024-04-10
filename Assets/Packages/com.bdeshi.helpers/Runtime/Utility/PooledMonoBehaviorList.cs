@@ -13,6 +13,11 @@ namespace Bdeshi.Helpers.Utility
         private SimpleManualMonoBehaviourPool<T> _pool;
         public SimpleManualMonoBehaviourPool<T> Pool => _pool;
         
+        public void Initialize(T prefab, int initialPooledCount = 0, Transform spawnParent = null)
+        {
+            _pool = new SimpleManualMonoBehaviourPool<T>(prefab, initialPooledCount, spawnParent);
+        }
+        
         public PooledMonoBehaviorList(T prefab, int initialPooledCount = 0, Transform spawnParent = null)
         {
             _pool = new SimpleManualMonoBehaviourPool<T>(prefab, initialPooledCount, spawnParent);
@@ -29,11 +34,8 @@ namespace Bdeshi.Helpers.Utility
         /// <returns></returns>
         public T Get(int index)
         {
-            Debug.Log($"{index} {_spawnedItems.Count}");
             if (index >= _spawnedItems.Count)
             {
-                Debug.Log($"add new item {index} {_spawnedItems.Count}");
-
                 return GetNewItem();
             }
 
@@ -68,6 +70,21 @@ namespace Bdeshi.Helpers.Utility
         public void EnsureCount(int count, Action<T> addedCallback, Action<T> removedCallback)
         {
             _pool.EnsureSpawnListCount(_spawnedItems, count,addedCallback,removedCallback);
+        }
+
+        public void ReturnItem(T item)
+        {
+            _spawnedItems.Remove(item);
+            _pool.ReturnItem(item);
+        }
+        
+        public void ReturnAllItems()
+        {
+            foreach (var item in _spawnedItems)
+            {
+                _pool.ReturnItem(item);
+            }
+            _spawnedItems.Clear();
         }
     }
 }

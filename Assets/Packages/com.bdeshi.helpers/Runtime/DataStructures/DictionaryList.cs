@@ -75,5 +75,10 @@ namespace Bdeshi.Helpers.DataStructures
         }
 
         IEnumerator IEnumerable.GetEnumerator() => _dict.GetEnumerator();
+
+        public void Clear()
+        {
+            _dict.Clear();
+        }
     }
 }
