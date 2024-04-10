@@ -1,6 +1,1272 @@
 ### YamlMime:XRefMap
 sorted: true
 references:
+- uid: Bdeshi.Helpers.DataStructures
+  name: Bdeshi.Helpers.DataStructures
+  href: api/Bdeshi.Helpers.DataStructures.html
+  commentId: N:Bdeshi.Helpers.DataStructures
+  fullName: Bdeshi.Helpers.DataStructures
+  nameWithType: Bdeshi.Helpers.DataStructures
+- uid: Bdeshi.Helpers.DataStructures.ChargableList`1
+  name: ChargableList<TItem>
+  href: api/Bdeshi.Helpers.DataStructures.ChargableList-1.html
+  commentId: T:Bdeshi.Helpers.DataStructures.ChargableList`1
+  name.vb: ChargableList(Of TItem)
+  fullName: Bdeshi.Helpers.DataStructures.ChargableList<TItem>
+  fullName.vb: Bdeshi.Helpers.DataStructures.ChargableList(Of TItem)
+  nameWithType: ChargableList<TItem>
+  nameWithType.vb: ChargableList(Of TItem)
+- uid: Bdeshi.Helpers.DataStructures.ChargableList`1.ChargableListSlot
+  name: ChargableList<TItem>.ChargableListSlot
+  href: api/Bdeshi.Helpers.DataStructures.ChargableList-1.ChargableListSlot.html
+  commentId: T:Bdeshi.Helpers.DataStructures.ChargableList`1.ChargableListSlot
+  name.vb: ChargableList(Of TItem).ChargableListSlot
+  fullName: Bdeshi.Helpers.DataStructures.ChargableList<TItem>.ChargableListSlot
+  fullName.vb: Bdeshi.Helpers.DataStructures.ChargableList(Of TItem).ChargableListSlot
+  nameWithType: ChargableList<TItem>.ChargableListSlot
+  nameWithType.vb: ChargableList(Of TItem).ChargableListSlot
+- uid: Bdeshi.Helpers.DataStructures.ChargableList`1.ChargableListSlot.chargeTimer
+  name: chargeTimer
+  href: api/Bdeshi.Helpers.DataStructures.ChargableList-1.ChargableListSlot.html#Bdeshi_Helpers_DataStructures_ChargableList_1_ChargableListSlot_chargeTimer
+  commentId: F:Bdeshi.Helpers.DataStructures.ChargableList`1.ChargableListSlot.chargeTimer
+  fullName: Bdeshi.Helpers.DataStructures.ChargableList<TItem>.ChargableListSlot.chargeTimer
+  fullName.vb: Bdeshi.Helpers.DataStructures.ChargableList(Of TItem).ChargableListSlot.chargeTimer
+  nameWithType: ChargableList<TItem>.ChargableListSlot.chargeTimer
+  nameWithType.vb: ChargableList(Of TItem).ChargableListSlot.chargeTimer
+- uid: Bdeshi.Helpers.DataStructures.ChargableList`1.ChargableListSlot.item
+  name: item
+  href: api/Bdeshi.Helpers.DataStructures.ChargableList-1.ChargableListSlot.html#Bdeshi_Helpers_DataStructures_ChargableList_1_ChargableListSlot_item
+  commentId: F:Bdeshi.Helpers.DataStructures.ChargableList`1.ChargableListSlot.item
+  fullName: Bdeshi.Helpers.DataStructures.ChargableList<TItem>.ChargableListSlot.item
+  fullName.vb: Bdeshi.Helpers.DataStructures.ChargableList(Of TItem).ChargableListSlot.item
+  nameWithType: ChargableList<TItem>.ChargableListSlot.item
+  nameWithType.vb: ChargableList(Of TItem).ChargableListSlot.item
+- uid: Bdeshi.Helpers.DataStructures.ChargableList`1.GetEnumerator
+  name: GetEnumerator()
+  href: api/Bdeshi.Helpers.DataStructures.ChargableList-1.html#Bdeshi_Helpers_DataStructures_ChargableList_1_GetEnumerator
+  commentId: M:Bdeshi.Helpers.DataStructures.ChargableList`1.GetEnumerator
+  fullName: Bdeshi.Helpers.DataStructures.ChargableList<TItem>.GetEnumerator()
+  fullName.vb: Bdeshi.Helpers.DataStructures.ChargableList(Of TItem).GetEnumerator()
+  nameWithType: ChargableList<TItem>.GetEnumerator()
+  nameWithType.vb: ChargableList(Of TItem).GetEnumerator()
+- uid: Bdeshi.Helpers.DataStructures.ChargableList`1.GetEnumerator*
+  name: GetEnumerator
+  href: api/Bdeshi.Helpers.DataStructures.ChargableList-1.html#Bdeshi_Helpers_DataStructures_ChargableList_1_GetEnumerator_
+  commentId: Overload:Bdeshi.Helpers.DataStructures.ChargableList`1.GetEnumerator
+  isSpec: "True"
+  fullName: Bdeshi.Helpers.DataStructures.ChargableList<TItem>.GetEnumerator
+  fullName.vb: Bdeshi.Helpers.DataStructures.ChargableList(Of TItem).GetEnumerator
+  nameWithType: ChargableList<TItem>.GetEnumerator
+  nameWithType.vb: ChargableList(Of TItem).GetEnumerator
+- uid: Bdeshi.Helpers.DataStructures.ChargableList`1.chargeLevelCount
+  name: chargeLevelCount
+  href: api/Bdeshi.Helpers.DataStructures.ChargableList-1.html#Bdeshi_Helpers_DataStructures_ChargableList_1_chargeLevelCount
+  commentId: P:Bdeshi.Helpers.DataStructures.ChargableList`1.chargeLevelCount
+  fullName: Bdeshi.Helpers.DataStructures.ChargableList<TItem>.chargeLevelCount
+  fullName.vb: Bdeshi.Helpers.DataStructures.ChargableList(Of TItem).chargeLevelCount
+  nameWithType: ChargableList<TItem>.chargeLevelCount
+  nameWithType.vb: ChargableList(Of TItem).chargeLevelCount
+- uid: Bdeshi.Helpers.DataStructures.ChargableList`1.chargeLevelCount*
+  name: chargeLevelCount
+  href: api/Bdeshi.Helpers.DataStructures.ChargableList-1.html#Bdeshi_Helpers_DataStructures_ChargableList_1_chargeLevelCount_
+  commentId: Overload:Bdeshi.Helpers.DataStructures.ChargableList`1.chargeLevelCount
+  isSpec: "True"
+  fullName: Bdeshi.Helpers.DataStructures.ChargableList<TItem>.chargeLevelCount
+  fullName.vb: Bdeshi.Helpers.DataStructures.ChargableList(Of TItem).chargeLevelCount
+  nameWithType: ChargableList<TItem>.chargeLevelCount
+  nameWithType.vb: ChargableList(Of TItem).chargeLevelCount
+- uid: Bdeshi.Helpers.DataStructures.ChargableList`1.decreaseCharge(System.Single,System.Action{`0})
+  name: decreaseCharge(float, Action<TItem>)
+  href: api/Bdeshi.Helpers.DataStructures.ChargableList-1.html#Bdeshi_Helpers_DataStructures_ChargableList_1_decreaseCharge_System_Single_System_Action__0__
+  commentId: M:Bdeshi.Helpers.DataStructures.ChargableList`1.decreaseCharge(System.Single,System.Action{`0})
+  name.vb: decreaseCharge(Single, Action(Of TItem))
+  fullName: Bdeshi.Helpers.DataStructures.ChargableList<TItem>.decreaseCharge(float, System.Action<TItem>)
+  fullName.vb: Bdeshi.Helpers.DataStructures.ChargableList(Of TItem).decreaseCharge(Single, System.Action(Of TItem))
+  nameWithType: ChargableList<TItem>.decreaseCharge(float, Action<TItem>)
+  nameWithType.vb: ChargableList(Of TItem).decreaseCharge(Single, Action(Of TItem))
+- uid: Bdeshi.Helpers.DataStructures.ChargableList`1.decreaseCharge*
+  name: decreaseCharge
+  href: api/Bdeshi.Helpers.DataStructures.ChargableList-1.html#Bdeshi_Helpers_DataStructures_ChargableList_1_decreaseCharge_
+  commentId: Overload:Bdeshi.Helpers.DataStructures.ChargableList`1.decreaseCharge
+  isSpec: "True"
+  fullName: Bdeshi.Helpers.DataStructures.ChargableList<TItem>.decreaseCharge
+  fullName.vb: Bdeshi.Helpers.DataStructures.ChargableList(Of TItem).decreaseCharge
+  nameWithType: ChargableList<TItem>.decreaseCharge
+  nameWithType.vb: ChargableList(Of TItem).decreaseCharge
+- uid: Bdeshi.Helpers.DataStructures.ChargableList`1.getChargeCostUpTo(System.Single,System.Int32@)
+  name: getChargeCostUpTo(float, out int)
+  href: api/Bdeshi.Helpers.DataStructures.ChargableList-1.html#Bdeshi_Helpers_DataStructures_ChargableList_1_getChargeCostUpTo_System_Single_System_Int32__
+  commentId: M:Bdeshi.Helpers.DataStructures.ChargableList`1.getChargeCostUpTo(System.Single,System.Int32@)
+  name.vb: getChargeCostUpTo(Single, Integer)
+  fullName: Bdeshi.Helpers.DataStructures.ChargableList<TItem>.getChargeCostUpTo(float, out int)
+  fullName.vb: Bdeshi.Helpers.DataStructures.ChargableList(Of TItem).getChargeCostUpTo(Single, Integer)
+  nameWithType: ChargableList<TItem>.getChargeCostUpTo(float, out int)
+  nameWithType.vb: ChargableList(Of TItem).getChargeCostUpTo(Single, Integer)
+- uid: Bdeshi.Helpers.DataStructures.ChargableList`1.getChargeCostUpTo*
+  name: getChargeCostUpTo
+  href: api/Bdeshi.Helpers.DataStructures.ChargableList-1.html#Bdeshi_Helpers_DataStructures_ChargableList_1_getChargeCostUpTo_
+  commentId: Overload:Bdeshi.Helpers.DataStructures.ChargableList`1.getChargeCostUpTo
+  isSpec: "True"
+  fullName: Bdeshi.Helpers.DataStructures.ChargableList<TItem>.getChargeCostUpTo
+  fullName.vb: Bdeshi.Helpers.DataStructures.ChargableList(Of TItem).getChargeCostUpTo
+  nameWithType: ChargableList<TItem>.getChargeCostUpTo
+  nameWithType.vb: ChargableList(Of TItem).getChargeCostUpTo
+- uid: Bdeshi.Helpers.DataStructures.ChargableList`1.getChargeLevels
+  name: getChargeLevels
+  href: api/Bdeshi.Helpers.DataStructures.ChargableList-1.html#Bdeshi_Helpers_DataStructures_ChargableList_1_getChargeLevels
+  commentId: P:Bdeshi.Helpers.DataStructures.ChargableList`1.getChargeLevels
+  fullName: Bdeshi.Helpers.DataStructures.ChargableList<TItem>.getChargeLevels
+  fullName.vb: Bdeshi.Helpers.DataStructures.ChargableList(Of TItem).getChargeLevels
+  nameWithType: ChargableList<TItem>.getChargeLevels
+  nameWithType.vb: ChargableList(Of TItem).getChargeLevels
+- uid: Bdeshi.Helpers.DataStructures.ChargableList`1.getChargeLevels*
+  name: getChargeLevels
+  href: api/Bdeshi.Helpers.DataStructures.ChargableList-1.html#Bdeshi_Helpers_DataStructures_ChargableList_1_getChargeLevels_
+  commentId: Overload:Bdeshi.Helpers.DataStructures.ChargableList`1.getChargeLevels
+  isSpec: "True"
+  fullName: Bdeshi.Helpers.DataStructures.ChargableList<TItem>.getChargeLevels
+  fullName.vb: Bdeshi.Helpers.DataStructures.ChargableList(Of TItem).getChargeLevels
+  nameWithType: ChargableList<TItem>.getChargeLevels
+  nameWithType.vb: ChargableList(Of TItem).getChargeLevels
+- uid: Bdeshi.Helpers.DataStructures.ChargableList`1.getCurChargeLevel
+  name: getCurChargeLevel()
+  href: api/Bdeshi.Helpers.DataStructures.ChargableList-1.html#Bdeshi_Helpers_DataStructures_ChargableList_1_getCurChargeLevel
+  commentId: M:Bdeshi.Helpers.DataStructures.ChargableList`1.getCurChargeLevel
+  fullName: Bdeshi.Helpers.DataStructures.ChargableList<TItem>.getCurChargeLevel()
+  fullName.vb: Bdeshi.Helpers.DataStructures.ChargableList(Of TItem).getCurChargeLevel()
+  nameWithType: ChargableList<TItem>.getCurChargeLevel()
+  nameWithType.vb: ChargableList(Of TItem).getCurChargeLevel()
+- uid: Bdeshi.Helpers.DataStructures.ChargableList`1.getCurChargeLevel*
+  name: getCurChargeLevel
+  href: api/Bdeshi.Helpers.DataStructures.ChargableList-1.html#Bdeshi_Helpers_DataStructures_ChargableList_1_getCurChargeLevel_
+  commentId: Overload:Bdeshi.Helpers.DataStructures.ChargableList`1.getCurChargeLevel
+  isSpec: "True"
+  fullName: Bdeshi.Helpers.DataStructures.ChargableList<TItem>.getCurChargeLevel
+  fullName.vb: Bdeshi.Helpers.DataStructures.ChargableList(Of TItem).getCurChargeLevel
+  nameWithType: ChargableList<TItem>.getCurChargeLevel
+  nameWithType.vb: ChargableList(Of TItem).getCurChargeLevel
+- uid: Bdeshi.Helpers.DataStructures.ChargableList`1.getCurrentItem
+  name: getCurrentItem()
+  href: api/Bdeshi.Helpers.DataStructures.ChargableList-1.html#Bdeshi_Helpers_DataStructures_ChargableList_1_getCurrentItem
+  commentId: M:Bdeshi.Helpers.DataStructures.ChargableList`1.getCurrentItem
+  fullName: Bdeshi.Helpers.DataStructures.ChargableList<TItem>.getCurrentItem()
+  fullName.vb: Bdeshi.Helpers.DataStructures.ChargableList(Of TItem).getCurrentItem()
+  nameWithType: ChargableList<TItem>.getCurrentItem()
+  nameWithType.vb: ChargableList(Of TItem).getCurrentItem()
+- uid: Bdeshi.Helpers.DataStructures.ChargableList`1.getCurrentItem*
+  name: getCurrentItem
+  href: api/Bdeshi.Helpers.DataStructures.ChargableList-1.html#Bdeshi_Helpers_DataStructures_ChargableList_1_getCurrentItem_
+  commentId: Overload:Bdeshi.Helpers.DataStructures.ChargableList`1.getCurrentItem
+  isSpec: "True"
+  fullName: Bdeshi.Helpers.DataStructures.ChargableList<TItem>.getCurrentItem
+  fullName.vb: Bdeshi.Helpers.DataStructures.ChargableList(Of TItem).getCurrentItem
+  nameWithType: ChargableList<TItem>.getCurrentItem
+  nameWithType.vb: ChargableList(Of TItem).getCurrentItem
+- uid: Bdeshi.Helpers.DataStructures.ChargableList`1.getCurrentLevelChargeRatio
+  name: getCurrentLevelChargeRatio()
+  href: api/Bdeshi.Helpers.DataStructures.ChargableList-1.html#Bdeshi_Helpers_DataStructures_ChargableList_1_getCurrentLevelChargeRatio
+  commentId: M:Bdeshi.Helpers.DataStructures.ChargableList`1.getCurrentLevelChargeRatio
+  fullName: Bdeshi.Helpers.DataStructures.ChargableList<TItem>.getCurrentLevelChargeRatio()
+  fullName.vb: Bdeshi.Helpers.DataStructures.ChargableList(Of TItem).getCurrentLevelChargeRatio()
+  nameWithType: ChargableList<TItem>.getCurrentLevelChargeRatio()
+  nameWithType.vb: ChargableList(Of TItem).getCurrentLevelChargeRatio()
+- uid: Bdeshi.Helpers.DataStructures.ChargableList`1.getCurrentLevelChargeRatio*
+  name: getCurrentLevelChargeRatio
+  href: api/Bdeshi.Helpers.DataStructures.ChargableList-1.html#Bdeshi_Helpers_DataStructures_ChargableList_1_getCurrentLevelChargeRatio_
+  commentId: Overload:Bdeshi.Helpers.DataStructures.ChargableList`1.getCurrentLevelChargeRatio
+  isSpec: "True"
+  fullName: Bdeshi.Helpers.DataStructures.ChargableList<TItem>.getCurrentLevelChargeRatio
+  fullName.vb: Bdeshi.Helpers.DataStructures.ChargableList(Of TItem).getCurrentLevelChargeRatio
+  nameWithType: ChargableList<TItem>.getCurrentLevelChargeRatio
+  nameWithType.vb: ChargableList(Of TItem).getCurrentLevelChargeRatio
+- uid: Bdeshi.Helpers.DataStructures.ChargableList`1.getCurrentLevelRemainingAmount
+  name: getCurrentLevelRemainingAmount()
+  href: api/Bdeshi.Helpers.DataStructures.ChargableList-1.html#Bdeshi_Helpers_DataStructures_ChargableList_1_getCurrentLevelRemainingAmount
+  commentId: M:Bdeshi.Helpers.DataStructures.ChargableList`1.getCurrentLevelRemainingAmount
+  fullName: Bdeshi.Helpers.DataStructures.ChargableList<TItem>.getCurrentLevelRemainingAmount()
+  fullName.vb: Bdeshi.Helpers.DataStructures.ChargableList(Of TItem).getCurrentLevelRemainingAmount()
+  nameWithType: ChargableList<TItem>.getCurrentLevelRemainingAmount()
+  nameWithType.vb: ChargableList(Of TItem).getCurrentLevelRemainingAmount()
+- uid: Bdeshi.Helpers.DataStructures.ChargableList`1.getCurrentLevelRemainingAmount*
+  name: getCurrentLevelRemainingAmount
+  href: api/Bdeshi.Helpers.DataStructures.ChargableList-1.html#Bdeshi_Helpers_DataStructures_ChargableList_1_getCurrentLevelRemainingAmount_
+  commentId: Overload:Bdeshi.Helpers.DataStructures.ChargableList`1.getCurrentLevelRemainingAmount
+  isSpec: "True"
+  fullName: Bdeshi.Helpers.DataStructures.ChargableList<TItem>.getCurrentLevelRemainingAmount
+  fullName.vb: Bdeshi.Helpers.DataStructures.ChargableList(Of TItem).getCurrentLevelRemainingAmount
+  nameWithType: ChargableList<TItem>.getCurrentLevelRemainingAmount
+  nameWithType.vb: ChargableList(Of TItem).getCurrentLevelRemainingAmount
+- uid: Bdeshi.Helpers.DataStructures.ChargableList`1.getFirstChargeCost
+  name: getFirstChargeCost()
+  href: api/Bdeshi.Helpers.DataStructures.ChargableList-1.html#Bdeshi_Helpers_DataStructures_ChargableList_1_getFirstChargeCost
+  commentId: M:Bdeshi.Helpers.DataStructures.ChargableList`1.getFirstChargeCost
+  fullName: Bdeshi.Helpers.DataStructures.ChargableList<TItem>.getFirstChargeCost()
+  fullName.vb: Bdeshi.Helpers.DataStructures.ChargableList(Of TItem).getFirstChargeCost()
+  nameWithType: ChargableList<TItem>.getFirstChargeCost()
+  nameWithType.vb: ChargableList(Of TItem).getFirstChargeCost()
+- uid: Bdeshi.Helpers.DataStructures.ChargableList`1.getFirstChargeCost*
+  name: getFirstChargeCost
+  href: api/Bdeshi.Helpers.DataStructures.ChargableList-1.html#Bdeshi_Helpers_DataStructures_ChargableList_1_getFirstChargeCost_
+  commentId: Overload:Bdeshi.Helpers.DataStructures.ChargableList`1.getFirstChargeCost
+  isSpec: "True"
+  fullName: Bdeshi.Helpers.DataStructures.ChargableList<TItem>.getFirstChargeCost
+  fullName.vb: Bdeshi.Helpers.DataStructures.ChargableList(Of TItem).getFirstChargeCost
+  nameWithType: ChargableList<TItem>.getFirstChargeCost
+  nameWithType.vb: ChargableList(Of TItem).getFirstChargeCost
+- uid: Bdeshi.Helpers.DataStructures.ChargableList`1.getFullyChargedAmount
+  name: getFullyChargedAmount()
+  href: api/Bdeshi.Helpers.DataStructures.ChargableList-1.html#Bdeshi_Helpers_DataStructures_ChargableList_1_getFullyChargedAmount
+  commentId: M:Bdeshi.Helpers.DataStructures.ChargableList`1.getFullyChargedAmount
+  fullName: Bdeshi.Helpers.DataStructures.ChargableList<TItem>.getFullyChargedAmount()
+  fullName.vb: Bdeshi.Helpers.DataStructures.ChargableList(Of TItem).getFullyChargedAmount()
+  nameWithType: ChargableList<TItem>.getFullyChargedAmount()
+  nameWithType.vb: ChargableList(Of TItem).getFullyChargedAmount()
+- uid: Bdeshi.Helpers.DataStructures.ChargableList`1.getFullyChargedAmount*
+  name: getFullyChargedAmount
+  href: api/Bdeshi.Helpers.DataStructures.ChargableList-1.html#Bdeshi_Helpers_DataStructures_ChargableList_1_getFullyChargedAmount_
+  commentId: Overload:Bdeshi.Helpers.DataStructures.ChargableList`1.getFullyChargedAmount
+  isSpec: "True"
+  fullName: Bdeshi.Helpers.DataStructures.ChargableList<TItem>.getFullyChargedAmount
+  fullName.vb: Bdeshi.Helpers.DataStructures.ChargableList(Of TItem).getFullyChargedAmount
+  nameWithType: ChargableList<TItem>.getFullyChargedAmount
+  nameWithType.vb: ChargableList(Of TItem).getFullyChargedAmount
+- uid: Bdeshi.Helpers.DataStructures.ChargableList`1.getFullyChargedLevelCount
+  name: getFullyChargedLevelCount()
+  href: api/Bdeshi.Helpers.DataStructures.ChargableList-1.html#Bdeshi_Helpers_DataStructures_ChargableList_1_getFullyChargedLevelCount
+  commentId: M:Bdeshi.Helpers.DataStructures.ChargableList`1.getFullyChargedLevelCount
+  fullName: Bdeshi.Helpers.DataStructures.ChargableList<TItem>.getFullyChargedLevelCount()
+  fullName.vb: Bdeshi.Helpers.DataStructures.ChargableList(Of TItem).getFullyChargedLevelCount()
+  nameWithType: ChargableList<TItem>.getFullyChargedLevelCount()
+  nameWithType.vb: ChargableList(Of TItem).getFullyChargedLevelCount()
+- uid: Bdeshi.Helpers.DataStructures.ChargableList`1.getFullyChargedLevelCount*
+  name: getFullyChargedLevelCount
+  href: api/Bdeshi.Helpers.DataStructures.ChargableList-1.html#Bdeshi_Helpers_DataStructures_ChargableList_1_getFullyChargedLevelCount_
+  commentId: Overload:Bdeshi.Helpers.DataStructures.ChargableList`1.getFullyChargedLevelCount
+  isSpec: "True"
+  fullName: Bdeshi.Helpers.DataStructures.ChargableList<TItem>.getFullyChargedLevelCount
+  fullName.vb: Bdeshi.Helpers.DataStructures.ChargableList(Of TItem).getFullyChargedLevelCount
+  nameWithType: ChargableList<TItem>.getFullyChargedLevelCount
+  nameWithType.vb: ChargableList(Of TItem).getFullyChargedLevelCount
+- uid: Bdeshi.Helpers.DataStructures.ChargableList`1.getItem(System.Int32)
+  name: getItem(int)
+  href: api/Bdeshi.Helpers.DataStructures.ChargableList-1.html#Bdeshi_Helpers_DataStructures_ChargableList_1_getItem_System_Int32_
+  commentId: M:Bdeshi.Helpers.DataStructures.ChargableList`1.getItem(System.Int32)
+  name.vb: getItem(Integer)
+  fullName: Bdeshi.Helpers.DataStructures.ChargableList<TItem>.getItem(int)
+  fullName.vb: Bdeshi.Helpers.DataStructures.ChargableList(Of TItem).getItem(Integer)
+  nameWithType: ChargableList<TItem>.getItem(int)
+  nameWithType.vb: ChargableList(Of TItem).getItem(Integer)
+- uid: Bdeshi.Helpers.DataStructures.ChargableList`1.getItem*
+  name: getItem
+  href: api/Bdeshi.Helpers.DataStructures.ChargableList-1.html#Bdeshi_Helpers_DataStructures_ChargableList_1_getItem_
+  commentId: Overload:Bdeshi.Helpers.DataStructures.ChargableList`1.getItem
+  isSpec: "True"
+  fullName: Bdeshi.Helpers.DataStructures.ChargableList<TItem>.getItem
+  fullName.vb: Bdeshi.Helpers.DataStructures.ChargableList(Of TItem).getItem
+  nameWithType: ChargableList<TItem>.getItem
+  nameWithType.vb: ChargableList(Of TItem).getItem
+- uid: Bdeshi.Helpers.DataStructures.ChargableList`1.getItemAndReset
+  name: getItemAndReset()
+  href: api/Bdeshi.Helpers.DataStructures.ChargableList-1.html#Bdeshi_Helpers_DataStructures_ChargableList_1_getItemAndReset
+  commentId: M:Bdeshi.Helpers.DataStructures.ChargableList`1.getItemAndReset
+  fullName: Bdeshi.Helpers.DataStructures.ChargableList<TItem>.getItemAndReset()
+  fullName.vb: Bdeshi.Helpers.DataStructures.ChargableList(Of TItem).getItemAndReset()
+  nameWithType: ChargableList<TItem>.getItemAndReset()
+  nameWithType.vb: ChargableList(Of TItem).getItemAndReset()
+- uid: Bdeshi.Helpers.DataStructures.ChargableList`1.getItemAndReset*
+  name: getItemAndReset
+  href: api/Bdeshi.Helpers.DataStructures.ChargableList-1.html#Bdeshi_Helpers_DataStructures_ChargableList_1_getItemAndReset_
+  commentId: Overload:Bdeshi.Helpers.DataStructures.ChargableList`1.getItemAndReset
+  isSpec: "True"
+  fullName: Bdeshi.Helpers.DataStructures.ChargableList<TItem>.getItemAndReset
+  fullName.vb: Bdeshi.Helpers.DataStructures.ChargableList(Of TItem).getItemAndReset
+  nameWithType: ChargableList<TItem>.getItemAndReset
+  nameWithType.vb: ChargableList(Of TItem).getItemAndReset
+- uid: Bdeshi.Helpers.DataStructures.ChargableList`1.getNormalizedChargedLevelCount
+  name: getNormalizedChargedLevelCount()
+  href: api/Bdeshi.Helpers.DataStructures.ChargableList-1.html#Bdeshi_Helpers_DataStructures_ChargableList_1_getNormalizedChargedLevelCount
+  commentId: M:Bdeshi.Helpers.DataStructures.ChargableList`1.getNormalizedChargedLevelCount
+  fullName: Bdeshi.Helpers.DataStructures.ChargableList<TItem>.getNormalizedChargedLevelCount()
+  fullName.vb: Bdeshi.Helpers.DataStructures.ChargableList(Of TItem).getNormalizedChargedLevelCount()
+  nameWithType: ChargableList<TItem>.getNormalizedChargedLevelCount()
+  nameWithType.vb: ChargableList(Of TItem).getNormalizedChargedLevelCount()
+- uid: Bdeshi.Helpers.DataStructures.ChargableList`1.getNormalizedChargedLevelCount*
+  name: getNormalizedChargedLevelCount
+  href: api/Bdeshi.Helpers.DataStructures.ChargableList-1.html#Bdeshi_Helpers_DataStructures_ChargableList_1_getNormalizedChargedLevelCount_
+  commentId: Overload:Bdeshi.Helpers.DataStructures.ChargableList`1.getNormalizedChargedLevelCount
+  isSpec: "True"
+  fullName: Bdeshi.Helpers.DataStructures.ChargableList<TItem>.getNormalizedChargedLevelCount
+  fullName.vb: Bdeshi.Helpers.DataStructures.ChargableList(Of TItem).getNormalizedChargedLevelCount
+  nameWithType: ChargableList<TItem>.getNormalizedChargedLevelCount
+  nameWithType.vb: ChargableList(Of TItem).getNormalizedChargedLevelCount
+- uid: Bdeshi.Helpers.DataStructures.ChargableList`1.getTotalChargedAmount
+  name: getTotalChargedAmount()
+  href: api/Bdeshi.Helpers.DataStructures.ChargableList-1.html#Bdeshi_Helpers_DataStructures_ChargableList_1_getTotalChargedAmount
+  commentId: M:Bdeshi.Helpers.DataStructures.ChargableList`1.getTotalChargedAmount
+  fullName: Bdeshi.Helpers.DataStructures.ChargableList<TItem>.getTotalChargedAmount()
+  fullName.vb: Bdeshi.Helpers.DataStructures.ChargableList(Of TItem).getTotalChargedAmount()
+  nameWithType: ChargableList<TItem>.getTotalChargedAmount()
+  nameWithType.vb: ChargableList(Of TItem).getTotalChargedAmount()
+- uid: Bdeshi.Helpers.DataStructures.ChargableList`1.getTotalChargedAmount*
+  name: getTotalChargedAmount
+  href: api/Bdeshi.Helpers.DataStructures.ChargableList-1.html#Bdeshi_Helpers_DataStructures_ChargableList_1_getTotalChargedAmount_
+  commentId: Overload:Bdeshi.Helpers.DataStructures.ChargableList`1.getTotalChargedAmount
+  isSpec: "True"
+  fullName: Bdeshi.Helpers.DataStructures.ChargableList<TItem>.getTotalChargedAmount
+  fullName.vb: Bdeshi.Helpers.DataStructures.ChargableList(Of TItem).getTotalChargedAmount
+  nameWithType: ChargableList<TItem>.getTotalChargedAmount
+  nameWithType.vb: ChargableList(Of TItem).getTotalChargedAmount
+- uid: Bdeshi.Helpers.DataStructures.ChargableList`1.hasMoreChargeLevels
+  name: hasMoreChargeLevels
+  href: api/Bdeshi.Helpers.DataStructures.ChargableList-1.html#Bdeshi_Helpers_DataStructures_ChargableList_1_hasMoreChargeLevels
+  commentId: P:Bdeshi.Helpers.DataStructures.ChargableList`1.hasMoreChargeLevels
+  fullName: Bdeshi.Helpers.DataStructures.ChargableList<TItem>.hasMoreChargeLevels
+  fullName.vb: Bdeshi.Helpers.DataStructures.ChargableList(Of TItem).hasMoreChargeLevels
+  nameWithType: ChargableList<TItem>.hasMoreChargeLevels
+  nameWithType.vb: ChargableList(Of TItem).hasMoreChargeLevels
+- uid: Bdeshi.Helpers.DataStructures.ChargableList`1.hasMoreChargeLevels*
+  name: hasMoreChargeLevels
+  href: api/Bdeshi.Helpers.DataStructures.ChargableList-1.html#Bdeshi_Helpers_DataStructures_ChargableList_1_hasMoreChargeLevels_
+  commentId: Overload:Bdeshi.Helpers.DataStructures.ChargableList`1.hasMoreChargeLevels
+  isSpec: "True"
+  fullName: Bdeshi.Helpers.DataStructures.ChargableList<TItem>.hasMoreChargeLevels
+  fullName.vb: Bdeshi.Helpers.DataStructures.ChargableList(Of TItem).hasMoreChargeLevels
+  nameWithType: ChargableList<TItem>.hasMoreChargeLevels
+  nameWithType.vb: ChargableList(Of TItem).hasMoreChargeLevels
+- uid: Bdeshi.Helpers.DataStructures.ChargableList`1.increaseCharge(System.Single,System.Func{`0,`0,System.Boolean},System.Action{`0})
+  name: increaseCharge(float, Func<TItem, TItem, bool>, Action<TItem>)
+  href: api/Bdeshi.Helpers.DataStructures.ChargableList-1.html#Bdeshi_Helpers_DataStructures_ChargableList_1_increaseCharge_System_Single_System_Func__0__0_System_Boolean__System_Action__0__
+  commentId: M:Bdeshi.Helpers.DataStructures.ChargableList`1.increaseCharge(System.Single,System.Func{`0,`0,System.Boolean},System.Action{`0})
+  name.vb: increaseCharge(Single, Func(Of TItem, TItem, Boolean), Action(Of TItem))
+  fullName: Bdeshi.Helpers.DataStructures.ChargableList<TItem>.increaseCharge(float, System.Func<TItem, TItem, bool>, System.Action<TItem>)
+  fullName.vb: Bdeshi.Helpers.DataStructures.ChargableList(Of TItem).increaseCharge(Single, System.Func(Of TItem, TItem, Boolean), System.Action(Of TItem))
+  nameWithType: ChargableList<TItem>.increaseCharge(float, Func<TItem, TItem, bool>, Action<TItem>)
+  nameWithType.vb: ChargableList(Of TItem).increaseCharge(Single, Func(Of TItem, TItem, Boolean), Action(Of TItem))
+- uid: Bdeshi.Helpers.DataStructures.ChargableList`1.increaseCharge*
+  name: increaseCharge
+  href: api/Bdeshi.Helpers.DataStructures.ChargableList-1.html#Bdeshi_Helpers_DataStructures_ChargableList_1_increaseCharge_
+  commentId: Overload:Bdeshi.Helpers.DataStructures.ChargableList`1.increaseCharge
+  isSpec: "True"
+  fullName: Bdeshi.Helpers.DataStructures.ChargableList<TItem>.increaseCharge
+  fullName.vb: Bdeshi.Helpers.DataStructures.ChargableList(Of TItem).increaseCharge
+  nameWithType: ChargableList<TItem>.increaseCharge
+  nameWithType.vb: ChargableList(Of TItem).increaseCharge
+- uid: Bdeshi.Helpers.DataStructures.ChargableList`1.isEmpty
+  name: isEmpty()
+  href: api/Bdeshi.Helpers.DataStructures.ChargableList-1.html#Bdeshi_Helpers_DataStructures_ChargableList_1_isEmpty
+  commentId: M:Bdeshi.Helpers.DataStructures.ChargableList`1.isEmpty
+  fullName: Bdeshi.Helpers.DataStructures.ChargableList<TItem>.isEmpty()
+  fullName.vb: Bdeshi.Helpers.DataStructures.ChargableList(Of TItem).isEmpty()
+  nameWithType: ChargableList<TItem>.isEmpty()
+  nameWithType.vb: ChargableList(Of TItem).isEmpty()
+- uid: Bdeshi.Helpers.DataStructures.ChargableList`1.isEmpty*
+  name: isEmpty
+  href: api/Bdeshi.Helpers.DataStructures.ChargableList-1.html#Bdeshi_Helpers_DataStructures_ChargableList_1_isEmpty_
+  commentId: Overload:Bdeshi.Helpers.DataStructures.ChargableList`1.isEmpty
+  isSpec: "True"
+  fullName: Bdeshi.Helpers.DataStructures.ChargableList<TItem>.isEmpty
+  fullName.vb: Bdeshi.Helpers.DataStructures.ChargableList(Of TItem).isEmpty
+  nameWithType: ChargableList<TItem>.isEmpty
+  nameWithType.vb: ChargableList(Of TItem).isEmpty
+- uid: Bdeshi.Helpers.DataStructures.ChargableList`1.resetChargeLevel
+  name: resetChargeLevel()
+  href: api/Bdeshi.Helpers.DataStructures.ChargableList-1.html#Bdeshi_Helpers_DataStructures_ChargableList_1_resetChargeLevel
+  commentId: M:Bdeshi.Helpers.DataStructures.ChargableList`1.resetChargeLevel
+  fullName: Bdeshi.Helpers.DataStructures.ChargableList<TItem>.resetChargeLevel()
+  fullName.vb: Bdeshi.Helpers.DataStructures.ChargableList(Of TItem).resetChargeLevel()
+  nameWithType: ChargableList<TItem>.resetChargeLevel()
+  nameWithType.vb: ChargableList(Of TItem).resetChargeLevel()
+- uid: Bdeshi.Helpers.DataStructures.ChargableList`1.resetChargeLevel*
+  name: resetChargeLevel
+  href: api/Bdeshi.Helpers.DataStructures.ChargableList-1.html#Bdeshi_Helpers_DataStructures_ChargableList_1_resetChargeLevel_
+  commentId: Overload:Bdeshi.Helpers.DataStructures.ChargableList`1.resetChargeLevel
+  isSpec: "True"
+  fullName: Bdeshi.Helpers.DataStructures.ChargableList<TItem>.resetChargeLevel
+  fullName.vb: Bdeshi.Helpers.DataStructures.ChargableList(Of TItem).resetChargeLevel
+  nameWithType: ChargableList<TItem>.resetChargeLevel
+  nameWithType.vb: ChargableList(Of TItem).resetChargeLevel
+- uid: Bdeshi.Helpers.DataStructures.ChargableList`1.setAllChargeThresholdsTo(System.Single)
+  name: setAllChargeThresholdsTo(float)
+  href: api/Bdeshi.Helpers.DataStructures.ChargableList-1.html#Bdeshi_Helpers_DataStructures_ChargableList_1_setAllChargeThresholdsTo_System_Single_
+  commentId: M:Bdeshi.Helpers.DataStructures.ChargableList`1.setAllChargeThresholdsTo(System.Single)
+  name.vb: setAllChargeThresholdsTo(Single)
+  fullName: Bdeshi.Helpers.DataStructures.ChargableList<TItem>.setAllChargeThresholdsTo(float)
+  fullName.vb: Bdeshi.Helpers.DataStructures.ChargableList(Of TItem).setAllChargeThresholdsTo(Single)
+  nameWithType: ChargableList<TItem>.setAllChargeThresholdsTo(float)
+  nameWithType.vb: ChargableList(Of TItem).setAllChargeThresholdsTo(Single)
+- uid: Bdeshi.Helpers.DataStructures.ChargableList`1.setAllChargeThresholdsTo*
+  name: setAllChargeThresholdsTo
+  href: api/Bdeshi.Helpers.DataStructures.ChargableList-1.html#Bdeshi_Helpers_DataStructures_ChargableList_1_setAllChargeThresholdsTo_
+  commentId: Overload:Bdeshi.Helpers.DataStructures.ChargableList`1.setAllChargeThresholdsTo
+  isSpec: "True"
+  fullName: Bdeshi.Helpers.DataStructures.ChargableList<TItem>.setAllChargeThresholdsTo
+  fullName.vb: Bdeshi.Helpers.DataStructures.ChargableList(Of TItem).setAllChargeThresholdsTo
+  nameWithType: ChargableList<TItem>.setAllChargeThresholdsTo
+  nameWithType.vb: ChargableList(Of TItem).setAllChargeThresholdsTo
+- uid: Bdeshi.Helpers.DataStructures.ChargableList`1.subtractNormalizedChargeLevel(System.Single)
+  name: subtractNormalizedChargeLevel(float)
+  href: api/Bdeshi.Helpers.DataStructures.ChargableList-1.html#Bdeshi_Helpers_DataStructures_ChargableList_1_subtractNormalizedChargeLevel_System_Single_
+  commentId: M:Bdeshi.Helpers.DataStructures.ChargableList`1.subtractNormalizedChargeLevel(System.Single)
+  name.vb: subtractNormalizedChargeLevel(Single)
+  fullName: Bdeshi.Helpers.DataStructures.ChargableList<TItem>.subtractNormalizedChargeLevel(float)
+  fullName.vb: Bdeshi.Helpers.DataStructures.ChargableList(Of TItem).subtractNormalizedChargeLevel(Single)
+  nameWithType: ChargableList<TItem>.subtractNormalizedChargeLevel(float)
+  nameWithType.vb: ChargableList(Of TItem).subtractNormalizedChargeLevel(Single)
+- uid: Bdeshi.Helpers.DataStructures.ChargableList`1.subtractNormalizedChargeLevel*
+  name: subtractNormalizedChargeLevel
+  href: api/Bdeshi.Helpers.DataStructures.ChargableList-1.html#Bdeshi_Helpers_DataStructures_ChargableList_1_subtractNormalizedChargeLevel_
+  commentId: Overload:Bdeshi.Helpers.DataStructures.ChargableList`1.subtractNormalizedChargeLevel
+  isSpec: "True"
+  fullName: Bdeshi.Helpers.DataStructures.ChargableList<TItem>.subtractNormalizedChargeLevel
+  fullName.vb: Bdeshi.Helpers.DataStructures.ChargableList(Of TItem).subtractNormalizedChargeLevel
+  nameWithType: ChargableList<TItem>.subtractNormalizedChargeLevel
+  nameWithType.vb: ChargableList(Of TItem).subtractNormalizedChargeLevel
+- uid: Bdeshi.Helpers.DataStructures.ChargableList`1.tryDropLevel(System.Action{`0})
+  name: tryDropLevel(Action<TItem>)
+  href: api/Bdeshi.Helpers.DataStructures.ChargableList-1.html#Bdeshi_Helpers_DataStructures_ChargableList_1_tryDropLevel_System_Action__0__
+  commentId: M:Bdeshi.Helpers.DataStructures.ChargableList`1.tryDropLevel(System.Action{`0})
+  name.vb: tryDropLevel(Action(Of TItem))
+  fullName: Bdeshi.Helpers.DataStructures.ChargableList<TItem>.tryDropLevel(System.Action<TItem>)
+  fullName.vb: Bdeshi.Helpers.DataStructures.ChargableList(Of TItem).tryDropLevel(System.Action(Of TItem))
+  nameWithType: ChargableList<TItem>.tryDropLevel(Action<TItem>)
+  nameWithType.vb: ChargableList(Of TItem).tryDropLevel(Action(Of TItem))
+- uid: Bdeshi.Helpers.DataStructures.ChargableList`1.tryDropLevel*
+  name: tryDropLevel
+  href: api/Bdeshi.Helpers.DataStructures.ChargableList-1.html#Bdeshi_Helpers_DataStructures_ChargableList_1_tryDropLevel_
+  commentId: Overload:Bdeshi.Helpers.DataStructures.ChargableList`1.tryDropLevel
+  isSpec: "True"
+  fullName: Bdeshi.Helpers.DataStructures.ChargableList<TItem>.tryDropLevel
+  fullName.vb: Bdeshi.Helpers.DataStructures.ChargableList(Of TItem).tryDropLevel
+  nameWithType: ChargableList<TItem>.tryDropLevel
+  nameWithType.vb: ChargableList(Of TItem).tryDropLevel
+- uid: Bdeshi.Helpers.DataStructures.ChargableList`1.tryGetNextItem(`0@)
+  name: tryGetNextItem(out TItem)
+  href: api/Bdeshi.Helpers.DataStructures.ChargableList-1.html#Bdeshi_Helpers_DataStructures_ChargableList_1_tryGetNextItem__0__
+  commentId: M:Bdeshi.Helpers.DataStructures.ChargableList`1.tryGetNextItem(`0@)
+  name.vb: tryGetNextItem(TItem)
+  fullName: Bdeshi.Helpers.DataStructures.ChargableList<TItem>.tryGetNextItem(out TItem)
+  fullName.vb: Bdeshi.Helpers.DataStructures.ChargableList(Of TItem).tryGetNextItem(TItem)
+  nameWithType: ChargableList<TItem>.tryGetNextItem(out TItem)
+  nameWithType.vb: ChargableList(Of TItem).tryGetNextItem(TItem)
+- uid: Bdeshi.Helpers.DataStructures.ChargableList`1.tryGetNextItem*
+  name: tryGetNextItem
+  href: api/Bdeshi.Helpers.DataStructures.ChargableList-1.html#Bdeshi_Helpers_DataStructures_ChargableList_1_tryGetNextItem_
+  commentId: Overload:Bdeshi.Helpers.DataStructures.ChargableList`1.tryGetNextItem
+  isSpec: "True"
+  fullName: Bdeshi.Helpers.DataStructures.ChargableList<TItem>.tryGetNextItem
+  fullName.vb: Bdeshi.Helpers.DataStructures.ChargableList(Of TItem).tryGetNextItem
+  nameWithType: ChargableList<TItem>.tryGetNextItem
+  nameWithType.vb: ChargableList(Of TItem).tryGetNextItem
+- uid: Bdeshi.Helpers.DataStructures.DictionaryDictionary`3
+  name: DictionaryDictionary<TKey1, TKey2, TVal>
+  href: api/Bdeshi.Helpers.DataStructures.DictionaryDictionary-3.html
+  commentId: T:Bdeshi.Helpers.DataStructures.DictionaryDictionary`3
+  name.vb: DictionaryDictionary(Of TKey1, TKey2, TVal)
+  fullName: Bdeshi.Helpers.DataStructures.DictionaryDictionary<TKey1, TKey2, TVal>
+  fullName.vb: Bdeshi.Helpers.DataStructures.DictionaryDictionary(Of TKey1, TKey2, TVal)
+  nameWithType: DictionaryDictionary<TKey1, TKey2, TVal>
+  nameWithType.vb: DictionaryDictionary(Of TKey1, TKey2, TVal)
+- uid: Bdeshi.Helpers.DataStructures.DictionaryDictionary`3.#ctor
+  name: DictionaryDictionary()
+  href: api/Bdeshi.Helpers.DataStructures.DictionaryDictionary-3.html#Bdeshi_Helpers_DataStructures_DictionaryDictionary_3__ctor
+  commentId: M:Bdeshi.Helpers.DataStructures.DictionaryDictionary`3.#ctor
+  name.vb: New()
+  fullName: Bdeshi.Helpers.DataStructures.DictionaryDictionary<TKey1, TKey2, TVal>.DictionaryDictionary()
+  fullName.vb: Bdeshi.Helpers.DataStructures.DictionaryDictionary(Of TKey1, TKey2, TVal).New()
+  nameWithType: DictionaryDictionary<TKey1, TKey2, TVal>.DictionaryDictionary()
+  nameWithType.vb: DictionaryDictionary(Of TKey1, TKey2, TVal).New()
+- uid: Bdeshi.Helpers.DataStructures.DictionaryDictionary`3.#ctor(System.Collections.Generic.IDictionary{`0,System.Collections.Generic.Dictionary{`1,`2}})
+  name: DictionaryDictionary(IDictionary<TKey1, Dictionary<TKey2, TVal>>)
+  href: api/Bdeshi.Helpers.DataStructures.DictionaryDictionary-3.html#Bdeshi_Helpers_DataStructures_DictionaryDictionary_3__ctor_System_Collections_Generic_IDictionary__0_System_Collections_Generic_Dictionary__1__2___
+  commentId: M:Bdeshi.Helpers.DataStructures.DictionaryDictionary`3.#ctor(System.Collections.Generic.IDictionary{`0,System.Collections.Generic.Dictionary{`1,`2}})
+  name.vb: New(IDictionary(Of TKey1, Dictionary(Of TKey2, TVal)))
+  fullName: Bdeshi.Helpers.DataStructures.DictionaryDictionary<TKey1, TKey2, TVal>.DictionaryDictionary(System.Collections.Generic.IDictionary<TKey1, System.Collections.Generic.Dictionary<TKey2, TVal>>)
+  fullName.vb: Bdeshi.Helpers.DataStructures.DictionaryDictionary(Of TKey1, TKey2, TVal).New(System.Collections.Generic.IDictionary(Of TKey1, System.Collections.Generic.Dictionary(Of TKey2, TVal)))
+  nameWithType: DictionaryDictionary<TKey1, TKey2, TVal>.DictionaryDictionary(IDictionary<TKey1, Dictionary<TKey2, TVal>>)
+  nameWithType.vb: DictionaryDictionary(Of TKey1, TKey2, TVal).New(IDictionary(Of TKey1, Dictionary(Of TKey2, TVal)))
+- uid: Bdeshi.Helpers.DataStructures.DictionaryDictionary`3.#ctor*
+  name: DictionaryDictionary
+  href: api/Bdeshi.Helpers.DataStructures.DictionaryDictionary-3.html#Bdeshi_Helpers_DataStructures_DictionaryDictionary_3__ctor_
+  commentId: Overload:Bdeshi.Helpers.DataStructures.DictionaryDictionary`3.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Bdeshi.Helpers.DataStructures.DictionaryDictionary<TKey1, TKey2, TVal>.DictionaryDictionary
+  fullName.vb: Bdeshi.Helpers.DataStructures.DictionaryDictionary(Of TKey1, TKey2, TVal).New
+  nameWithType: DictionaryDictionary<TKey1, TKey2, TVal>.DictionaryDictionary
+  nameWithType.vb: DictionaryDictionary(Of TKey1, TKey2, TVal).New
+- uid: Bdeshi.Helpers.DataStructures.DictionaryDictionary`3.AddOrSet(`0,`1,`2)
+  name: AddOrSet(TKey1, TKey2, TVal)
+  href: api/Bdeshi.Helpers.DataStructures.DictionaryDictionary-3.html#Bdeshi_Helpers_DataStructures_DictionaryDictionary_3_AddOrSet__0__1__2_
+  commentId: M:Bdeshi.Helpers.DataStructures.DictionaryDictionary`3.AddOrSet(`0,`1,`2)
+  fullName: Bdeshi.Helpers.DataStructures.DictionaryDictionary<TKey1, TKey2, TVal>.AddOrSet(TKey1, TKey2, TVal)
+  fullName.vb: Bdeshi.Helpers.DataStructures.DictionaryDictionary(Of TKey1, TKey2, TVal).AddOrSet(TKey1, TKey2, TVal)
+  nameWithType: DictionaryDictionary<TKey1, TKey2, TVal>.AddOrSet(TKey1, TKey2, TVal)
+  nameWithType.vb: DictionaryDictionary(Of TKey1, TKey2, TVal).AddOrSet(TKey1, TKey2, TVal)
+- uid: Bdeshi.Helpers.DataStructures.DictionaryDictionary`3.AddOrSet*
+  name: AddOrSet
+  href: api/Bdeshi.Helpers.DataStructures.DictionaryDictionary-3.html#Bdeshi_Helpers_DataStructures_DictionaryDictionary_3_AddOrSet_
+  commentId: Overload:Bdeshi.Helpers.DataStructures.DictionaryDictionary`3.AddOrSet
+  isSpec: "True"
+  fullName: Bdeshi.Helpers.DataStructures.DictionaryDictionary<TKey1, TKey2, TVal>.AddOrSet
+  fullName.vb: Bdeshi.Helpers.DataStructures.DictionaryDictionary(Of TKey1, TKey2, TVal).AddOrSet
+  nameWithType: DictionaryDictionary<TKey1, TKey2, TVal>.AddOrSet
+  nameWithType.vb: DictionaryDictionary(Of TKey1, TKey2, TVal).AddOrSet
+- uid: Bdeshi.Helpers.DataStructures.DictionaryDictionary`3.Contains(`0)
+  name: Contains(TKey1)
+  href: api/Bdeshi.Helpers.DataStructures.DictionaryDictionary-3.html#Bdeshi_Helpers_DataStructures_DictionaryDictionary_3_Contains__0_
+  commentId: M:Bdeshi.Helpers.DataStructures.DictionaryDictionary`3.Contains(`0)
+  fullName: Bdeshi.Helpers.DataStructures.DictionaryDictionary<TKey1, TKey2, TVal>.Contains(TKey1)
+  fullName.vb: Bdeshi.Helpers.DataStructures.DictionaryDictionary(Of TKey1, TKey2, TVal).Contains(TKey1)
+  nameWithType: DictionaryDictionary<TKey1, TKey2, TVal>.Contains(TKey1)
+  nameWithType.vb: DictionaryDictionary(Of TKey1, TKey2, TVal).Contains(TKey1)
+- uid: Bdeshi.Helpers.DataStructures.DictionaryDictionary`3.Contains(`0,`1)
+  name: Contains(TKey1, TKey2)
+  href: api/Bdeshi.Helpers.DataStructures.DictionaryDictionary-3.html#Bdeshi_Helpers_DataStructures_DictionaryDictionary_3_Contains__0__1_
+  commentId: M:Bdeshi.Helpers.DataStructures.DictionaryDictionary`3.Contains(`0,`1)
+  fullName: Bdeshi.Helpers.DataStructures.DictionaryDictionary<TKey1, TKey2, TVal>.Contains(TKey1, TKey2)
+  fullName.vb: Bdeshi.Helpers.DataStructures.DictionaryDictionary(Of TKey1, TKey2, TVal).Contains(TKey1, TKey2)
+  nameWithType: DictionaryDictionary<TKey1, TKey2, TVal>.Contains(TKey1, TKey2)
+  nameWithType.vb: DictionaryDictionary(Of TKey1, TKey2, TVal).Contains(TKey1, TKey2)
+- uid: Bdeshi.Helpers.DataStructures.DictionaryDictionary`3.Contains*
+  name: Contains
+  href: api/Bdeshi.Helpers.DataStructures.DictionaryDictionary-3.html#Bdeshi_Helpers_DataStructures_DictionaryDictionary_3_Contains_
+  commentId: Overload:Bdeshi.Helpers.DataStructures.DictionaryDictionary`3.Contains
+  isSpec: "True"
+  fullName: Bdeshi.Helpers.DataStructures.DictionaryDictionary<TKey1, TKey2, TVal>.Contains
+  fullName.vb: Bdeshi.Helpers.DataStructures.DictionaryDictionary(Of TKey1, TKey2, TVal).Contains
+  nameWithType: DictionaryDictionary<TKey1, TKey2, TVal>.Contains
+  nameWithType.vb: DictionaryDictionary(Of TKey1, TKey2, TVal).Contains
+- uid: Bdeshi.Helpers.DataStructures.DictionaryDictionary`3.Dict
+  name: Dict
+  href: api/Bdeshi.Helpers.DataStructures.DictionaryDictionary-3.html#Bdeshi_Helpers_DataStructures_DictionaryDictionary_3_Dict
+  commentId: P:Bdeshi.Helpers.DataStructures.DictionaryDictionary`3.Dict
+  fullName: Bdeshi.Helpers.DataStructures.DictionaryDictionary<TKey1, TKey2, TVal>.Dict
+  fullName.vb: Bdeshi.Helpers.DataStructures.DictionaryDictionary(Of TKey1, TKey2, TVal).Dict
+  nameWithType: DictionaryDictionary<TKey1, TKey2, TVal>.Dict
+  nameWithType.vb: DictionaryDictionary(Of TKey1, TKey2, TVal).Dict
+- uid: Bdeshi.Helpers.DataStructures.DictionaryDictionary`3.Dict*
+  name: Dict
+  href: api/Bdeshi.Helpers.DataStructures.DictionaryDictionary-3.html#Bdeshi_Helpers_DataStructures_DictionaryDictionary_3_Dict_
+  commentId: Overload:Bdeshi.Helpers.DataStructures.DictionaryDictionary`3.Dict
+  isSpec: "True"
+  fullName: Bdeshi.Helpers.DataStructures.DictionaryDictionary<TKey1, TKey2, TVal>.Dict
+  fullName.vb: Bdeshi.Helpers.DataStructures.DictionaryDictionary(Of TKey1, TKey2, TVal).Dict
+  nameWithType: DictionaryDictionary<TKey1, TKey2, TVal>.Dict
+  nameWithType.vb: DictionaryDictionary(Of TKey1, TKey2, TVal).Dict
+- uid: Bdeshi.Helpers.DataStructures.DictionaryDictionary`3.GetEnumerator
+  name: GetEnumerator()
+  href: api/Bdeshi.Helpers.DataStructures.DictionaryDictionary-3.html#Bdeshi_Helpers_DataStructures_DictionaryDictionary_3_GetEnumerator
+  commentId: M:Bdeshi.Helpers.DataStructures.DictionaryDictionary`3.GetEnumerator
+  fullName: Bdeshi.Helpers.DataStructures.DictionaryDictionary<TKey1, TKey2, TVal>.GetEnumerator()
+  fullName.vb: Bdeshi.Helpers.DataStructures.DictionaryDictionary(Of TKey1, TKey2, TVal).GetEnumerator()
+  nameWithType: DictionaryDictionary<TKey1, TKey2, TVal>.GetEnumerator()
+  nameWithType.vb: DictionaryDictionary(Of TKey1, TKey2, TVal).GetEnumerator()
+- uid: Bdeshi.Helpers.DataStructures.DictionaryDictionary`3.GetEnumerator*
+  name: GetEnumerator
+  href: api/Bdeshi.Helpers.DataStructures.DictionaryDictionary-3.html#Bdeshi_Helpers_DataStructures_DictionaryDictionary_3_GetEnumerator_
+  commentId: Overload:Bdeshi.Helpers.DataStructures.DictionaryDictionary`3.GetEnumerator
+  isSpec: "True"
+  fullName: Bdeshi.Helpers.DataStructures.DictionaryDictionary<TKey1, TKey2, TVal>.GetEnumerator
+  fullName.vb: Bdeshi.Helpers.DataStructures.DictionaryDictionary(Of TKey1, TKey2, TVal).GetEnumerator
+  nameWithType: DictionaryDictionary<TKey1, TKey2, TVal>.GetEnumerator
+  nameWithType.vb: DictionaryDictionary(Of TKey1, TKey2, TVal).GetEnumerator
+- uid: Bdeshi.Helpers.DataStructures.DictionaryDictionary`3.Item(`0)
+  name: this[TKey1]
+  href: api/Bdeshi.Helpers.DataStructures.DictionaryDictionary-3.html#Bdeshi_Helpers_DataStructures_DictionaryDictionary_3_Item__0_
+  commentId: P:Bdeshi.Helpers.DataStructures.DictionaryDictionary`3.Item(`0)
+  name.vb: this[](TKey1)
+  fullName: Bdeshi.Helpers.DataStructures.DictionaryDictionary<TKey1, TKey2, TVal>.this[TKey1]
+  fullName.vb: Bdeshi.Helpers.DataStructures.DictionaryDictionary(Of TKey1, TKey2, TVal).this[](TKey1)
+  nameWithType: DictionaryDictionary<TKey1, TKey2, TVal>.this[TKey1]
+  nameWithType.vb: DictionaryDictionary(Of TKey1, TKey2, TVal).this[](TKey1)
+- uid: Bdeshi.Helpers.DataStructures.DictionaryDictionary`3.Item(`0,`1)
+  name: this[TKey1, TKey2]
+  href: api/Bdeshi.Helpers.DataStructures.DictionaryDictionary-3.html#Bdeshi_Helpers_DataStructures_DictionaryDictionary_3_Item__0__1_
+  commentId: P:Bdeshi.Helpers.DataStructures.DictionaryDictionary`3.Item(`0,`1)
+  name.vb: this[](TKey1, TKey2)
+  fullName: Bdeshi.Helpers.DataStructures.DictionaryDictionary<TKey1, TKey2, TVal>.this[TKey1, TKey2]
+  fullName.vb: Bdeshi.Helpers.DataStructures.DictionaryDictionary(Of TKey1, TKey2, TVal).this[](TKey1, TKey2)
+  nameWithType: DictionaryDictionary<TKey1, TKey2, TVal>.this[TKey1, TKey2]
+  nameWithType.vb: DictionaryDictionary(Of TKey1, TKey2, TVal).this[](TKey1, TKey2)
+- uid: Bdeshi.Helpers.DataStructures.DictionaryDictionary`3.Item*
+  name: this
+  href: api/Bdeshi.Helpers.DataStructures.DictionaryDictionary-3.html#Bdeshi_Helpers_DataStructures_DictionaryDictionary_3_Item_
+  commentId: Overload:Bdeshi.Helpers.DataStructures.DictionaryDictionary`3.Item
+  isSpec: "True"
+  name.vb: this[]
+  fullName: Bdeshi.Helpers.DataStructures.DictionaryDictionary<TKey1, TKey2, TVal>.this
+  fullName.vb: Bdeshi.Helpers.DataStructures.DictionaryDictionary(Of TKey1, TKey2, TVal).this[]
+  nameWithType: DictionaryDictionary<TKey1, TKey2, TVal>.this
+  nameWithType.vb: DictionaryDictionary(Of TKey1, TKey2, TVal).this[]
+- uid: Bdeshi.Helpers.DataStructures.DictionaryDictionary`3.Keys
+  name: Keys
+  href: api/Bdeshi.Helpers.DataStructures.DictionaryDictionary-3.html#Bdeshi_Helpers_DataStructures_DictionaryDictionary_3_Keys
+  commentId: P:Bdeshi.Helpers.DataStructures.DictionaryDictionary`3.Keys
+  fullName: Bdeshi.Helpers.DataStructures.DictionaryDictionary<TKey1, TKey2, TVal>.Keys
+  fullName.vb: Bdeshi.Helpers.DataStructures.DictionaryDictionary(Of TKey1, TKey2, TVal).Keys
+  nameWithType: DictionaryDictionary<TKey1, TKey2, TVal>.Keys
+  nameWithType.vb: DictionaryDictionary(Of TKey1, TKey2, TVal).Keys
+- uid: Bdeshi.Helpers.DataStructures.DictionaryDictionary`3.Keys*
+  name: Keys
+  href: api/Bdeshi.Helpers.DataStructures.DictionaryDictionary-3.html#Bdeshi_Helpers_DataStructures_DictionaryDictionary_3_Keys_
+  commentId: Overload:Bdeshi.Helpers.DataStructures.DictionaryDictionary`3.Keys
+  isSpec: "True"
+  fullName: Bdeshi.Helpers.DataStructures.DictionaryDictionary<TKey1, TKey2, TVal>.Keys
+  fullName.vb: Bdeshi.Helpers.DataStructures.DictionaryDictionary(Of TKey1, TKey2, TVal).Keys
+  nameWithType: DictionaryDictionary<TKey1, TKey2, TVal>.Keys
+  nameWithType.vb: DictionaryDictionary(Of TKey1, TKey2, TVal).Keys
+- uid: Bdeshi.Helpers.DataStructures.DictionaryDictionary`3.Set(`0,`1,`2)
+  name: Set(TKey1, TKey2, TVal)
+  href: api/Bdeshi.Helpers.DataStructures.DictionaryDictionary-3.html#Bdeshi_Helpers_DataStructures_DictionaryDictionary_3_Set__0__1__2_
+  commentId: M:Bdeshi.Helpers.DataStructures.DictionaryDictionary`3.Set(`0,`1,`2)
+  fullName: Bdeshi.Helpers.DataStructures.DictionaryDictionary<TKey1, TKey2, TVal>.Set(TKey1, TKey2, TVal)
+  fullName.vb: Bdeshi.Helpers.DataStructures.DictionaryDictionary(Of TKey1, TKey2, TVal).Set(TKey1, TKey2, TVal)
+  nameWithType: DictionaryDictionary<TKey1, TKey2, TVal>.Set(TKey1, TKey2, TVal)
+  nameWithType.vb: DictionaryDictionary(Of TKey1, TKey2, TVal).Set(TKey1, TKey2, TVal)
+- uid: Bdeshi.Helpers.DataStructures.DictionaryDictionary`3.Set*
+  name: Set
+  href: api/Bdeshi.Helpers.DataStructures.DictionaryDictionary-3.html#Bdeshi_Helpers_DataStructures_DictionaryDictionary_3_Set_
+  commentId: Overload:Bdeshi.Helpers.DataStructures.DictionaryDictionary`3.Set
+  isSpec: "True"
+  fullName: Bdeshi.Helpers.DataStructures.DictionaryDictionary<TKey1, TKey2, TVal>.Set
+  fullName.vb: Bdeshi.Helpers.DataStructures.DictionaryDictionary(Of TKey1, TKey2, TVal).Set
+  nameWithType: DictionaryDictionary<TKey1, TKey2, TVal>.Set
+  nameWithType.vb: DictionaryDictionary(Of TKey1, TKey2, TVal).Set
+- uid: Bdeshi.Helpers.DataStructures.DictionaryDictionary`3.TryGetInnerDict(`0,System.Collections.Generic.Dictionary{`1,`2}@)
+  name: TryGetInnerDict(TKey1, out Dictionary<TKey2, TVal>)
+  href: api/Bdeshi.Helpers.DataStructures.DictionaryDictionary-3.html#Bdeshi_Helpers_DataStructures_DictionaryDictionary_3_TryGetInnerDict__0_System_Collections_Generic_Dictionary__1__2___
+  commentId: M:Bdeshi.Helpers.DataStructures.DictionaryDictionary`3.TryGetInnerDict(`0,System.Collections.Generic.Dictionary{`1,`2}@)
+  name.vb: TryGetInnerDict(TKey1, Dictionary(Of TKey2, TVal))
+  fullName: Bdeshi.Helpers.DataStructures.DictionaryDictionary<TKey1, TKey2, TVal>.TryGetInnerDict(TKey1, out System.Collections.Generic.Dictionary<TKey2, TVal>)
+  fullName.vb: Bdeshi.Helpers.DataStructures.DictionaryDictionary(Of TKey1, TKey2, TVal).TryGetInnerDict(TKey1, System.Collections.Generic.Dictionary(Of TKey2, TVal))
+  nameWithType: DictionaryDictionary<TKey1, TKey2, TVal>.TryGetInnerDict(TKey1, out Dictionary<TKey2, TVal>)
+  nameWithType.vb: DictionaryDictionary(Of TKey1, TKey2, TVal).TryGetInnerDict(TKey1, Dictionary(Of TKey2, TVal))
+- uid: Bdeshi.Helpers.DataStructures.DictionaryDictionary`3.TryGetInnerDict*
+  name: TryGetInnerDict
+  href: api/Bdeshi.Helpers.DataStructures.DictionaryDictionary-3.html#Bdeshi_Helpers_DataStructures_DictionaryDictionary_3_TryGetInnerDict_
+  commentId: Overload:Bdeshi.Helpers.DataStructures.DictionaryDictionary`3.TryGetInnerDict
+  isSpec: "True"
+  fullName: Bdeshi.Helpers.DataStructures.DictionaryDictionary<TKey1, TKey2, TVal>.TryGetInnerDict
+  fullName.vb: Bdeshi.Helpers.DataStructures.DictionaryDictionary(Of TKey1, TKey2, TVal).TryGetInnerDict
+  nameWithType: DictionaryDictionary<TKey1, TKey2, TVal>.TryGetInnerDict
+  nameWithType.vb: DictionaryDictionary(Of TKey1, TKey2, TVal).TryGetInnerDict
+- uid: Bdeshi.Helpers.DataStructures.DictionaryDictionary`3.TryGetInnerVal(`0,`1,`2@)
+  name: TryGetInnerVal(TKey1, TKey2, out TVal)
+  href: api/Bdeshi.Helpers.DataStructures.DictionaryDictionary-3.html#Bdeshi_Helpers_DataStructures_DictionaryDictionary_3_TryGetInnerVal__0__1__2__
+  commentId: M:Bdeshi.Helpers.DataStructures.DictionaryDictionary`3.TryGetInnerVal(`0,`1,`2@)
+  name.vb: TryGetInnerVal(TKey1, TKey2, TVal)
+  fullName: Bdeshi.Helpers.DataStructures.DictionaryDictionary<TKey1, TKey2, TVal>.TryGetInnerVal(TKey1, TKey2, out TVal)
+  fullName.vb: Bdeshi.Helpers.DataStructures.DictionaryDictionary(Of TKey1, TKey2, TVal).TryGetInnerVal(TKey1, TKey2, TVal)
+  nameWithType: DictionaryDictionary<TKey1, TKey2, TVal>.TryGetInnerVal(TKey1, TKey2, out TVal)
+  nameWithType.vb: DictionaryDictionary(Of TKey1, TKey2, TVal).TryGetInnerVal(TKey1, TKey2, TVal)
+- uid: Bdeshi.Helpers.DataStructures.DictionaryDictionary`3.TryGetInnerVal*
+  name: TryGetInnerVal
+  href: api/Bdeshi.Helpers.DataStructures.DictionaryDictionary-3.html#Bdeshi_Helpers_DataStructures_DictionaryDictionary_3_TryGetInnerVal_
+  commentId: Overload:Bdeshi.Helpers.DataStructures.DictionaryDictionary`3.TryGetInnerVal
+  isSpec: "True"
+  fullName: Bdeshi.Helpers.DataStructures.DictionaryDictionary<TKey1, TKey2, TVal>.TryGetInnerVal
+  fullName.vb: Bdeshi.Helpers.DataStructures.DictionaryDictionary(Of TKey1, TKey2, TVal).TryGetInnerVal
+  nameWithType: DictionaryDictionary<TKey1, TKey2, TVal>.TryGetInnerVal
+  nameWithType.vb: DictionaryDictionary(Of TKey1, TKey2, TVal).TryGetInnerVal
+- uid: Bdeshi.Helpers.DataStructures.DictionaryDictionary`3.Values
+  name: Values
+  href: api/Bdeshi.Helpers.DataStructures.DictionaryDictionary-3.html#Bdeshi_Helpers_DataStructures_DictionaryDictionary_3_Values
+  commentId: P:Bdeshi.Helpers.DataStructures.DictionaryDictionary`3.Values
+  fullName: Bdeshi.Helpers.DataStructures.DictionaryDictionary<TKey1, TKey2, TVal>.Values
+  fullName.vb: Bdeshi.Helpers.DataStructures.DictionaryDictionary(Of TKey1, TKey2, TVal).Values
+  nameWithType: DictionaryDictionary<TKey1, TKey2, TVal>.Values
+  nameWithType.vb: DictionaryDictionary(Of TKey1, TKey2, TVal).Values
+- uid: Bdeshi.Helpers.DataStructures.DictionaryDictionary`3.Values*
+  name: Values
+  href: api/Bdeshi.Helpers.DataStructures.DictionaryDictionary-3.html#Bdeshi_Helpers_DataStructures_DictionaryDictionary_3_Values_
+  commentId: Overload:Bdeshi.Helpers.DataStructures.DictionaryDictionary`3.Values
+  isSpec: "True"
+  fullName: Bdeshi.Helpers.DataStructures.DictionaryDictionary<TKey1, TKey2, TVal>.Values
+  fullName.vb: Bdeshi.Helpers.DataStructures.DictionaryDictionary(Of TKey1, TKey2, TVal).Values
+  nameWithType: DictionaryDictionary<TKey1, TKey2, TVal>.Values
+  nameWithType.vb: DictionaryDictionary(Of TKey1, TKey2, TVal).Values
+- uid: Bdeshi.Helpers.DataStructures.DictionaryList`2
+  name: DictionaryList<TKey, TVal>
+  href: api/Bdeshi.Helpers.DataStructures.DictionaryList-2.html
+  commentId: T:Bdeshi.Helpers.DataStructures.DictionaryList`2
+  name.vb: DictionaryList(Of TKey, TVal)
+  fullName: Bdeshi.Helpers.DataStructures.DictionaryList<TKey, TVal>
+  fullName.vb: Bdeshi.Helpers.DataStructures.DictionaryList(Of TKey, TVal)
+  nameWithType: DictionaryList<TKey, TVal>
+  nameWithType.vb: DictionaryList(Of TKey, TVal)
+- uid: Bdeshi.Helpers.DataStructures.DictionaryList`2.#ctor
+  name: DictionaryList()
+  href: api/Bdeshi.Helpers.DataStructures.DictionaryList-2.html#Bdeshi_Helpers_DataStructures_DictionaryList_2__ctor
+  commentId: M:Bdeshi.Helpers.DataStructures.DictionaryList`2.#ctor
+  name.vb: New()
+  fullName: Bdeshi.Helpers.DataStructures.DictionaryList<TKey, TVal>.DictionaryList()
+  fullName.vb: Bdeshi.Helpers.DataStructures.DictionaryList(Of TKey, TVal).New()
+  nameWithType: DictionaryList<TKey, TVal>.DictionaryList()
+  nameWithType.vb: DictionaryList(Of TKey, TVal).New()
+- uid: Bdeshi.Helpers.DataStructures.DictionaryList`2.#ctor(System.Collections.Generic.IDictionary{`0,System.Collections.Generic.List{`1}})
+  name: DictionaryList(IDictionary<TKey, List<TVal>>)
+  href: api/Bdeshi.Helpers.DataStructures.DictionaryList-2.html#Bdeshi_Helpers_DataStructures_DictionaryList_2__ctor_System_Collections_Generic_IDictionary__0_System_Collections_Generic_List__1___
+  commentId: M:Bdeshi.Helpers.DataStructures.DictionaryList`2.#ctor(System.Collections.Generic.IDictionary{`0,System.Collections.Generic.List{`1}})
+  name.vb: New(IDictionary(Of TKey, List(Of TVal)))
+  fullName: Bdeshi.Helpers.DataStructures.DictionaryList<TKey, TVal>.DictionaryList(System.Collections.Generic.IDictionary<TKey, System.Collections.Generic.List<TVal>>)
+  fullName.vb: Bdeshi.Helpers.DataStructures.DictionaryList(Of TKey, TVal).New(System.Collections.Generic.IDictionary(Of TKey, System.Collections.Generic.List(Of TVal)))
+  nameWithType: DictionaryList<TKey, TVal>.DictionaryList(IDictionary<TKey, List<TVal>>)
+  nameWithType.vb: DictionaryList(Of TKey, TVal).New(IDictionary(Of TKey, List(Of TVal)))
+- uid: Bdeshi.Helpers.DataStructures.DictionaryList`2.#ctor*
+  name: DictionaryList
+  href: api/Bdeshi.Helpers.DataStructures.DictionaryList-2.html#Bdeshi_Helpers_DataStructures_DictionaryList_2__ctor_
+  commentId: Overload:Bdeshi.Helpers.DataStructures.DictionaryList`2.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Bdeshi.Helpers.DataStructures.DictionaryList<TKey, TVal>.DictionaryList
+  fullName.vb: Bdeshi.Helpers.DataStructures.DictionaryList(Of TKey, TVal).New
+  nameWithType: DictionaryList<TKey, TVal>.DictionaryList
+  nameWithType.vb: DictionaryList(Of TKey, TVal).New
+- uid: Bdeshi.Helpers.DataStructures.DictionaryList`2.Add(`0,`1)
+  name: Add(TKey, TVal)
+  href: api/Bdeshi.Helpers.DataStructures.DictionaryList-2.html#Bdeshi_Helpers_DataStructures_DictionaryList_2_Add__0__1_
+  commentId: M:Bdeshi.Helpers.DataStructures.DictionaryList`2.Add(`0,`1)
+  fullName: Bdeshi.Helpers.DataStructures.DictionaryList<TKey, TVal>.Add(TKey, TVal)
+  fullName.vb: Bdeshi.Helpers.DataStructures.DictionaryList(Of TKey, TVal).Add(TKey, TVal)
+  nameWithType: DictionaryList<TKey, TVal>.Add(TKey, TVal)
+  nameWithType.vb: DictionaryList(Of TKey, TVal).Add(TKey, TVal)
+- uid: Bdeshi.Helpers.DataStructures.DictionaryList`2.Add*
+  name: Add
+  href: api/Bdeshi.Helpers.DataStructures.DictionaryList-2.html#Bdeshi_Helpers_DataStructures_DictionaryList_2_Add_
+  commentId: Overload:Bdeshi.Helpers.DataStructures.DictionaryList`2.Add
+  isSpec: "True"
+  fullName: Bdeshi.Helpers.DataStructures.DictionaryList<TKey, TVal>.Add
+  fullName.vb: Bdeshi.Helpers.DataStructures.DictionaryList(Of TKey, TVal).Add
+  nameWithType: DictionaryList<TKey, TVal>.Add
+  nameWithType.vb: DictionaryList(Of TKey, TVal).Add
+- uid: Bdeshi.Helpers.DataStructures.DictionaryList`2.Clear
+  name: Clear()
+  href: api/Bdeshi.Helpers.DataStructures.DictionaryList-2.html#Bdeshi_Helpers_DataStructures_DictionaryList_2_Clear
+  commentId: M:Bdeshi.Helpers.DataStructures.DictionaryList`2.Clear
+  fullName: Bdeshi.Helpers.DataStructures.DictionaryList<TKey, TVal>.Clear()
+  fullName.vb: Bdeshi.Helpers.DataStructures.DictionaryList(Of TKey, TVal).Clear()
+  nameWithType: DictionaryList<TKey, TVal>.Clear()
+  nameWithType.vb: DictionaryList(Of TKey, TVal).Clear()
+- uid: Bdeshi.Helpers.DataStructures.DictionaryList`2.Clear*
+  name: Clear
+  href: api/Bdeshi.Helpers.DataStructures.DictionaryList-2.html#Bdeshi_Helpers_DataStructures_DictionaryList_2_Clear_
+  commentId: Overload:Bdeshi.Helpers.DataStructures.DictionaryList`2.Clear
+  isSpec: "True"
+  fullName: Bdeshi.Helpers.DataStructures.DictionaryList<TKey, TVal>.Clear
+  fullName.vb: Bdeshi.Helpers.DataStructures.DictionaryList(Of TKey, TVal).Clear
+  nameWithType: DictionaryList<TKey, TVal>.Clear
+  nameWithType.vb: DictionaryList(Of TKey, TVal).Clear
+- uid: Bdeshi.Helpers.DataStructures.DictionaryList`2.Contains(`0)
+  name: Contains(TKey)
+  href: api/Bdeshi.Helpers.DataStructures.DictionaryList-2.html#Bdeshi_Helpers_DataStructures_DictionaryList_2_Contains__0_
+  commentId: M:Bdeshi.Helpers.DataStructures.DictionaryList`2.Contains(`0)
+  fullName: Bdeshi.Helpers.DataStructures.DictionaryList<TKey, TVal>.Contains(TKey)
+  fullName.vb: Bdeshi.Helpers.DataStructures.DictionaryList(Of TKey, TVal).Contains(TKey)
+  nameWithType: DictionaryList<TKey, TVal>.Contains(TKey)
+  nameWithType.vb: DictionaryList(Of TKey, TVal).Contains(TKey)
+- uid: Bdeshi.Helpers.DataStructures.DictionaryList`2.Contains(`0,`1)
+  name: Contains(TKey, TVal)
+  href: api/Bdeshi.Helpers.DataStructures.DictionaryList-2.html#Bdeshi_Helpers_DataStructures_DictionaryList_2_Contains__0__1_
+  commentId: M:Bdeshi.Helpers.DataStructures.DictionaryList`2.Contains(`0,`1)
+  fullName: Bdeshi.Helpers.DataStructures.DictionaryList<TKey, TVal>.Contains(TKey, TVal)
+  fullName.vb: Bdeshi.Helpers.DataStructures.DictionaryList(Of TKey, TVal).Contains(TKey, TVal)
+  nameWithType: DictionaryList<TKey, TVal>.Contains(TKey, TVal)
+  nameWithType.vb: DictionaryList(Of TKey, TVal).Contains(TKey, TVal)
+- uid: Bdeshi.Helpers.DataStructures.DictionaryList`2.Contains*
+  name: Contains
+  href: api/Bdeshi.Helpers.DataStructures.DictionaryList-2.html#Bdeshi_Helpers_DataStructures_DictionaryList_2_Contains_
+  commentId: Overload:Bdeshi.Helpers.DataStructures.DictionaryList`2.Contains
+  isSpec: "True"
+  fullName: Bdeshi.Helpers.DataStructures.DictionaryList<TKey, TVal>.Contains
+  fullName.vb: Bdeshi.Helpers.DataStructures.DictionaryList(Of TKey, TVal).Contains
+  nameWithType: DictionaryList<TKey, TVal>.Contains
+  nameWithType.vb: DictionaryList(Of TKey, TVal).Contains
+- uid: Bdeshi.Helpers.DataStructures.DictionaryList`2.Dict
+  name: Dict
+  href: api/Bdeshi.Helpers.DataStructures.DictionaryList-2.html#Bdeshi_Helpers_DataStructures_DictionaryList_2_Dict
+  commentId: P:Bdeshi.Helpers.DataStructures.DictionaryList`2.Dict
+  fullName: Bdeshi.Helpers.DataStructures.DictionaryList<TKey, TVal>.Dict
+  fullName.vb: Bdeshi.Helpers.DataStructures.DictionaryList(Of TKey, TVal).Dict
+  nameWithType: DictionaryList<TKey, TVal>.Dict
+  nameWithType.vb: DictionaryList(Of TKey, TVal).Dict
+- uid: Bdeshi.Helpers.DataStructures.DictionaryList`2.Dict*
+  name: Dict
+  href: api/Bdeshi.Helpers.DataStructures.DictionaryList-2.html#Bdeshi_Helpers_DataStructures_DictionaryList_2_Dict_
+  commentId: Overload:Bdeshi.Helpers.DataStructures.DictionaryList`2.Dict
+  isSpec: "True"
+  fullName: Bdeshi.Helpers.DataStructures.DictionaryList<TKey, TVal>.Dict
+  fullName.vb: Bdeshi.Helpers.DataStructures.DictionaryList(Of TKey, TVal).Dict
+  nameWithType: DictionaryList<TKey, TVal>.Dict
+  nameWithType.vb: DictionaryList(Of TKey, TVal).Dict
+- uid: Bdeshi.Helpers.DataStructures.DictionaryList`2.GetEnumerator
+  name: GetEnumerator()
+  href: api/Bdeshi.Helpers.DataStructures.DictionaryList-2.html#Bdeshi_Helpers_DataStructures_DictionaryList_2_GetEnumerator
+  commentId: M:Bdeshi.Helpers.DataStructures.DictionaryList`2.GetEnumerator
+  fullName: Bdeshi.Helpers.DataStructures.DictionaryList<TKey, TVal>.GetEnumerator()
+  fullName.vb: Bdeshi.Helpers.DataStructures.DictionaryList(Of TKey, TVal).GetEnumerator()
+  nameWithType: DictionaryList<TKey, TVal>.GetEnumerator()
+  nameWithType.vb: DictionaryList(Of TKey, TVal).GetEnumerator()
+- uid: Bdeshi.Helpers.DataStructures.DictionaryList`2.GetEnumerator*
+  name: GetEnumerator
+  href: api/Bdeshi.Helpers.DataStructures.DictionaryList-2.html#Bdeshi_Helpers_DataStructures_DictionaryList_2_GetEnumerator_
+  commentId: Overload:Bdeshi.Helpers.DataStructures.DictionaryList`2.GetEnumerator
+  isSpec: "True"
+  fullName: Bdeshi.Helpers.DataStructures.DictionaryList<TKey, TVal>.GetEnumerator
+  fullName.vb: Bdeshi.Helpers.DataStructures.DictionaryList(Of TKey, TVal).GetEnumerator
+  nameWithType: DictionaryList<TKey, TVal>.GetEnumerator
+  nameWithType.vb: DictionaryList(Of TKey, TVal).GetEnumerator
+- uid: Bdeshi.Helpers.DataStructures.DictionaryList`2.Item(`0)
+  name: this[TKey]
+  href: api/Bdeshi.Helpers.DataStructures.DictionaryList-2.html#Bdeshi_Helpers_DataStructures_DictionaryList_2_Item__0_
+  commentId: P:Bdeshi.Helpers.DataStructures.DictionaryList`2.Item(`0)
+  name.vb: this[](TKey)
+  fullName: Bdeshi.Helpers.DataStructures.DictionaryList<TKey, TVal>.this[TKey]
+  fullName.vb: Bdeshi.Helpers.DataStructures.DictionaryList(Of TKey, TVal).this[](TKey)
+  nameWithType: DictionaryList<TKey, TVal>.this[TKey]
+  nameWithType.vb: DictionaryList(Of TKey, TVal).this[](TKey)
+- uid: Bdeshi.Helpers.DataStructures.DictionaryList`2.Item*
+  name: this
+  href: api/Bdeshi.Helpers.DataStructures.DictionaryList-2.html#Bdeshi_Helpers_DataStructures_DictionaryList_2_Item_
+  commentId: Overload:Bdeshi.Helpers.DataStructures.DictionaryList`2.Item
+  isSpec: "True"
+  name.vb: this[]
+  fullName: Bdeshi.Helpers.DataStructures.DictionaryList<TKey, TVal>.this
+  fullName.vb: Bdeshi.Helpers.DataStructures.DictionaryList(Of TKey, TVal).this[]
+  nameWithType: DictionaryList<TKey, TVal>.this
+  nameWithType.vb: DictionaryList(Of TKey, TVal).this[]
+- uid: Bdeshi.Helpers.DataStructures.DictionaryList`2.Keys
+  name: Keys
+  href: api/Bdeshi.Helpers.DataStructures.DictionaryList-2.html#Bdeshi_Helpers_DataStructures_DictionaryList_2_Keys
+  commentId: P:Bdeshi.Helpers.DataStructures.DictionaryList`2.Keys
+  fullName: Bdeshi.Helpers.DataStructures.DictionaryList<TKey, TVal>.Keys
+  fullName.vb: Bdeshi.Helpers.DataStructures.DictionaryList(Of TKey, TVal).Keys
+  nameWithType: DictionaryList<TKey, TVal>.Keys
+  nameWithType.vb: DictionaryList(Of TKey, TVal).Keys
+- uid: Bdeshi.Helpers.DataStructures.DictionaryList`2.Keys*
+  name: Keys
+  href: api/Bdeshi.Helpers.DataStructures.DictionaryList-2.html#Bdeshi_Helpers_DataStructures_DictionaryList_2_Keys_
+  commentId: Overload:Bdeshi.Helpers.DataStructures.DictionaryList`2.Keys
+  isSpec: "True"
+  fullName: Bdeshi.Helpers.DataStructures.DictionaryList<TKey, TVal>.Keys
+  fullName.vb: Bdeshi.Helpers.DataStructures.DictionaryList(Of TKey, TVal).Keys
+  nameWithType: DictionaryList<TKey, TVal>.Keys
+  nameWithType.vb: DictionaryList(Of TKey, TVal).Keys
+- uid: Bdeshi.Helpers.DataStructures.DictionaryList`2.TryGetValue(`0,System.Collections.Generic.List{`1}@)
+  name: TryGetValue(TKey, out List<TVal>)
+  href: api/Bdeshi.Helpers.DataStructures.DictionaryList-2.html#Bdeshi_Helpers_DataStructures_DictionaryList_2_TryGetValue__0_System_Collections_Generic_List__1___
+  commentId: M:Bdeshi.Helpers.DataStructures.DictionaryList`2.TryGetValue(`0,System.Collections.Generic.List{`1}@)
+  name.vb: TryGetValue(TKey, List(Of TVal))
+  fullName: Bdeshi.Helpers.DataStructures.DictionaryList<TKey, TVal>.TryGetValue(TKey, out System.Collections.Generic.List<TVal>)
+  fullName.vb: Bdeshi.Helpers.DataStructures.DictionaryList(Of TKey, TVal).TryGetValue(TKey, System.Collections.Generic.List(Of TVal))
+  nameWithType: DictionaryList<TKey, TVal>.TryGetValue(TKey, out List<TVal>)
+  nameWithType.vb: DictionaryList(Of TKey, TVal).TryGetValue(TKey, List(Of TVal))
+- uid: Bdeshi.Helpers.DataStructures.DictionaryList`2.TryGetValue*
+  name: TryGetValue
+  href: api/Bdeshi.Helpers.DataStructures.DictionaryList-2.html#Bdeshi_Helpers_DataStructures_DictionaryList_2_TryGetValue_
+  commentId: Overload:Bdeshi.Helpers.DataStructures.DictionaryList`2.TryGetValue
+  isSpec: "True"
+  fullName: Bdeshi.Helpers.DataStructures.DictionaryList<TKey, TVal>.TryGetValue
+  fullName.vb: Bdeshi.Helpers.DataStructures.DictionaryList(Of TKey, TVal).TryGetValue
+  nameWithType: DictionaryList<TKey, TVal>.TryGetValue
+  nameWithType.vb: DictionaryList(Of TKey, TVal).TryGetValue
+- uid: Bdeshi.Helpers.DataStructures.DictionaryList`2.Values
+  name: Values
+  href: api/Bdeshi.Helpers.DataStructures.DictionaryList-2.html#Bdeshi_Helpers_DataStructures_DictionaryList_2_Values
+  commentId: P:Bdeshi.Helpers.DataStructures.DictionaryList`2.Values
+  fullName: Bdeshi.Helpers.DataStructures.DictionaryList<TKey, TVal>.Values
+  fullName.vb: Bdeshi.Helpers.DataStructures.DictionaryList(Of TKey, TVal).Values
+  nameWithType: DictionaryList<TKey, TVal>.Values
+  nameWithType.vb: DictionaryList(Of TKey, TVal).Values
+- uid: Bdeshi.Helpers.DataStructures.DictionaryList`2.Values*
+  name: Values
+  href: api/Bdeshi.Helpers.DataStructures.DictionaryList-2.html#Bdeshi_Helpers_DataStructures_DictionaryList_2_Values_
+  commentId: Overload:Bdeshi.Helpers.DataStructures.DictionaryList`2.Values
+  isSpec: "True"
+  fullName: Bdeshi.Helpers.DataStructures.DictionaryList<TKey, TVal>.Values
+  fullName.vb: Bdeshi.Helpers.DataStructures.DictionaryList(Of TKey, TVal).Values
+  nameWithType: DictionaryList<TKey, TVal>.Values
+  nameWithType.vb: DictionaryList(Of TKey, TVal).Values
+- uid: Bdeshi.Helpers.DataStructures.GenericDictionary`2
+  name: GenericDictionary<TKey, TValue>
+  href: api/Bdeshi.Helpers.DataStructures.GenericDictionary-2.html
+  commentId: T:Bdeshi.Helpers.DataStructures.GenericDictionary`2
+  name.vb: GenericDictionary(Of TKey, TValue)
+  fullName: Bdeshi.Helpers.DataStructures.GenericDictionary<TKey, TValue>
+  fullName.vb: Bdeshi.Helpers.DataStructures.GenericDictionary(Of TKey, TValue)
+  nameWithType: GenericDictionary<TKey, TValue>
+  nameWithType.vb: GenericDictionary(Of TKey, TValue)
+- uid: Bdeshi.Helpers.DataStructures.GenericDictionary`2.Add(System.Collections.Generic.KeyValuePair{`0,`1})
+  name: Add(KeyValuePair<TKey, TValue>)
+  href: api/Bdeshi.Helpers.DataStructures.GenericDictionary-2.html#Bdeshi_Helpers_DataStructures_GenericDictionary_2_Add_System_Collections_Generic_KeyValuePair__0__1__
+  commentId: M:Bdeshi.Helpers.DataStructures.GenericDictionary`2.Add(System.Collections.Generic.KeyValuePair{`0,`1})
+  name.vb: Add(KeyValuePair(Of TKey, TValue))
+  fullName: Bdeshi.Helpers.DataStructures.GenericDictionary<TKey, TValue>.Add(System.Collections.Generic.KeyValuePair<TKey, TValue>)
+  fullName.vb: Bdeshi.Helpers.DataStructures.GenericDictionary(Of TKey, TValue).Add(System.Collections.Generic.KeyValuePair(Of TKey, TValue))
+  nameWithType: GenericDictionary<TKey, TValue>.Add(KeyValuePair<TKey, TValue>)
+  nameWithType.vb: GenericDictionary(Of TKey, TValue).Add(KeyValuePair(Of TKey, TValue))
+- uid: Bdeshi.Helpers.DataStructures.GenericDictionary`2.Add(`0,`1)
+  name: Add(TKey, TValue)
+  href: api/Bdeshi.Helpers.DataStructures.GenericDictionary-2.html#Bdeshi_Helpers_DataStructures_GenericDictionary_2_Add__0__1_
+  commentId: M:Bdeshi.Helpers.DataStructures.GenericDictionary`2.Add(`0,`1)
+  fullName: Bdeshi.Helpers.DataStructures.GenericDictionary<TKey, TValue>.Add(TKey, TValue)
+  fullName.vb: Bdeshi.Helpers.DataStructures.GenericDictionary(Of TKey, TValue).Add(TKey, TValue)
+  nameWithType: GenericDictionary<TKey, TValue>.Add(TKey, TValue)
+  nameWithType.vb: GenericDictionary(Of TKey, TValue).Add(TKey, TValue)
+- uid: Bdeshi.Helpers.DataStructures.GenericDictionary`2.Add*
+  name: Add
+  href: api/Bdeshi.Helpers.DataStructures.GenericDictionary-2.html#Bdeshi_Helpers_DataStructures_GenericDictionary_2_Add_
+  commentId: Overload:Bdeshi.Helpers.DataStructures.GenericDictionary`2.Add
+  isSpec: "True"
+  fullName: Bdeshi.Helpers.DataStructures.GenericDictionary<TKey, TValue>.Add
+  fullName.vb: Bdeshi.Helpers.DataStructures.GenericDictionary(Of TKey, TValue).Add
+  nameWithType: GenericDictionary<TKey, TValue>.Add
+  nameWithType.vb: GenericDictionary(Of TKey, TValue).Add
+- uid: Bdeshi.Helpers.DataStructures.GenericDictionary`2.Clear
+  name: Clear()
+  href: api/Bdeshi.Helpers.DataStructures.GenericDictionary-2.html#Bdeshi_Helpers_DataStructures_GenericDictionary_2_Clear
+  commentId: M:Bdeshi.Helpers.DataStructures.GenericDictionary`2.Clear
+  fullName: Bdeshi.Helpers.DataStructures.GenericDictionary<TKey, TValue>.Clear()
+  fullName.vb: Bdeshi.Helpers.DataStructures.GenericDictionary(Of TKey, TValue).Clear()
+  nameWithType: GenericDictionary<TKey, TValue>.Clear()
+  nameWithType.vb: GenericDictionary(Of TKey, TValue).Clear()
+- uid: Bdeshi.Helpers.DataStructures.GenericDictionary`2.Clear*
+  name: Clear
+  href: api/Bdeshi.Helpers.DataStructures.GenericDictionary-2.html#Bdeshi_Helpers_DataStructures_GenericDictionary_2_Clear_
+  commentId: Overload:Bdeshi.Helpers.DataStructures.GenericDictionary`2.Clear
+  isSpec: "True"
+  fullName: Bdeshi.Helpers.DataStructures.GenericDictionary<TKey, TValue>.Clear
+  fullName.vb: Bdeshi.Helpers.DataStructures.GenericDictionary(Of TKey, TValue).Clear
+  nameWithType: GenericDictionary<TKey, TValue>.Clear
+  nameWithType.vb: GenericDictionary(Of TKey, TValue).Clear
+- uid: Bdeshi.Helpers.DataStructures.GenericDictionary`2.Contains(System.Collections.Generic.KeyValuePair{`0,`1})
+  name: Contains(KeyValuePair<TKey, TValue>)
+  href: api/Bdeshi.Helpers.DataStructures.GenericDictionary-2.html#Bdeshi_Helpers_DataStructures_GenericDictionary_2_Contains_System_Collections_Generic_KeyValuePair__0__1__
+  commentId: M:Bdeshi.Helpers.DataStructures.GenericDictionary`2.Contains(System.Collections.Generic.KeyValuePair{`0,`1})
+  name.vb: Contains(KeyValuePair(Of TKey, TValue))
+  fullName: Bdeshi.Helpers.DataStructures.GenericDictionary<TKey, TValue>.Contains(System.Collections.Generic.KeyValuePair<TKey, TValue>)
+  fullName.vb: Bdeshi.Helpers.DataStructures.GenericDictionary(Of TKey, TValue).Contains(System.Collections.Generic.KeyValuePair(Of TKey, TValue))
+  nameWithType: GenericDictionary<TKey, TValue>.Contains(KeyValuePair<TKey, TValue>)
+  nameWithType.vb: GenericDictionary(Of TKey, TValue).Contains(KeyValuePair(Of TKey, TValue))
+- uid: Bdeshi.Helpers.DataStructures.GenericDictionary`2.Contains*
+  name: Contains
+  href: api/Bdeshi.Helpers.DataStructures.GenericDictionary-2.html#Bdeshi_Helpers_DataStructures_GenericDictionary_2_Contains_
+  commentId: Overload:Bdeshi.Helpers.DataStructures.GenericDictionary`2.Contains
+  isSpec: "True"
+  fullName: Bdeshi.Helpers.DataStructures.GenericDictionary<TKey, TValue>.Contains
+  fullName.vb: Bdeshi.Helpers.DataStructures.GenericDictionary(Of TKey, TValue).Contains
+  nameWithType: GenericDictionary<TKey, TValue>.Contains
+  nameWithType.vb: GenericDictionary(Of TKey, TValue).Contains
+- uid: Bdeshi.Helpers.DataStructures.GenericDictionary`2.ContainsKey(`0)
+  name: ContainsKey(TKey)
+  href: api/Bdeshi.Helpers.DataStructures.GenericDictionary-2.html#Bdeshi_Helpers_DataStructures_GenericDictionary_2_ContainsKey__0_
+  commentId: M:Bdeshi.Helpers.DataStructures.GenericDictionary`2.ContainsKey(`0)
+  fullName: Bdeshi.Helpers.DataStructures.GenericDictionary<TKey, TValue>.ContainsKey(TKey)
+  fullName.vb: Bdeshi.Helpers.DataStructures.GenericDictionary(Of TKey, TValue).ContainsKey(TKey)
+  nameWithType: GenericDictionary<TKey, TValue>.ContainsKey(TKey)
+  nameWithType.vb: GenericDictionary(Of TKey, TValue).ContainsKey(TKey)
+- uid: Bdeshi.Helpers.DataStructures.GenericDictionary`2.ContainsKey*
+  name: ContainsKey
+  href: api/Bdeshi.Helpers.DataStructures.GenericDictionary-2.html#Bdeshi_Helpers_DataStructures_GenericDictionary_2_ContainsKey_
+  commentId: Overload:Bdeshi.Helpers.DataStructures.GenericDictionary`2.ContainsKey
+  isSpec: "True"
+  fullName: Bdeshi.Helpers.DataStructures.GenericDictionary<TKey, TValue>.ContainsKey
+  fullName.vb: Bdeshi.Helpers.DataStructures.GenericDictionary(Of TKey, TValue).ContainsKey
+  nameWithType: GenericDictionary<TKey, TValue>.ContainsKey
+  nameWithType.vb: GenericDictionary(Of TKey, TValue).ContainsKey
+- uid: Bdeshi.Helpers.DataStructures.GenericDictionary`2.CopyTo(System.Collections.Generic.KeyValuePair{`0,`1}[],System.Int32)
+  name: CopyTo(KeyValuePair<TKey, TValue>[], int)
+  href: api/Bdeshi.Helpers.DataStructures.GenericDictionary-2.html#Bdeshi_Helpers_DataStructures_GenericDictionary_2_CopyTo_System_Collections_Generic_KeyValuePair__0__1____System_Int32_
+  commentId: M:Bdeshi.Helpers.DataStructures.GenericDictionary`2.CopyTo(System.Collections.Generic.KeyValuePair{`0,`1}[],System.Int32)
+  name.vb: CopyTo(KeyValuePair(Of TKey, TValue)(), Integer)
+  fullName: Bdeshi.Helpers.DataStructures.GenericDictionary<TKey, TValue>.CopyTo(System.Collections.Generic.KeyValuePair<TKey, TValue>[], int)
+  fullName.vb: Bdeshi.Helpers.DataStructures.GenericDictionary(Of TKey, TValue).CopyTo(System.Collections.Generic.KeyValuePair(Of TKey, TValue)(), Integer)
+  nameWithType: GenericDictionary<TKey, TValue>.CopyTo(KeyValuePair<TKey, TValue>[], int)
+  nameWithType.vb: GenericDictionary(Of TKey, TValue).CopyTo(KeyValuePair(Of TKey, TValue)(), Integer)
+- uid: Bdeshi.Helpers.DataStructures.GenericDictionary`2.CopyTo*
+  name: CopyTo
+  href: api/Bdeshi.Helpers.DataStructures.GenericDictionary-2.html#Bdeshi_Helpers_DataStructures_GenericDictionary_2_CopyTo_
+  commentId: Overload:Bdeshi.Helpers.DataStructures.GenericDictionary`2.CopyTo
+  isSpec: "True"
+  fullName: Bdeshi.Helpers.DataStructures.GenericDictionary<TKey, TValue>.CopyTo
+  fullName.vb: Bdeshi.Helpers.DataStructures.GenericDictionary(Of TKey, TValue).CopyTo
+  nameWithType: GenericDictionary<TKey, TValue>.CopyTo
+  nameWithType.vb: GenericDictionary(Of TKey, TValue).CopyTo
+- uid: Bdeshi.Helpers.DataStructures.GenericDictionary`2.Count
+  name: Count
+  href: api/Bdeshi.Helpers.DataStructures.GenericDictionary-2.html#Bdeshi_Helpers_DataStructures_GenericDictionary_2_Count
+  commentId: P:Bdeshi.Helpers.DataStructures.GenericDictionary`2.Count
+  fullName: Bdeshi.Helpers.DataStructures.GenericDictionary<TKey, TValue>.Count
+  fullName.vb: Bdeshi.Helpers.DataStructures.GenericDictionary(Of TKey, TValue).Count
+  nameWithType: GenericDictionary<TKey, TValue>.Count
+  nameWithType.vb: GenericDictionary(Of TKey, TValue).Count
+- uid: Bdeshi.Helpers.DataStructures.GenericDictionary`2.Count*
+  name: Count
+  href: api/Bdeshi.Helpers.DataStructures.GenericDictionary-2.html#Bdeshi_Helpers_DataStructures_GenericDictionary_2_Count_
+  commentId: Overload:Bdeshi.Helpers.DataStructures.GenericDictionary`2.Count
+  isSpec: "True"
+  fullName: Bdeshi.Helpers.DataStructures.GenericDictionary<TKey, TValue>.Count
+  fullName.vb: Bdeshi.Helpers.DataStructures.GenericDictionary(Of TKey, TValue).Count
+  nameWithType: GenericDictionary<TKey, TValue>.Count
+  nameWithType.vb: GenericDictionary(Of TKey, TValue).Count
+- uid: Bdeshi.Helpers.DataStructures.GenericDictionary`2.GetEnumerator
+  name: GetEnumerator()
+  href: api/Bdeshi.Helpers.DataStructures.GenericDictionary-2.html#Bdeshi_Helpers_DataStructures_GenericDictionary_2_GetEnumerator
+  commentId: M:Bdeshi.Helpers.DataStructures.GenericDictionary`2.GetEnumerator
+  fullName: Bdeshi.Helpers.DataStructures.GenericDictionary<TKey, TValue>.GetEnumerator()
+  fullName.vb: Bdeshi.Helpers.DataStructures.GenericDictionary(Of TKey, TValue).GetEnumerator()
+  nameWithType: GenericDictionary<TKey, TValue>.GetEnumerator()
+  nameWithType.vb: GenericDictionary(Of TKey, TValue).GetEnumerator()
+- uid: Bdeshi.Helpers.DataStructures.GenericDictionary`2.GetEnumerator*
+  name: GetEnumerator
+  href: api/Bdeshi.Helpers.DataStructures.GenericDictionary-2.html#Bdeshi_Helpers_DataStructures_GenericDictionary_2_GetEnumerator_
+  commentId: Overload:Bdeshi.Helpers.DataStructures.GenericDictionary`2.GetEnumerator
+  isSpec: "True"
+  fullName: Bdeshi.Helpers.DataStructures.GenericDictionary<TKey, TValue>.GetEnumerator
+  fullName.vb: Bdeshi.Helpers.DataStructures.GenericDictionary(Of TKey, TValue).GetEnumerator
+  nameWithType: GenericDictionary<TKey, TValue>.GetEnumerator
+  nameWithType.vb: GenericDictionary(Of TKey, TValue).GetEnumerator
+- uid: Bdeshi.Helpers.DataStructures.GenericDictionary`2.IsReadOnly
+  name: IsReadOnly
+  href: api/Bdeshi.Helpers.DataStructures.GenericDictionary-2.html#Bdeshi_Helpers_DataStructures_GenericDictionary_2_IsReadOnly
+  commentId: P:Bdeshi.Helpers.DataStructures.GenericDictionary`2.IsReadOnly
+  fullName: Bdeshi.Helpers.DataStructures.GenericDictionary<TKey, TValue>.IsReadOnly
+  fullName.vb: Bdeshi.Helpers.DataStructures.GenericDictionary(Of TKey, TValue).IsReadOnly
+  nameWithType: GenericDictionary<TKey, TValue>.IsReadOnly
+  nameWithType.vb: GenericDictionary(Of TKey, TValue).IsReadOnly
+- uid: Bdeshi.Helpers.DataStructures.GenericDictionary`2.IsReadOnly*
+  name: IsReadOnly
+  href: api/Bdeshi.Helpers.DataStructures.GenericDictionary-2.html#Bdeshi_Helpers_DataStructures_GenericDictionary_2_IsReadOnly_
+  commentId: Overload:Bdeshi.Helpers.DataStructures.GenericDictionary`2.IsReadOnly
+  isSpec: "True"
+  fullName: Bdeshi.Helpers.DataStructures.GenericDictionary<TKey, TValue>.IsReadOnly
+  fullName.vb: Bdeshi.Helpers.DataStructures.GenericDictionary(Of TKey, TValue).IsReadOnly
+  nameWithType: GenericDictionary<TKey, TValue>.IsReadOnly
+  nameWithType.vb: GenericDictionary(Of TKey, TValue).IsReadOnly
+- uid: Bdeshi.Helpers.DataStructures.GenericDictionary`2.Item(`0)
+  name: this[TKey]
+  href: api/Bdeshi.Helpers.DataStructures.GenericDictionary-2.html#Bdeshi_Helpers_DataStructures_GenericDictionary_2_Item__0_
+  commentId: P:Bdeshi.Helpers.DataStructures.GenericDictionary`2.Item(`0)
+  name.vb: this[](TKey)
+  fullName: Bdeshi.Helpers.DataStructures.GenericDictionary<TKey, TValue>.this[TKey]
+  fullName.vb: Bdeshi.Helpers.DataStructures.GenericDictionary(Of TKey, TValue).this[](TKey)
+  nameWithType: GenericDictionary<TKey, TValue>.this[TKey]
+  nameWithType.vb: GenericDictionary(Of TKey, TValue).this[](TKey)
+- uid: Bdeshi.Helpers.DataStructures.GenericDictionary`2.Item*
+  name: this
+  href: api/Bdeshi.Helpers.DataStructures.GenericDictionary-2.html#Bdeshi_Helpers_DataStructures_GenericDictionary_2_Item_
+  commentId: Overload:Bdeshi.Helpers.DataStructures.GenericDictionary`2.Item
+  isSpec: "True"
+  name.vb: this[]
+  fullName: Bdeshi.Helpers.DataStructures.GenericDictionary<TKey, TValue>.this
+  fullName.vb: Bdeshi.Helpers.DataStructures.GenericDictionary(Of TKey, TValue).this[]
+  nameWithType: GenericDictionary<TKey, TValue>.this
+  nameWithType.vb: GenericDictionary(Of TKey, TValue).this[]
+- uid: Bdeshi.Helpers.DataStructures.GenericDictionary`2.Keys
+  name: Keys
+  href: api/Bdeshi.Helpers.DataStructures.GenericDictionary-2.html#Bdeshi_Helpers_DataStructures_GenericDictionary_2_Keys
+  commentId: P:Bdeshi.Helpers.DataStructures.GenericDictionary`2.Keys
+  fullName: Bdeshi.Helpers.DataStructures.GenericDictionary<TKey, TValue>.Keys
+  fullName.vb: Bdeshi.Helpers.DataStructures.GenericDictionary(Of TKey, TValue).Keys
+  nameWithType: GenericDictionary<TKey, TValue>.Keys
+  nameWithType.vb: GenericDictionary(Of TKey, TValue).Keys
+- uid: Bdeshi.Helpers.DataStructures.GenericDictionary`2.Keys*
+  name: Keys
+  href: api/Bdeshi.Helpers.DataStructures.GenericDictionary-2.html#Bdeshi_Helpers_DataStructures_GenericDictionary_2_Keys_
+  commentId: Overload:Bdeshi.Helpers.DataStructures.GenericDictionary`2.Keys
+  isSpec: "True"
+  fullName: Bdeshi.Helpers.DataStructures.GenericDictionary<TKey, TValue>.Keys
+  fullName.vb: Bdeshi.Helpers.DataStructures.GenericDictionary(Of TKey, TValue).Keys
+  nameWithType: GenericDictionary<TKey, TValue>.Keys
+  nameWithType.vb: GenericDictionary(Of TKey, TValue).Keys
+- uid: Bdeshi.Helpers.DataStructures.GenericDictionary`2.OnAfterDeserialize
+  name: OnAfterDeserialize()
+  href: api/Bdeshi.Helpers.DataStructures.GenericDictionary-2.html#Bdeshi_Helpers_DataStructures_GenericDictionary_2_OnAfterDeserialize
+  commentId: M:Bdeshi.Helpers.DataStructures.GenericDictionary`2.OnAfterDeserialize
+  fullName: Bdeshi.Helpers.DataStructures.GenericDictionary<TKey, TValue>.OnAfterDeserialize()
+  fullName.vb: Bdeshi.Helpers.DataStructures.GenericDictionary(Of TKey, TValue).OnAfterDeserialize()
+  nameWithType: GenericDictionary<TKey, TValue>.OnAfterDeserialize()
+  nameWithType.vb: GenericDictionary(Of TKey, TValue).OnAfterDeserialize()
+- uid: Bdeshi.Helpers.DataStructures.GenericDictionary`2.OnAfterDeserialize*
+  name: OnAfterDeserialize
+  href: api/Bdeshi.Helpers.DataStructures.GenericDictionary-2.html#Bdeshi_Helpers_DataStructures_GenericDictionary_2_OnAfterDeserialize_
+  commentId: Overload:Bdeshi.Helpers.DataStructures.GenericDictionary`2.OnAfterDeserialize
+  isSpec: "True"
+  fullName: Bdeshi.Helpers.DataStructures.GenericDictionary<TKey, TValue>.OnAfterDeserialize
+  fullName.vb: Bdeshi.Helpers.DataStructures.GenericDictionary(Of TKey, TValue).OnAfterDeserialize
+  nameWithType: GenericDictionary<TKey, TValue>.OnAfterDeserialize
+  nameWithType.vb: GenericDictionary(Of TKey, TValue).OnAfterDeserialize
+- uid: Bdeshi.Helpers.DataStructures.GenericDictionary`2.OnBeforeSerialize
+  name: OnBeforeSerialize()
+  href: api/Bdeshi.Helpers.DataStructures.GenericDictionary-2.html#Bdeshi_Helpers_DataStructures_GenericDictionary_2_OnBeforeSerialize
+  commentId: M:Bdeshi.Helpers.DataStructures.GenericDictionary`2.OnBeforeSerialize
+  fullName: Bdeshi.Helpers.DataStructures.GenericDictionary<TKey, TValue>.OnBeforeSerialize()
+  fullName.vb: Bdeshi.Helpers.DataStructures.GenericDictionary(Of TKey, TValue).OnBeforeSerialize()
+  nameWithType: GenericDictionary<TKey, TValue>.OnBeforeSerialize()
+  nameWithType.vb: GenericDictionary(Of TKey, TValue).OnBeforeSerialize()
+- uid: Bdeshi.Helpers.DataStructures.GenericDictionary`2.OnBeforeSerialize*
+  name: OnBeforeSerialize
+  href: api/Bdeshi.Helpers.DataStructures.GenericDictionary-2.html#Bdeshi_Helpers_DataStructures_GenericDictionary_2_OnBeforeSerialize_
+  commentId: Overload:Bdeshi.Helpers.DataStructures.GenericDictionary`2.OnBeforeSerialize
+  isSpec: "True"
+  fullName: Bdeshi.Helpers.DataStructures.GenericDictionary<TKey, TValue>.OnBeforeSerialize
+  fullName.vb: Bdeshi.Helpers.DataStructures.GenericDictionary(Of TKey, TValue).OnBeforeSerialize
+  nameWithType: GenericDictionary<TKey, TValue>.OnBeforeSerialize
+  nameWithType.vb: GenericDictionary(Of TKey, TValue).OnBeforeSerialize
+- uid: Bdeshi.Helpers.DataStructures.GenericDictionary`2.Remove(System.Collections.Generic.KeyValuePair{`0,`1})
+  name: Remove(KeyValuePair<TKey, TValue>)
+  href: api/Bdeshi.Helpers.DataStructures.GenericDictionary-2.html#Bdeshi_Helpers_DataStructures_GenericDictionary_2_Remove_System_Collections_Generic_KeyValuePair__0__1__
+  commentId: M:Bdeshi.Helpers.DataStructures.GenericDictionary`2.Remove(System.Collections.Generic.KeyValuePair{`0,`1})
+  name.vb: Remove(KeyValuePair(Of TKey, TValue))
+  fullName: Bdeshi.Helpers.DataStructures.GenericDictionary<TKey, TValue>.Remove(System.Collections.Generic.KeyValuePair<TKey, TValue>)
+  fullName.vb: Bdeshi.Helpers.DataStructures.GenericDictionary(Of TKey, TValue).Remove(System.Collections.Generic.KeyValuePair(Of TKey, TValue))
+  nameWithType: GenericDictionary<TKey, TValue>.Remove(KeyValuePair<TKey, TValue>)
+  nameWithType.vb: GenericDictionary(Of TKey, TValue).Remove(KeyValuePair(Of TKey, TValue))
+- uid: Bdeshi.Helpers.DataStructures.GenericDictionary`2.Remove(`0)
+  name: Remove(TKey)
+  href: api/Bdeshi.Helpers.DataStructures.GenericDictionary-2.html#Bdeshi_Helpers_DataStructures_GenericDictionary_2_Remove__0_
+  commentId: M:Bdeshi.Helpers.DataStructures.GenericDictionary`2.Remove(`0)
+  fullName: Bdeshi.Helpers.DataStructures.GenericDictionary<TKey, TValue>.Remove(TKey)
+  fullName.vb: Bdeshi.Helpers.DataStructures.GenericDictionary(Of TKey, TValue).Remove(TKey)
+  nameWithType: GenericDictionary<TKey, TValue>.Remove(TKey)
+  nameWithType.vb: GenericDictionary(Of TKey, TValue).Remove(TKey)
+- uid: Bdeshi.Helpers.DataStructures.GenericDictionary`2.Remove*
+  name: Remove
+  href: api/Bdeshi.Helpers.DataStructures.GenericDictionary-2.html#Bdeshi_Helpers_DataStructures_GenericDictionary_2_Remove_
+  commentId: Overload:Bdeshi.Helpers.DataStructures.GenericDictionary`2.Remove
+  isSpec: "True"
+  fullName: Bdeshi.Helpers.DataStructures.GenericDictionary<TKey, TValue>.Remove
+  fullName.vb: Bdeshi.Helpers.DataStructures.GenericDictionary(Of TKey, TValue).Remove
+  nameWithType: GenericDictionary<TKey, TValue>.Remove
+  nameWithType.vb: GenericDictionary(Of TKey, TValue).Remove
+- uid: Bdeshi.Helpers.DataStructures.GenericDictionary`2.TryGetValue(`0,`1@)
+  name: TryGetValue(TKey, out TValue)
+  href: api/Bdeshi.Helpers.DataStructures.GenericDictionary-2.html#Bdeshi_Helpers_DataStructures_GenericDictionary_2_TryGetValue__0__1__
+  commentId: M:Bdeshi.Helpers.DataStructures.GenericDictionary`2.TryGetValue(`0,`1@)
+  name.vb: TryGetValue(TKey, TValue)
+  fullName: Bdeshi.Helpers.DataStructures.GenericDictionary<TKey, TValue>.TryGetValue(TKey, out TValue)
+  fullName.vb: Bdeshi.Helpers.DataStructures.GenericDictionary(Of TKey, TValue).TryGetValue(TKey, TValue)
+  nameWithType: GenericDictionary<TKey, TValue>.TryGetValue(TKey, out TValue)
+  nameWithType.vb: GenericDictionary(Of TKey, TValue).TryGetValue(TKey, TValue)
+- uid: Bdeshi.Helpers.DataStructures.GenericDictionary`2.TryGetValue*
+  name: TryGetValue
+  href: api/Bdeshi.Helpers.DataStructures.GenericDictionary-2.html#Bdeshi_Helpers_DataStructures_GenericDictionary_2_TryGetValue_
+  commentId: Overload:Bdeshi.Helpers.DataStructures.GenericDictionary`2.TryGetValue
+  isSpec: "True"
+  fullName: Bdeshi.Helpers.DataStructures.GenericDictionary<TKey, TValue>.TryGetValue
+  fullName.vb: Bdeshi.Helpers.DataStructures.GenericDictionary(Of TKey, TValue).TryGetValue
+  nameWithType: GenericDictionary<TKey, TValue>.TryGetValue
+  nameWithType.vb: GenericDictionary(Of TKey, TValue).TryGetValue
+- uid: Bdeshi.Helpers.DataStructures.GenericDictionary`2.Values
+  name: Values
+  href: api/Bdeshi.Helpers.DataStructures.GenericDictionary-2.html#Bdeshi_Helpers_DataStructures_GenericDictionary_2_Values
+  commentId: P:Bdeshi.Helpers.DataStructures.GenericDictionary`2.Values
+  fullName: Bdeshi.Helpers.DataStructures.GenericDictionary<TKey, TValue>.Values
+  fullName.vb: Bdeshi.Helpers.DataStructures.GenericDictionary(Of TKey, TValue).Values
+  nameWithType: GenericDictionary<TKey, TValue>.Values
+  nameWithType.vb: GenericDictionary(Of TKey, TValue).Values
+- uid: Bdeshi.Helpers.DataStructures.GenericDictionary`2.Values*
+  name: Values
+  href: api/Bdeshi.Helpers.DataStructures.GenericDictionary-2.html#Bdeshi_Helpers_DataStructures_GenericDictionary_2_Values_
+  commentId: Overload:Bdeshi.Helpers.DataStructures.GenericDictionary`2.Values
+  isSpec: "True"
+  fullName: Bdeshi.Helpers.DataStructures.GenericDictionary<TKey, TValue>.Values
+  fullName.vb: Bdeshi.Helpers.DataStructures.GenericDictionary(Of TKey, TValue).Values
+  nameWithType: GenericDictionary<TKey, TValue>.Values
+  nameWithType.vb: GenericDictionary(Of TKey, TValue).Values
+- uid: Bdeshi.Helpers.DataStructures.SerializableStack`1
+  name: SerializableStack<T>
+  href: api/Bdeshi.Helpers.DataStructures.SerializableStack-1.html
+  commentId: T:Bdeshi.Helpers.DataStructures.SerializableStack`1
+  name.vb: SerializableStack(Of T)
+  fullName: Bdeshi.Helpers.DataStructures.SerializableStack<T>
+  fullName.vb: Bdeshi.Helpers.DataStructures.SerializableStack(Of T)
+  nameWithType: SerializableStack<T>
+  nameWithType.vb: SerializableStack(Of T)
+- uid: Bdeshi.Helpers.DataStructures.SerializableStack`1.Contains(`0)
+  name: Contains(T)
+  href: api/Bdeshi.Helpers.DataStructures.SerializableStack-1.html#Bdeshi_Helpers_DataStructures_SerializableStack_1_Contains__0_
+  commentId: M:Bdeshi.Helpers.DataStructures.SerializableStack`1.Contains(`0)
+  fullName: Bdeshi.Helpers.DataStructures.SerializableStack<T>.Contains(T)
+  fullName.vb: Bdeshi.Helpers.DataStructures.SerializableStack(Of T).Contains(T)
+  nameWithType: SerializableStack<T>.Contains(T)
+  nameWithType.vb: SerializableStack(Of T).Contains(T)
+- uid: Bdeshi.Helpers.DataStructures.SerializableStack`1.Contains*
+  name: Contains
+  href: api/Bdeshi.Helpers.DataStructures.SerializableStack-1.html#Bdeshi_Helpers_DataStructures_SerializableStack_1_Contains_
+  commentId: Overload:Bdeshi.Helpers.DataStructures.SerializableStack`1.Contains
+  isSpec: "True"
+  fullName: Bdeshi.Helpers.DataStructures.SerializableStack<T>.Contains
+  fullName.vb: Bdeshi.Helpers.DataStructures.SerializableStack(Of T).Contains
+  nameWithType: SerializableStack<T>.Contains
+  nameWithType.vb: SerializableStack(Of T).Contains
+- uid: Bdeshi.Helpers.DataStructures.SerializableStack`1.IsEmpty
+  name: IsEmpty
+  href: api/Bdeshi.Helpers.DataStructures.SerializableStack-1.html#Bdeshi_Helpers_DataStructures_SerializableStack_1_IsEmpty
+  commentId: P:Bdeshi.Helpers.DataStructures.SerializableStack`1.IsEmpty
+  fullName: Bdeshi.Helpers.DataStructures.SerializableStack<T>.IsEmpty
+  fullName.vb: Bdeshi.Helpers.DataStructures.SerializableStack(Of T).IsEmpty
+  nameWithType: SerializableStack<T>.IsEmpty
+  nameWithType.vb: SerializableStack(Of T).IsEmpty
+- uid: Bdeshi.Helpers.DataStructures.SerializableStack`1.IsEmpty*
+  name: IsEmpty
+  href: api/Bdeshi.Helpers.DataStructures.SerializableStack-1.html#Bdeshi_Helpers_DataStructures_SerializableStack_1_IsEmpty_
+  commentId: Overload:Bdeshi.Helpers.DataStructures.SerializableStack`1.IsEmpty
+  isSpec: "True"
+  fullName: Bdeshi.Helpers.DataStructures.SerializableStack<T>.IsEmpty
+  fullName.vb: Bdeshi.Helpers.DataStructures.SerializableStack(Of T).IsEmpty
+  nameWithType: SerializableStack<T>.IsEmpty
+  nameWithType.vb: SerializableStack(Of T).IsEmpty
+- uid: Bdeshi.Helpers.DataStructures.SerializableStack`1.Peek
+  name: Peek()
+  href: api/Bdeshi.Helpers.DataStructures.SerializableStack-1.html#Bdeshi_Helpers_DataStructures_SerializableStack_1_Peek
+  commentId: M:Bdeshi.Helpers.DataStructures.SerializableStack`1.Peek
+  fullName: Bdeshi.Helpers.DataStructures.SerializableStack<T>.Peek()
+  fullName.vb: Bdeshi.Helpers.DataStructures.SerializableStack(Of T).Peek()
+  nameWithType: SerializableStack<T>.Peek()
+  nameWithType.vb: SerializableStack(Of T).Peek()
+- uid: Bdeshi.Helpers.DataStructures.SerializableStack`1.Peek*
+  name: Peek
+  href: api/Bdeshi.Helpers.DataStructures.SerializableStack-1.html#Bdeshi_Helpers_DataStructures_SerializableStack_1_Peek_
+  commentId: Overload:Bdeshi.Helpers.DataStructures.SerializableStack`1.Peek
+  isSpec: "True"
+  fullName: Bdeshi.Helpers.DataStructures.SerializableStack<T>.Peek
+  fullName.vb: Bdeshi.Helpers.DataStructures.SerializableStack(Of T).Peek
+  nameWithType: SerializableStack<T>.Peek
+  nameWithType.vb: SerializableStack(Of T).Peek
+- uid: Bdeshi.Helpers.DataStructures.SerializableStack`1.Pop
+  name: Pop()
+  href: api/Bdeshi.Helpers.DataStructures.SerializableStack-1.html#Bdeshi_Helpers_DataStructures_SerializableStack_1_Pop
+  commentId: M:Bdeshi.Helpers.DataStructures.SerializableStack`1.Pop
+  fullName: Bdeshi.Helpers.DataStructures.SerializableStack<T>.Pop()
+  fullName.vb: Bdeshi.Helpers.DataStructures.SerializableStack(Of T).Pop()
+  nameWithType: SerializableStack<T>.Pop()
+  nameWithType.vb: SerializableStack(Of T).Pop()
+- uid: Bdeshi.Helpers.DataStructures.SerializableStack`1.Pop*
+  name: Pop
+  href: api/Bdeshi.Helpers.DataStructures.SerializableStack-1.html#Bdeshi_Helpers_DataStructures_SerializableStack_1_Pop_
+  commentId: Overload:Bdeshi.Helpers.DataStructures.SerializableStack`1.Pop
+  isSpec: "True"
+  fullName: Bdeshi.Helpers.DataStructures.SerializableStack<T>.Pop
+  fullName.vb: Bdeshi.Helpers.DataStructures.SerializableStack(Of T).Pop
+  nameWithType: SerializableStack<T>.Pop
+  nameWithType.vb: SerializableStack(Of T).Pop
+- uid: Bdeshi.Helpers.DataStructures.SerializableStack`1.Push(`0)
+  name: Push(T)
+  href: api/Bdeshi.Helpers.DataStructures.SerializableStack-1.html#Bdeshi_Helpers_DataStructures_SerializableStack_1_Push__0_
+  commentId: M:Bdeshi.Helpers.DataStructures.SerializableStack`1.Push(`0)
+  fullName: Bdeshi.Helpers.DataStructures.SerializableStack<T>.Push(T)
+  fullName.vb: Bdeshi.Helpers.DataStructures.SerializableStack(Of T).Push(T)
+  nameWithType: SerializableStack<T>.Push(T)
+  nameWithType.vb: SerializableStack(Of T).Push(T)
+- uid: Bdeshi.Helpers.DataStructures.SerializableStack`1.Push*
+  name: Push
+  href: api/Bdeshi.Helpers.DataStructures.SerializableStack-1.html#Bdeshi_Helpers_DataStructures_SerializableStack_1_Push_
+  commentId: Overload:Bdeshi.Helpers.DataStructures.SerializableStack`1.Push
+  isSpec: "True"
+  fullName: Bdeshi.Helpers.DataStructures.SerializableStack<T>.Push
+  fullName.vb: Bdeshi.Helpers.DataStructures.SerializableStack(Of T).Push
+  nameWithType: SerializableStack<T>.Push
+  nameWithType.vb: SerializableStack(Of T).Push
 - uid: Bdeshi.Helpers.Input
   name: Bdeshi.Helpers.Input
   href: api/Bdeshi.Helpers.Input.html
@@ -562,456 +1828,6 @@ references:
   fullName.vb: Bdeshi.Helpers.Utility.AutoPoolable(Of T).initialize
   nameWithType: AutoPoolable<T>.initialize
   nameWithType.vb: AutoPoolable(Of T).initialize
-- uid: Bdeshi.Helpers.Utility.ChargableList`1
-  name: ChargableList<TItem>
-  href: api/Bdeshi.Helpers.Utility.ChargableList-1.html
-  commentId: T:Bdeshi.Helpers.Utility.ChargableList`1
-  name.vb: ChargableList(Of TItem)
-  fullName: Bdeshi.Helpers.Utility.ChargableList<TItem>
-  fullName.vb: Bdeshi.Helpers.Utility.ChargableList(Of TItem)
-  nameWithType: ChargableList<TItem>
-  nameWithType.vb: ChargableList(Of TItem)
-- uid: Bdeshi.Helpers.Utility.ChargableList`1.ChargableListSlot
-  name: ChargableList<TItem>.ChargableListSlot
-  href: api/Bdeshi.Helpers.Utility.ChargableList-1.ChargableListSlot.html
-  commentId: T:Bdeshi.Helpers.Utility.ChargableList`1.ChargableListSlot
-  name.vb: ChargableList(Of TItem).ChargableListSlot
-  fullName: Bdeshi.Helpers.Utility.ChargableList<TItem>.ChargableListSlot
-  fullName.vb: Bdeshi.Helpers.Utility.ChargableList(Of TItem).ChargableListSlot
-  nameWithType: ChargableList<TItem>.ChargableListSlot
-  nameWithType.vb: ChargableList(Of TItem).ChargableListSlot
-- uid: Bdeshi.Helpers.Utility.ChargableList`1.ChargableListSlot.chargeTimer
-  name: chargeTimer
-  href: api/Bdeshi.Helpers.Utility.ChargableList-1.ChargableListSlot.html#Bdeshi_Helpers_Utility_ChargableList_1_ChargableListSlot_chargeTimer
-  commentId: F:Bdeshi.Helpers.Utility.ChargableList`1.ChargableListSlot.chargeTimer
-  fullName: Bdeshi.Helpers.Utility.ChargableList<TItem>.ChargableListSlot.chargeTimer
-  fullName.vb: Bdeshi.Helpers.Utility.ChargableList(Of TItem).ChargableListSlot.chargeTimer
-  nameWithType: ChargableList<TItem>.ChargableListSlot.chargeTimer
-  nameWithType.vb: ChargableList(Of TItem).ChargableListSlot.chargeTimer
-- uid: Bdeshi.Helpers.Utility.ChargableList`1.ChargableListSlot.item
-  name: item
-  href: api/Bdeshi.Helpers.Utility.ChargableList-1.ChargableListSlot.html#Bdeshi_Helpers_Utility_ChargableList_1_ChargableListSlot_item
-  commentId: F:Bdeshi.Helpers.Utility.ChargableList`1.ChargableListSlot.item
-  fullName: Bdeshi.Helpers.Utility.ChargableList<TItem>.ChargableListSlot.item
-  fullName.vb: Bdeshi.Helpers.Utility.ChargableList(Of TItem).ChargableListSlot.item
-  nameWithType: ChargableList<TItem>.ChargableListSlot.item
-  nameWithType.vb: ChargableList(Of TItem).ChargableListSlot.item
-- uid: Bdeshi.Helpers.Utility.ChargableList`1.GetEnumerator
-  name: GetEnumerator()
-  href: api/Bdeshi.Helpers.Utility.ChargableList-1.html#Bdeshi_Helpers_Utility_ChargableList_1_GetEnumerator
-  commentId: M:Bdeshi.Helpers.Utility.ChargableList`1.GetEnumerator
-  fullName: Bdeshi.Helpers.Utility.ChargableList<TItem>.GetEnumerator()
-  fullName.vb: Bdeshi.Helpers.Utility.ChargableList(Of TItem).GetEnumerator()
-  nameWithType: ChargableList<TItem>.GetEnumerator()
-  nameWithType.vb: ChargableList(Of TItem).GetEnumerator()
-- uid: Bdeshi.Helpers.Utility.ChargableList`1.GetEnumerator*
-  name: GetEnumerator
-  href: api/Bdeshi.Helpers.Utility.ChargableList-1.html#Bdeshi_Helpers_Utility_ChargableList_1_GetEnumerator_
-  commentId: Overload:Bdeshi.Helpers.Utility.ChargableList`1.GetEnumerator
-  isSpec: "True"
-  fullName: Bdeshi.Helpers.Utility.ChargableList<TItem>.GetEnumerator
-  fullName.vb: Bdeshi.Helpers.Utility.ChargableList(Of TItem).GetEnumerator
-  nameWithType: ChargableList<TItem>.GetEnumerator
-  nameWithType.vb: ChargableList(Of TItem).GetEnumerator
-- uid: Bdeshi.Helpers.Utility.ChargableList`1.chargeLevelCount
-  name: chargeLevelCount
-  href: api/Bdeshi.Helpers.Utility.ChargableList-1.html#Bdeshi_Helpers_Utility_ChargableList_1_chargeLevelCount
-  commentId: P:Bdeshi.Helpers.Utility.ChargableList`1.chargeLevelCount
-  fullName: Bdeshi.Helpers.Utility.ChargableList<TItem>.chargeLevelCount
-  fullName.vb: Bdeshi.Helpers.Utility.ChargableList(Of TItem).chargeLevelCount
-  nameWithType: ChargableList<TItem>.chargeLevelCount
-  nameWithType.vb: ChargableList(Of TItem).chargeLevelCount
-- uid: Bdeshi.Helpers.Utility.ChargableList`1.chargeLevelCount*
-  name: chargeLevelCount
-  href: api/Bdeshi.Helpers.Utility.ChargableList-1.html#Bdeshi_Helpers_Utility_ChargableList_1_chargeLevelCount_
-  commentId: Overload:Bdeshi.Helpers.Utility.ChargableList`1.chargeLevelCount
-  isSpec: "True"
-  fullName: Bdeshi.Helpers.Utility.ChargableList<TItem>.chargeLevelCount
-  fullName.vb: Bdeshi.Helpers.Utility.ChargableList(Of TItem).chargeLevelCount
-  nameWithType: ChargableList<TItem>.chargeLevelCount
-  nameWithType.vb: ChargableList(Of TItem).chargeLevelCount
-- uid: Bdeshi.Helpers.Utility.ChargableList`1.decreaseCharge(System.Single,System.Action{`0})
-  name: decreaseCharge(float, Action<TItem>)
-  href: api/Bdeshi.Helpers.Utility.ChargableList-1.html#Bdeshi_Helpers_Utility_ChargableList_1_decreaseCharge_System_Single_System_Action__0__
-  commentId: M:Bdeshi.Helpers.Utility.ChargableList`1.decreaseCharge(System.Single,System.Action{`0})
-  name.vb: decreaseCharge(Single, Action(Of TItem))
-  fullName: Bdeshi.Helpers.Utility.ChargableList<TItem>.decreaseCharge(float, System.Action<TItem>)
-  fullName.vb: Bdeshi.Helpers.Utility.ChargableList(Of TItem).decreaseCharge(Single, System.Action(Of TItem))
-  nameWithType: ChargableList<TItem>.decreaseCharge(float, Action<TItem>)
-  nameWithType.vb: ChargableList(Of TItem).decreaseCharge(Single, Action(Of TItem))
-- uid: Bdeshi.Helpers.Utility.ChargableList`1.decreaseCharge*
-  name: decreaseCharge
-  href: api/Bdeshi.Helpers.Utility.ChargableList-1.html#Bdeshi_Helpers_Utility_ChargableList_1_decreaseCharge_
-  commentId: Overload:Bdeshi.Helpers.Utility.ChargableList`1.decreaseCharge
-  isSpec: "True"
-  fullName: Bdeshi.Helpers.Utility.ChargableList<TItem>.decreaseCharge
-  fullName.vb: Bdeshi.Helpers.Utility.ChargableList(Of TItem).decreaseCharge
-  nameWithType: ChargableList<TItem>.decreaseCharge
-  nameWithType.vb: ChargableList(Of TItem).decreaseCharge
-- uid: Bdeshi.Helpers.Utility.ChargableList`1.getChargeCostUpTo(System.Single,System.Int32@)
-  name: getChargeCostUpTo(float, out int)
-  href: api/Bdeshi.Helpers.Utility.ChargableList-1.html#Bdeshi_Helpers_Utility_ChargableList_1_getChargeCostUpTo_System_Single_System_Int32__
-  commentId: M:Bdeshi.Helpers.Utility.ChargableList`1.getChargeCostUpTo(System.Single,System.Int32@)
-  name.vb: getChargeCostUpTo(Single, Integer)
-  fullName: Bdeshi.Helpers.Utility.ChargableList<TItem>.getChargeCostUpTo(float, out int)
-  fullName.vb: Bdeshi.Helpers.Utility.ChargableList(Of TItem).getChargeCostUpTo(Single, Integer)
-  nameWithType: ChargableList<TItem>.getChargeCostUpTo(float, out int)
-  nameWithType.vb: ChargableList(Of TItem).getChargeCostUpTo(Single, Integer)
-- uid: Bdeshi.Helpers.Utility.ChargableList`1.getChargeCostUpTo*
-  name: getChargeCostUpTo
-  href: api/Bdeshi.Helpers.Utility.ChargableList-1.html#Bdeshi_Helpers_Utility_ChargableList_1_getChargeCostUpTo_
-  commentId: Overload:Bdeshi.Helpers.Utility.ChargableList`1.getChargeCostUpTo
-  isSpec: "True"
-  fullName: Bdeshi.Helpers.Utility.ChargableList<TItem>.getChargeCostUpTo
-  fullName.vb: Bdeshi.Helpers.Utility.ChargableList(Of TItem).getChargeCostUpTo
-  nameWithType: ChargableList<TItem>.getChargeCostUpTo
-  nameWithType.vb: ChargableList(Of TItem).getChargeCostUpTo
-- uid: Bdeshi.Helpers.Utility.ChargableList`1.getChargeLevels
-  name: getChargeLevels
-  href: api/Bdeshi.Helpers.Utility.ChargableList-1.html#Bdeshi_Helpers_Utility_ChargableList_1_getChargeLevels
-  commentId: P:Bdeshi.Helpers.Utility.ChargableList`1.getChargeLevels
-  fullName: Bdeshi.Helpers.Utility.ChargableList<TItem>.getChargeLevels
-  fullName.vb: Bdeshi.Helpers.Utility.ChargableList(Of TItem).getChargeLevels
-  nameWithType: ChargableList<TItem>.getChargeLevels
-  nameWithType.vb: ChargableList(Of TItem).getChargeLevels
-- uid: Bdeshi.Helpers.Utility.ChargableList`1.getChargeLevels*
-  name: getChargeLevels
-  href: api/Bdeshi.Helpers.Utility.ChargableList-1.html#Bdeshi_Helpers_Utility_ChargableList_1_getChargeLevels_
-  commentId: Overload:Bdeshi.Helpers.Utility.ChargableList`1.getChargeLevels
-  isSpec: "True"
-  fullName: Bdeshi.Helpers.Utility.ChargableList<TItem>.getChargeLevels
-  fullName.vb: Bdeshi.Helpers.Utility.ChargableList(Of TItem).getChargeLevels
-  nameWithType: ChargableList<TItem>.getChargeLevels
-  nameWithType.vb: ChargableList(Of TItem).getChargeLevels
-- uid: Bdeshi.Helpers.Utility.ChargableList`1.getCurChargeLevel
-  name: getCurChargeLevel()
-  href: api/Bdeshi.Helpers.Utility.ChargableList-1.html#Bdeshi_Helpers_Utility_ChargableList_1_getCurChargeLevel
-  commentId: M:Bdeshi.Helpers.Utility.ChargableList`1.getCurChargeLevel
-  fullName: Bdeshi.Helpers.Utility.ChargableList<TItem>.getCurChargeLevel()
-  fullName.vb: Bdeshi.Helpers.Utility.ChargableList(Of TItem).getCurChargeLevel()
-  nameWithType: ChargableList<TItem>.getCurChargeLevel()
-  nameWithType.vb: ChargableList(Of TItem).getCurChargeLevel()
-- uid: Bdeshi.Helpers.Utility.ChargableList`1.getCurChargeLevel*
-  name: getCurChargeLevel
-  href: api/Bdeshi.Helpers.Utility.ChargableList-1.html#Bdeshi_Helpers_Utility_ChargableList_1_getCurChargeLevel_
-  commentId: Overload:Bdeshi.Helpers.Utility.ChargableList`1.getCurChargeLevel
-  isSpec: "True"
-  fullName: Bdeshi.Helpers.Utility.ChargableList<TItem>.getCurChargeLevel
-  fullName.vb: Bdeshi.Helpers.Utility.ChargableList(Of TItem).getCurChargeLevel
-  nameWithType: ChargableList<TItem>.getCurChargeLevel
-  nameWithType.vb: ChargableList(Of TItem).getCurChargeLevel
-- uid: Bdeshi.Helpers.Utility.ChargableList`1.getCurrentItem
-  name: getCurrentItem()
-  href: api/Bdeshi.Helpers.Utility.ChargableList-1.html#Bdeshi_Helpers_Utility_ChargableList_1_getCurrentItem
-  commentId: M:Bdeshi.Helpers.Utility.ChargableList`1.getCurrentItem
-  fullName: Bdeshi.Helpers.Utility.ChargableList<TItem>.getCurrentItem()
-  fullName.vb: Bdeshi.Helpers.Utility.ChargableList(Of TItem).getCurrentItem()
-  nameWithType: ChargableList<TItem>.getCurrentItem()
-  nameWithType.vb: ChargableList(Of TItem).getCurrentItem()
-- uid: Bdeshi.Helpers.Utility.ChargableList`1.getCurrentItem*
-  name: getCurrentItem
-  href: api/Bdeshi.Helpers.Utility.ChargableList-1.html#Bdeshi_Helpers_Utility_ChargableList_1_getCurrentItem_
-  commentId: Overload:Bdeshi.Helpers.Utility.ChargableList`1.getCurrentItem
-  isSpec: "True"
-  fullName: Bdeshi.Helpers.Utility.ChargableList<TItem>.getCurrentItem
-  fullName.vb: Bdeshi.Helpers.Utility.ChargableList(Of TItem).getCurrentItem
-  nameWithType: ChargableList<TItem>.getCurrentItem
-  nameWithType.vb: ChargableList(Of TItem).getCurrentItem
-- uid: Bdeshi.Helpers.Utility.ChargableList`1.getCurrentLevelChargeRatio
-  name: getCurrentLevelChargeRatio()
-  href: api/Bdeshi.Helpers.Utility.ChargableList-1.html#Bdeshi_Helpers_Utility_ChargableList_1_getCurrentLevelChargeRatio
-  commentId: M:Bdeshi.Helpers.Utility.ChargableList`1.getCurrentLevelChargeRatio
-  fullName: Bdeshi.Helpers.Utility.ChargableList<TItem>.getCurrentLevelChargeRatio()
-  fullName.vb: Bdeshi.Helpers.Utility.ChargableList(Of TItem).getCurrentLevelChargeRatio()
-  nameWithType: ChargableList<TItem>.getCurrentLevelChargeRatio()
-  nameWithType.vb: ChargableList(Of TItem).getCurrentLevelChargeRatio()
-- uid: Bdeshi.Helpers.Utility.ChargableList`1.getCurrentLevelChargeRatio*
-  name: getCurrentLevelChargeRatio
-  href: api/Bdeshi.Helpers.Utility.ChargableList-1.html#Bdeshi_Helpers_Utility_ChargableList_1_getCurrentLevelChargeRatio_
-  commentId: Overload:Bdeshi.Helpers.Utility.ChargableList`1.getCurrentLevelChargeRatio
-  isSpec: "True"
-  fullName: Bdeshi.Helpers.Utility.ChargableList<TItem>.getCurrentLevelChargeRatio
-  fullName.vb: Bdeshi.Helpers.Utility.ChargableList(Of TItem).getCurrentLevelChargeRatio
-  nameWithType: ChargableList<TItem>.getCurrentLevelChargeRatio
-  nameWithType.vb: ChargableList(Of TItem).getCurrentLevelChargeRatio
-- uid: Bdeshi.Helpers.Utility.ChargableList`1.getCurrentLevelRemainingAmount
-  name: getCurrentLevelRemainingAmount()
-  href: api/Bdeshi.Helpers.Utility.ChargableList-1.html#Bdeshi_Helpers_Utility_ChargableList_1_getCurrentLevelRemainingAmount
-  commentId: M:Bdeshi.Helpers.Utility.ChargableList`1.getCurrentLevelRemainingAmount
-  fullName: Bdeshi.Helpers.Utility.ChargableList<TItem>.getCurrentLevelRemainingAmount()
-  fullName.vb: Bdeshi.Helpers.Utility.ChargableList(Of TItem).getCurrentLevelRemainingAmount()
-  nameWithType: ChargableList<TItem>.getCurrentLevelRemainingAmount()
-  nameWithType.vb: ChargableList(Of TItem).getCurrentLevelRemainingAmount()
-- uid: Bdeshi.Helpers.Utility.ChargableList`1.getCurrentLevelRemainingAmount*
-  name: getCurrentLevelRemainingAmount
-  href: api/Bdeshi.Helpers.Utility.ChargableList-1.html#Bdeshi_Helpers_Utility_ChargableList_1_getCurrentLevelRemainingAmount_
-  commentId: Overload:Bdeshi.Helpers.Utility.ChargableList`1.getCurrentLevelRemainingAmount
-  isSpec: "True"
-  fullName: Bdeshi.Helpers.Utility.ChargableList<TItem>.getCurrentLevelRemainingAmount
-  fullName.vb: Bdeshi.Helpers.Utility.ChargableList(Of TItem).getCurrentLevelRemainingAmount
-  nameWithType: ChargableList<TItem>.getCurrentLevelRemainingAmount
-  nameWithType.vb: ChargableList(Of TItem).getCurrentLevelRemainingAmount
-- uid: Bdeshi.Helpers.Utility.ChargableList`1.getFirstChargeCost
-  name: getFirstChargeCost()
-  href: api/Bdeshi.Helpers.Utility.ChargableList-1.html#Bdeshi_Helpers_Utility_ChargableList_1_getFirstChargeCost
-  commentId: M:Bdeshi.Helpers.Utility.ChargableList`1.getFirstChargeCost
-  fullName: Bdeshi.Helpers.Utility.ChargableList<TItem>.getFirstChargeCost()
-  fullName.vb: Bdeshi.Helpers.Utility.ChargableList(Of TItem).getFirstChargeCost()
-  nameWithType: ChargableList<TItem>.getFirstChargeCost()
-  nameWithType.vb: ChargableList(Of TItem).getFirstChargeCost()
-- uid: Bdeshi.Helpers.Utility.ChargableList`1.getFirstChargeCost*
-  name: getFirstChargeCost
-  href: api/Bdeshi.Helpers.Utility.ChargableList-1.html#Bdeshi_Helpers_Utility_ChargableList_1_getFirstChargeCost_
-  commentId: Overload:Bdeshi.Helpers.Utility.ChargableList`1.getFirstChargeCost
-  isSpec: "True"
-  fullName: Bdeshi.Helpers.Utility.ChargableList<TItem>.getFirstChargeCost
-  fullName.vb: Bdeshi.Helpers.Utility.ChargableList(Of TItem).getFirstChargeCost
-  nameWithType: ChargableList<TItem>.getFirstChargeCost
-  nameWithType.vb: ChargableList(Of TItem).getFirstChargeCost
-- uid: Bdeshi.Helpers.Utility.ChargableList`1.getFullyChargedAmount
-  name: getFullyChargedAmount()
-  href: api/Bdeshi.Helpers.Utility.ChargableList-1.html#Bdeshi_Helpers_Utility_ChargableList_1_getFullyChargedAmount
-  commentId: M:Bdeshi.Helpers.Utility.ChargableList`1.getFullyChargedAmount
-  fullName: Bdeshi.Helpers.Utility.ChargableList<TItem>.getFullyChargedAmount()
-  fullName.vb: Bdeshi.Helpers.Utility.ChargableList(Of TItem).getFullyChargedAmount()
-  nameWithType: ChargableList<TItem>.getFullyChargedAmount()
-  nameWithType.vb: ChargableList(Of TItem).getFullyChargedAmount()
-- uid: Bdeshi.Helpers.Utility.ChargableList`1.getFullyChargedAmount*
-  name: getFullyChargedAmount
-  href: api/Bdeshi.Helpers.Utility.ChargableList-1.html#Bdeshi_Helpers_Utility_ChargableList_1_getFullyChargedAmount_
-  commentId: Overload:Bdeshi.Helpers.Utility.ChargableList`1.getFullyChargedAmount
-  isSpec: "True"
-  fullName: Bdeshi.Helpers.Utility.ChargableList<TItem>.getFullyChargedAmount
-  fullName.vb: Bdeshi.Helpers.Utility.ChargableList(Of TItem).getFullyChargedAmount
-  nameWithType: ChargableList<TItem>.getFullyChargedAmount
-  nameWithType.vb: ChargableList(Of TItem).getFullyChargedAmount
-- uid: Bdeshi.Helpers.Utility.ChargableList`1.getFullyChargedLevelCount
-  name: getFullyChargedLevelCount()
-  href: api/Bdeshi.Helpers.Utility.ChargableList-1.html#Bdeshi_Helpers_Utility_ChargableList_1_getFullyChargedLevelCount
-  commentId: M:Bdeshi.Helpers.Utility.ChargableList`1.getFullyChargedLevelCount
-  fullName: Bdeshi.Helpers.Utility.ChargableList<TItem>.getFullyChargedLevelCount()
-  fullName.vb: Bdeshi.Helpers.Utility.ChargableList(Of TItem).getFullyChargedLevelCount()
-  nameWithType: ChargableList<TItem>.getFullyChargedLevelCount()
-  nameWithType.vb: ChargableList(Of TItem).getFullyChargedLevelCount()
-- uid: Bdeshi.Helpers.Utility.ChargableList`1.getFullyChargedLevelCount*
-  name: getFullyChargedLevelCount
-  href: api/Bdeshi.Helpers.Utility.ChargableList-1.html#Bdeshi_Helpers_Utility_ChargableList_1_getFullyChargedLevelCount_
-  commentId: Overload:Bdeshi.Helpers.Utility.ChargableList`1.getFullyChargedLevelCount
-  isSpec: "True"
-  fullName: Bdeshi.Helpers.Utility.ChargableList<TItem>.getFullyChargedLevelCount
-  fullName.vb: Bdeshi.Helpers.Utility.ChargableList(Of TItem).getFullyChargedLevelCount
-  nameWithType: ChargableList<TItem>.getFullyChargedLevelCount
-  nameWithType.vb: ChargableList(Of TItem).getFullyChargedLevelCount
-- uid: Bdeshi.Helpers.Utility.ChargableList`1.getItem(System.Int32)
-  name: getItem(int)
-  href: api/Bdeshi.Helpers.Utility.ChargableList-1.html#Bdeshi_Helpers_Utility_ChargableList_1_getItem_System_Int32_
-  commentId: M:Bdeshi.Helpers.Utility.ChargableList`1.getItem(System.Int32)
-  name.vb: getItem(Integer)
-  fullName: Bdeshi.Helpers.Utility.ChargableList<TItem>.getItem(int)
-  fullName.vb: Bdeshi.Helpers.Utility.ChargableList(Of TItem).getItem(Integer)
-  nameWithType: ChargableList<TItem>.getItem(int)
-  nameWithType.vb: ChargableList(Of TItem).getItem(Integer)
-- uid: Bdeshi.Helpers.Utility.ChargableList`1.getItem*
-  name: getItem
-  href: api/Bdeshi.Helpers.Utility.ChargableList-1.html#Bdeshi_Helpers_Utility_ChargableList_1_getItem_
-  commentId: Overload:Bdeshi.Helpers.Utility.ChargableList`1.getItem
-  isSpec: "True"
-  fullName: Bdeshi.Helpers.Utility.ChargableList<TItem>.getItem
-  fullName.vb: Bdeshi.Helpers.Utility.ChargableList(Of TItem).getItem
-  nameWithType: ChargableList<TItem>.getItem
-  nameWithType.vb: ChargableList(Of TItem).getItem
-- uid: Bdeshi.Helpers.Utility.ChargableList`1.getItemAndReset
-  name: getItemAndReset()
-  href: api/Bdeshi.Helpers.Utility.ChargableList-1.html#Bdeshi_Helpers_Utility_ChargableList_1_getItemAndReset
-  commentId: M:Bdeshi.Helpers.Utility.ChargableList`1.getItemAndReset
-  fullName: Bdeshi.Helpers.Utility.ChargableList<TItem>.getItemAndReset()
-  fullName.vb: Bdeshi.Helpers.Utility.ChargableList(Of TItem).getItemAndReset()
-  nameWithType: ChargableList<TItem>.getItemAndReset()
-  nameWithType.vb: ChargableList(Of TItem).getItemAndReset()
-- uid: Bdeshi.Helpers.Utility.ChargableList`1.getItemAndReset*
-  name: getItemAndReset
-  href: api/Bdeshi.Helpers.Utility.ChargableList-1.html#Bdeshi_Helpers_Utility_ChargableList_1_getItemAndReset_
-  commentId: Overload:Bdeshi.Helpers.Utility.ChargableList`1.getItemAndReset
-  isSpec: "True"
-  fullName: Bdeshi.Helpers.Utility.ChargableList<TItem>.getItemAndReset
-  fullName.vb: Bdeshi.Helpers.Utility.ChargableList(Of TItem).getItemAndReset
-  nameWithType: ChargableList<TItem>.getItemAndReset
-  nameWithType.vb: ChargableList(Of TItem).getItemAndReset
-- uid: Bdeshi.Helpers.Utility.ChargableList`1.getNormalizedChargedLevelCount
-  name: getNormalizedChargedLevelCount()
-  href: api/Bdeshi.Helpers.Utility.ChargableList-1.html#Bdeshi_Helpers_Utility_ChargableList_1_getNormalizedChargedLevelCount
-  commentId: M:Bdeshi.Helpers.Utility.ChargableList`1.getNormalizedChargedLevelCount
-  fullName: Bdeshi.Helpers.Utility.ChargableList<TItem>.getNormalizedChargedLevelCount()
-  fullName.vb: Bdeshi.Helpers.Utility.ChargableList(Of TItem).getNormalizedChargedLevelCount()
-  nameWithType: ChargableList<TItem>.getNormalizedChargedLevelCount()
-  nameWithType.vb: ChargableList(Of TItem).getNormalizedChargedLevelCount()
-- uid: Bdeshi.Helpers.Utility.ChargableList`1.getNormalizedChargedLevelCount*
-  name: getNormalizedChargedLevelCount
-  href: api/Bdeshi.Helpers.Utility.ChargableList-1.html#Bdeshi_Helpers_Utility_ChargableList_1_getNormalizedChargedLevelCount_
-  commentId: Overload:Bdeshi.Helpers.Utility.ChargableList`1.getNormalizedChargedLevelCount
-  isSpec: "True"
-  fullName: Bdeshi.Helpers.Utility.ChargableList<TItem>.getNormalizedChargedLevelCount
-  fullName.vb: Bdeshi.Helpers.Utility.ChargableList(Of TItem).getNormalizedChargedLevelCount
-  nameWithType: ChargableList<TItem>.getNormalizedChargedLevelCount
-  nameWithType.vb: ChargableList(Of TItem).getNormalizedChargedLevelCount
-- uid: Bdeshi.Helpers.Utility.ChargableList`1.getTotalChargedAmount
-  name: getTotalChargedAmount()
-  href: api/Bdeshi.Helpers.Utility.ChargableList-1.html#Bdeshi_Helpers_Utility_ChargableList_1_getTotalChargedAmount
-  commentId: M:Bdeshi.Helpers.Utility.ChargableList`1.getTotalChargedAmount
-  fullName: Bdeshi.Helpers.Utility.ChargableList<TItem>.getTotalChargedAmount()
-  fullName.vb: Bdeshi.Helpers.Utility.ChargableList(Of TItem).getTotalChargedAmount()
-  nameWithType: ChargableList<TItem>.getTotalChargedAmount()
-  nameWithType.vb: ChargableList(Of TItem).getTotalChargedAmount()
-- uid: Bdeshi.Helpers.Utility.ChargableList`1.getTotalChargedAmount*
-  name: getTotalChargedAmount
-  href: api/Bdeshi.Helpers.Utility.ChargableList-1.html#Bdeshi_Helpers_Utility_ChargableList_1_getTotalChargedAmount_
-  commentId: Overload:Bdeshi.Helpers.Utility.ChargableList`1.getTotalChargedAmount
-  isSpec: "True"
-  fullName: Bdeshi.Helpers.Utility.ChargableList<TItem>.getTotalChargedAmount
-  fullName.vb: Bdeshi.Helpers.Utility.ChargableList(Of TItem).getTotalChargedAmount
-  nameWithType: ChargableList<TItem>.getTotalChargedAmount
-  nameWithType.vb: ChargableList(Of TItem).getTotalChargedAmount
-- uid: Bdeshi.Helpers.Utility.ChargableList`1.hasMoreChargeLevels
-  name: hasMoreChargeLevels
-  href: api/Bdeshi.Helpers.Utility.ChargableList-1.html#Bdeshi_Helpers_Utility_ChargableList_1_hasMoreChargeLevels
-  commentId: P:Bdeshi.Helpers.Utility.ChargableList`1.hasMoreChargeLevels
-  fullName: Bdeshi.Helpers.Utility.ChargableList<TItem>.hasMoreChargeLevels
-  fullName.vb: Bdeshi.Helpers.Utility.ChargableList(Of TItem).hasMoreChargeLevels
-  nameWithType: ChargableList<TItem>.hasMoreChargeLevels
-  nameWithType.vb: ChargableList(Of TItem).hasMoreChargeLevels
-- uid: Bdeshi.Helpers.Utility.ChargableList`1.hasMoreChargeLevels*
-  name: hasMoreChargeLevels
-  href: api/Bdeshi.Helpers.Utility.ChargableList-1.html#Bdeshi_Helpers_Utility_ChargableList_1_hasMoreChargeLevels_
-  commentId: Overload:Bdeshi.Helpers.Utility.ChargableList`1.hasMoreChargeLevels
-  isSpec: "True"
-  fullName: Bdeshi.Helpers.Utility.ChargableList<TItem>.hasMoreChargeLevels
-  fullName.vb: Bdeshi.Helpers.Utility.ChargableList(Of TItem).hasMoreChargeLevels
-  nameWithType: ChargableList<TItem>.hasMoreChargeLevels
-  nameWithType.vb: ChargableList(Of TItem).hasMoreChargeLevels
-- uid: Bdeshi.Helpers.Utility.ChargableList`1.increaseCharge(System.Single,System.Func{`0,`0,System.Boolean},System.Action{`0})
-  name: increaseCharge(float, Func<TItem, TItem, bool>, Action<TItem>)
-  href: api/Bdeshi.Helpers.Utility.ChargableList-1.html#Bdeshi_Helpers_Utility_ChargableList_1_increaseCharge_System_Single_System_Func__0__0_System_Boolean__System_Action__0__
-  commentId: M:Bdeshi.Helpers.Utility.ChargableList`1.increaseCharge(System.Single,System.Func{`0,`0,System.Boolean},System.Action{`0})
-  name.vb: increaseCharge(Single, Func(Of TItem, TItem, Boolean), Action(Of TItem))
-  fullName: Bdeshi.Helpers.Utility.ChargableList<TItem>.increaseCharge(float, System.Func<TItem, TItem, bool>, System.Action<TItem>)
-  fullName.vb: Bdeshi.Helpers.Utility.ChargableList(Of TItem).increaseCharge(Single, System.Func(Of TItem, TItem, Boolean), System.Action(Of TItem))
-  nameWithType: ChargableList<TItem>.increaseCharge(float, Func<TItem, TItem, bool>, Action<TItem>)
-  nameWithType.vb: ChargableList(Of TItem).increaseCharge(Single, Func(Of TItem, TItem, Boolean), Action(Of TItem))
-- uid: Bdeshi.Helpers.Utility.ChargableList`1.increaseCharge*
-  name: increaseCharge
-  href: api/Bdeshi.Helpers.Utility.ChargableList-1.html#Bdeshi_Helpers_Utility_ChargableList_1_increaseCharge_
-  commentId: Overload:Bdeshi.Helpers.Utility.ChargableList`1.increaseCharge
-  isSpec: "True"
-  fullName: Bdeshi.Helpers.Utility.ChargableList<TItem>.increaseCharge
-  fullName.vb: Bdeshi.Helpers.Utility.ChargableList(Of TItem).increaseCharge
-  nameWithType: ChargableList<TItem>.increaseCharge
-  nameWithType.vb: ChargableList(Of TItem).increaseCharge
-- uid: Bdeshi.Helpers.Utility.ChargableList`1.isEmpty
-  name: isEmpty()
-  href: api/Bdeshi.Helpers.Utility.ChargableList-1.html#Bdeshi_Helpers_Utility_ChargableList_1_isEmpty
-  commentId: M:Bdeshi.Helpers.Utility.ChargableList`1.isEmpty
-  fullName: Bdeshi.Helpers.Utility.ChargableList<TItem>.isEmpty()
-  fullName.vb: Bdeshi.Helpers.Utility.ChargableList(Of TItem).isEmpty()
-  nameWithType: ChargableList<TItem>.isEmpty()
-  nameWithType.vb: ChargableList(Of TItem).isEmpty()
-- uid: Bdeshi.Helpers.Utility.ChargableList`1.isEmpty*
-  name: isEmpty
-  href: api/Bdeshi.Helpers.Utility.ChargableList-1.html#Bdeshi_Helpers_Utility_ChargableList_1_isEmpty_
-  commentId: Overload:Bdeshi.Helpers.Utility.ChargableList`1.isEmpty
-  isSpec: "True"
-  fullName: Bdeshi.Helpers.Utility.ChargableList<TItem>.isEmpty
-  fullName.vb: Bdeshi.Helpers.Utility.ChargableList(Of TItem).isEmpty
-  nameWithType: ChargableList<TItem>.isEmpty
-  nameWithType.vb: ChargableList(Of TItem).isEmpty
-- uid: Bdeshi.Helpers.Utility.ChargableList`1.resetChargeLevel
-  name: resetChargeLevel()
-  href: api/Bdeshi.Helpers.Utility.ChargableList-1.html#Bdeshi_Helpers_Utility_ChargableList_1_resetChargeLevel
-  commentId: M:Bdeshi.Helpers.Utility.ChargableList`1.resetChargeLevel
-  fullName: Bdeshi.Helpers.Utility.ChargableList<TItem>.resetChargeLevel()
-  fullName.vb: Bdeshi.Helpers.Utility.ChargableList(Of TItem).resetChargeLevel()
-  nameWithType: ChargableList<TItem>.resetChargeLevel()
-  nameWithType.vb: ChargableList(Of TItem).resetChargeLevel()
-- uid: Bdeshi.Helpers.Utility.ChargableList`1.resetChargeLevel*
-  name: resetChargeLevel
-  href: api/Bdeshi.Helpers.Utility.ChargableList-1.html#Bdeshi_Helpers_Utility_ChargableList_1_resetChargeLevel_
-  commentId: Overload:Bdeshi.Helpers.Utility.ChargableList`1.resetChargeLevel
-  isSpec: "True"
-  fullName: Bdeshi.Helpers.Utility.ChargableList<TItem>.resetChargeLevel
-  fullName.vb: Bdeshi.Helpers.Utility.ChargableList(Of TItem).resetChargeLevel
-  nameWithType: ChargableList<TItem>.resetChargeLevel
-  nameWithType.vb: ChargableList(Of TItem).resetChargeLevel
-- uid: Bdeshi.Helpers.Utility.ChargableList`1.setAllChargeThresholdsTo(System.Single)
-  name: setAllChargeThresholdsTo(float)
-  href: api/Bdeshi.Helpers.Utility.ChargableList-1.html#Bdeshi_Helpers_Utility_ChargableList_1_setAllChargeThresholdsTo_System_Single_
-  commentId: M:Bdeshi.Helpers.Utility.ChargableList`1.setAllChargeThresholdsTo(System.Single)
-  name.vb: setAllChargeThresholdsTo(Single)
-  fullName: Bdeshi.Helpers.Utility.ChargableList<TItem>.setAllChargeThresholdsTo(float)
-  fullName.vb: Bdeshi.Helpers.Utility.ChargableList(Of TItem).setAllChargeThresholdsTo(Single)
-  nameWithType: ChargableList<TItem>.setAllChargeThresholdsTo(float)
-  nameWithType.vb: ChargableList(Of TItem).setAllChargeThresholdsTo(Single)
-- uid: Bdeshi.Helpers.Utility.ChargableList`1.setAllChargeThresholdsTo*
-  name: setAllChargeThresholdsTo
-  href: api/Bdeshi.Helpers.Utility.ChargableList-1.html#Bdeshi_Helpers_Utility_ChargableList_1_setAllChargeThresholdsTo_
-  commentId: Overload:Bdeshi.Helpers.Utility.ChargableList`1.setAllChargeThresholdsTo
-  isSpec: "True"
-  fullName: Bdeshi.Helpers.Utility.ChargableList<TItem>.setAllChargeThresholdsTo
-  fullName.vb: Bdeshi.Helpers.Utility.ChargableList(Of TItem).setAllChargeThresholdsTo
-  nameWithType: ChargableList<TItem>.setAllChargeThresholdsTo
-  nameWithType.vb: ChargableList(Of TItem).setAllChargeThresholdsTo
-- uid: Bdeshi.Helpers.Utility.ChargableList`1.subtractNormalizedChargeLevel(System.Single)
-  name: subtractNormalizedChargeLevel(float)
-  href: api/Bdeshi.Helpers.Utility.ChargableList-1.html#Bdeshi_Helpers_Utility_ChargableList_1_subtractNormalizedChargeLevel_System_Single_
-  commentId: M:Bdeshi.Helpers.Utility.ChargableList`1.subtractNormalizedChargeLevel(System.Single)
-  name.vb: subtractNormalizedChargeLevel(Single)
-  fullName: Bdeshi.Helpers.Utility.ChargableList<TItem>.subtractNormalizedChargeLevel(float)
-  fullName.vb: Bdeshi.Helpers.Utility.ChargableList(Of TItem).subtractNormalizedChargeLevel(Single)
-  nameWithType: ChargableList<TItem>.subtractNormalizedChargeLevel(float)
-  nameWithType.vb: ChargableList(Of TItem).subtractNormalizedChargeLevel(Single)
-- uid: Bdeshi.Helpers.Utility.ChargableList`1.subtractNormalizedChargeLevel*
-  name: subtractNormalizedChargeLevel
-  href: api/Bdeshi.Helpers.Utility.ChargableList-1.html#Bdeshi_Helpers_Utility_ChargableList_1_subtractNormalizedChargeLevel_
-  commentId: Overload:Bdeshi.Helpers.Utility.ChargableList`1.subtractNormalizedChargeLevel
-  isSpec: "True"
-  fullName: Bdeshi.Helpers.Utility.ChargableList<TItem>.subtractNormalizedChargeLevel
-  fullName.vb: Bdeshi.Helpers.Utility.ChargableList(Of TItem).subtractNormalizedChargeLevel
-  nameWithType: ChargableList<TItem>.subtractNormalizedChargeLevel
-  nameWithType.vb: ChargableList(Of TItem).subtractNormalizedChargeLevel
-- uid: Bdeshi.Helpers.Utility.ChargableList`1.tryDropLevel(System.Action{`0})
-  name: tryDropLevel(Action<TItem>)
-  href: api/Bdeshi.Helpers.Utility.ChargableList-1.html#Bdeshi_Helpers_Utility_ChargableList_1_tryDropLevel_System_Action__0__
-  commentId: M:Bdeshi.Helpers.Utility.ChargableList`1.tryDropLevel(System.Action{`0})
-  name.vb: tryDropLevel(Action(Of TItem))
-  fullName: Bdeshi.Helpers.Utility.ChargableList<TItem>.tryDropLevel(System.Action<TItem>)
-  fullName.vb: Bdeshi.Helpers.Utility.ChargableList(Of TItem).tryDropLevel(System.Action(Of TItem))
-  nameWithType: ChargableList<TItem>.tryDropLevel(Action<TItem>)
-  nameWithType.vb: ChargableList(Of TItem).tryDropLevel(Action(Of TItem))
-- uid: Bdeshi.Helpers.Utility.ChargableList`1.tryDropLevel*
-  name: tryDropLevel
-  href: api/Bdeshi.Helpers.Utility.ChargableList-1.html#Bdeshi_Helpers_Utility_ChargableList_1_tryDropLevel_
-  commentId: Overload:Bdeshi.Helpers.Utility.ChargableList`1.tryDropLevel
-  isSpec: "True"
-  fullName: Bdeshi.Helpers.Utility.ChargableList<TItem>.tryDropLevel
-  fullName.vb: Bdeshi.Helpers.Utility.ChargableList(Of TItem).tryDropLevel
-  nameWithType: ChargableList<TItem>.tryDropLevel
-  nameWithType.vb: ChargableList(Of TItem).tryDropLevel
-- uid: Bdeshi.Helpers.Utility.ChargableList`1.tryGetNextItem(`0@)
-  name: tryGetNextItem(out TItem)
-  href: api/Bdeshi.Helpers.Utility.ChargableList-1.html#Bdeshi_Helpers_Utility_ChargableList_1_tryGetNextItem__0__
-  commentId: M:Bdeshi.Helpers.Utility.ChargableList`1.tryGetNextItem(`0@)
-  name.vb: tryGetNextItem(TItem)
-  fullName: Bdeshi.Helpers.Utility.ChargableList<TItem>.tryGetNextItem(out TItem)
-  fullName.vb: Bdeshi.Helpers.Utility.ChargableList(Of TItem).tryGetNextItem(TItem)
-  nameWithType: ChargableList<TItem>.tryGetNextItem(out TItem)
-  nameWithType.vb: ChargableList(Of TItem).tryGetNextItem(TItem)
-- uid: Bdeshi.Helpers.Utility.ChargableList`1.tryGetNextItem*
-  name: tryGetNextItem
-  href: api/Bdeshi.Helpers.Utility.ChargableList-1.html#Bdeshi_Helpers_Utility_ChargableList_1_tryGetNextItem_
-  commentId: Overload:Bdeshi.Helpers.Utility.ChargableList`1.tryGetNextItem
-  isSpec: "True"
-  fullName: Bdeshi.Helpers.Utility.ChargableList<TItem>.tryGetNextItem
-  fullName.vb: Bdeshi.Helpers.Utility.ChargableList(Of TItem).tryGetNextItem
-  nameWithType: ChargableList<TItem>.tryGetNextItem
-  nameWithType.vb: ChargableList(Of TItem).tryGetNextItem
 - uid: Bdeshi.Helpers.Utility.EventOnAwake
   name: EventOnAwake
   href: api/Bdeshi.Helpers.Utility.EventOnAwake.html
@@ -1064,6 +1880,22 @@ references:
   isSpec: "True"
   fullName: Bdeshi.Helpers.Utility.Extensions.Csharp.ObjectNullOrToString
   nameWithType: Csharp.ObjectNullOrToString
+- uid: Bdeshi.Helpers.Utility.Extensions.Csharp.ToStringOrNull(System.Object)
+  name: ToStringOrNull(object)
+  href: api/Bdeshi.Helpers.Utility.Extensions.Csharp.html#Bdeshi_Helpers_Utility_Extensions_Csharp_ToStringOrNull_System_Object_
+  commentId: M:Bdeshi.Helpers.Utility.Extensions.Csharp.ToStringOrNull(System.Object)
+  name.vb: ToStringOrNull(Object)
+  fullName: Bdeshi.Helpers.Utility.Extensions.Csharp.ToStringOrNull(object)
+  fullName.vb: Bdeshi.Helpers.Utility.Extensions.Csharp.ToStringOrNull(Object)
+  nameWithType: Csharp.ToStringOrNull(object)
+  nameWithType.vb: Csharp.ToStringOrNull(Object)
+- uid: Bdeshi.Helpers.Utility.Extensions.Csharp.ToStringOrNull*
+  name: ToStringOrNull
+  href: api/Bdeshi.Helpers.Utility.Extensions.Csharp.html#Bdeshi_Helpers_Utility_Extensions_Csharp_ToStringOrNull_
+  commentId: Overload:Bdeshi.Helpers.Utility.Extensions.Csharp.ToStringOrNull
+  isSpec: "True"
+  fullName: Bdeshi.Helpers.Utility.Extensions.Csharp.ToStringOrNull
+  nameWithType: Csharp.ToStringOrNull
 - uid: Bdeshi.Helpers.Utility.Extensions.Csharp.binarySearchFirstGreater*
   name: binarySearchFirstGreater
   href: api/Bdeshi.Helpers.Utility.Extensions.Csharp.html#Bdeshi_Helpers_Utility_Extensions_Csharp_binarySearchFirstGreater_
@@ -2149,293 +2981,57 @@ references:
   isSpec: "True"
   fullName: Bdeshi.Helpers.Utility.FiniteTimer.updateTimer
   nameWithType: FiniteTimer.updateTimer
-- uid: Bdeshi.Helpers.Utility.GenericDictionary`2
-  name: GenericDictionary<TKey, TValue>
-  href: api/Bdeshi.Helpers.Utility.GenericDictionary-2.html
-  commentId: T:Bdeshi.Helpers.Utility.GenericDictionary`2
-  name.vb: GenericDictionary(Of TKey, TValue)
-  fullName: Bdeshi.Helpers.Utility.GenericDictionary<TKey, TValue>
-  fullName.vb: Bdeshi.Helpers.Utility.GenericDictionary(Of TKey, TValue)
-  nameWithType: GenericDictionary<TKey, TValue>
-  nameWithType.vb: GenericDictionary(Of TKey, TValue)
-- uid: Bdeshi.Helpers.Utility.GenericDictionary`2.Add(System.Collections.Generic.KeyValuePair{`0,`1})
-  name: Add(KeyValuePair<TKey, TValue>)
-  href: api/Bdeshi.Helpers.Utility.GenericDictionary-2.html#Bdeshi_Helpers_Utility_GenericDictionary_2_Add_System_Collections_Generic_KeyValuePair__0__1__
-  commentId: M:Bdeshi.Helpers.Utility.GenericDictionary`2.Add(System.Collections.Generic.KeyValuePair{`0,`1})
-  name.vb: Add(KeyValuePair(Of TKey, TValue))
-  fullName: Bdeshi.Helpers.Utility.GenericDictionary<TKey, TValue>.Add(System.Collections.Generic.KeyValuePair<TKey, TValue>)
-  fullName.vb: Bdeshi.Helpers.Utility.GenericDictionary(Of TKey, TValue).Add(System.Collections.Generic.KeyValuePair(Of TKey, TValue))
-  nameWithType: GenericDictionary<TKey, TValue>.Add(KeyValuePair<TKey, TValue>)
-  nameWithType.vb: GenericDictionary(Of TKey, TValue).Add(KeyValuePair(Of TKey, TValue))
-- uid: Bdeshi.Helpers.Utility.GenericDictionary`2.Add(`0,`1)
-  name: Add(TKey, TValue)
-  href: api/Bdeshi.Helpers.Utility.GenericDictionary-2.html#Bdeshi_Helpers_Utility_GenericDictionary_2_Add__0__1_
-  commentId: M:Bdeshi.Helpers.Utility.GenericDictionary`2.Add(`0,`1)
-  fullName: Bdeshi.Helpers.Utility.GenericDictionary<TKey, TValue>.Add(TKey, TValue)
-  fullName.vb: Bdeshi.Helpers.Utility.GenericDictionary(Of TKey, TValue).Add(TKey, TValue)
-  nameWithType: GenericDictionary<TKey, TValue>.Add(TKey, TValue)
-  nameWithType.vb: GenericDictionary(Of TKey, TValue).Add(TKey, TValue)
-- uid: Bdeshi.Helpers.Utility.GenericDictionary`2.Add*
-  name: Add
-  href: api/Bdeshi.Helpers.Utility.GenericDictionary-2.html#Bdeshi_Helpers_Utility_GenericDictionary_2_Add_
-  commentId: Overload:Bdeshi.Helpers.Utility.GenericDictionary`2.Add
+- uid: Bdeshi.Helpers.Utility.MonoBehaviorWeakSingleton`1
+  name: MonoBehaviorWeakSingleton<T>
+  href: api/Bdeshi.Helpers.Utility.MonoBehaviorWeakSingleton-1.html
+  commentId: T:Bdeshi.Helpers.Utility.MonoBehaviorWeakSingleton`1
+  name.vb: MonoBehaviorWeakSingleton(Of T)
+  fullName: Bdeshi.Helpers.Utility.MonoBehaviorWeakSingleton<T>
+  fullName.vb: Bdeshi.Helpers.Utility.MonoBehaviorWeakSingleton(Of T)
+  nameWithType: MonoBehaviorWeakSingleton<T>
+  nameWithType.vb: MonoBehaviorWeakSingleton(Of T)
+- uid: Bdeshi.Helpers.Utility.MonoBehaviorWeakSingleton`1.Initialize
+  name: Initialize()
+  href: api/Bdeshi.Helpers.Utility.MonoBehaviorWeakSingleton-1.html#Bdeshi_Helpers_Utility_MonoBehaviorWeakSingleton_1_Initialize
+  commentId: M:Bdeshi.Helpers.Utility.MonoBehaviorWeakSingleton`1.Initialize
+  fullName: Bdeshi.Helpers.Utility.MonoBehaviorWeakSingleton<T>.Initialize()
+  fullName.vb: Bdeshi.Helpers.Utility.MonoBehaviorWeakSingleton(Of T).Initialize()
+  nameWithType: MonoBehaviorWeakSingleton<T>.Initialize()
+  nameWithType.vb: MonoBehaviorWeakSingleton(Of T).Initialize()
+- uid: Bdeshi.Helpers.Utility.MonoBehaviorWeakSingleton`1.Initialize*
+  name: Initialize
+  href: api/Bdeshi.Helpers.Utility.MonoBehaviorWeakSingleton-1.html#Bdeshi_Helpers_Utility_MonoBehaviorWeakSingleton_1_Initialize_
+  commentId: Overload:Bdeshi.Helpers.Utility.MonoBehaviorWeakSingleton`1.Initialize
   isSpec: "True"
-  fullName: Bdeshi.Helpers.Utility.GenericDictionary<TKey, TValue>.Add
-  fullName.vb: Bdeshi.Helpers.Utility.GenericDictionary(Of TKey, TValue).Add
-  nameWithType: GenericDictionary<TKey, TValue>.Add
-  nameWithType.vb: GenericDictionary(Of TKey, TValue).Add
-- uid: Bdeshi.Helpers.Utility.GenericDictionary`2.Clear
-  name: Clear()
-  href: api/Bdeshi.Helpers.Utility.GenericDictionary-2.html#Bdeshi_Helpers_Utility_GenericDictionary_2_Clear
-  commentId: M:Bdeshi.Helpers.Utility.GenericDictionary`2.Clear
-  fullName: Bdeshi.Helpers.Utility.GenericDictionary<TKey, TValue>.Clear()
-  fullName.vb: Bdeshi.Helpers.Utility.GenericDictionary(Of TKey, TValue).Clear()
-  nameWithType: GenericDictionary<TKey, TValue>.Clear()
-  nameWithType.vb: GenericDictionary(Of TKey, TValue).Clear()
-- uid: Bdeshi.Helpers.Utility.GenericDictionary`2.Clear*
-  name: Clear
-  href: api/Bdeshi.Helpers.Utility.GenericDictionary-2.html#Bdeshi_Helpers_Utility_GenericDictionary_2_Clear_
-  commentId: Overload:Bdeshi.Helpers.Utility.GenericDictionary`2.Clear
+  fullName: Bdeshi.Helpers.Utility.MonoBehaviorWeakSingleton<T>.Initialize
+  fullName.vb: Bdeshi.Helpers.Utility.MonoBehaviorWeakSingleton(Of T).Initialize
+  nameWithType: MonoBehaviorWeakSingleton<T>.Initialize
+  nameWithType.vb: MonoBehaviorWeakSingleton(Of T).Initialize
+- uid: Bdeshi.Helpers.Utility.MonoBehaviorWeakSingleton`1.Instance
+  name: Instance
+  href: api/Bdeshi.Helpers.Utility.MonoBehaviorWeakSingleton-1.html#Bdeshi_Helpers_Utility_MonoBehaviorWeakSingleton_1_Instance
+  commentId: P:Bdeshi.Helpers.Utility.MonoBehaviorWeakSingleton`1.Instance
+  fullName: Bdeshi.Helpers.Utility.MonoBehaviorWeakSingleton<T>.Instance
+  fullName.vb: Bdeshi.Helpers.Utility.MonoBehaviorWeakSingleton(Of T).Instance
+  nameWithType: MonoBehaviorWeakSingleton<T>.Instance
+  nameWithType.vb: MonoBehaviorWeakSingleton(Of T).Instance
+- uid: Bdeshi.Helpers.Utility.MonoBehaviorWeakSingleton`1.Instance*
+  name: Instance
+  href: api/Bdeshi.Helpers.Utility.MonoBehaviorWeakSingleton-1.html#Bdeshi_Helpers_Utility_MonoBehaviorWeakSingleton_1_Instance_
+  commentId: Overload:Bdeshi.Helpers.Utility.MonoBehaviorWeakSingleton`1.Instance
   isSpec: "True"
-  fullName: Bdeshi.Helpers.Utility.GenericDictionary<TKey, TValue>.Clear
-  fullName.vb: Bdeshi.Helpers.Utility.GenericDictionary(Of TKey, TValue).Clear
-  nameWithType: GenericDictionary<TKey, TValue>.Clear
-  nameWithType.vb: GenericDictionary(Of TKey, TValue).Clear
-- uid: Bdeshi.Helpers.Utility.GenericDictionary`2.Contains(System.Collections.Generic.KeyValuePair{`0,`1})
-  name: Contains(KeyValuePair<TKey, TValue>)
-  href: api/Bdeshi.Helpers.Utility.GenericDictionary-2.html#Bdeshi_Helpers_Utility_GenericDictionary_2_Contains_System_Collections_Generic_KeyValuePair__0__1__
-  commentId: M:Bdeshi.Helpers.Utility.GenericDictionary`2.Contains(System.Collections.Generic.KeyValuePair{`0,`1})
-  name.vb: Contains(KeyValuePair(Of TKey, TValue))
-  fullName: Bdeshi.Helpers.Utility.GenericDictionary<TKey, TValue>.Contains(System.Collections.Generic.KeyValuePair<TKey, TValue>)
-  fullName.vb: Bdeshi.Helpers.Utility.GenericDictionary(Of TKey, TValue).Contains(System.Collections.Generic.KeyValuePair(Of TKey, TValue))
-  nameWithType: GenericDictionary<TKey, TValue>.Contains(KeyValuePair<TKey, TValue>)
-  nameWithType.vb: GenericDictionary(Of TKey, TValue).Contains(KeyValuePair(Of TKey, TValue))
-- uid: Bdeshi.Helpers.Utility.GenericDictionary`2.Contains*
-  name: Contains
-  href: api/Bdeshi.Helpers.Utility.GenericDictionary-2.html#Bdeshi_Helpers_Utility_GenericDictionary_2_Contains_
-  commentId: Overload:Bdeshi.Helpers.Utility.GenericDictionary`2.Contains
-  isSpec: "True"
-  fullName: Bdeshi.Helpers.Utility.GenericDictionary<TKey, TValue>.Contains
-  fullName.vb: Bdeshi.Helpers.Utility.GenericDictionary(Of TKey, TValue).Contains
-  nameWithType: GenericDictionary<TKey, TValue>.Contains
-  nameWithType.vb: GenericDictionary(Of TKey, TValue).Contains
-- uid: Bdeshi.Helpers.Utility.GenericDictionary`2.ContainsKey(`0)
-  name: ContainsKey(TKey)
-  href: api/Bdeshi.Helpers.Utility.GenericDictionary-2.html#Bdeshi_Helpers_Utility_GenericDictionary_2_ContainsKey__0_
-  commentId: M:Bdeshi.Helpers.Utility.GenericDictionary`2.ContainsKey(`0)
-  fullName: Bdeshi.Helpers.Utility.GenericDictionary<TKey, TValue>.ContainsKey(TKey)
-  fullName.vb: Bdeshi.Helpers.Utility.GenericDictionary(Of TKey, TValue).ContainsKey(TKey)
-  nameWithType: GenericDictionary<TKey, TValue>.ContainsKey(TKey)
-  nameWithType.vb: GenericDictionary(Of TKey, TValue).ContainsKey(TKey)
-- uid: Bdeshi.Helpers.Utility.GenericDictionary`2.ContainsKey*
-  name: ContainsKey
-  href: api/Bdeshi.Helpers.Utility.GenericDictionary-2.html#Bdeshi_Helpers_Utility_GenericDictionary_2_ContainsKey_
-  commentId: Overload:Bdeshi.Helpers.Utility.GenericDictionary`2.ContainsKey
-  isSpec: "True"
-  fullName: Bdeshi.Helpers.Utility.GenericDictionary<TKey, TValue>.ContainsKey
-  fullName.vb: Bdeshi.Helpers.Utility.GenericDictionary(Of TKey, TValue).ContainsKey
-  nameWithType: GenericDictionary<TKey, TValue>.ContainsKey
-  nameWithType.vb: GenericDictionary(Of TKey, TValue).ContainsKey
-- uid: Bdeshi.Helpers.Utility.GenericDictionary`2.CopyTo(System.Collections.Generic.KeyValuePair{`0,`1}[],System.Int32)
-  name: CopyTo(KeyValuePair<TKey, TValue>[], int)
-  href: api/Bdeshi.Helpers.Utility.GenericDictionary-2.html#Bdeshi_Helpers_Utility_GenericDictionary_2_CopyTo_System_Collections_Generic_KeyValuePair__0__1____System_Int32_
-  commentId: M:Bdeshi.Helpers.Utility.GenericDictionary`2.CopyTo(System.Collections.Generic.KeyValuePair{`0,`1}[],System.Int32)
-  name.vb: CopyTo(KeyValuePair(Of TKey, TValue)(), Integer)
-  fullName: Bdeshi.Helpers.Utility.GenericDictionary<TKey, TValue>.CopyTo(System.Collections.Generic.KeyValuePair<TKey, TValue>[], int)
-  fullName.vb: Bdeshi.Helpers.Utility.GenericDictionary(Of TKey, TValue).CopyTo(System.Collections.Generic.KeyValuePair(Of TKey, TValue)(), Integer)
-  nameWithType: GenericDictionary<TKey, TValue>.CopyTo(KeyValuePair<TKey, TValue>[], int)
-  nameWithType.vb: GenericDictionary(Of TKey, TValue).CopyTo(KeyValuePair(Of TKey, TValue)(), Integer)
-- uid: Bdeshi.Helpers.Utility.GenericDictionary`2.CopyTo*
-  name: CopyTo
-  href: api/Bdeshi.Helpers.Utility.GenericDictionary-2.html#Bdeshi_Helpers_Utility_GenericDictionary_2_CopyTo_
-  commentId: Overload:Bdeshi.Helpers.Utility.GenericDictionary`2.CopyTo
-  isSpec: "True"
-  fullName: Bdeshi.Helpers.Utility.GenericDictionary<TKey, TValue>.CopyTo
-  fullName.vb: Bdeshi.Helpers.Utility.GenericDictionary(Of TKey, TValue).CopyTo
-  nameWithType: GenericDictionary<TKey, TValue>.CopyTo
-  nameWithType.vb: GenericDictionary(Of TKey, TValue).CopyTo
-- uid: Bdeshi.Helpers.Utility.GenericDictionary`2.Count
-  name: Count
-  href: api/Bdeshi.Helpers.Utility.GenericDictionary-2.html#Bdeshi_Helpers_Utility_GenericDictionary_2_Count
-  commentId: P:Bdeshi.Helpers.Utility.GenericDictionary`2.Count
-  fullName: Bdeshi.Helpers.Utility.GenericDictionary<TKey, TValue>.Count
-  fullName.vb: Bdeshi.Helpers.Utility.GenericDictionary(Of TKey, TValue).Count
-  nameWithType: GenericDictionary<TKey, TValue>.Count
-  nameWithType.vb: GenericDictionary(Of TKey, TValue).Count
-- uid: Bdeshi.Helpers.Utility.GenericDictionary`2.Count*
-  name: Count
-  href: api/Bdeshi.Helpers.Utility.GenericDictionary-2.html#Bdeshi_Helpers_Utility_GenericDictionary_2_Count_
-  commentId: Overload:Bdeshi.Helpers.Utility.GenericDictionary`2.Count
-  isSpec: "True"
-  fullName: Bdeshi.Helpers.Utility.GenericDictionary<TKey, TValue>.Count
-  fullName.vb: Bdeshi.Helpers.Utility.GenericDictionary(Of TKey, TValue).Count
-  nameWithType: GenericDictionary<TKey, TValue>.Count
-  nameWithType.vb: GenericDictionary(Of TKey, TValue).Count
-- uid: Bdeshi.Helpers.Utility.GenericDictionary`2.GetEnumerator
-  name: GetEnumerator()
-  href: api/Bdeshi.Helpers.Utility.GenericDictionary-2.html#Bdeshi_Helpers_Utility_GenericDictionary_2_GetEnumerator
-  commentId: M:Bdeshi.Helpers.Utility.GenericDictionary`2.GetEnumerator
-  fullName: Bdeshi.Helpers.Utility.GenericDictionary<TKey, TValue>.GetEnumerator()
-  fullName.vb: Bdeshi.Helpers.Utility.GenericDictionary(Of TKey, TValue).GetEnumerator()
-  nameWithType: GenericDictionary<TKey, TValue>.GetEnumerator()
-  nameWithType.vb: GenericDictionary(Of TKey, TValue).GetEnumerator()
-- uid: Bdeshi.Helpers.Utility.GenericDictionary`2.GetEnumerator*
-  name: GetEnumerator
-  href: api/Bdeshi.Helpers.Utility.GenericDictionary-2.html#Bdeshi_Helpers_Utility_GenericDictionary_2_GetEnumerator_
-  commentId: Overload:Bdeshi.Helpers.Utility.GenericDictionary`2.GetEnumerator
-  isSpec: "True"
-  fullName: Bdeshi.Helpers.Utility.GenericDictionary<TKey, TValue>.GetEnumerator
-  fullName.vb: Bdeshi.Helpers.Utility.GenericDictionary(Of TKey, TValue).GetEnumerator
-  nameWithType: GenericDictionary<TKey, TValue>.GetEnumerator
-  nameWithType.vb: GenericDictionary(Of TKey, TValue).GetEnumerator
-- uid: Bdeshi.Helpers.Utility.GenericDictionary`2.IsReadOnly
-  name: IsReadOnly
-  href: api/Bdeshi.Helpers.Utility.GenericDictionary-2.html#Bdeshi_Helpers_Utility_GenericDictionary_2_IsReadOnly
-  commentId: P:Bdeshi.Helpers.Utility.GenericDictionary`2.IsReadOnly
-  fullName: Bdeshi.Helpers.Utility.GenericDictionary<TKey, TValue>.IsReadOnly
-  fullName.vb: Bdeshi.Helpers.Utility.GenericDictionary(Of TKey, TValue).IsReadOnly
-  nameWithType: GenericDictionary<TKey, TValue>.IsReadOnly
-  nameWithType.vb: GenericDictionary(Of TKey, TValue).IsReadOnly
-- uid: Bdeshi.Helpers.Utility.GenericDictionary`2.IsReadOnly*
-  name: IsReadOnly
-  href: api/Bdeshi.Helpers.Utility.GenericDictionary-2.html#Bdeshi_Helpers_Utility_GenericDictionary_2_IsReadOnly_
-  commentId: Overload:Bdeshi.Helpers.Utility.GenericDictionary`2.IsReadOnly
-  isSpec: "True"
-  fullName: Bdeshi.Helpers.Utility.GenericDictionary<TKey, TValue>.IsReadOnly
-  fullName.vb: Bdeshi.Helpers.Utility.GenericDictionary(Of TKey, TValue).IsReadOnly
-  nameWithType: GenericDictionary<TKey, TValue>.IsReadOnly
-  nameWithType.vb: GenericDictionary(Of TKey, TValue).IsReadOnly
-- uid: Bdeshi.Helpers.Utility.GenericDictionary`2.Item(`0)
-  name: this[TKey]
-  href: api/Bdeshi.Helpers.Utility.GenericDictionary-2.html#Bdeshi_Helpers_Utility_GenericDictionary_2_Item__0_
-  commentId: P:Bdeshi.Helpers.Utility.GenericDictionary`2.Item(`0)
-  name.vb: this[](TKey)
-  fullName: Bdeshi.Helpers.Utility.GenericDictionary<TKey, TValue>.this[TKey]
-  fullName.vb: Bdeshi.Helpers.Utility.GenericDictionary(Of TKey, TValue).this[](TKey)
-  nameWithType: GenericDictionary<TKey, TValue>.this[TKey]
-  nameWithType.vb: GenericDictionary(Of TKey, TValue).this[](TKey)
-- uid: Bdeshi.Helpers.Utility.GenericDictionary`2.Item*
-  name: this
-  href: api/Bdeshi.Helpers.Utility.GenericDictionary-2.html#Bdeshi_Helpers_Utility_GenericDictionary_2_Item_
-  commentId: Overload:Bdeshi.Helpers.Utility.GenericDictionary`2.Item
-  isSpec: "True"
-  name.vb: this[]
-  fullName: Bdeshi.Helpers.Utility.GenericDictionary<TKey, TValue>.this
-  fullName.vb: Bdeshi.Helpers.Utility.GenericDictionary(Of TKey, TValue).this[]
-  nameWithType: GenericDictionary<TKey, TValue>.this
-  nameWithType.vb: GenericDictionary(Of TKey, TValue).this[]
-- uid: Bdeshi.Helpers.Utility.GenericDictionary`2.Keys
-  name: Keys
-  href: api/Bdeshi.Helpers.Utility.GenericDictionary-2.html#Bdeshi_Helpers_Utility_GenericDictionary_2_Keys
-  commentId: P:Bdeshi.Helpers.Utility.GenericDictionary`2.Keys
-  fullName: Bdeshi.Helpers.Utility.GenericDictionary<TKey, TValue>.Keys
-  fullName.vb: Bdeshi.Helpers.Utility.GenericDictionary(Of TKey, TValue).Keys
-  nameWithType: GenericDictionary<TKey, TValue>.Keys
-  nameWithType.vb: GenericDictionary(Of TKey, TValue).Keys
-- uid: Bdeshi.Helpers.Utility.GenericDictionary`2.Keys*
-  name: Keys
-  href: api/Bdeshi.Helpers.Utility.GenericDictionary-2.html#Bdeshi_Helpers_Utility_GenericDictionary_2_Keys_
-  commentId: Overload:Bdeshi.Helpers.Utility.GenericDictionary`2.Keys
-  isSpec: "True"
-  fullName: Bdeshi.Helpers.Utility.GenericDictionary<TKey, TValue>.Keys
-  fullName.vb: Bdeshi.Helpers.Utility.GenericDictionary(Of TKey, TValue).Keys
-  nameWithType: GenericDictionary<TKey, TValue>.Keys
-  nameWithType.vb: GenericDictionary(Of TKey, TValue).Keys
-- uid: Bdeshi.Helpers.Utility.GenericDictionary`2.OnAfterDeserialize
-  name: OnAfterDeserialize()
-  href: api/Bdeshi.Helpers.Utility.GenericDictionary-2.html#Bdeshi_Helpers_Utility_GenericDictionary_2_OnAfterDeserialize
-  commentId: M:Bdeshi.Helpers.Utility.GenericDictionary`2.OnAfterDeserialize
-  fullName: Bdeshi.Helpers.Utility.GenericDictionary<TKey, TValue>.OnAfterDeserialize()
-  fullName.vb: Bdeshi.Helpers.Utility.GenericDictionary(Of TKey, TValue).OnAfterDeserialize()
-  nameWithType: GenericDictionary<TKey, TValue>.OnAfterDeserialize()
-  nameWithType.vb: GenericDictionary(Of TKey, TValue).OnAfterDeserialize()
-- uid: Bdeshi.Helpers.Utility.GenericDictionary`2.OnAfterDeserialize*
-  name: OnAfterDeserialize
-  href: api/Bdeshi.Helpers.Utility.GenericDictionary-2.html#Bdeshi_Helpers_Utility_GenericDictionary_2_OnAfterDeserialize_
-  commentId: Overload:Bdeshi.Helpers.Utility.GenericDictionary`2.OnAfterDeserialize
-  isSpec: "True"
-  fullName: Bdeshi.Helpers.Utility.GenericDictionary<TKey, TValue>.OnAfterDeserialize
-  fullName.vb: Bdeshi.Helpers.Utility.GenericDictionary(Of TKey, TValue).OnAfterDeserialize
-  nameWithType: GenericDictionary<TKey, TValue>.OnAfterDeserialize
-  nameWithType.vb: GenericDictionary(Of TKey, TValue).OnAfterDeserialize
-- uid: Bdeshi.Helpers.Utility.GenericDictionary`2.OnBeforeSerialize
-  name: OnBeforeSerialize()
-  href: api/Bdeshi.Helpers.Utility.GenericDictionary-2.html#Bdeshi_Helpers_Utility_GenericDictionary_2_OnBeforeSerialize
-  commentId: M:Bdeshi.Helpers.Utility.GenericDictionary`2.OnBeforeSerialize
-  fullName: Bdeshi.Helpers.Utility.GenericDictionary<TKey, TValue>.OnBeforeSerialize()
-  fullName.vb: Bdeshi.Helpers.Utility.GenericDictionary(Of TKey, TValue).OnBeforeSerialize()
-  nameWithType: GenericDictionary<TKey, TValue>.OnBeforeSerialize()
-  nameWithType.vb: GenericDictionary(Of TKey, TValue).OnBeforeSerialize()
-- uid: Bdeshi.Helpers.Utility.GenericDictionary`2.OnBeforeSerialize*
-  name: OnBeforeSerialize
-  href: api/Bdeshi.Helpers.Utility.GenericDictionary-2.html#Bdeshi_Helpers_Utility_GenericDictionary_2_OnBeforeSerialize_
-  commentId: Overload:Bdeshi.Helpers.Utility.GenericDictionary`2.OnBeforeSerialize
-  isSpec: "True"
-  fullName: Bdeshi.Helpers.Utility.GenericDictionary<TKey, TValue>.OnBeforeSerialize
-  fullName.vb: Bdeshi.Helpers.Utility.GenericDictionary(Of TKey, TValue).OnBeforeSerialize
-  nameWithType: GenericDictionary<TKey, TValue>.OnBeforeSerialize
-  nameWithType.vb: GenericDictionary(Of TKey, TValue).OnBeforeSerialize
-- uid: Bdeshi.Helpers.Utility.GenericDictionary`2.Remove(System.Collections.Generic.KeyValuePair{`0,`1})
-  name: Remove(KeyValuePair<TKey, TValue>)
-  href: api/Bdeshi.Helpers.Utility.GenericDictionary-2.html#Bdeshi_Helpers_Utility_GenericDictionary_2_Remove_System_Collections_Generic_KeyValuePair__0__1__
-  commentId: M:Bdeshi.Helpers.Utility.GenericDictionary`2.Remove(System.Collections.Generic.KeyValuePair{`0,`1})
-  name.vb: Remove(KeyValuePair(Of TKey, TValue))
-  fullName: Bdeshi.Helpers.Utility.GenericDictionary<TKey, TValue>.Remove(System.Collections.Generic.KeyValuePair<TKey, TValue>)
-  fullName.vb: Bdeshi.Helpers.Utility.GenericDictionary(Of TKey, TValue).Remove(System.Collections.Generic.KeyValuePair(Of TKey, TValue))
-  nameWithType: GenericDictionary<TKey, TValue>.Remove(KeyValuePair<TKey, TValue>)
-  nameWithType.vb: GenericDictionary(Of TKey, TValue).Remove(KeyValuePair(Of TKey, TValue))
-- uid: Bdeshi.Helpers.Utility.GenericDictionary`2.Remove(`0)
-  name: Remove(TKey)
-  href: api/Bdeshi.Helpers.Utility.GenericDictionary-2.html#Bdeshi_Helpers_Utility_GenericDictionary_2_Remove__0_
-  commentId: M:Bdeshi.Helpers.Utility.GenericDictionary`2.Remove(`0)
-  fullName: Bdeshi.Helpers.Utility.GenericDictionary<TKey, TValue>.Remove(TKey)
-  fullName.vb: Bdeshi.Helpers.Utility.GenericDictionary(Of TKey, TValue).Remove(TKey)
-  nameWithType: GenericDictionary<TKey, TValue>.Remove(TKey)
-  nameWithType.vb: GenericDictionary(Of TKey, TValue).Remove(TKey)
-- uid: Bdeshi.Helpers.Utility.GenericDictionary`2.Remove*
-  name: Remove
-  href: api/Bdeshi.Helpers.Utility.GenericDictionary-2.html#Bdeshi_Helpers_Utility_GenericDictionary_2_Remove_
-  commentId: Overload:Bdeshi.Helpers.Utility.GenericDictionary`2.Remove
-  isSpec: "True"
-  fullName: Bdeshi.Helpers.Utility.GenericDictionary<TKey, TValue>.Remove
-  fullName.vb: Bdeshi.Helpers.Utility.GenericDictionary(Of TKey, TValue).Remove
-  nameWithType: GenericDictionary<TKey, TValue>.Remove
-  nameWithType.vb: GenericDictionary(Of TKey, TValue).Remove
-- uid: Bdeshi.Helpers.Utility.GenericDictionary`2.TryGetValue(`0,`1@)
-  name: TryGetValue(TKey, out TValue)
-  href: api/Bdeshi.Helpers.Utility.GenericDictionary-2.html#Bdeshi_Helpers_Utility_GenericDictionary_2_TryGetValue__0__1__
-  commentId: M:Bdeshi.Helpers.Utility.GenericDictionary`2.TryGetValue(`0,`1@)
-  name.vb: TryGetValue(TKey, TValue)
-  fullName: Bdeshi.Helpers.Utility.GenericDictionary<TKey, TValue>.TryGetValue(TKey, out TValue)
-  fullName.vb: Bdeshi.Helpers.Utility.GenericDictionary(Of TKey, TValue).TryGetValue(TKey, TValue)
-  nameWithType: GenericDictionary<TKey, TValue>.TryGetValue(TKey, out TValue)
-  nameWithType.vb: GenericDictionary(Of TKey, TValue).TryGetValue(TKey, TValue)
-- uid: Bdeshi.Helpers.Utility.GenericDictionary`2.TryGetValue*
-  name: TryGetValue
-  href: api/Bdeshi.Helpers.Utility.GenericDictionary-2.html#Bdeshi_Helpers_Utility_GenericDictionary_2_TryGetValue_
-  commentId: Overload:Bdeshi.Helpers.Utility.GenericDictionary`2.TryGetValue
-  isSpec: "True"
-  fullName: Bdeshi.Helpers.Utility.GenericDictionary<TKey, TValue>.TryGetValue
-  fullName.vb: Bdeshi.Helpers.Utility.GenericDictionary(Of TKey, TValue).TryGetValue
-  nameWithType: GenericDictionary<TKey, TValue>.TryGetValue
-  nameWithType.vb: GenericDictionary(Of TKey, TValue).TryGetValue
-- uid: Bdeshi.Helpers.Utility.GenericDictionary`2.Values
-  name: Values
-  href: api/Bdeshi.Helpers.Utility.GenericDictionary-2.html#Bdeshi_Helpers_Utility_GenericDictionary_2_Values
-  commentId: P:Bdeshi.Helpers.Utility.GenericDictionary`2.Values
-  fullName: Bdeshi.Helpers.Utility.GenericDictionary<TKey, TValue>.Values
-  fullName.vb: Bdeshi.Helpers.Utility.GenericDictionary(Of TKey, TValue).Values
-  nameWithType: GenericDictionary<TKey, TValue>.Values
-  nameWithType.vb: GenericDictionary(Of TKey, TValue).Values
-- uid: Bdeshi.Helpers.Utility.GenericDictionary`2.Values*
-  name: Values
-  href: api/Bdeshi.Helpers.Utility.GenericDictionary-2.html#Bdeshi_Helpers_Utility_GenericDictionary_2_Values_
-  commentId: Overload:Bdeshi.Helpers.Utility.GenericDictionary`2.Values
-  isSpec: "True"
-  fullName: Bdeshi.Helpers.Utility.GenericDictionary<TKey, TValue>.Values
-  fullName.vb: Bdeshi.Helpers.Utility.GenericDictionary(Of TKey, TValue).Values
-  nameWithType: GenericDictionary<TKey, TValue>.Values
-  nameWithType.vb: GenericDictionary(Of TKey, TValue).Values
+  fullName: Bdeshi.Helpers.Utility.MonoBehaviorWeakSingleton<T>.Instance
+  fullName.vb: Bdeshi.Helpers.Utility.MonoBehaviorWeakSingleton(Of T).Instance
+  nameWithType: MonoBehaviorWeakSingleton<T>.Instance
+  nameWithType.vb: MonoBehaviorWeakSingleton(Of T).Instance
+- uid: Bdeshi.Helpers.Utility.MonoBehaviorWeakSingleton`1._instance
+  name: _instance
+  href: api/Bdeshi.Helpers.Utility.MonoBehaviorWeakSingleton-1.html#Bdeshi_Helpers_Utility_MonoBehaviorWeakSingleton_1__instance
+  commentId: F:Bdeshi.Helpers.Utility.MonoBehaviorWeakSingleton`1._instance
+  fullName: Bdeshi.Helpers.Utility.MonoBehaviorWeakSingleton<T>._instance
+  fullName.vb: Bdeshi.Helpers.Utility.MonoBehaviorWeakSingleton(Of T)._instance
+  nameWithType: MonoBehaviorWeakSingleton<T>._instance
+  nameWithType.vb: MonoBehaviorWeakSingleton(Of T)._instance
 - uid: Bdeshi.Helpers.Utility.MonoBehaviourLazySingleton`1
   name: MonoBehaviourLazySingleton<T>
   href: api/Bdeshi.Helpers.Utility.MonoBehaviourLazySingleton-1.html
@@ -2775,23 +3371,43 @@ references:
   fullName.vb: Bdeshi.Helpers.Utility.PooledMonoBehaviorList(Of T).GetNewItem
   nameWithType: PooledMonoBehaviorList<T>.GetNewItem
   nameWithType.vb: PooledMonoBehaviorList(Of T).GetNewItem
-- uid: Bdeshi.Helpers.Utility.PooledMonoBehaviorList`1.List
-  name: List
-  href: api/Bdeshi.Helpers.Utility.PooledMonoBehaviorList-1.html#Bdeshi_Helpers_Utility_PooledMonoBehaviorList_1_List
-  commentId: P:Bdeshi.Helpers.Utility.PooledMonoBehaviorList`1.List
-  fullName: Bdeshi.Helpers.Utility.PooledMonoBehaviorList<T>.List
-  fullName.vb: Bdeshi.Helpers.Utility.PooledMonoBehaviorList(Of T).List
-  nameWithType: PooledMonoBehaviorList<T>.List
-  nameWithType.vb: PooledMonoBehaviorList(Of T).List
-- uid: Bdeshi.Helpers.Utility.PooledMonoBehaviorList`1.List*
-  name: List
-  href: api/Bdeshi.Helpers.Utility.PooledMonoBehaviorList-1.html#Bdeshi_Helpers_Utility_PooledMonoBehaviorList_1_List_
-  commentId: Overload:Bdeshi.Helpers.Utility.PooledMonoBehaviorList`1.List
+- uid: Bdeshi.Helpers.Utility.PooledMonoBehaviorList`1.Initialize(`0,System.Int32,Transform)
+  name: Initialize(T, int, Transform)
+  href: api/Bdeshi.Helpers.Utility.PooledMonoBehaviorList-1.html#Bdeshi_Helpers_Utility_PooledMonoBehaviorList_1_Initialize__0_System_Int32_Transform_
+  commentId: M:Bdeshi.Helpers.Utility.PooledMonoBehaviorList`1.Initialize(`0,System.Int32,Transform)
+  name.vb: Initialize(T, Integer, Transform)
+  fullName: Bdeshi.Helpers.Utility.PooledMonoBehaviorList<T>.Initialize(T, int, Transform)
+  fullName.vb: Bdeshi.Helpers.Utility.PooledMonoBehaviorList(Of T).Initialize(T, Integer, Transform)
+  nameWithType: PooledMonoBehaviorList<T>.Initialize(T, int, Transform)
+  nameWithType.vb: PooledMonoBehaviorList(Of T).Initialize(T, Integer, Transform)
+- uid: Bdeshi.Helpers.Utility.PooledMonoBehaviorList`1.Initialize*
+  name: Initialize
+  href: api/Bdeshi.Helpers.Utility.PooledMonoBehaviorList-1.html#Bdeshi_Helpers_Utility_PooledMonoBehaviorList_1_Initialize_
+  commentId: Overload:Bdeshi.Helpers.Utility.PooledMonoBehaviorList`1.Initialize
   isSpec: "True"
-  fullName: Bdeshi.Helpers.Utility.PooledMonoBehaviorList<T>.List
-  fullName.vb: Bdeshi.Helpers.Utility.PooledMonoBehaviorList(Of T).List
-  nameWithType: PooledMonoBehaviorList<T>.List
-  nameWithType.vb: PooledMonoBehaviorList(Of T).List
+  fullName: Bdeshi.Helpers.Utility.PooledMonoBehaviorList<T>.Initialize
+  fullName.vb: Bdeshi.Helpers.Utility.PooledMonoBehaviorList(Of T).Initialize
+  nameWithType: PooledMonoBehaviorList<T>.Initialize
+  nameWithType.vb: PooledMonoBehaviorList(Of T).Initialize
+- uid: Bdeshi.Helpers.Utility.PooledMonoBehaviorList`1.Item(System.Int32)
+  name: this[int]
+  href: api/Bdeshi.Helpers.Utility.PooledMonoBehaviorList-1.html#Bdeshi_Helpers_Utility_PooledMonoBehaviorList_1_Item_System_Int32_
+  commentId: P:Bdeshi.Helpers.Utility.PooledMonoBehaviorList`1.Item(System.Int32)
+  name.vb: this[](Integer)
+  fullName: Bdeshi.Helpers.Utility.PooledMonoBehaviorList<T>.this[int]
+  fullName.vb: Bdeshi.Helpers.Utility.PooledMonoBehaviorList(Of T).this[](Integer)
+  nameWithType: PooledMonoBehaviorList<T>.this[int]
+  nameWithType.vb: PooledMonoBehaviorList(Of T).this[](Integer)
+- uid: Bdeshi.Helpers.Utility.PooledMonoBehaviorList`1.Item*
+  name: this
+  href: api/Bdeshi.Helpers.Utility.PooledMonoBehaviorList-1.html#Bdeshi_Helpers_Utility_PooledMonoBehaviorList_1_Item_
+  commentId: Overload:Bdeshi.Helpers.Utility.PooledMonoBehaviorList`1.Item
+  isSpec: "True"
+  name.vb: this[]
+  fullName: Bdeshi.Helpers.Utility.PooledMonoBehaviorList<T>.this
+  fullName.vb: Bdeshi.Helpers.Utility.PooledMonoBehaviorList(Of T).this[]
+  nameWithType: PooledMonoBehaviorList<T>.this
+  nameWithType.vb: PooledMonoBehaviorList(Of T).this[]
 - uid: Bdeshi.Helpers.Utility.PooledMonoBehaviorList`1.Pool
   name: Pool
   href: api/Bdeshi.Helpers.Utility.PooledMonoBehaviorList-1.html#Bdeshi_Helpers_Utility_PooledMonoBehaviorList_1_Pool
@@ -2809,6 +3425,57 @@ references:
   fullName.vb: Bdeshi.Helpers.Utility.PooledMonoBehaviorList(Of T).Pool
   nameWithType: PooledMonoBehaviorList<T>.Pool
   nameWithType.vb: PooledMonoBehaviorList(Of T).Pool
+- uid: Bdeshi.Helpers.Utility.PooledMonoBehaviorList`1.ReturnAllItems
+  name: ReturnAllItems()
+  href: api/Bdeshi.Helpers.Utility.PooledMonoBehaviorList-1.html#Bdeshi_Helpers_Utility_PooledMonoBehaviorList_1_ReturnAllItems
+  commentId: M:Bdeshi.Helpers.Utility.PooledMonoBehaviorList`1.ReturnAllItems
+  fullName: Bdeshi.Helpers.Utility.PooledMonoBehaviorList<T>.ReturnAllItems()
+  fullName.vb: Bdeshi.Helpers.Utility.PooledMonoBehaviorList(Of T).ReturnAllItems()
+  nameWithType: PooledMonoBehaviorList<T>.ReturnAllItems()
+  nameWithType.vb: PooledMonoBehaviorList(Of T).ReturnAllItems()
+- uid: Bdeshi.Helpers.Utility.PooledMonoBehaviorList`1.ReturnAllItems*
+  name: ReturnAllItems
+  href: api/Bdeshi.Helpers.Utility.PooledMonoBehaviorList-1.html#Bdeshi_Helpers_Utility_PooledMonoBehaviorList_1_ReturnAllItems_
+  commentId: Overload:Bdeshi.Helpers.Utility.PooledMonoBehaviorList`1.ReturnAllItems
+  isSpec: "True"
+  fullName: Bdeshi.Helpers.Utility.PooledMonoBehaviorList<T>.ReturnAllItems
+  fullName.vb: Bdeshi.Helpers.Utility.PooledMonoBehaviorList(Of T).ReturnAllItems
+  nameWithType: PooledMonoBehaviorList<T>.ReturnAllItems
+  nameWithType.vb: PooledMonoBehaviorList(Of T).ReturnAllItems
+- uid: Bdeshi.Helpers.Utility.PooledMonoBehaviorList`1.ReturnItem(`0)
+  name: ReturnItem(T)
+  href: api/Bdeshi.Helpers.Utility.PooledMonoBehaviorList-1.html#Bdeshi_Helpers_Utility_PooledMonoBehaviorList_1_ReturnItem__0_
+  commentId: M:Bdeshi.Helpers.Utility.PooledMonoBehaviorList`1.ReturnItem(`0)
+  fullName: Bdeshi.Helpers.Utility.PooledMonoBehaviorList<T>.ReturnItem(T)
+  fullName.vb: Bdeshi.Helpers.Utility.PooledMonoBehaviorList(Of T).ReturnItem(T)
+  nameWithType: PooledMonoBehaviorList<T>.ReturnItem(T)
+  nameWithType.vb: PooledMonoBehaviorList(Of T).ReturnItem(T)
+- uid: Bdeshi.Helpers.Utility.PooledMonoBehaviorList`1.ReturnItem*
+  name: ReturnItem
+  href: api/Bdeshi.Helpers.Utility.PooledMonoBehaviorList-1.html#Bdeshi_Helpers_Utility_PooledMonoBehaviorList_1_ReturnItem_
+  commentId: Overload:Bdeshi.Helpers.Utility.PooledMonoBehaviorList`1.ReturnItem
+  isSpec: "True"
+  fullName: Bdeshi.Helpers.Utility.PooledMonoBehaviorList<T>.ReturnItem
+  fullName.vb: Bdeshi.Helpers.Utility.PooledMonoBehaviorList(Of T).ReturnItem
+  nameWithType: PooledMonoBehaviorList<T>.ReturnItem
+  nameWithType.vb: PooledMonoBehaviorList(Of T).ReturnItem
+- uid: Bdeshi.Helpers.Utility.PooledMonoBehaviorList`1.SpawnedItems
+  name: SpawnedItems
+  href: api/Bdeshi.Helpers.Utility.PooledMonoBehaviorList-1.html#Bdeshi_Helpers_Utility_PooledMonoBehaviorList_1_SpawnedItems
+  commentId: P:Bdeshi.Helpers.Utility.PooledMonoBehaviorList`1.SpawnedItems
+  fullName: Bdeshi.Helpers.Utility.PooledMonoBehaviorList<T>.SpawnedItems
+  fullName.vb: Bdeshi.Helpers.Utility.PooledMonoBehaviorList(Of T).SpawnedItems
+  nameWithType: PooledMonoBehaviorList<T>.SpawnedItems
+  nameWithType.vb: PooledMonoBehaviorList(Of T).SpawnedItems
+- uid: Bdeshi.Helpers.Utility.PooledMonoBehaviorList`1.SpawnedItems*
+  name: SpawnedItems
+  href: api/Bdeshi.Helpers.Utility.PooledMonoBehaviorList-1.html#Bdeshi_Helpers_Utility_PooledMonoBehaviorList_1_SpawnedItems_
+  commentId: Overload:Bdeshi.Helpers.Utility.PooledMonoBehaviorList`1.SpawnedItems
+  isSpec: "True"
+  fullName: Bdeshi.Helpers.Utility.PooledMonoBehaviorList<T>.SpawnedItems
+  fullName.vb: Bdeshi.Helpers.Utility.PooledMonoBehaviorList(Of T).SpawnedItems
+  nameWithType: PooledMonoBehaviorList<T>.SpawnedItems
+  nameWithType.vb: PooledMonoBehaviorList(Of T).SpawnedItems
 - uid: Bdeshi.Helpers.Utility.Reparenter
   name: Reparenter
   href: api/Bdeshi.Helpers.Utility.Reparenter.html
@@ -3400,100 +4067,6 @@ references:
   isSpec: "True"
   fullName: Bdeshi.Helpers.Utility.SafeFiniteTimer.updateTimer
   nameWithType: SafeFiniteTimer.updateTimer
-- uid: Bdeshi.Helpers.Utility.SerializableStack`1
-  name: SerializableStack<T>
-  href: api/Bdeshi.Helpers.Utility.SerializableStack-1.html
-  commentId: T:Bdeshi.Helpers.Utility.SerializableStack`1
-  name.vb: SerializableStack(Of T)
-  fullName: Bdeshi.Helpers.Utility.SerializableStack<T>
-  fullName.vb: Bdeshi.Helpers.Utility.SerializableStack(Of T)
-  nameWithType: SerializableStack<T>
-  nameWithType.vb: SerializableStack(Of T)
-- uid: Bdeshi.Helpers.Utility.SerializableStack`1.Contains(`0)
-  name: Contains(T)
-  href: api/Bdeshi.Helpers.Utility.SerializableStack-1.html#Bdeshi_Helpers_Utility_SerializableStack_1_Contains__0_
-  commentId: M:Bdeshi.Helpers.Utility.SerializableStack`1.Contains(`0)
-  fullName: Bdeshi.Helpers.Utility.SerializableStack<T>.Contains(T)
-  fullName.vb: Bdeshi.Helpers.Utility.SerializableStack(Of T).Contains(T)
-  nameWithType: SerializableStack<T>.Contains(T)
-  nameWithType.vb: SerializableStack(Of T).Contains(T)
-- uid: Bdeshi.Helpers.Utility.SerializableStack`1.Contains*
-  name: Contains
-  href: api/Bdeshi.Helpers.Utility.SerializableStack-1.html#Bdeshi_Helpers_Utility_SerializableStack_1_Contains_
-  commentId: Overload:Bdeshi.Helpers.Utility.SerializableStack`1.Contains
-  isSpec: "True"
-  fullName: Bdeshi.Helpers.Utility.SerializableStack<T>.Contains
-  fullName.vb: Bdeshi.Helpers.Utility.SerializableStack(Of T).Contains
-  nameWithType: SerializableStack<T>.Contains
-  nameWithType.vb: SerializableStack(Of T).Contains
-- uid: Bdeshi.Helpers.Utility.SerializableStack`1.IsEmpty
-  name: IsEmpty
-  href: api/Bdeshi.Helpers.Utility.SerializableStack-1.html#Bdeshi_Helpers_Utility_SerializableStack_1_IsEmpty
-  commentId: P:Bdeshi.Helpers.Utility.SerializableStack`1.IsEmpty
-  fullName: Bdeshi.Helpers.Utility.SerializableStack<T>.IsEmpty
-  fullName.vb: Bdeshi.Helpers.Utility.SerializableStack(Of T).IsEmpty
-  nameWithType: SerializableStack<T>.IsEmpty
-  nameWithType.vb: SerializableStack(Of T).IsEmpty
-- uid: Bdeshi.Helpers.Utility.SerializableStack`1.IsEmpty*
-  name: IsEmpty
-  href: api/Bdeshi.Helpers.Utility.SerializableStack-1.html#Bdeshi_Helpers_Utility_SerializableStack_1_IsEmpty_
-  commentId: Overload:Bdeshi.Helpers.Utility.SerializableStack`1.IsEmpty
-  isSpec: "True"
-  fullName: Bdeshi.Helpers.Utility.SerializableStack<T>.IsEmpty
-  fullName.vb: Bdeshi.Helpers.Utility.SerializableStack(Of T).IsEmpty
-  nameWithType: SerializableStack<T>.IsEmpty
-  nameWithType.vb: SerializableStack(Of T).IsEmpty
-- uid: Bdeshi.Helpers.Utility.SerializableStack`1.Peek
-  name: Peek()
-  href: api/Bdeshi.Helpers.Utility.SerializableStack-1.html#Bdeshi_Helpers_Utility_SerializableStack_1_Peek
-  commentId: M:Bdeshi.Helpers.Utility.SerializableStack`1.Peek
-  fullName: Bdeshi.Helpers.Utility.SerializableStack<T>.Peek()
-  fullName.vb: Bdeshi.Helpers.Utility.SerializableStack(Of T).Peek()
-  nameWithType: SerializableStack<T>.Peek()
-  nameWithType.vb: SerializableStack(Of T).Peek()
-- uid: Bdeshi.Helpers.Utility.SerializableStack`1.Peek*
-  name: Peek
-  href: api/Bdeshi.Helpers.Utility.SerializableStack-1.html#Bdeshi_Helpers_Utility_SerializableStack_1_Peek_
-  commentId: Overload:Bdeshi.Helpers.Utility.SerializableStack`1.Peek
-  isSpec: "True"
-  fullName: Bdeshi.Helpers.Utility.SerializableStack<T>.Peek
-  fullName.vb: Bdeshi.Helpers.Utility.SerializableStack(Of T).Peek
-  nameWithType: SerializableStack<T>.Peek
-  nameWithType.vb: SerializableStack(Of T).Peek
-- uid: Bdeshi.Helpers.Utility.SerializableStack`1.Pop
-  name: Pop()
-  href: api/Bdeshi.Helpers.Utility.SerializableStack-1.html#Bdeshi_Helpers_Utility_SerializableStack_1_Pop
-  commentId: M:Bdeshi.Helpers.Utility.SerializableStack`1.Pop
-  fullName: Bdeshi.Helpers.Utility.SerializableStack<T>.Pop()
-  fullName.vb: Bdeshi.Helpers.Utility.SerializableStack(Of T).Pop()
-  nameWithType: SerializableStack<T>.Pop()
-  nameWithType.vb: SerializableStack(Of T).Pop()
-- uid: Bdeshi.Helpers.Utility.SerializableStack`1.Pop*
-  name: Pop
-  href: api/Bdeshi.Helpers.Utility.SerializableStack-1.html#Bdeshi_Helpers_Utility_SerializableStack_1_Pop_
-  commentId: Overload:Bdeshi.Helpers.Utility.SerializableStack`1.Pop
-  isSpec: "True"
-  fullName: Bdeshi.Helpers.Utility.SerializableStack<T>.Pop
-  fullName.vb: Bdeshi.Helpers.Utility.SerializableStack(Of T).Pop
-  nameWithType: SerializableStack<T>.Pop
-  nameWithType.vb: SerializableStack(Of T).Pop
-- uid: Bdeshi.Helpers.Utility.SerializableStack`1.Push(`0)
-  name: Push(T)
-  href: api/Bdeshi.Helpers.Utility.SerializableStack-1.html#Bdeshi_Helpers_Utility_SerializableStack_1_Push__0_
-  commentId: M:Bdeshi.Helpers.Utility.SerializableStack`1.Push(`0)
-  fullName: Bdeshi.Helpers.Utility.SerializableStack<T>.Push(T)
-  fullName.vb: Bdeshi.Helpers.Utility.SerializableStack(Of T).Push(T)
-  nameWithType: SerializableStack<T>.Push(T)
-  nameWithType.vb: SerializableStack(Of T).Push(T)
-- uid: Bdeshi.Helpers.Utility.SerializableStack`1.Push*
-  name: Push
-  href: api/Bdeshi.Helpers.Utility.SerializableStack-1.html#Bdeshi_Helpers_Utility_SerializableStack_1_Push_
-  commentId: Overload:Bdeshi.Helpers.Utility.SerializableStack`1.Push
-  isSpec: "True"
-  fullName: Bdeshi.Helpers.Utility.SerializableStack<T>.Push
-  fullName.vb: Bdeshi.Helpers.Utility.SerializableStack(Of T).Push
-  nameWithType: SerializableStack<T>.Push
-  nameWithType.vb: SerializableStack(Of T).Push
 - uid: Bdeshi.Helpers.Utility.SimpleManualMonoBehaviourPoolComponent`1
   name: SimpleManualMonoBehaviourPoolComponent<T>
   href: api/Bdeshi.Helpers.Utility.SimpleManualMonoBehaviourPoolComponent-1.html

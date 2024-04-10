@@ -29,15 +29,15 @@
       <meta name="loc:changeTheme" content="Change theme">
       <meta name="loc:copy" content="Copy">
       <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
   </head>
-
-  <script type="module" src="./../public/docfx.min.js"></script>
-
-  <script>
-    const theme = localStorage.getItem('theme') || 'auto'
-    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
-  </script>
-
 
   <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
     <header class="bg-body border-bottom">
@@ -162,7 +162,7 @@ public class PooledMonoBehaviorList&lt;T&gt; where T : MonoBehaviour</code></pre
 
   <h3 id="Bdeshi_Helpers_Utility_PooledMonoBehaviorList_1__ctor__0_System_Int32_Transform_" data-uid="Bdeshi.Helpers.Utility.PooledMonoBehaviorList`1.#ctor(`0,System.Int32,Transform)">
   PooledMonoBehaviorList(T, int, Transform)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/BDeshiDev/BDeshiHelpers/blob/main/Assets/Packages/com.bdeshi.helpers/Runtime/Utility/PooledMonoBehaviorList.cs/#L16"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/BDeshiDev/BDeshiHelpers/blob/main/Assets/Packages/com.bdeshi.helpers/Runtime/Utility/PooledMonoBehaviorList.cs/#L21"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -197,27 +197,32 @@ public class PooledMonoBehaviorList&lt;T&gt; where T : MonoBehaviour</code></pre
 </h2>
 
 
-  <a id="Bdeshi_Helpers_Utility_PooledMonoBehaviorList_1_List_" data-uid="Bdeshi.Helpers.Utility.PooledMonoBehaviorList`1.List*"></a>
+  <a id="Bdeshi_Helpers_Utility_PooledMonoBehaviorList_1_Item_" data-uid="Bdeshi.Helpers.Utility.PooledMonoBehaviorList`1.Item*"></a>
 
-  <h3 id="Bdeshi_Helpers_Utility_PooledMonoBehaviorList_1_List" data-uid="Bdeshi.Helpers.Utility.PooledMonoBehaviorList`1.List">
-  List
-  <a class="header-action link-secondary" title="View source" href="https://github.com/BDeshiDev/BDeshiHelpers/blob/main/Assets/Packages/com.bdeshi.helpers/Runtime/Utility/PooledMonoBehaviorList.cs/#L12"><i class="bi bi-code-slash"></i></a>
+  <h3 id="Bdeshi_Helpers_Utility_PooledMonoBehaviorList_1_Item_System_Int32_" data-uid="Bdeshi.Helpers.Utility.PooledMonoBehaviorList`1.Item(System.Int32)">
+  this[int]
+  <a class="header-action link-secondary" title="View source" href="https://github.com/BDeshiDev/BDeshiHelpers/blob/main/Assets/Packages/com.bdeshi.helpers/Runtime/Utility/PooledMonoBehaviorList.cs/#L25"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public List&lt;T&gt; List { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public T this[int key] { get; }</code></pre>
   </div>
 
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>key</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
 
 
 
 
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;T&gt;</dt>
+    <dt><span class="xref">T</span></dt>
     <dd></dd>
   </dl>
 
@@ -259,6 +264,37 @@ public class PooledMonoBehaviorList&lt;T&gt; where T : MonoBehaviour</code></pre
 
 
 
+  <a id="Bdeshi_Helpers_Utility_PooledMonoBehaviorList_1_SpawnedItems_" data-uid="Bdeshi.Helpers.Utility.PooledMonoBehaviorList`1.SpawnedItems*"></a>
+
+  <h3 id="Bdeshi_Helpers_Utility_PooledMonoBehaviorList_1_SpawnedItems" data-uid="Bdeshi.Helpers.Utility.PooledMonoBehaviorList`1.SpawnedItems">
+  SpawnedItems
+  <a class="header-action link-secondary" title="View source" href="https://github.com/BDeshiDev/BDeshiHelpers/blob/main/Assets/Packages/com.bdeshi.helpers/Runtime/Utility/PooledMonoBehaviorList.cs/#L12"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;T&gt; SpawnedItems { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;T&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
   <h2 class="section" id="methods">Methods
 </h2>
 
@@ -267,7 +303,7 @@ public class PooledMonoBehaviorList&lt;T&gt; where T : MonoBehaviour</code></pre
 
   <h3 id="Bdeshi_Helpers_Utility_PooledMonoBehaviorList_1_ClearAndForget_System_Int32_" data-uid="Bdeshi.Helpers.Utility.PooledMonoBehaviorList`1.ClearAndForget(System.Int32)">
   ClearAndForget(int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/BDeshiDev/BDeshiHelpers/blob/main/Assets/Packages/com.bdeshi.helpers/Runtime/Utility/PooledMonoBehaviorList.cs/#L53"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/BDeshiDev/BDeshiHelpers/blob/main/Assets/Packages/com.bdeshi.helpers/Runtime/Utility/PooledMonoBehaviorList.cs/#L61"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -298,7 +334,7 @@ public class PooledMonoBehaviorList&lt;T&gt; where T : MonoBehaviour</code></pre
 
   <h3 id="Bdeshi_Helpers_Utility_PooledMonoBehaviorList_1_ClearAndReturnToPool" data-uid="Bdeshi.Helpers.Utility.PooledMonoBehaviorList`1.ClearAndReturnToPool">
   ClearAndReturnToPool()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/BDeshiDev/BDeshiHelpers/blob/main/Assets/Packages/com.bdeshi.helpers/Runtime/Utility/PooledMonoBehaviorList.cs/#L44"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/BDeshiDev/BDeshiHelpers/blob/main/Assets/Packages/com.bdeshi.helpers/Runtime/Utility/PooledMonoBehaviorList.cs/#L52"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -324,7 +360,7 @@ public class PooledMonoBehaviorList&lt;T&gt; where T : MonoBehaviour</code></pre
 
   <h3 id="Bdeshi_Helpers_Utility_PooledMonoBehaviorList_1_EnsureCount_System_Int32_" data-uid="Bdeshi.Helpers.Utility.PooledMonoBehaviorList`1.EnsureCount(System.Int32)">
   EnsureCount(int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/BDeshiDev/BDeshiHelpers/blob/main/Assets/Packages/com.bdeshi.helpers/Runtime/Utility/PooledMonoBehaviorList.cs/#L58"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/BDeshiDev/BDeshiHelpers/blob/main/Assets/Packages/com.bdeshi.helpers/Runtime/Utility/PooledMonoBehaviorList.cs/#L66"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -355,7 +391,7 @@ public class PooledMonoBehaviorList&lt;T&gt; where T : MonoBehaviour</code></pre
 
   <h3 id="Bdeshi_Helpers_Utility_PooledMonoBehaviorList_1_EnsureCount_System_Int32_System_Action__0__System_Action__0__" data-uid="Bdeshi.Helpers.Utility.PooledMonoBehaviorList`1.EnsureCount(System.Int32,System.Action{`0},System.Action{`0})">
   EnsureCount(int, Action&lt;T&gt;, Action&lt;T&gt;)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/BDeshiDev/BDeshiHelpers/blob/main/Assets/Packages/com.bdeshi.helpers/Runtime/Utility/PooledMonoBehaviorList.cs/#L62"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/BDeshiDev/BDeshiHelpers/blob/main/Assets/Packages/com.bdeshi.helpers/Runtime/Utility/PooledMonoBehaviorList.cs/#L70"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -390,7 +426,7 @@ public class PooledMonoBehaviorList&lt;T&gt; where T : MonoBehaviour</code></pre
 
   <h3 id="Bdeshi_Helpers_Utility_PooledMonoBehaviorList_1_Get_System_Int32_" data-uid="Bdeshi.Helpers.Utility.PooledMonoBehaviorList`1.Get(System.Int32)">
   Get(int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/BDeshiDev/BDeshiHelpers/blob/main/Assets/Packages/com.bdeshi.helpers/Runtime/Utility/PooledMonoBehaviorList.cs/#L27"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/BDeshiDev/BDeshiHelpers/blob/main/Assets/Packages/com.bdeshi.helpers/Runtime/Utility/PooledMonoBehaviorList.cs/#L35"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>If list has enough elements, return element at index i
@@ -428,7 +464,7 @@ else, add elements to list until we have enough, then return element at index</p
 
   <h3 id="Bdeshi_Helpers_Utility_PooledMonoBehaviorList_1_GetNewItem" data-uid="Bdeshi.Helpers.Utility.PooledMonoBehaviorList`1.GetNewItem">
   GetNewItem()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/BDeshiDev/BDeshiHelpers/blob/main/Assets/Packages/com.bdeshi.helpers/Runtime/Utility/PooledMonoBehaviorList.cs/#L37"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/BDeshiDev/BDeshiHelpers/blob/main/Assets/Packages/com.bdeshi.helpers/Runtime/Utility/PooledMonoBehaviorList.cs/#L45"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -444,6 +480,98 @@ else, add elements to list until we have enough, then return element at index</p
     <dt><span class="xref">T</span></dt>
     <dd></dd>
   </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Bdeshi_Helpers_Utility_PooledMonoBehaviorList_1_Initialize_" data-uid="Bdeshi.Helpers.Utility.PooledMonoBehaviorList`1.Initialize*"></a>
+
+  <h3 id="Bdeshi_Helpers_Utility_PooledMonoBehaviorList_1_Initialize__0_System_Int32_Transform_" data-uid="Bdeshi.Helpers.Utility.PooledMonoBehaviorList`1.Initialize(`0,System.Int32,Transform)">
+  Initialize(T, int, Transform)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/BDeshiDev/BDeshiHelpers/blob/main/Assets/Packages/com.bdeshi.helpers/Runtime/Utility/PooledMonoBehaviorList.cs/#L16"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Initialize(T prefab, int initialPooledCount = 0, Transform spawnParent = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>prefab</code> <span class="xref">T</span></dt>
+    <dd></dd>
+    <dt><code>initialPooledCount</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>spawnParent</code> <span class="xref">Transform</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Bdeshi_Helpers_Utility_PooledMonoBehaviorList_1_ReturnAllItems_" data-uid="Bdeshi.Helpers.Utility.PooledMonoBehaviorList`1.ReturnAllItems*"></a>
+
+  <h3 id="Bdeshi_Helpers_Utility_PooledMonoBehaviorList_1_ReturnAllItems" data-uid="Bdeshi.Helpers.Utility.PooledMonoBehaviorList`1.ReturnAllItems">
+  ReturnAllItems()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/BDeshiDev/BDeshiHelpers/blob/main/Assets/Packages/com.bdeshi.helpers/Runtime/Utility/PooledMonoBehaviorList.cs/#L81"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ReturnAllItems()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Bdeshi_Helpers_Utility_PooledMonoBehaviorList_1_ReturnItem_" data-uid="Bdeshi.Helpers.Utility.PooledMonoBehaviorList`1.ReturnItem*"></a>
+
+  <h3 id="Bdeshi_Helpers_Utility_PooledMonoBehaviorList_1_ReturnItem__0_" data-uid="Bdeshi.Helpers.Utility.PooledMonoBehaviorList`1.ReturnItem(`0)">
+  ReturnItem(T)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/BDeshiDev/BDeshiHelpers/blob/main/Assets/Packages/com.bdeshi.helpers/Runtime/Utility/PooledMonoBehaviorList.cs/#L75"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ReturnItem(T item)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>item</code> <span class="xref">T</span></dt>
+    <dd></dd>
+  </dl>
+
 
 
 

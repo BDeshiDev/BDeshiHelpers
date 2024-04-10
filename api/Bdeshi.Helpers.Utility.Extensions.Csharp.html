@@ -29,15 +29,15 @@
       <meta name="loc:changeTheme" content="Change theme">
       <meta name="loc:copy" content="Copy">
       <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
   </head>
-
-  <script type="module" src="./../public/docfx.min.js"></script>
-
-  <script>
-    const theme = localStorage.getItem('theme') || 'auto'
-    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
-  </script>
-
 
   <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
     <header class="bg-body border-bottom">
@@ -164,6 +164,42 @@ Class Csharp  <a class="header-action link-secondary" title="View source" href="
 
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static string ObjectNullOrToString(object o)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>o</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Bdeshi_Helpers_Utility_Extensions_Csharp_ToStringOrNull_" data-uid="Bdeshi.Helpers.Utility.Extensions.Csharp.ToStringOrNull*"></a>
+
+  <h3 id="Bdeshi_Helpers_Utility_Extensions_Csharp_ToStringOrNull_System_Object_" data-uid="Bdeshi.Helpers.Utility.Extensions.Csharp.ToStringOrNull(System.Object)">
+  ToStringOrNull(object)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/BDeshiDev/BDeshiHelpers/blob/main/Assets/Packages/com.bdeshi.helpers/Runtime/Utility/Extensions/Csharp.cs/#L85"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string ToStringOrNull(object o)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -405,7 +441,7 @@ Class Csharp  <a class="header-action link-secondary" title="View source" href="
 
   <h3 id="Bdeshi_Helpers_Utility_Extensions_Csharp_removeAndSwapWithLast__1_System_Collections_Generic_List___0__System_Int32_" data-uid="Bdeshi.Helpers.Utility.Extensions.Csharp.removeAndSwapWithLast``1(System.Collections.Generic.List{``0},System.Int32)">
   removeAndSwapWithLast&lt;T&gt;(List&lt;T&gt;, int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/BDeshiDev/BDeshiHelpers/blob/main/Assets/Packages/com.bdeshi.helpers/Runtime/Utility/Extensions/Csharp.cs/#L86"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/BDeshiDev/BDeshiHelpers/blob/main/Assets/Packages/com.bdeshi.helpers/Runtime/Utility/Extensions/Csharp.cs/#L88"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -481,7 +517,7 @@ Class Csharp  <a class="header-action link-secondary" title="View source" href="
 
   <h3 id="Bdeshi_Helpers_Utility_Extensions_Csharp_swapToLast__1_System_Collections_Generic_List___0__System_Int32_" data-uid="Bdeshi.Helpers.Utility.Extensions.Csharp.swapToLast``1(System.Collections.Generic.List{``0},System.Int32)">
   swapToLast&lt;T&gt;(List&lt;T&gt;, int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/BDeshiDev/BDeshiHelpers/blob/main/Assets/Packages/com.bdeshi.helpers/Runtime/Utility/Extensions/Csharp.cs/#L98"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/BDeshiDev/BDeshiHelpers/blob/main/Assets/Packages/com.bdeshi.helpers/Runtime/Utility/Extensions/Csharp.cs/#L100"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>

@@ -15,6 +15,76 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Bdeshi.Helpers.DataStructures.ChargableList-1.ChargableListSlot.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Bdeshi.Helpers.DataStructures.ChargableList-1.ChargableListSlot.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Bdeshi.Helpers.DataStructures.ChargableList-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Bdeshi.Helpers.DataStructures.ChargableList-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Bdeshi.Helpers.DataStructures.DictionaryDictionary-3.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Bdeshi.Helpers.DataStructures.DictionaryDictionary-3.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Bdeshi.Helpers.DataStructures.DictionaryList-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Bdeshi.Helpers.DataStructures.DictionaryList-2.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Bdeshi.Helpers.DataStructures.GenericDictionary-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Bdeshi.Helpers.DataStructures.GenericDictionary-2.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Bdeshi.Helpers.DataStructures.SerializableStack-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Bdeshi.Helpers.DataStructures.SerializableStack-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Bdeshi.Helpers.DataStructures.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Bdeshi.Helpers.DataStructures.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Bdeshi.Helpers.Input.InputButtonSlot.yml",
       "output": {
         ".html": {
@@ -75,26 +145,6 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Bdeshi.Helpers.Utility.ChargableList-1.ChargableListSlot.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Bdeshi.Helpers.Utility.ChargableList-1.ChargableListSlot.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Bdeshi.Helpers.Utility.ChargableList-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Bdeshi.Helpers.Utility.ChargableList-1.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "api/Bdeshi.Helpers.Utility.EventOnAwake.yml",
       "output": {
         ".html": {
@@ -145,10 +195,10 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Bdeshi.Helpers.Utility.GenericDictionary-2.yml",
+      "source_relative_path": "api/Bdeshi.Helpers.Utility.MonoBehaviorWeakSingleton-1.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Bdeshi.Helpers.Utility.GenericDictionary-2.html"
+          "relative_path": "api/Bdeshi.Helpers.Utility.MonoBehaviorWeakSingleton-1.html"
         }
       },
       "version": ""
@@ -275,16 +325,6 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Bdeshi.Helpers.Utility.SerializableStack-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Bdeshi.Helpers.Utility.SerializableStack-1.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "api/Bdeshi.Helpers.Utility.SimpleManualMonoBehaviourPool-1.yml",
       "output": {
         ".html": {
@@ -367,11 +407,11 @@
       "type": "Toc",
       "source_relative_path": "api/toc.yml",
       "output": {
-        ".html": {
-          "relative_path": "api/toc.html"
-        },
         ".json": {
           "relative_path": "api/toc.json"
+        },
+        ".html": {
+          "relative_path": "api/toc.html"
         }
       },
       "version": ""
@@ -400,11 +440,11 @@
       "type": "Toc",
       "source_relative_path": "license/toc.md",
       "output": {
-        ".html": {
-          "relative_path": "license/toc.html"
-        },
         ".json": {
           "relative_path": "license/toc.json"
+        },
+        ".html": {
+          "relative_path": "license/toc.html"
         }
       },
       "version": ""
@@ -423,11 +463,11 @@
       "type": "Toc",
       "source_relative_path": "toc.yml",
       "output": {
-        ".html": {
-          "relative_path": "toc.html"
-        },
         ".json": {
           "relative_path": "toc.json"
+        },
+        ".html": {
+          "relative_path": "toc.html"
         }
       },
       "version": ""
