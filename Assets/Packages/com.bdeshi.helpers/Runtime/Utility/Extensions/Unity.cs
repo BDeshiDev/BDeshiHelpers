@@ -253,7 +253,7 @@ namespace Bdeshi.Helpers.Utility.Extensions
         public static Vector3Int MaintainZ(this Vector3Int vec1, Vector3Int vec2) => new Vector3Int(vec2.x, vec2.y, vec1.z);
         public static Vector3Int MaintainX(this Vector3Int vec1, Vector3Int vec2) => new Vector3Int(vec1.x, vec2.y, vec2.z);
         public static Vector3Int MaintainY(this Vector3Int vec1, Vector3Int vec2) => new Vector3Int(vec2.x, vec1.y, vec2.z);
-        public static List<Color> GenerateDifferentColors(int n, float alpha = .69f)
+        public static List<Color> GenerateDifferentColors(int n, float alpha =1)
         {
             List<Color> colors = new List<Color>();
 

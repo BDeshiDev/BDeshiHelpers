@@ -81,6 +81,8 @@ namespace Bdeshi.Helpers.Utility.Extensions
                 }
             }
         }
+
+        public static string ToStringOrNull(object o) => o == null ? "null" : o.ToString(); 
         
 
         public static void removeAndSwapWithLast<T>(this List<T> list, int index)
