@@ -18,8 +18,7 @@ namespace Bdeshi.Helpers.Input
             
         public bool IsHeld { get; private set; }
         public float LastHeld;
-        private InputActionReference _action;
-        public InputActionReference Action => _action;
+        private List<InputActionReference> _boundActions = new();
         public string ButtonName;
 
         public InputButtonSlot(string buttonName)
@@ -57,7 +56,8 @@ namespace Bdeshi.Helpers.Input
             if(iar == null)
                 return;
 
-            _action = iar;
+            Debug.Log($"BIND {ButtonName} to {iar}", iar);
+            _boundActions.Add(iar);
             iar.action.performed += ActionOnPerformed;
             iar.action.canceled += ActionOncanceled;
         }
@@ -66,14 +66,19 @@ namespace Bdeshi.Helpers.Input
         {               
             if(iar == null)
                 return;
+
+            _boundActions.Remove(iar);
             iar.action.performed -= ActionOnPerformed;
             iar.action.canceled -= ActionOncanceled;
         }
         
         public void UnBind()
         {
-            UnBind(_action);
-            _action = null;
+            for (var index = _boundActions.Count -1; index >=0 ; index--)
+            {
+                var boundAction = _boundActions[index];
+                UnBind(boundAction);
+            }
         }
 
         private void ActionOncanceled(InputAction.CallbackContext obj)

@@ -233,7 +233,7 @@ namespace Bdeshi.Helpers.Utility.Extensions
         {
             return new Color(color.r, color.g, color.b, a);
         }
-
+        
 
         public static Vector3Int OverrideX(this Vector3Int vec, int x) => new Vector3Int(x, vec.y, vec.z);
         public static Vector3 OverrideX(this Vector3 vec, float x) => new Vector3(x, vec.y, vec.z);

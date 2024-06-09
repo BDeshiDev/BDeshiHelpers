@@ -29,7 +29,5 @@ namespace Bdeshi.Helpers.levelloading
                 SceneManager.LoadScene(ManagerSceneName, LoadSceneMode.Additive);
             }
         }
-
-
     }
 }
