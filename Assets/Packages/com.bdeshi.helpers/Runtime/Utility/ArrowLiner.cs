@@ -66,6 +66,15 @@ namespace Bdeshi.Helpers.Utility
             TipLiner.SetPosition(1, _endPoint);
         }
 
+        public void SetPositions(Vector3 mainLinerFrom, Vector3 mainLinerTo, Vector3 tipLinerTo)
+        {            
+            MainLiner.SetPosition(0, mainLinerFrom);
+            MainLiner.SetPosition(1, mainLinerTo);
+
+            TipLiner.SetPosition(0, mainLinerTo);
+            TipLiner.SetPosition(1, tipLinerTo);
+        }
+
         public void toggleLineRenderers(bool shouldBeOn)
         {
             MainLiner.enabled = TipLiner.enabled = shouldBeOn;
