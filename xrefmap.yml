@@ -815,6 +815,23 @@ references:
   fullName.vb: Bdeshi.Helpers.DataStructures.DictionaryList(Of TKey, TVal).GetEnumerator
   nameWithType: DictionaryList<TKey, TVal>.GetEnumerator
   nameWithType.vb: DictionaryList(Of TKey, TVal).GetEnumerator
+- uid: Bdeshi.Helpers.DataStructures.DictionaryList`2.GetOrAddEmptyList(`0)
+  name: GetOrAddEmptyList(TKey)
+  href: api/Bdeshi.Helpers.DataStructures.DictionaryList-2.html#Bdeshi_Helpers_DataStructures_DictionaryList_2_GetOrAddEmptyList__0_
+  commentId: M:Bdeshi.Helpers.DataStructures.DictionaryList`2.GetOrAddEmptyList(`0)
+  fullName: Bdeshi.Helpers.DataStructures.DictionaryList<TKey, TVal>.GetOrAddEmptyList(TKey)
+  fullName.vb: Bdeshi.Helpers.DataStructures.DictionaryList(Of TKey, TVal).GetOrAddEmptyList(TKey)
+  nameWithType: DictionaryList<TKey, TVal>.GetOrAddEmptyList(TKey)
+  nameWithType.vb: DictionaryList(Of TKey, TVal).GetOrAddEmptyList(TKey)
+- uid: Bdeshi.Helpers.DataStructures.DictionaryList`2.GetOrAddEmptyList*
+  name: GetOrAddEmptyList
+  href: api/Bdeshi.Helpers.DataStructures.DictionaryList-2.html#Bdeshi_Helpers_DataStructures_DictionaryList_2_GetOrAddEmptyList_
+  commentId: Overload:Bdeshi.Helpers.DataStructures.DictionaryList`2.GetOrAddEmptyList
+  isSpec: "True"
+  fullName: Bdeshi.Helpers.DataStructures.DictionaryList<TKey, TVal>.GetOrAddEmptyList
+  fullName.vb: Bdeshi.Helpers.DataStructures.DictionaryList(Of TKey, TVal).GetOrAddEmptyList
+  nameWithType: DictionaryList<TKey, TVal>.GetOrAddEmptyList
+  nameWithType.vb: DictionaryList(Of TKey, TVal).GetOrAddEmptyList
 - uid: Bdeshi.Helpers.DataStructures.DictionaryList`2.Item(`0)
   name: this[TKey]
   href: api/Bdeshi.Helpers.DataStructures.DictionaryList-2.html#Bdeshi_Helpers_DataStructures_DictionaryList_2_Item__0_
@@ -1298,19 +1315,6 @@ references:
   fullName.vb: Bdeshi.Helpers.Input.InputButtonSlot.New
   nameWithType: InputButtonSlot.InputButtonSlot
   nameWithType.vb: InputButtonSlot.New
-- uid: Bdeshi.Helpers.Input.InputButtonSlot.Action
-  name: Action
-  href: api/Bdeshi.Helpers.Input.InputButtonSlot.html#Bdeshi_Helpers_Input_InputButtonSlot_Action
-  commentId: P:Bdeshi.Helpers.Input.InputButtonSlot.Action
-  fullName: Bdeshi.Helpers.Input.InputButtonSlot.Action
-  nameWithType: InputButtonSlot.Action
-- uid: Bdeshi.Helpers.Input.InputButtonSlot.Action*
-  name: Action
-  href: api/Bdeshi.Helpers.Input.InputButtonSlot.html#Bdeshi_Helpers_Input_InputButtonSlot_Action_
-  commentId: Overload:Bdeshi.Helpers.Input.InputButtonSlot.Action
-  isSpec: "True"
-  fullName: Bdeshi.Helpers.Input.InputButtonSlot.Action
-  nameWithType: InputButtonSlot.Action
 - uid: Bdeshi.Helpers.Input.InputButtonSlot.AddCancelledCallback(GameObject,System.Action)
   name: AddCancelledCallback(GameObject, Action)
   href: api/Bdeshi.Helpers.Input.InputButtonSlot.html#Bdeshi_Helpers_Input_InputButtonSlot_AddCancelledCallback_GameObject_System_Action_
@@ -1542,6 +1546,19 @@ references:
   isSpec: "True"
   fullName: Bdeshi.Helpers.Utility.ArrowLiner.SetColor
   nameWithType: ArrowLiner.SetColor
+- uid: Bdeshi.Helpers.Utility.ArrowLiner.SetPositions(Vector3,Vector3,Vector3)
+  name: SetPositions(Vector3, Vector3, Vector3)
+  href: api/Bdeshi.Helpers.Utility.ArrowLiner.html#Bdeshi_Helpers_Utility_ArrowLiner_SetPositions_Vector3_Vector3_Vector3_
+  commentId: M:Bdeshi.Helpers.Utility.ArrowLiner.SetPositions(Vector3,Vector3,Vector3)
+  fullName: Bdeshi.Helpers.Utility.ArrowLiner.SetPositions(Vector3, Vector3, Vector3)
+  nameWithType: ArrowLiner.SetPositions(Vector3, Vector3, Vector3)
+- uid: Bdeshi.Helpers.Utility.ArrowLiner.SetPositions*
+  name: SetPositions
+  href: api/Bdeshi.Helpers.Utility.ArrowLiner.html#Bdeshi_Helpers_Utility_ArrowLiner_SetPositions_
+  commentId: Overload:Bdeshi.Helpers.Utility.ArrowLiner.SetPositions
+  isSpec: "True"
+  fullName: Bdeshi.Helpers.Utility.ArrowLiner.SetPositions
+  nameWithType: ArrowLiner.SetPositions
 - uid: Bdeshi.Helpers.Utility.ArrowLiner.TipLenMax
   name: TipLenMax
   href: api/Bdeshi.Helpers.Utility.ArrowLiner.html#Bdeshi_Helpers_Utility_ArrowLiner_TipLenMax
@@ -4243,6 +4260,24 @@ references:
   fullName.vb: Bdeshi.Helpers.Utility.SimpleManualMonoBehaviourPool(Of T).GetItem
   nameWithType: SimpleManualMonoBehaviourPool<T>.GetItem
   nameWithType.vb: SimpleManualMonoBehaviourPool(Of T).GetItem
+- uid: Bdeshi.Helpers.Utility.SimpleManualMonoBehaviourPool`1.RemoveFromSpawnList(System.Collections.Generic.List{`0})
+  name: RemoveFromSpawnList(List<T>)
+  href: api/Bdeshi.Helpers.Utility.SimpleManualMonoBehaviourPool-1.html#Bdeshi_Helpers_Utility_SimpleManualMonoBehaviourPool_1_RemoveFromSpawnList_System_Collections_Generic_List__0__
+  commentId: M:Bdeshi.Helpers.Utility.SimpleManualMonoBehaviourPool`1.RemoveFromSpawnList(System.Collections.Generic.List{`0})
+  name.vb: RemoveFromSpawnList(List(Of T))
+  fullName: Bdeshi.Helpers.Utility.SimpleManualMonoBehaviourPool<T>.RemoveFromSpawnList(System.Collections.Generic.List<T>)
+  fullName.vb: Bdeshi.Helpers.Utility.SimpleManualMonoBehaviourPool(Of T).RemoveFromSpawnList(System.Collections.Generic.List(Of T))
+  nameWithType: SimpleManualMonoBehaviourPool<T>.RemoveFromSpawnList(List<T>)
+  nameWithType.vb: SimpleManualMonoBehaviourPool(Of T).RemoveFromSpawnList(List(Of T))
+- uid: Bdeshi.Helpers.Utility.SimpleManualMonoBehaviourPool`1.RemoveFromSpawnList*
+  name: RemoveFromSpawnList
+  href: api/Bdeshi.Helpers.Utility.SimpleManualMonoBehaviourPool-1.html#Bdeshi_Helpers_Utility_SimpleManualMonoBehaviourPool_1_RemoveFromSpawnList_
+  commentId: Overload:Bdeshi.Helpers.Utility.SimpleManualMonoBehaviourPool`1.RemoveFromSpawnList
+  isSpec: "True"
+  fullName: Bdeshi.Helpers.Utility.SimpleManualMonoBehaviourPool<T>.RemoveFromSpawnList
+  fullName.vb: Bdeshi.Helpers.Utility.SimpleManualMonoBehaviourPool(Of T).RemoveFromSpawnList
+  nameWithType: SimpleManualMonoBehaviourPool<T>.RemoveFromSpawnList
+  nameWithType.vb: SimpleManualMonoBehaviourPool(Of T).RemoveFromSpawnList
 - uid: Bdeshi.Helpers.Utility.SimpleManualMonoBehaviourPool`1.ReturnItem(`0)
   name: ReturnItem(T)
   href: api/Bdeshi.Helpers.Utility.SimpleManualMonoBehaviourPool-1.html#Bdeshi_Helpers_Utility_SimpleManualMonoBehaviourPool_1_ReturnItem__0_
