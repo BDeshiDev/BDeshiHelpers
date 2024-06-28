@@ -78,6 +78,11 @@ namespace Bdeshi.Helpers.Utility
             _pool.Add(item);
         }
         
+        public void RemoveFromSpawnList(List<T> spawnList)
+        {
+            EnsureSpawnListCount(spawnList, 0);
+        }
+        
         /// <summary>
         /// Will fill/trim a list to match a desired count using  pool
         /// excess is returned to pool

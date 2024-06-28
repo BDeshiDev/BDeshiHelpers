@@ -42,6 +42,27 @@ namespace Bdeshi.Helpers.DataStructures
             }
         }
         
+        /// <summary>
+        /// returns true if adding new List
+        /// False if list exists.
+        /// </summary>
+        /// <param name="key"></param>
+        /// <param name="item"></param>
+        /// <returns></returns>
+        public List<TVal> GetOrAddEmptyList(TKey key)
+        {
+            if (_dict.TryGetValue(key, out var list))
+            {
+                return list;
+            }
+            else
+            {
+                list = new List<TVal>() { };
+                _dict[key] = list;
+                return list;
+            }
+        }
+        
         public bool Contains(TKey key)
         {
             return _dict.ContainsKey(key);

@@ -1,12 +1,14 @@
+using System;
 using System.Collections.Generic;
 using UnityEngine;
 
 namespace Bdeshi.Helpers.DataStructures
 {
+    [Serializable]
     public class SerializableStack<T>
     {
-        [SerializeField] private List<T> _list = new List<T>();
         [SerializeField] private T _last;
+        [SerializeField] private List<T> _list = new List<T>();
         public bool IsEmpty => _list.Count == 0;
         public bool Contains(T item) => _list.Contains(item);
         public T Peek() => _last;
