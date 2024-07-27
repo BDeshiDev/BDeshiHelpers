@@ -9,6 +9,22 @@ namespace Bdeshi.Helpers.Utility.Extensions
 {
     public static class Unity
     {
+        public static void SetColor(this LineRenderer line, Color color)
+        {
+            line.startColor = line.endColor = color;
+        }
+        
+        public static void SetAlpha(this LineRenderer line, float alpha)
+        {
+            line.startColor = line.startColor.overrideAlpha(alpha); 
+            line.endColor = line.endColor.overrideAlpha(alpha);
+        }
+        
+        public static void SetAlpha(this SpriteRenderer spriter, float alpha)
+        {
+            spriter.color = spriter.color.overrideAlpha(alpha); 
+        }
+        
         public static void allignToDir2D(this Transform transform, Vector2 dir)
         {
             float angle = get2dAngle(dir);

@@ -52,7 +52,7 @@ namespace Bdeshi.Helpers.Utility
             _pool.Add(item);
         }
 
-        public T getItem()
+        public T GetItem()
         {
             T item = null;
             if (_pool.Count > 0)
