@@ -1199,6 +1199,23 @@ references:
   fullName.vb: Bdeshi.Helpers.DataStructures.SerializableStack(Of T)
   nameWithType: SerializableStack<T>
   nameWithType.vb: SerializableStack(Of T)
+- uid: Bdeshi.Helpers.DataStructures.SerializableStack`1.BackingList
+  name: BackingList
+  href: api/Bdeshi.Helpers.DataStructures.SerializableStack-1.html#Bdeshi_Helpers_DataStructures_SerializableStack_1_BackingList
+  commentId: P:Bdeshi.Helpers.DataStructures.SerializableStack`1.BackingList
+  fullName: Bdeshi.Helpers.DataStructures.SerializableStack<T>.BackingList
+  fullName.vb: Bdeshi.Helpers.DataStructures.SerializableStack(Of T).BackingList
+  nameWithType: SerializableStack<T>.BackingList
+  nameWithType.vb: SerializableStack(Of T).BackingList
+- uid: Bdeshi.Helpers.DataStructures.SerializableStack`1.BackingList*
+  name: BackingList
+  href: api/Bdeshi.Helpers.DataStructures.SerializableStack-1.html#Bdeshi_Helpers_DataStructures_SerializableStack_1_BackingList_
+  commentId: Overload:Bdeshi.Helpers.DataStructures.SerializableStack`1.BackingList
+  isSpec: "True"
+  fullName: Bdeshi.Helpers.DataStructures.SerializableStack<T>.BackingList
+  fullName.vb: Bdeshi.Helpers.DataStructures.SerializableStack(Of T).BackingList
+  nameWithType: SerializableStack<T>.BackingList
+  nameWithType.vb: SerializableStack(Of T).BackingList
 - uid: Bdeshi.Helpers.DataStructures.SerializableStack`1.Contains(`0)
   name: Contains(T)
   href: api/Bdeshi.Helpers.DataStructures.SerializableStack-1.html#Bdeshi_Helpers_DataStructures_SerializableStack_1_Contains__0_
@@ -1216,6 +1233,23 @@ references:
   fullName.vb: Bdeshi.Helpers.DataStructures.SerializableStack(Of T).Contains
   nameWithType: SerializableStack<T>.Contains
   nameWithType.vb: SerializableStack(Of T).Contains
+- uid: Bdeshi.Helpers.DataStructures.SerializableStack`1.FIFOOrder
+  name: FIFOOrder()
+  href: api/Bdeshi.Helpers.DataStructures.SerializableStack-1.html#Bdeshi_Helpers_DataStructures_SerializableStack_1_FIFOOrder
+  commentId: M:Bdeshi.Helpers.DataStructures.SerializableStack`1.FIFOOrder
+  fullName: Bdeshi.Helpers.DataStructures.SerializableStack<T>.FIFOOrder()
+  fullName.vb: Bdeshi.Helpers.DataStructures.SerializableStack(Of T).FIFOOrder()
+  nameWithType: SerializableStack<T>.FIFOOrder()
+  nameWithType.vb: SerializableStack(Of T).FIFOOrder()
+- uid: Bdeshi.Helpers.DataStructures.SerializableStack`1.FIFOOrder*
+  name: FIFOOrder
+  href: api/Bdeshi.Helpers.DataStructures.SerializableStack-1.html#Bdeshi_Helpers_DataStructures_SerializableStack_1_FIFOOrder_
+  commentId: Overload:Bdeshi.Helpers.DataStructures.SerializableStack`1.FIFOOrder
+  isSpec: "True"
+  fullName: Bdeshi.Helpers.DataStructures.SerializableStack<T>.FIFOOrder
+  fullName.vb: Bdeshi.Helpers.DataStructures.SerializableStack(Of T).FIFOOrder
+  nameWithType: SerializableStack<T>.FIFOOrder
+  nameWithType.vb: SerializableStack(Of T).FIFOOrder
 - uid: Bdeshi.Helpers.DataStructures.SerializableStack`1.IsEmpty
   name: IsEmpty
   href: api/Bdeshi.Helpers.DataStructures.SerializableStack-1.html#Bdeshi_Helpers_DataStructures_SerializableStack_1_IsEmpty
@@ -1233,6 +1267,23 @@ references:
   fullName.vb: Bdeshi.Helpers.DataStructures.SerializableStack(Of T).IsEmpty
   nameWithType: SerializableStack<T>.IsEmpty
   nameWithType.vb: SerializableStack(Of T).IsEmpty
+- uid: Bdeshi.Helpers.DataStructures.SerializableStack`1.LIFOOrder
+  name: LIFOOrder()
+  href: api/Bdeshi.Helpers.DataStructures.SerializableStack-1.html#Bdeshi_Helpers_DataStructures_SerializableStack_1_LIFOOrder
+  commentId: M:Bdeshi.Helpers.DataStructures.SerializableStack`1.LIFOOrder
+  fullName: Bdeshi.Helpers.DataStructures.SerializableStack<T>.LIFOOrder()
+  fullName.vb: Bdeshi.Helpers.DataStructures.SerializableStack(Of T).LIFOOrder()
+  nameWithType: SerializableStack<T>.LIFOOrder()
+  nameWithType.vb: SerializableStack(Of T).LIFOOrder()
+- uid: Bdeshi.Helpers.DataStructures.SerializableStack`1.LIFOOrder*
+  name: LIFOOrder
+  href: api/Bdeshi.Helpers.DataStructures.SerializableStack-1.html#Bdeshi_Helpers_DataStructures_SerializableStack_1_LIFOOrder_
+  commentId: Overload:Bdeshi.Helpers.DataStructures.SerializableStack`1.LIFOOrder
+  isSpec: "True"
+  fullName: Bdeshi.Helpers.DataStructures.SerializableStack<T>.LIFOOrder
+  fullName.vb: Bdeshi.Helpers.DataStructures.SerializableStack(Of T).LIFOOrder
+  nameWithType: SerializableStack<T>.LIFOOrder
+  nameWithType.vb: SerializableStack(Of T).LIFOOrder
 - uid: Bdeshi.Helpers.DataStructures.SerializableStack`1.Peek
   name: Peek()
   href: api/Bdeshi.Helpers.DataStructures.SerializableStack-1.html#Bdeshi_Helpers_DataStructures_SerializableStack_1_Peek
@@ -1284,6 +1335,24 @@ references:
   fullName.vb: Bdeshi.Helpers.DataStructures.SerializableStack(Of T).Push
   nameWithType: SerializableStack<T>.Push
   nameWithType.vb: SerializableStack(Of T).Push
+- uid: Bdeshi.Helpers.DataStructures.SerializableStack`1.TryPop(`0@)
+  name: TryPop(out T)
+  href: api/Bdeshi.Helpers.DataStructures.SerializableStack-1.html#Bdeshi_Helpers_DataStructures_SerializableStack_1_TryPop__0__
+  commentId: M:Bdeshi.Helpers.DataStructures.SerializableStack`1.TryPop(`0@)
+  name.vb: TryPop(T)
+  fullName: Bdeshi.Helpers.DataStructures.SerializableStack<T>.TryPop(out T)
+  fullName.vb: Bdeshi.Helpers.DataStructures.SerializableStack(Of T).TryPop(T)
+  nameWithType: SerializableStack<T>.TryPop(out T)
+  nameWithType.vb: SerializableStack(Of T).TryPop(T)
+- uid: Bdeshi.Helpers.DataStructures.SerializableStack`1.TryPop*
+  name: TryPop
+  href: api/Bdeshi.Helpers.DataStructures.SerializableStack-1.html#Bdeshi_Helpers_DataStructures_SerializableStack_1_TryPop_
+  commentId: Overload:Bdeshi.Helpers.DataStructures.SerializableStack`1.TryPop
+  isSpec: "True"
+  fullName: Bdeshi.Helpers.DataStructures.SerializableStack<T>.TryPop
+  fullName.vb: Bdeshi.Helpers.DataStructures.SerializableStack(Of T).TryPop
+  nameWithType: SerializableStack<T>.TryPop
+  nameWithType.vb: SerializableStack(Of T).TryPop
 - uid: Bdeshi.Helpers.Input
   name: Bdeshi.Helpers.Input
   href: api/Bdeshi.Helpers.Input.html
@@ -1726,6 +1795,23 @@ references:
   fullName.vb: Bdeshi.Helpers.Utility.AutoMonobehaviourPool(Of T).New
   nameWithType: AutoMonobehaviourPool<T>.AutoMonobehaviourPool
   nameWithType.vb: AutoMonobehaviourPool(Of T).New
+- uid: Bdeshi.Helpers.Utility.AutoMonobehaviourPool`1.GetItem
+  name: GetItem()
+  href: api/Bdeshi.Helpers.Utility.AutoMonobehaviourPool-1.html#Bdeshi_Helpers_Utility_AutoMonobehaviourPool_1_GetItem
+  commentId: M:Bdeshi.Helpers.Utility.AutoMonobehaviourPool`1.GetItem
+  fullName: Bdeshi.Helpers.Utility.AutoMonobehaviourPool<T>.GetItem()
+  fullName.vb: Bdeshi.Helpers.Utility.AutoMonobehaviourPool(Of T).GetItem()
+  nameWithType: AutoMonobehaviourPool<T>.GetItem()
+  nameWithType.vb: AutoMonobehaviourPool(Of T).GetItem()
+- uid: Bdeshi.Helpers.Utility.AutoMonobehaviourPool`1.GetItem*
+  name: GetItem
+  href: api/Bdeshi.Helpers.Utility.AutoMonobehaviourPool-1.html#Bdeshi_Helpers_Utility_AutoMonobehaviourPool_1_GetItem_
+  commentId: Overload:Bdeshi.Helpers.Utility.AutoMonobehaviourPool`1.GetItem
+  isSpec: "True"
+  fullName: Bdeshi.Helpers.Utility.AutoMonobehaviourPool<T>.GetItem
+  fullName.vb: Bdeshi.Helpers.Utility.AutoMonobehaviourPool(Of T).GetItem
+  nameWithType: AutoMonobehaviourPool<T>.GetItem
+  nameWithType.vb: AutoMonobehaviourPool(Of T).GetItem
 - uid: Bdeshi.Helpers.Utility.AutoMonobehaviourPool`1.debug
   name: debug
   href: api/Bdeshi.Helpers.Utility.AutoMonobehaviourPool-1.html#Bdeshi_Helpers_Utility_AutoMonobehaviourPool_1_debug
@@ -1752,23 +1838,6 @@ references:
   fullName.vb: Bdeshi.Helpers.Utility.AutoMonobehaviourPool(Of T).ensurePoolHasAtleast
   nameWithType: AutoMonobehaviourPool<T>.ensurePoolHasAtleast
   nameWithType.vb: AutoMonobehaviourPool(Of T).ensurePoolHasAtleast
-- uid: Bdeshi.Helpers.Utility.AutoMonobehaviourPool`1.getItem
-  name: getItem()
-  href: api/Bdeshi.Helpers.Utility.AutoMonobehaviourPool-1.html#Bdeshi_Helpers_Utility_AutoMonobehaviourPool_1_getItem
-  commentId: M:Bdeshi.Helpers.Utility.AutoMonobehaviourPool`1.getItem
-  fullName: Bdeshi.Helpers.Utility.AutoMonobehaviourPool<T>.getItem()
-  fullName.vb: Bdeshi.Helpers.Utility.AutoMonobehaviourPool(Of T).getItem()
-  nameWithType: AutoMonobehaviourPool<T>.getItem()
-  nameWithType.vb: AutoMonobehaviourPool(Of T).getItem()
-- uid: Bdeshi.Helpers.Utility.AutoMonobehaviourPool`1.getItem*
-  name: getItem
-  href: api/Bdeshi.Helpers.Utility.AutoMonobehaviourPool-1.html#Bdeshi_Helpers_Utility_AutoMonobehaviourPool_1_getItem_
-  commentId: Overload:Bdeshi.Helpers.Utility.AutoMonobehaviourPool`1.getItem
-  isSpec: "True"
-  fullName: Bdeshi.Helpers.Utility.AutoMonobehaviourPool<T>.getItem
-  fullName.vb: Bdeshi.Helpers.Utility.AutoMonobehaviourPool(Of T).getItem
-  nameWithType: AutoMonobehaviourPool<T>.getItem
-  nameWithType.vb: AutoMonobehaviourPool(Of T).getItem
 - uid: Bdeshi.Helpers.Utility.AutoMonobehaviourPool`1.prefab
   name: prefab
   href: api/Bdeshi.Helpers.Utility.AutoMonobehaviourPool-1.html#Bdeshi_Helpers_Utility_AutoMonobehaviourPool_1_prefab
@@ -2290,6 +2359,44 @@ references:
   isSpec: "True"
   fullName: Bdeshi.Helpers.Utility.Extensions.Unity.Rotated
   nameWithType: Unity.Rotated
+- uid: Bdeshi.Helpers.Utility.Extensions.Unity.SetAlpha(LineRenderer,System.Single)
+  name: SetAlpha(LineRenderer, float)
+  href: api/Bdeshi.Helpers.Utility.Extensions.Unity.html#Bdeshi_Helpers_Utility_Extensions_Unity_SetAlpha_LineRenderer_System_Single_
+  commentId: M:Bdeshi.Helpers.Utility.Extensions.Unity.SetAlpha(LineRenderer,System.Single)
+  name.vb: SetAlpha(LineRenderer, Single)
+  fullName: Bdeshi.Helpers.Utility.Extensions.Unity.SetAlpha(LineRenderer, float)
+  fullName.vb: Bdeshi.Helpers.Utility.Extensions.Unity.SetAlpha(LineRenderer, Single)
+  nameWithType: Unity.SetAlpha(LineRenderer, float)
+  nameWithType.vb: Unity.SetAlpha(LineRenderer, Single)
+- uid: Bdeshi.Helpers.Utility.Extensions.Unity.SetAlpha(SpriteRenderer,System.Single)
+  name: SetAlpha(SpriteRenderer, float)
+  href: api/Bdeshi.Helpers.Utility.Extensions.Unity.html#Bdeshi_Helpers_Utility_Extensions_Unity_SetAlpha_SpriteRenderer_System_Single_
+  commentId: M:Bdeshi.Helpers.Utility.Extensions.Unity.SetAlpha(SpriteRenderer,System.Single)
+  name.vb: SetAlpha(SpriteRenderer, Single)
+  fullName: Bdeshi.Helpers.Utility.Extensions.Unity.SetAlpha(SpriteRenderer, float)
+  fullName.vb: Bdeshi.Helpers.Utility.Extensions.Unity.SetAlpha(SpriteRenderer, Single)
+  nameWithType: Unity.SetAlpha(SpriteRenderer, float)
+  nameWithType.vb: Unity.SetAlpha(SpriteRenderer, Single)
+- uid: Bdeshi.Helpers.Utility.Extensions.Unity.SetAlpha*
+  name: SetAlpha
+  href: api/Bdeshi.Helpers.Utility.Extensions.Unity.html#Bdeshi_Helpers_Utility_Extensions_Unity_SetAlpha_
+  commentId: Overload:Bdeshi.Helpers.Utility.Extensions.Unity.SetAlpha
+  isSpec: "True"
+  fullName: Bdeshi.Helpers.Utility.Extensions.Unity.SetAlpha
+  nameWithType: Unity.SetAlpha
+- uid: Bdeshi.Helpers.Utility.Extensions.Unity.SetColor(LineRenderer,Color)
+  name: SetColor(LineRenderer, Color)
+  href: api/Bdeshi.Helpers.Utility.Extensions.Unity.html#Bdeshi_Helpers_Utility_Extensions_Unity_SetColor_LineRenderer_Color_
+  commentId: M:Bdeshi.Helpers.Utility.Extensions.Unity.SetColor(LineRenderer,Color)
+  fullName: Bdeshi.Helpers.Utility.Extensions.Unity.SetColor(LineRenderer, Color)
+  nameWithType: Unity.SetColor(LineRenderer, Color)
+- uid: Bdeshi.Helpers.Utility.Extensions.Unity.SetColor*
+  name: SetColor
+  href: api/Bdeshi.Helpers.Utility.Extensions.Unity.html#Bdeshi_Helpers_Utility_Extensions_Unity_SetColor_
+  commentId: Overload:Bdeshi.Helpers.Utility.Extensions.Unity.SetColor
+  isSpec: "True"
+  fullName: Bdeshi.Helpers.Utility.Extensions.Unity.SetColor
+  nameWithType: Unity.SetColor
 - uid: Bdeshi.Helpers.Utility.Extensions.Unity.SetDirty(UnityEngine.Object)
   name: SetDirty(Object)
   href: api/Bdeshi.Helpers.Utility.Extensions.Unity.html#Bdeshi_Helpers_Utility_Extensions_Unity_SetDirty_UnityEngine_Object_

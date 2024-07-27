@@ -77,7 +77,7 @@
 
       <div class="content">
         <div class="actionbar">
-          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
             <i class="bi bi-list"></i>
           </button>
 
@@ -158,11 +158,42 @@ public class SerializableStack&lt;T&gt;</code></pre>
 </h2>
 
 
+  <a id="Bdeshi_Helpers_DataStructures_SerializableStack_1_BackingList_" data-uid="Bdeshi.Helpers.DataStructures.SerializableStack`1.BackingList*"></a>
+
+  <h3 id="Bdeshi_Helpers_DataStructures_SerializableStack_1_BackingList" data-uid="Bdeshi.Helpers.DataStructures.SerializableStack`1.BackingList">
+  BackingList
+  <a class="header-action link-secondary" title="View source" href="https://github.com/BDeshiDev/BDeshiHelpers/blob/main/Assets/Packages/com.bdeshi.helpers/Runtime/DataStructures/SerializableStack.cs/#L12"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;T&gt; BackingList { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;T&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
   <a id="Bdeshi_Helpers_DataStructures_SerializableStack_1_IsEmpty_" data-uid="Bdeshi.Helpers.DataStructures.SerializableStack`1.IsEmpty*"></a>
 
   <h3 id="Bdeshi_Helpers_DataStructures_SerializableStack_1_IsEmpty" data-uid="Bdeshi.Helpers.DataStructures.SerializableStack`1.IsEmpty">
   IsEmpty
-  <a class="header-action link-secondary" title="View source" href="https://github.com/BDeshiDev/BDeshiHelpers/blob/main/Assets/Packages/com.bdeshi.helpers/Runtime/DataStructures/SerializableStack.cs/#L12"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/BDeshiDev/BDeshiHelpers/blob/main/Assets/Packages/com.bdeshi.helpers/Runtime/DataStructures/SerializableStack.cs/#L13"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -197,7 +228,7 @@ public class SerializableStack&lt;T&gt;</code></pre>
 
   <h3 id="Bdeshi_Helpers_DataStructures_SerializableStack_1_Contains__0_" data-uid="Bdeshi.Helpers.DataStructures.SerializableStack`1.Contains(`0)">
   Contains(T)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/BDeshiDev/BDeshiHelpers/blob/main/Assets/Packages/com.bdeshi.helpers/Runtime/DataStructures/SerializableStack.cs/#L13"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/BDeshiDev/BDeshiHelpers/blob/main/Assets/Packages/com.bdeshi.helpers/Runtime/DataStructures/SerializableStack.cs/#L14"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -229,11 +260,75 @@ public class SerializableStack&lt;T&gt;</code></pre>
 
 
 
+  <a id="Bdeshi_Helpers_DataStructures_SerializableStack_1_FIFOOrder_" data-uid="Bdeshi.Helpers.DataStructures.SerializableStack`1.FIFOOrder*"></a>
+
+  <h3 id="Bdeshi_Helpers_DataStructures_SerializableStack_1_FIFOOrder" data-uid="Bdeshi.Helpers.DataStructures.SerializableStack`1.FIFOOrder">
+  FIFOOrder()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/BDeshiDev/BDeshiHelpers/blob/main/Assets/Packages/com.bdeshi.helpers/Runtime/DataStructures/SerializableStack.cs/#L29"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>FIFO order. Can get same result by looping backingList</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IEnumerable&lt;T&gt; FIFOOrder()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;T&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Bdeshi_Helpers_DataStructures_SerializableStack_1_LIFOOrder_" data-uid="Bdeshi.Helpers.DataStructures.SerializableStack`1.LIFOOrder*"></a>
+
+  <h3 id="Bdeshi_Helpers_DataStructures_SerializableStack_1_LIFOOrder" data-uid="Bdeshi.Helpers.DataStructures.SerializableStack`1.LIFOOrder">
+  LIFOOrder()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/BDeshiDev/BDeshiHelpers/blob/main/Assets/Packages/com.bdeshi.helpers/Runtime/DataStructures/SerializableStack.cs/#L19"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>LIFO order. NOTE: GC WARNING</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IEnumerable&lt;T&gt; LIFOOrder()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;T&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
   <a id="Bdeshi_Helpers_DataStructures_SerializableStack_1_Peek_" data-uid="Bdeshi.Helpers.DataStructures.SerializableStack`1.Peek*"></a>
 
   <h3 id="Bdeshi_Helpers_DataStructures_SerializableStack_1_Peek" data-uid="Bdeshi.Helpers.DataStructures.SerializableStack`1.Peek">
   Peek()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/BDeshiDev/BDeshiHelpers/blob/main/Assets/Packages/com.bdeshi.helpers/Runtime/DataStructures/SerializableStack.cs/#L14"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/BDeshiDev/BDeshiHelpers/blob/main/Assets/Packages/com.bdeshi.helpers/Runtime/DataStructures/SerializableStack.cs/#L31"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -264,7 +359,7 @@ public class SerializableStack&lt;T&gt;</code></pre>
 
   <h3 id="Bdeshi_Helpers_DataStructures_SerializableStack_1_Pop" data-uid="Bdeshi.Helpers.DataStructures.SerializableStack`1.Pop">
   Pop()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/BDeshiDev/BDeshiHelpers/blob/main/Assets/Packages/com.bdeshi.helpers/Runtime/DataStructures/SerializableStack.cs/#L21"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/BDeshiDev/BDeshiHelpers/blob/main/Assets/Packages/com.bdeshi.helpers/Runtime/DataStructures/SerializableStack.cs/#L38"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -295,7 +390,7 @@ public class SerializableStack&lt;T&gt;</code></pre>
 
   <h3 id="Bdeshi_Helpers_DataStructures_SerializableStack_1_Push__0_" data-uid="Bdeshi.Helpers.DataStructures.SerializableStack`1.Push(`0)">
   Push(T)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/BDeshiDev/BDeshiHelpers/blob/main/Assets/Packages/com.bdeshi.helpers/Runtime/DataStructures/SerializableStack.cs/#L15"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/BDeshiDev/BDeshiHelpers/blob/main/Assets/Packages/com.bdeshi.helpers/Runtime/DataStructures/SerializableStack.cs/#L32"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -311,6 +406,42 @@ public class SerializableStack&lt;T&gt;</code></pre>
     <dd></dd>
   </dl>
 
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Bdeshi_Helpers_DataStructures_SerializableStack_1_TryPop_" data-uid="Bdeshi.Helpers.DataStructures.SerializableStack`1.TryPop*"></a>
+
+  <h3 id="Bdeshi_Helpers_DataStructures_SerializableStack_1_TryPop__0__" data-uid="Bdeshi.Helpers.DataStructures.SerializableStack`1.TryPop(`0@)">
+  TryPop(out T)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/BDeshiDev/BDeshiHelpers/blob/main/Assets/Packages/com.bdeshi.helpers/Runtime/DataStructures/SerializableStack.cs/#L53"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool TryPop(out T item)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>item</code> <span class="xref">T</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
 
 
 
