@@ -2159,6 +2159,32 @@ references:
   isSpec: "True"
   fullName: Bdeshi.Helpers.Utility.Extensions.Unity.GenerateDifferentColors
   nameWithType: Unity.GenerateDifferentColors
+- uid: Bdeshi.Helpers.Utility.Extensions.Unity.IsBetween(Vector3Int,Vector3Int,Vector3Int)
+  name: IsBetween(Vector3Int, Vector3Int, Vector3Int)
+  href: api/Bdeshi.Helpers.Utility.Extensions.Unity.html#Bdeshi_Helpers_Utility_Extensions_Unity_IsBetween_Vector3Int_Vector3Int_Vector3Int_
+  commentId: M:Bdeshi.Helpers.Utility.Extensions.Unity.IsBetween(Vector3Int,Vector3Int,Vector3Int)
+  fullName: Bdeshi.Helpers.Utility.Extensions.Unity.IsBetween(Vector3Int, Vector3Int, Vector3Int)
+  nameWithType: Unity.IsBetween(Vector3Int, Vector3Int, Vector3Int)
+- uid: Bdeshi.Helpers.Utility.Extensions.Unity.IsBetween*
+  name: IsBetween
+  href: api/Bdeshi.Helpers.Utility.Extensions.Unity.html#Bdeshi_Helpers_Utility_Extensions_Unity_IsBetween_
+  commentId: Overload:Bdeshi.Helpers.Utility.Extensions.Unity.IsBetween
+  isSpec: "True"
+  fullName: Bdeshi.Helpers.Utility.Extensions.Unity.IsBetween
+  nameWithType: Unity.IsBetween
+- uid: Bdeshi.Helpers.Utility.Extensions.Unity.IsBoundedBy(Vector2,Vector2,Vector2)
+  name: IsBoundedBy(Vector2, Vector2, Vector2)
+  href: api/Bdeshi.Helpers.Utility.Extensions.Unity.html#Bdeshi_Helpers_Utility_Extensions_Unity_IsBoundedBy_Vector2_Vector2_Vector2_
+  commentId: M:Bdeshi.Helpers.Utility.Extensions.Unity.IsBoundedBy(Vector2,Vector2,Vector2)
+  fullName: Bdeshi.Helpers.Utility.Extensions.Unity.IsBoundedBy(Vector2, Vector2, Vector2)
+  nameWithType: Unity.IsBoundedBy(Vector2, Vector2, Vector2)
+- uid: Bdeshi.Helpers.Utility.Extensions.Unity.IsBoundedBy*
+  name: IsBoundedBy
+  href: api/Bdeshi.Helpers.Utility.Extensions.Unity.html#Bdeshi_Helpers_Utility_Extensions_Unity_IsBoundedBy_
+  commentId: Overload:Bdeshi.Helpers.Utility.Extensions.Unity.IsBoundedBy
+  isSpec: "True"
+  fullName: Bdeshi.Helpers.Utility.Extensions.Unity.IsBoundedBy
+  nameWithType: Unity.IsBoundedBy
 - uid: Bdeshi.Helpers.Utility.Extensions.Unity.MaintainX(Vector3,Vector3)
   name: MaintainX(Vector3, Vector3)
   href: api/Bdeshi.Helpers.Utility.Extensions.Unity.html#Bdeshi_Helpers_Utility_Extensions_Unity_MaintainX_Vector3_Vector3_
@@ -3379,6 +3405,15 @@ references:
   fullName.vb: Bdeshi.Helpers.Utility.PooledMonoBehaviorList(Of T)
   nameWithType: PooledMonoBehaviorList<T>
   nameWithType.vb: PooledMonoBehaviorList(Of T)
+- uid: Bdeshi.Helpers.Utility.PooledMonoBehaviorList`1.#ctor(Bdeshi.Helpers.Utility.SimpleManualMonoBehaviourPool{`0})
+  name: PooledMonoBehaviorList(SimpleManualMonoBehaviourPool<T>)
+  href: api/Bdeshi.Helpers.Utility.PooledMonoBehaviorList-1.html#Bdeshi_Helpers_Utility_PooledMonoBehaviorList_1__ctor_Bdeshi_Helpers_Utility_SimpleManualMonoBehaviourPool__0__
+  commentId: M:Bdeshi.Helpers.Utility.PooledMonoBehaviorList`1.#ctor(Bdeshi.Helpers.Utility.SimpleManualMonoBehaviourPool{`0})
+  name.vb: New(SimpleManualMonoBehaviourPool(Of T))
+  fullName: Bdeshi.Helpers.Utility.PooledMonoBehaviorList<T>.PooledMonoBehaviorList(Bdeshi.Helpers.Utility.SimpleManualMonoBehaviourPool<T>)
+  fullName.vb: Bdeshi.Helpers.Utility.PooledMonoBehaviorList(Of T).New(Bdeshi.Helpers.Utility.SimpleManualMonoBehaviourPool(Of T))
+  nameWithType: PooledMonoBehaviorList<T>.PooledMonoBehaviorList(SimpleManualMonoBehaviourPool<T>)
+  nameWithType.vb: PooledMonoBehaviorList(Of T).New(SimpleManualMonoBehaviourPool(Of T))
 - uid: Bdeshi.Helpers.Utility.PooledMonoBehaviorList`1.#ctor(`0,System.Int32,Transform)
   name: PooledMonoBehaviorList(T, int, Transform)
   href: api/Bdeshi.Helpers.Utility.PooledMonoBehaviorList-1.html#Bdeshi_Helpers_Utility_PooledMonoBehaviorList_1__ctor__0_System_Int32_Transform_
@@ -3478,23 +3513,23 @@ references:
   fullName.vb: Bdeshi.Helpers.Utility.PooledMonoBehaviorList(Of T).Get
   nameWithType: PooledMonoBehaviorList<T>.Get
   nameWithType.vb: PooledMonoBehaviorList(Of T).Get
-- uid: Bdeshi.Helpers.Utility.PooledMonoBehaviorList`1.GetNewItem
-  name: GetNewItem()
-  href: api/Bdeshi.Helpers.Utility.PooledMonoBehaviorList-1.html#Bdeshi_Helpers_Utility_PooledMonoBehaviorList_1_GetNewItem
-  commentId: M:Bdeshi.Helpers.Utility.PooledMonoBehaviorList`1.GetNewItem
-  fullName: Bdeshi.Helpers.Utility.PooledMonoBehaviorList<T>.GetNewItem()
-  fullName.vb: Bdeshi.Helpers.Utility.PooledMonoBehaviorList(Of T).GetNewItem()
-  nameWithType: PooledMonoBehaviorList<T>.GetNewItem()
-  nameWithType.vb: PooledMonoBehaviorList(Of T).GetNewItem()
-- uid: Bdeshi.Helpers.Utility.PooledMonoBehaviorList`1.GetNewItem*
-  name: GetNewItem
-  href: api/Bdeshi.Helpers.Utility.PooledMonoBehaviorList-1.html#Bdeshi_Helpers_Utility_PooledMonoBehaviorList_1_GetNewItem_
-  commentId: Overload:Bdeshi.Helpers.Utility.PooledMonoBehaviorList`1.GetNewItem
+- uid: Bdeshi.Helpers.Utility.PooledMonoBehaviorList`1.GetItem
+  name: GetItem()
+  href: api/Bdeshi.Helpers.Utility.PooledMonoBehaviorList-1.html#Bdeshi_Helpers_Utility_PooledMonoBehaviorList_1_GetItem
+  commentId: M:Bdeshi.Helpers.Utility.PooledMonoBehaviorList`1.GetItem
+  fullName: Bdeshi.Helpers.Utility.PooledMonoBehaviorList<T>.GetItem()
+  fullName.vb: Bdeshi.Helpers.Utility.PooledMonoBehaviorList(Of T).GetItem()
+  nameWithType: PooledMonoBehaviorList<T>.GetItem()
+  nameWithType.vb: PooledMonoBehaviorList(Of T).GetItem()
+- uid: Bdeshi.Helpers.Utility.PooledMonoBehaviorList`1.GetItem*
+  name: GetItem
+  href: api/Bdeshi.Helpers.Utility.PooledMonoBehaviorList-1.html#Bdeshi_Helpers_Utility_PooledMonoBehaviorList_1_GetItem_
+  commentId: Overload:Bdeshi.Helpers.Utility.PooledMonoBehaviorList`1.GetItem
   isSpec: "True"
-  fullName: Bdeshi.Helpers.Utility.PooledMonoBehaviorList<T>.GetNewItem
-  fullName.vb: Bdeshi.Helpers.Utility.PooledMonoBehaviorList(Of T).GetNewItem
-  nameWithType: PooledMonoBehaviorList<T>.GetNewItem
-  nameWithType.vb: PooledMonoBehaviorList(Of T).GetNewItem
+  fullName: Bdeshi.Helpers.Utility.PooledMonoBehaviorList<T>.GetItem
+  fullName.vb: Bdeshi.Helpers.Utility.PooledMonoBehaviorList(Of T).GetItem
+  nameWithType: PooledMonoBehaviorList<T>.GetItem
+  nameWithType.vb: PooledMonoBehaviorList(Of T).GetItem
 - uid: Bdeshi.Helpers.Utility.PooledMonoBehaviorList`1.Initialize(`0,System.Int32,Transform)
   name: Initialize(T, int, Transform)
   href: api/Bdeshi.Helpers.Utility.PooledMonoBehaviorList-1.html#Bdeshi_Helpers_Utility_PooledMonoBehaviorList_1_Initialize__0_System_Int32_Transform_
