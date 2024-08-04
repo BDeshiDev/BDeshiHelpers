@@ -47,6 +47,12 @@ namespace Bdeshi.Helpers.Utility.Extensions
         {
             return vec.sqrMagnitude > (dist * dist);
         }
+
+        public static bool IsBoundedBy(this Vector2 vec, Vector2 min, Vector2 max)
+        {
+            return vec.x >= min.x && vec.y >= min.y &&
+                   vec.x <= max.x && vec.y <= max.y;
+        }
 #if UNITY_EDITOR
         public static T CreateChildScriptable<T>(this ScriptableObject parentSO, Action<T> initializeFunc)
             where T : ScriptableObject
@@ -249,8 +255,12 @@ namespace Bdeshi.Helpers.Utility.Extensions
         {
             return new Color(color.r, color.g, color.b, a);
         }
-        
 
+        public static bool IsBetween(this Vector3Int vec, Vector3Int min, Vector3Int max)
+        {
+            return vec.x >= min.x && vec.y >= min.y && vec.z >= min.z &&
+                   vec.x <= max.x && vec.y <= max.y && vec.z <= max.z;
+        }
         public static Vector3Int OverrideX(this Vector3Int vec, int x) => new Vector3Int(x, vec.y, vec.z);
         public static Vector3 OverrideX(this Vector3 vec, float x) => new Vector3(x, vec.y, vec.z);
         public static Vector3Int OverrideY(this Vector3Int vec, int y) => new Vector3Int(vec.x, y, vec.z);
@@ -262,7 +272,6 @@ namespace Bdeshi.Helpers.Utility.Extensions
         public static Vector2 OverrideX(this Vector2 vec, float x) => new Vector2(x, vec.y);
         public static Vector2Int OverrideY(this Vector2Int vec, int y) => new Vector2Int(vec.x, y);
         public static Vector2 OverrideY(this Vector2 vec, float y) => new Vector2(vec.x, y);
-
         public static Vector3 MaintainX(this Vector3 vec1, Vector3 vec2) => new Vector3(vec1.x, vec2.y, vec2.z);
         public static Vector3 MaintainY(this Vector3 vec1, Vector3 vec2) => new Vector3(vec2.x, vec1.y, vec2.z);
         public static Vector3 MaintainZ(this Vector3 vec1, Vector3 vec2) => new Vector3(vec2.x, vec2.y, vec1.z);

@@ -22,6 +22,11 @@ namespace Bdeshi.Helpers.Utility
         {
             _pool = new SimpleManualMonoBehaviourPool<T>(prefab, initialPooledCount, spawnParent);
         }
+        
+        public PooledMonoBehaviorList(SimpleManualMonoBehaviourPool<T> pool)
+        {
+            _pool = pool;
+        }
         public T this[int key]
         {
             get => _spawnedItems[key];
@@ -36,13 +41,13 @@ namespace Bdeshi.Helpers.Utility
         {
             if (index >= _spawnedItems.Count)
             {
-                return GetNewItem();
+                return GetItem();
             }
 
             return _spawnedItems[index];
         }
         
-        public T GetNewItem()
+        public T GetItem()
         {
             var item = _pool.GetItem();
             _spawnedItems.Add(item);
