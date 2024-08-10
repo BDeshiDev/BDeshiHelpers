@@ -33,6 +33,7 @@ namespace Bdeshi.Helpers.DataStructures
             if (!_dict.TryGetValue(key1, out var innerDict))
             {
                 _dict[key1] = innerDict = new Dictionary<TKey2, TVal>() {};
+                innerDict[key2] = item;
                 return true;
             }
 
