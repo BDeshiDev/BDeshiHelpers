@@ -1,6 +1,7 @@
 ﻿using System.Collections.Generic;
 using UnityEngine;
 using System;
+using UnityEngine.UI;
 using Random = UnityEngine.Random;
 #if UNITY_EDITOR
 using UnityEditor;
@@ -14,6 +15,27 @@ namespace Bdeshi.Helpers.Utility.Extensions
             line.startColor = line.endColor = color;
         }
         
+        public static T GetComponentIfNull<T>(this MonoBehaviour m, T componentVal)
+        {
+            if (componentVal == null)
+            {
+                return m.GetComponent<T>();
+            }
+
+            return componentVal;
+        }
+        
+        
+        public static T GetComponentInParentIfNull<T>(this MonoBehaviour m, T componentVal)
+        {
+            if (componentVal == null)
+            {
+                return m.GetComponentInParent<T>();
+            }
+
+            return componentVal;
+        }
+        
         public static void SetAlpha(this LineRenderer line, float alpha)
         {
             line.startColor = line.startColor.overrideAlpha(alpha); 
@@ -23,6 +45,11 @@ namespace Bdeshi.Helpers.Utility.Extensions
         public static void SetAlpha(this SpriteRenderer spriter, float alpha)
         {
             spriter.color = spriter.color.overrideAlpha(alpha); 
+        }
+        
+        public static void SetAlpha(this Image image, float alpha)
+        {
+            image.color = image.color.overrideAlpha(alpha); 
         }
         
         public static void allignToDir2D(this Transform transform, Vector2 dir)
@@ -43,6 +70,16 @@ namespace Bdeshi.Helpers.Utility.Extensions
             rb2D.rotation = get2dAngle(dir);
         }
 
+        public static Vector2Int CeilToInt(this Vector2 v)
+        {
+            return new Vector2Int(Mathf.CeilToInt(v.x), Mathf.CeilToInt(v.y));
+        }
+        
+        public static Vector2Int RoundToInt(this Vector2 v)
+        {
+            return new Vector2Int(Mathf.RoundToInt(v.x), Mathf.RoundToInt(v.y));
+        }
+        
         public static bool exceedsDist(this Vector3 vec, float dist)
         {
             return vec.sqrMagnitude > (dist * dist);
@@ -272,6 +309,7 @@ namespace Bdeshi.Helpers.Utility.Extensions
         public static Vector2 OverrideX(this Vector2 vec, float x) => new Vector2(x, vec.y);
         public static Vector2Int OverrideY(this Vector2Int vec, int y) => new Vector2Int(vec.x, y);
         public static Vector2 OverrideY(this Vector2 vec, float y) => new Vector2(vec.x, y);
+        public static Vector3 WithZ(this Vector2 vec, float z) => new Vector3(vec.x, vec.y, z);
         public static Vector3 MaintainX(this Vector3 vec1, Vector3 vec2) => new Vector3(vec1.x, vec2.y, vec2.z);
         public static Vector3 MaintainY(this Vector3 vec1, Vector3 vec2) => new Vector3(vec2.x, vec1.y, vec2.z);
         public static Vector3 MaintainZ(this Vector3 vec1, Vector3 vec2) => new Vector3(vec2.x, vec2.y, vec1.z);
