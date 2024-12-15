@@ -72,10 +72,17 @@ namespace Bdeshi.Helpers.Utility
         {
             _pool.EnsureSpawnListCount(_spawnedItems, count);
         }
+        
+        public void AddCount(int count)
+        {
+            _pool.EnsurePoolHasAtleast(_pool.PoolReserveCount + count);
+        }
         public void EnsureCount(int count, Action<T> addedCallback, Action<T> removedCallback)
         {
             _pool.EnsureSpawnListCount(_spawnedItems, count,addedCallback,removedCallback);
         }
+
+        public int TotalSpawnCount => _spawnedItems.Count + _pool.PoolReserveCount;
 
         public void ReturnItem(T item)
         {

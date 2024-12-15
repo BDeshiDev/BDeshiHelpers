@@ -14,6 +14,8 @@ namespace Bdeshi.Helpers.Utility
     {
         private List<T> _pool;
         protected T _prefab;
+        public int PoolReserveCount => _pool.Count;
+
         public Transform SpawnParent;
 
         public SimpleManualMonoBehaviourPool(T prefab, int initialCount, Transform spawnParent = null)
@@ -82,6 +84,7 @@ namespace Bdeshi.Helpers.Utility
         {
             EnsureSpawnListCount(spawnList, 0);
         }
+        
         
         /// <summary>
         /// Will fill/trim a list to match a desired count using  pool
