@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using UnityEngine;
 
 namespace Bdeshi.Helpers.DataStructures
 {
@@ -82,6 +83,22 @@ namespace Bdeshi.Helpers.DataStructures
             val = default(TVal);
             return false;
         }
+
+        public Dictionary<TKey2, TVal> EnsureEmptyInnerDict(TKey1 key1)
+        {
+            Dictionary<TKey2, TVal> d;
+            if (_dict.TryGetValue(key1, out var innerDict))
+            {
+                d = _dict[key1];
+                d.Clear();
+            }
+            else
+            {
+                d = _dict[key1] = new();
+            }
+
+            return d;
+        }
         
         public Dictionary<TKey2, TVal> this[TKey1 key1]
         {
@@ -104,6 +121,22 @@ namespace Bdeshi.Helpers.DataStructures
         IEnumerator IEnumerable.GetEnumerator()
         {
             return GetEnumerator();
+        }
+
+        public void Clear()
+        {
+            _dict.Clear();
+        }
+
+        public bool TryGetValue(TKey1 key1, TKey2 key2, out TVal o)
+        {
+            if (_dict.TryGetValue(key1, out var innerDict))
+            {
+                return innerDict.TryGetValue(key2, out o);
+            }
+
+            o = default;
+            return false;
         }
     }
 }
