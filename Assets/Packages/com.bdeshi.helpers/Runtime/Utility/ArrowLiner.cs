@@ -4,8 +4,8 @@ namespace Bdeshi.Helpers.Utility
 {
     public class ArrowLiner : MonoBehaviour
     {
-        public LineRenderer MainLiner { get; private set; }
-        public LineRenderer TipLiner { get; private set; }
+        public LineRenderer MainLiner;
+        public LineRenderer TipLiner;
 
         public float MainLineWidth = .25f;
         public float TipWidth = .25f;
@@ -21,11 +21,6 @@ namespace Bdeshi.Helpers.Utility
             MainLiner.startColor = MainLiner.endColor = TipLiner.startColor = TipLiner.endColor = color;
         }
 
-        private void Awake()
-        {
-            MainLiner = GetComponent<LineRenderer>();
-            TipLiner = transform.GetChild(0).GetComponent<LineRenderer>();
-        }
 
         private void OnValidate()
         {
@@ -42,7 +37,7 @@ namespace Bdeshi.Helpers.Utility
             MainLiner.widthMultiplier = MainLineWidth;
             TipLiner.widthMultiplier = TipWidth;
 
-            updateLineRenderers();
+            SyncLineRenderersWithEndPoints();
         }
 
         public void updateArrowEndPoints(Vector3 start,Vector3 end)
@@ -50,10 +45,10 @@ namespace Bdeshi.Helpers.Utility
             _startPoint = start;
             _endPoint = end;
 
-            updateLineRenderers();
+            SyncLineRenderersWithEndPoints();
         }
 
-        private void updateLineRenderers()
+        public void SyncLineRenderersWithEndPoints(bool tipAtEndpoints = false)
         {
             Vector3 dir = _endPoint - _startPoint;
             float len = dir.magnitude;
@@ -78,6 +73,14 @@ namespace Bdeshi.Helpers.Utility
         public void toggleLineRenderers(bool shouldBeOn)
         {
             MainLiner.enabled = TipLiner.enabled = shouldBeOn;
+        }
+
+        public void UpdateTipSize(float tipWidth, float tipLenMax)
+        {
+            TipWidth = tipWidth;
+            TipLenMax = tipLenMax;
+            TipLiner.startWidth = tipWidth;
+            SyncLineRenderersWithEndPoints();
         }
     }
 }
