@@ -12,6 +12,9 @@ namespace Bdeshi.Helpers.DataStructures
         public List<T> BackingList => _list;
         public bool IsEmpty => _list.Count == 0;
         public bool Contains(T item) => _list.Contains(item);
+        public int Count => _list.Count;
+
+        
         /// <summary>
         /// LIFO order. NOTE: GC WARNING
         /// </summary>
@@ -63,5 +66,7 @@ namespace Bdeshi.Helpers.DataStructures
                 return true;
             }
         }
+
+        public void Clear() => _list.Clear();
     }
 }
