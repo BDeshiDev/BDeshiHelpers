@@ -304,7 +304,10 @@ namespace Bdeshi.Helpers.Utility.Extensions
         public static Vector3 OverrideY(this Vector3 vec, float y) => new Vector3(vec.x, y, vec.z);
         public static Vector3Int OverrideZ(this Vector3Int vec, int z) => new Vector3Int(vec.x, vec.y, z);
         public static Vector3 OverrideZ(this Vector3 vec, float z) => new Vector3(vec.x, vec.y, z);
-        
+        public static Vector3 OverrideX(this Vector3 vec, Vector3 target) => vec.OverrideX(target.x);
+        public static Vector3 OverrideY(this Vector3 vec, Vector3 target) => vec.OverrideY(target.y);
+        public static Vector3 OverrideZ(this Vector3 vec, Vector3 target) => vec.OverrideZ(target.z);
+
         public static Vector2Int OverrideX(this Vector2Int vec, int x) => new Vector2Int(x, vec.y);
         public static Vector2 OverrideX(this Vector2 vec, float x) => new Vector2(x, vec.y);
         public static Vector2Int OverrideY(this Vector2Int vec, int y) => new Vector2Int(vec.x, y);
@@ -316,6 +319,7 @@ namespace Bdeshi.Helpers.Utility.Extensions
         public static Vector3Int MaintainZ(this Vector3Int vec1, Vector3Int vec2) => new Vector3Int(vec2.x, vec2.y, vec1.z);
         public static Vector3Int MaintainX(this Vector3Int vec1, Vector3Int vec2) => new Vector3Int(vec1.x, vec2.y, vec2.z);
         public static Vector3Int MaintainY(this Vector3Int vec1, Vector3Int vec2) => new Vector3Int(vec2.x, vec1.y, vec2.z);
+        public static float MaxAxis(this Vector3 vec) => Mathf.Max(vec.x, vec.y, vec.z);
         public static List<Color> GenerateDifferentColors(int n, float alpha =1)
         {
             List<Color> colors = new List<Color>();
@@ -414,5 +418,6 @@ namespace Bdeshi.Helpers.Utility.Extensions
             Gizmos.matrix = transform.localToWorldMatrix;;
         }
 #endif
+
     }
 }
