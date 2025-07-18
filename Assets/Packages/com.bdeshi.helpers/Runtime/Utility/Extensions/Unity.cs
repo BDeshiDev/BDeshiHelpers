@@ -258,7 +258,7 @@ namespace Bdeshi.Helpers.Utility.Extensions
 
         public static Vector3 multiplyDimensions(this Vector3 v, Vector3 other)
         {
-            return new Vector3(v.x * other.x, v.y * other.y, v.z * v.z);
+            return new Vector3(v.x * other.x, v.y * other.y, v.z * other.z);
         }
         // public static void Shuffle<T>(this IList<T> list)  
         // {  

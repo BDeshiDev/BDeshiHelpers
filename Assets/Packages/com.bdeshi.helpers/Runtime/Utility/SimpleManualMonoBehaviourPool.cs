@@ -77,6 +77,7 @@ namespace Bdeshi.Helpers.Utility
         public void ReturnItem(T item)
         {
             item.gameObject.SetActive(false);
+            item.transform.SetParent(SpawnParent, false); 
             _pool.Add(item);
         }
         
