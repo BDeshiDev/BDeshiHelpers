@@ -21,7 +21,11 @@
           "relative_path": "api/Bdeshi.Helpers.DataStructures.ChargableList-1.ChargableListSlot.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Bdeshi.Helpers.DataStructures.ChargableList<TItem>.ChargableListSlot",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -31,7 +35,11 @@
           "relative_path": "api/Bdeshi.Helpers.DataStructures.ChargableList-1.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Bdeshi.Helpers.DataStructures.ChargableList<TItem>",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -41,7 +49,11 @@
           "relative_path": "api/Bdeshi.Helpers.DataStructures.DictionaryDictionary-3.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Bdeshi.Helpers.DataStructures.DictionaryDictionary<TKey1, TKey2, TVal>",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -51,7 +63,11 @@
           "relative_path": "api/Bdeshi.Helpers.DataStructures.DictionaryList-2.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Bdeshi.Helpers.DataStructures.DictionaryList<TKey, TVal>",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -61,7 +77,11 @@
           "relative_path": "api/Bdeshi.Helpers.DataStructures.GenericDictionary-2.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Bdeshi.Helpers.DataStructures.GenericDictionary<TKey, TValue>",
+      "Summary": "<p sourcefile=\"api/Bdeshi.Helpers.DataStructures.GenericDictionary-2.yml\" sourcestartlinenumber=\"1\">Generic Serializable Dictionary for Unity 2020.1 and above.\nSimply declare your key/value types and you're good to go - zero boilerplate.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -71,7 +91,11 @@
           "relative_path": "api/Bdeshi.Helpers.DataStructures.SerializableStack-1.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Bdeshi.Helpers.DataStructures.SerializableStack<T>",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -81,7 +105,11 @@
           "relative_path": "api/Bdeshi.Helpers.DataStructures.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Bdeshi.Helpers.DataStructures",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -91,7 +119,11 @@
           "relative_path": "api/Bdeshi.Helpers.Input.InputButtonSlot.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Bdeshi.Helpers.Input.InputButtonSlot",
+      "Summary": "<p sourcefile=\"api/Bdeshi.Helpers.Input.InputButtonSlot.yml\" sourcestartlinenumber=\"1\">You may also assume that this can be safely stored in fields\nas this is not serialized</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -101,7 +133,11 @@
           "relative_path": "api/Bdeshi.Helpers.Input.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Bdeshi.Helpers.Input",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -111,7 +147,11 @@
           "relative_path": "api/Bdeshi.Helpers.Utility.ArrowLiner.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Bdeshi.Helpers.Utility.ArrowLiner",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -121,7 +161,11 @@
           "relative_path": "api/Bdeshi.Helpers.Utility.AutoMonoBehaviourPoolComponent-1.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Bdeshi.Helpers.Utility.AutoMonoBehaviourPoolComponent<T>",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -131,7 +175,11 @@
           "relative_path": "api/Bdeshi.Helpers.Utility.AutoMonobehaviourPool-1.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Bdeshi.Helpers.Utility.AutoMonobehaviourPool<T>",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -141,7 +189,11 @@
           "relative_path": "api/Bdeshi.Helpers.Utility.AutoPoolable-1.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Bdeshi.Helpers.Utility.AutoPoolable<T>",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -151,7 +203,11 @@
           "relative_path": "api/Bdeshi.Helpers.Utility.EventOnAwake.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Bdeshi.Helpers.Utility.EventOnAwake",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -161,7 +217,11 @@
           "relative_path": "api/Bdeshi.Helpers.Utility.Extensions.Csharp.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Bdeshi.Helpers.Utility.Extensions.Csharp",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -171,7 +231,11 @@
           "relative_path": "api/Bdeshi.Helpers.Utility.Extensions.Unity.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Bdeshi.Helpers.Utility.Extensions.Unity",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -181,7 +245,11 @@
           "relative_path": "api/Bdeshi.Helpers.Utility.Extensions.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Bdeshi.Helpers.Utility.Extensions",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -191,7 +259,11 @@
           "relative_path": "api/Bdeshi.Helpers.Utility.FiniteTimer.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Bdeshi.Helpers.Utility.FiniteTimer",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -201,7 +273,11 @@
           "relative_path": "api/Bdeshi.Helpers.Utility.MonoBehaviorWeakSingleton-1.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Bdeshi.Helpers.Utility.MonoBehaviorWeakSingleton<T>",
+      "Summary": "<p sourcefile=\"api/Bdeshi.Helpers.Utility.MonoBehaviorWeakSingleton-1.yml\" sourcestartlinenumber=\"1\">Sets self as Instance without checking\nBE SURE THAT THIS IS WHAT YOU WANT\nDOESN'T HANDLE DUPLICATES</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -211,7 +287,11 @@
           "relative_path": "api/Bdeshi.Helpers.Utility.MonoBehaviourLazySingleton-1.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Bdeshi.Helpers.Utility.MonoBehaviourLazySingleton<T>",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -221,7 +301,11 @@
           "relative_path": "api/Bdeshi.Helpers.Utility.MonoBehaviourSingletonPersistent-1.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Bdeshi.Helpers.Utility.MonoBehaviourSingletonPersistent<T>",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -231,7 +315,11 @@
           "relative_path": "api/Bdeshi.Helpers.Utility.PathComponent.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Bdeshi.Helpers.Utility.PathComponent",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -241,7 +329,11 @@
           "relative_path": "api/Bdeshi.Helpers.Utility.PooledMonoBehaviorList-1.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Bdeshi.Helpers.Utility.PooledMonoBehaviorList<T>",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -251,7 +343,11 @@
           "relative_path": "api/Bdeshi.Helpers.Utility.Reparenter.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Bdeshi.Helpers.Utility.Reparenter",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -261,7 +357,11 @@
           "relative_path": "api/Bdeshi.Helpers.Utility.SafeAction-1.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Bdeshi.Helpers.Utility.SafeAction<T>",
+      "Summary": "<p sourcefile=\"api/Bdeshi.Helpers.Utility.SafeAction-1.yml\" sourcestartlinenumber=\"1\">If Go == null, action is not executed and\nthis is removed from whatever list it belongs to\nSafe to use lambdas too.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -271,7 +371,11 @@
           "relative_path": "api/Bdeshi.Helpers.Utility.SafeAction-2.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Bdeshi.Helpers.Utility.SafeAction<T1, T2>",
+      "Summary": "<p sourcefile=\"api/Bdeshi.Helpers.Utility.SafeAction-2.yml\" sourcestartlinenumber=\"1\">If Go == null, action is not executed and\nthis is removed from whatever list it belongs to\nSafe to use lambdas too.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -281,7 +385,11 @@
           "relative_path": "api/Bdeshi.Helpers.Utility.SafeAction.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Bdeshi.Helpers.Utility.SafeAction",
+      "Summary": "<p sourcefile=\"api/Bdeshi.Helpers.Utility.SafeAction.yml\" sourcestartlinenumber=\"1\">If Go == null, action is not executed and\nthis is removed from whatever list it belongs to\nSafe to use lambdas too.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -291,7 +399,11 @@
           "relative_path": "api/Bdeshi.Helpers.Utility.SafeEvent-1.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Bdeshi.Helpers.Utility.SafeEvent<TContext>",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -301,7 +413,11 @@
           "relative_path": "api/Bdeshi.Helpers.Utility.SafeEvent-2.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Bdeshi.Helpers.Utility.SafeEvent<T1, T2>",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -311,7 +427,11 @@
           "relative_path": "api/Bdeshi.Helpers.Utility.SafeEvent.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Bdeshi.Helpers.Utility.SafeEvent",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -321,7 +441,11 @@
           "relative_path": "api/Bdeshi.Helpers.Utility.SafeFiniteTimer.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Bdeshi.Helpers.Utility.SafeFiniteTimer",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -331,7 +455,11 @@
           "relative_path": "api/Bdeshi.Helpers.Utility.SimpleManualMonoBehaviourPool-1.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Bdeshi.Helpers.Utility.SimpleManualMonoBehaviourPool<T>",
+      "Summary": "<p sourcefile=\"api/Bdeshi.Helpers.Utility.SimpleManualMonoBehaviourPool-1.yml\" sourcestartlinenumber=\"1\">Simple pool with normal instantiation automated.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -341,7 +469,11 @@
           "relative_path": "api/Bdeshi.Helpers.Utility.SimpleManualMonoBehaviourPoolComponent-1.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Bdeshi.Helpers.Utility.SimpleManualMonoBehaviourPoolComponent<T>",
+      "Summary": "<p sourcefile=\"api/Bdeshi.Helpers.Utility.SimpleManualMonoBehaviourPoolComponent-1.yml\" sourcestartlinenumber=\"1\">Simple pool with normal instantiation automated.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -351,7 +483,11 @@
           "relative_path": "api/Bdeshi.Helpers.Utility.SimpleManualPool-1.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Bdeshi.Helpers.Utility.SimpleManualPool<T>",
+      "Summary": "<p sourcefile=\"api/Bdeshi.Helpers.Utility.SimpleManualPool-1.yml\" sourcestartlinenumber=\"1\">manual pool for POCOs\nCreation is done through the Func</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -361,7 +497,11 @@
           "relative_path": "api/Bdeshi.Helpers.Utility.SingleUnityLayer.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Bdeshi.Helpers.Utility.SingleUnityLayer",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -371,7 +511,11 @@
           "relative_path": "api/Bdeshi.Helpers.Utility.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Bdeshi.Helpers.Utility",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -381,7 +525,11 @@
           "relative_path": "api/Bdeshi.Helpers.levelloading.ManagerLoadEnsurer.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Bdeshi.Helpers.levelloading.ManagerLoadEnsurer",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -391,7 +539,11 @@
           "relative_path": "api/Bdeshi.Helpers.levelloading.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Bdeshi.Helpers.levelloading",
+      "Summary": null
     },
     {
       "type": "Conceptual",
@@ -407,11 +559,11 @@
       "type": "Toc",
       "source_relative_path": "api/toc.yml",
       "output": {
-        ".json": {
-          "relative_path": "api/toc.json"
-        },
         ".html": {
           "relative_path": "api/toc.html"
+        },
+        ".json": {
+          "relative_path": "api/toc.json"
         }
       },
       "version": ""
@@ -440,11 +592,11 @@
       "type": "Toc",
       "source_relative_path": "license/toc.md",
       "output": {
-        ".json": {
-          "relative_path": "license/toc.json"
-        },
         ".html": {
           "relative_path": "license/toc.html"
+        },
+        ".json": {
+          "relative_path": "license/toc.json"
         }
       },
       "version": ""
@@ -463,11 +615,11 @@
       "type": "Toc",
       "source_relative_path": "toc.yml",
       "output": {
-        ".json": {
-          "relative_path": "toc.json"
-        },
         ".html": {
           "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
         }
       },
       "version": ""

@@ -511,6 +511,23 @@ references:
   fullName.vb: Bdeshi.Helpers.DataStructures.DictionaryDictionary(Of TKey1, TKey2, TVal).AddOrSet
   nameWithType: DictionaryDictionary<TKey1, TKey2, TVal>.AddOrSet
   nameWithType.vb: DictionaryDictionary(Of TKey1, TKey2, TVal).AddOrSet
+- uid: Bdeshi.Helpers.DataStructures.DictionaryDictionary`3.Clear
+  name: Clear()
+  href: api/Bdeshi.Helpers.DataStructures.DictionaryDictionary-3.html#Bdeshi_Helpers_DataStructures_DictionaryDictionary_3_Clear
+  commentId: M:Bdeshi.Helpers.DataStructures.DictionaryDictionary`3.Clear
+  fullName: Bdeshi.Helpers.DataStructures.DictionaryDictionary<TKey1, TKey2, TVal>.Clear()
+  fullName.vb: Bdeshi.Helpers.DataStructures.DictionaryDictionary(Of TKey1, TKey2, TVal).Clear()
+  nameWithType: DictionaryDictionary<TKey1, TKey2, TVal>.Clear()
+  nameWithType.vb: DictionaryDictionary(Of TKey1, TKey2, TVal).Clear()
+- uid: Bdeshi.Helpers.DataStructures.DictionaryDictionary`3.Clear*
+  name: Clear
+  href: api/Bdeshi.Helpers.DataStructures.DictionaryDictionary-3.html#Bdeshi_Helpers_DataStructures_DictionaryDictionary_3_Clear_
+  commentId: Overload:Bdeshi.Helpers.DataStructures.DictionaryDictionary`3.Clear
+  isSpec: "True"
+  fullName: Bdeshi.Helpers.DataStructures.DictionaryDictionary<TKey1, TKey2, TVal>.Clear
+  fullName.vb: Bdeshi.Helpers.DataStructures.DictionaryDictionary(Of TKey1, TKey2, TVal).Clear
+  nameWithType: DictionaryDictionary<TKey1, TKey2, TVal>.Clear
+  nameWithType.vb: DictionaryDictionary(Of TKey1, TKey2, TVal).Clear
 - uid: Bdeshi.Helpers.DataStructures.DictionaryDictionary`3.Contains(`0)
   name: Contains(TKey1)
   href: api/Bdeshi.Helpers.DataStructures.DictionaryDictionary-3.html#Bdeshi_Helpers_DataStructures_DictionaryDictionary_3_Contains__0_
@@ -553,6 +570,23 @@ references:
   fullName.vb: Bdeshi.Helpers.DataStructures.DictionaryDictionary(Of TKey1, TKey2, TVal).Dict
   nameWithType: DictionaryDictionary<TKey1, TKey2, TVal>.Dict
   nameWithType.vb: DictionaryDictionary(Of TKey1, TKey2, TVal).Dict
+- uid: Bdeshi.Helpers.DataStructures.DictionaryDictionary`3.EnsureEmptyInnerDict(`0)
+  name: EnsureEmptyInnerDict(TKey1)
+  href: api/Bdeshi.Helpers.DataStructures.DictionaryDictionary-3.html#Bdeshi_Helpers_DataStructures_DictionaryDictionary_3_EnsureEmptyInnerDict__0_
+  commentId: M:Bdeshi.Helpers.DataStructures.DictionaryDictionary`3.EnsureEmptyInnerDict(`0)
+  fullName: Bdeshi.Helpers.DataStructures.DictionaryDictionary<TKey1, TKey2, TVal>.EnsureEmptyInnerDict(TKey1)
+  fullName.vb: Bdeshi.Helpers.DataStructures.DictionaryDictionary(Of TKey1, TKey2, TVal).EnsureEmptyInnerDict(TKey1)
+  nameWithType: DictionaryDictionary<TKey1, TKey2, TVal>.EnsureEmptyInnerDict(TKey1)
+  nameWithType.vb: DictionaryDictionary(Of TKey1, TKey2, TVal).EnsureEmptyInnerDict(TKey1)
+- uid: Bdeshi.Helpers.DataStructures.DictionaryDictionary`3.EnsureEmptyInnerDict*
+  name: EnsureEmptyInnerDict
+  href: api/Bdeshi.Helpers.DataStructures.DictionaryDictionary-3.html#Bdeshi_Helpers_DataStructures_DictionaryDictionary_3_EnsureEmptyInnerDict_
+  commentId: Overload:Bdeshi.Helpers.DataStructures.DictionaryDictionary`3.EnsureEmptyInnerDict
+  isSpec: "True"
+  fullName: Bdeshi.Helpers.DataStructures.DictionaryDictionary<TKey1, TKey2, TVal>.EnsureEmptyInnerDict
+  fullName.vb: Bdeshi.Helpers.DataStructures.DictionaryDictionary(Of TKey1, TKey2, TVal).EnsureEmptyInnerDict
+  nameWithType: DictionaryDictionary<TKey1, TKey2, TVal>.EnsureEmptyInnerDict
+  nameWithType.vb: DictionaryDictionary(Of TKey1, TKey2, TVal).EnsureEmptyInnerDict
 - uid: Bdeshi.Helpers.DataStructures.DictionaryDictionary`3.GetEnumerator
   name: GetEnumerator()
   href: api/Bdeshi.Helpers.DataStructures.DictionaryDictionary-3.html#Bdeshi_Helpers_DataStructures_DictionaryDictionary_3_GetEnumerator
@@ -668,6 +702,24 @@ references:
   fullName.vb: Bdeshi.Helpers.DataStructures.DictionaryDictionary(Of TKey1, TKey2, TVal).TryGetInnerVal
   nameWithType: DictionaryDictionary<TKey1, TKey2, TVal>.TryGetInnerVal
   nameWithType.vb: DictionaryDictionary(Of TKey1, TKey2, TVal).TryGetInnerVal
+- uid: Bdeshi.Helpers.DataStructures.DictionaryDictionary`3.TryGetValue(`0,`1,`2@)
+  name: TryGetValue(TKey1, TKey2, out TVal)
+  href: api/Bdeshi.Helpers.DataStructures.DictionaryDictionary-3.html#Bdeshi_Helpers_DataStructures_DictionaryDictionary_3_TryGetValue__0__1__2__
+  commentId: M:Bdeshi.Helpers.DataStructures.DictionaryDictionary`3.TryGetValue(`0,`1,`2@)
+  name.vb: TryGetValue(TKey1, TKey2, TVal)
+  fullName: Bdeshi.Helpers.DataStructures.DictionaryDictionary<TKey1, TKey2, TVal>.TryGetValue(TKey1, TKey2, out TVal)
+  fullName.vb: Bdeshi.Helpers.DataStructures.DictionaryDictionary(Of TKey1, TKey2, TVal).TryGetValue(TKey1, TKey2, TVal)
+  nameWithType: DictionaryDictionary<TKey1, TKey2, TVal>.TryGetValue(TKey1, TKey2, out TVal)
+  nameWithType.vb: DictionaryDictionary(Of TKey1, TKey2, TVal).TryGetValue(TKey1, TKey2, TVal)
+- uid: Bdeshi.Helpers.DataStructures.DictionaryDictionary`3.TryGetValue*
+  name: TryGetValue
+  href: api/Bdeshi.Helpers.DataStructures.DictionaryDictionary-3.html#Bdeshi_Helpers_DataStructures_DictionaryDictionary_3_TryGetValue_
+  commentId: Overload:Bdeshi.Helpers.DataStructures.DictionaryDictionary`3.TryGetValue
+  isSpec: "True"
+  fullName: Bdeshi.Helpers.DataStructures.DictionaryDictionary<TKey1, TKey2, TVal>.TryGetValue
+  fullName.vb: Bdeshi.Helpers.DataStructures.DictionaryDictionary(Of TKey1, TKey2, TVal).TryGetValue
+  nameWithType: DictionaryDictionary<TKey1, TKey2, TVal>.TryGetValue
+  nameWithType.vb: DictionaryDictionary(Of TKey1, TKey2, TVal).TryGetValue
 - uid: Bdeshi.Helpers.DataStructures.DictionaryDictionary`3.Values
   name: Values
   href: api/Bdeshi.Helpers.DataStructures.DictionaryDictionary-3.html#Bdeshi_Helpers_DataStructures_DictionaryDictionary_3_Values
@@ -815,6 +867,23 @@ references:
   fullName.vb: Bdeshi.Helpers.DataStructures.DictionaryList(Of TKey, TVal).GetEnumerator
   nameWithType: DictionaryList<TKey, TVal>.GetEnumerator
   nameWithType.vb: DictionaryList(Of TKey, TVal).GetEnumerator
+- uid: Bdeshi.Helpers.DataStructures.DictionaryList`2.GetNewList
+  name: GetNewList()
+  href: api/Bdeshi.Helpers.DataStructures.DictionaryList-2.html#Bdeshi_Helpers_DataStructures_DictionaryList_2_GetNewList
+  commentId: M:Bdeshi.Helpers.DataStructures.DictionaryList`2.GetNewList
+  fullName: Bdeshi.Helpers.DataStructures.DictionaryList<TKey, TVal>.GetNewList()
+  fullName.vb: Bdeshi.Helpers.DataStructures.DictionaryList(Of TKey, TVal).GetNewList()
+  nameWithType: DictionaryList<TKey, TVal>.GetNewList()
+  nameWithType.vb: DictionaryList(Of TKey, TVal).GetNewList()
+- uid: Bdeshi.Helpers.DataStructures.DictionaryList`2.GetNewList*
+  name: GetNewList
+  href: api/Bdeshi.Helpers.DataStructures.DictionaryList-2.html#Bdeshi_Helpers_DataStructures_DictionaryList_2_GetNewList_
+  commentId: Overload:Bdeshi.Helpers.DataStructures.DictionaryList`2.GetNewList
+  isSpec: "True"
+  fullName: Bdeshi.Helpers.DataStructures.DictionaryList<TKey, TVal>.GetNewList
+  fullName.vb: Bdeshi.Helpers.DataStructures.DictionaryList(Of TKey, TVal).GetNewList
+  nameWithType: DictionaryList<TKey, TVal>.GetNewList
+  nameWithType.vb: DictionaryList(Of TKey, TVal).GetNewList
 - uid: Bdeshi.Helpers.DataStructures.DictionaryList`2.GetOrAddEmptyList(`0)
   name: GetOrAddEmptyList(TKey)
   href: api/Bdeshi.Helpers.DataStructures.DictionaryList-2.html#Bdeshi_Helpers_DataStructures_DictionaryList_2_GetOrAddEmptyList__0_
@@ -1216,6 +1285,23 @@ references:
   fullName.vb: Bdeshi.Helpers.DataStructures.SerializableStack(Of T).BackingList
   nameWithType: SerializableStack<T>.BackingList
   nameWithType.vb: SerializableStack(Of T).BackingList
+- uid: Bdeshi.Helpers.DataStructures.SerializableStack`1.Clear
+  name: Clear()
+  href: api/Bdeshi.Helpers.DataStructures.SerializableStack-1.html#Bdeshi_Helpers_DataStructures_SerializableStack_1_Clear
+  commentId: M:Bdeshi.Helpers.DataStructures.SerializableStack`1.Clear
+  fullName: Bdeshi.Helpers.DataStructures.SerializableStack<T>.Clear()
+  fullName.vb: Bdeshi.Helpers.DataStructures.SerializableStack(Of T).Clear()
+  nameWithType: SerializableStack<T>.Clear()
+  nameWithType.vb: SerializableStack(Of T).Clear()
+- uid: Bdeshi.Helpers.DataStructures.SerializableStack`1.Clear*
+  name: Clear
+  href: api/Bdeshi.Helpers.DataStructures.SerializableStack-1.html#Bdeshi_Helpers_DataStructures_SerializableStack_1_Clear_
+  commentId: Overload:Bdeshi.Helpers.DataStructures.SerializableStack`1.Clear
+  isSpec: "True"
+  fullName: Bdeshi.Helpers.DataStructures.SerializableStack<T>.Clear
+  fullName.vb: Bdeshi.Helpers.DataStructures.SerializableStack(Of T).Clear
+  nameWithType: SerializableStack<T>.Clear
+  nameWithType.vb: SerializableStack(Of T).Clear
 - uid: Bdeshi.Helpers.DataStructures.SerializableStack`1.Contains(`0)
   name: Contains(T)
   href: api/Bdeshi.Helpers.DataStructures.SerializableStack-1.html#Bdeshi_Helpers_DataStructures_SerializableStack_1_Contains__0_
@@ -1233,6 +1319,23 @@ references:
   fullName.vb: Bdeshi.Helpers.DataStructures.SerializableStack(Of T).Contains
   nameWithType: SerializableStack<T>.Contains
   nameWithType.vb: SerializableStack(Of T).Contains
+- uid: Bdeshi.Helpers.DataStructures.SerializableStack`1.Count
+  name: Count
+  href: api/Bdeshi.Helpers.DataStructures.SerializableStack-1.html#Bdeshi_Helpers_DataStructures_SerializableStack_1_Count
+  commentId: P:Bdeshi.Helpers.DataStructures.SerializableStack`1.Count
+  fullName: Bdeshi.Helpers.DataStructures.SerializableStack<T>.Count
+  fullName.vb: Bdeshi.Helpers.DataStructures.SerializableStack(Of T).Count
+  nameWithType: SerializableStack<T>.Count
+  nameWithType.vb: SerializableStack(Of T).Count
+- uid: Bdeshi.Helpers.DataStructures.SerializableStack`1.Count*
+  name: Count
+  href: api/Bdeshi.Helpers.DataStructures.SerializableStack-1.html#Bdeshi_Helpers_DataStructures_SerializableStack_1_Count_
+  commentId: Overload:Bdeshi.Helpers.DataStructures.SerializableStack`1.Count
+  isSpec: "True"
+  fullName: Bdeshi.Helpers.DataStructures.SerializableStack<T>.Count
+  fullName.vb: Bdeshi.Helpers.DataStructures.SerializableStack(Of T).Count
+  nameWithType: SerializableStack<T>.Count
+  nameWithType.vb: SerializableStack(Of T).Count
 - uid: Bdeshi.Helpers.DataStructures.SerializableStack`1.FIFOOrder
   name: FIFOOrder()
   href: api/Bdeshi.Helpers.DataStructures.SerializableStack-1.html#Bdeshi_Helpers_DataStructures_SerializableStack_1_FIFOOrder
@@ -1592,14 +1695,7 @@ references:
 - uid: Bdeshi.Helpers.Utility.ArrowLiner.MainLiner
   name: MainLiner
   href: api/Bdeshi.Helpers.Utility.ArrowLiner.html#Bdeshi_Helpers_Utility_ArrowLiner_MainLiner
-  commentId: P:Bdeshi.Helpers.Utility.ArrowLiner.MainLiner
-  fullName: Bdeshi.Helpers.Utility.ArrowLiner.MainLiner
-  nameWithType: ArrowLiner.MainLiner
-- uid: Bdeshi.Helpers.Utility.ArrowLiner.MainLiner*
-  name: MainLiner
-  href: api/Bdeshi.Helpers.Utility.ArrowLiner.html#Bdeshi_Helpers_Utility_ArrowLiner_MainLiner_
-  commentId: Overload:Bdeshi.Helpers.Utility.ArrowLiner.MainLiner
-  isSpec: "True"
+  commentId: F:Bdeshi.Helpers.Utility.ArrowLiner.MainLiner
   fullName: Bdeshi.Helpers.Utility.ArrowLiner.MainLiner
   nameWithType: ArrowLiner.MainLiner
 - uid: Bdeshi.Helpers.Utility.ArrowLiner.SetColor(Color)
@@ -1628,6 +1724,22 @@ references:
   isSpec: "True"
   fullName: Bdeshi.Helpers.Utility.ArrowLiner.SetPositions
   nameWithType: ArrowLiner.SetPositions
+- uid: Bdeshi.Helpers.Utility.ArrowLiner.SyncLineRenderersWithEndPoints(System.Boolean)
+  name: SyncLineRenderersWithEndPoints(bool)
+  href: api/Bdeshi.Helpers.Utility.ArrowLiner.html#Bdeshi_Helpers_Utility_ArrowLiner_SyncLineRenderersWithEndPoints_System_Boolean_
+  commentId: M:Bdeshi.Helpers.Utility.ArrowLiner.SyncLineRenderersWithEndPoints(System.Boolean)
+  name.vb: SyncLineRenderersWithEndPoints(Boolean)
+  fullName: Bdeshi.Helpers.Utility.ArrowLiner.SyncLineRenderersWithEndPoints(bool)
+  fullName.vb: Bdeshi.Helpers.Utility.ArrowLiner.SyncLineRenderersWithEndPoints(Boolean)
+  nameWithType: ArrowLiner.SyncLineRenderersWithEndPoints(bool)
+  nameWithType.vb: ArrowLiner.SyncLineRenderersWithEndPoints(Boolean)
+- uid: Bdeshi.Helpers.Utility.ArrowLiner.SyncLineRenderersWithEndPoints*
+  name: SyncLineRenderersWithEndPoints
+  href: api/Bdeshi.Helpers.Utility.ArrowLiner.html#Bdeshi_Helpers_Utility_ArrowLiner_SyncLineRenderersWithEndPoints_
+  commentId: Overload:Bdeshi.Helpers.Utility.ArrowLiner.SyncLineRenderersWithEndPoints
+  isSpec: "True"
+  fullName: Bdeshi.Helpers.Utility.ArrowLiner.SyncLineRenderersWithEndPoints
+  nameWithType: ArrowLiner.SyncLineRenderersWithEndPoints
 - uid: Bdeshi.Helpers.Utility.ArrowLiner.TipLenMax
   name: TipLenMax
   href: api/Bdeshi.Helpers.Utility.ArrowLiner.html#Bdeshi_Helpers_Utility_ArrowLiner_TipLenMax
@@ -1637,14 +1749,7 @@ references:
 - uid: Bdeshi.Helpers.Utility.ArrowLiner.TipLiner
   name: TipLiner
   href: api/Bdeshi.Helpers.Utility.ArrowLiner.html#Bdeshi_Helpers_Utility_ArrowLiner_TipLiner
-  commentId: P:Bdeshi.Helpers.Utility.ArrowLiner.TipLiner
-  fullName: Bdeshi.Helpers.Utility.ArrowLiner.TipLiner
-  nameWithType: ArrowLiner.TipLiner
-- uid: Bdeshi.Helpers.Utility.ArrowLiner.TipLiner*
-  name: TipLiner
-  href: api/Bdeshi.Helpers.Utility.ArrowLiner.html#Bdeshi_Helpers_Utility_ArrowLiner_TipLiner_
-  commentId: Overload:Bdeshi.Helpers.Utility.ArrowLiner.TipLiner
-  isSpec: "True"
+  commentId: F:Bdeshi.Helpers.Utility.ArrowLiner.TipLiner
   fullName: Bdeshi.Helpers.Utility.ArrowLiner.TipLiner
   nameWithType: ArrowLiner.TipLiner
 - uid: Bdeshi.Helpers.Utility.ArrowLiner.TipWidth
@@ -1653,6 +1758,50 @@ references:
   commentId: F:Bdeshi.Helpers.Utility.ArrowLiner.TipWidth
   fullName: Bdeshi.Helpers.Utility.ArrowLiner.TipWidth
   nameWithType: ArrowLiner.TipWidth
+- uid: Bdeshi.Helpers.Utility.ArrowLiner.TweenArrow(Vector3,Vector3,System.Single)
+  name: TweenArrow(Vector3, Vector3, float)
+  href: api/Bdeshi.Helpers.Utility.ArrowLiner.html#Bdeshi_Helpers_Utility_ArrowLiner_TweenArrow_Vector3_Vector3_System_Single_
+  commentId: M:Bdeshi.Helpers.Utility.ArrowLiner.TweenArrow(Vector3,Vector3,System.Single)
+  name.vb: TweenArrow(Vector3, Vector3, Single)
+  fullName: Bdeshi.Helpers.Utility.ArrowLiner.TweenArrow(Vector3, Vector3, float)
+  fullName.vb: Bdeshi.Helpers.Utility.ArrowLiner.TweenArrow(Vector3, Vector3, Single)
+  nameWithType: ArrowLiner.TweenArrow(Vector3, Vector3, float)
+  nameWithType.vb: ArrowLiner.TweenArrow(Vector3, Vector3, Single)
+- uid: Bdeshi.Helpers.Utility.ArrowLiner.TweenArrow*
+  name: TweenArrow
+  href: api/Bdeshi.Helpers.Utility.ArrowLiner.html#Bdeshi_Helpers_Utility_ArrowLiner_TweenArrow_
+  commentId: Overload:Bdeshi.Helpers.Utility.ArrowLiner.TweenArrow
+  isSpec: "True"
+  fullName: Bdeshi.Helpers.Utility.ArrowLiner.TweenArrow
+  nameWithType: ArrowLiner.TweenArrow
+- uid: Bdeshi.Helpers.Utility.ArrowLiner.UpdateTipSize(System.Single,System.Single)
+  name: UpdateTipSize(float, float)
+  href: api/Bdeshi.Helpers.Utility.ArrowLiner.html#Bdeshi_Helpers_Utility_ArrowLiner_UpdateTipSize_System_Single_System_Single_
+  commentId: M:Bdeshi.Helpers.Utility.ArrowLiner.UpdateTipSize(System.Single,System.Single)
+  name.vb: UpdateTipSize(Single, Single)
+  fullName: Bdeshi.Helpers.Utility.ArrowLiner.UpdateTipSize(float, float)
+  fullName.vb: Bdeshi.Helpers.Utility.ArrowLiner.UpdateTipSize(Single, Single)
+  nameWithType: ArrowLiner.UpdateTipSize(float, float)
+  nameWithType.vb: ArrowLiner.UpdateTipSize(Single, Single)
+- uid: Bdeshi.Helpers.Utility.ArrowLiner.UpdateTipSize*
+  name: UpdateTipSize
+  href: api/Bdeshi.Helpers.Utility.ArrowLiner.html#Bdeshi_Helpers_Utility_ArrowLiner_UpdateTipSize_
+  commentId: Overload:Bdeshi.Helpers.Utility.ArrowLiner.UpdateTipSize
+  isSpec: "True"
+  fullName: Bdeshi.Helpers.Utility.ArrowLiner.UpdateTipSize
+  nameWithType: ArrowLiner.UpdateTipSize
+- uid: Bdeshi.Helpers.Utility.ArrowLiner._extraTipBorderSize
+  name: _extraTipBorderSize
+  href: api/Bdeshi.Helpers.Utility.ArrowLiner.html#Bdeshi_Helpers_Utility_ArrowLiner__extraTipBorderSize
+  commentId: F:Bdeshi.Helpers.Utility.ArrowLiner._extraTipBorderSize
+  fullName: Bdeshi.Helpers.Utility.ArrowLiner._extraTipBorderSize
+  nameWithType: ArrowLiner._extraTipBorderSize
+- uid: Bdeshi.Helpers.Utility.ArrowLiner.compressionArrowExtraTip
+  name: compressionArrowExtraTip
+  href: api/Bdeshi.Helpers.Utility.ArrowLiner.html#Bdeshi_Helpers_Utility_ArrowLiner_compressionArrowExtraTip
+  commentId: F:Bdeshi.Helpers.Utility.ArrowLiner.compressionArrowExtraTip
+  fullName: Bdeshi.Helpers.Utility.ArrowLiner.compressionArrowExtraTip
+  nameWithType: ArrowLiner.compressionArrowExtraTip
 - uid: Bdeshi.Helpers.Utility.ArrowLiner.toggleLineRenderers(System.Boolean)
   name: toggleLineRenderers(bool)
   href: api/Bdeshi.Helpers.Utility.ArrowLiner.html#Bdeshi_Helpers_Utility_ArrowLiner_toggleLineRenderers_System_Boolean_
@@ -2109,6 +2258,19 @@ references:
   commentId: T:Bdeshi.Helpers.Utility.Extensions.Unity
   fullName: Bdeshi.Helpers.Utility.Extensions.Unity
   nameWithType: Unity
+- uid: Bdeshi.Helpers.Utility.Extensions.Unity.CeilToInt(Vector2)
+  name: CeilToInt(Vector2)
+  href: api/Bdeshi.Helpers.Utility.Extensions.Unity.html#Bdeshi_Helpers_Utility_Extensions_Unity_CeilToInt_Vector2_
+  commentId: M:Bdeshi.Helpers.Utility.Extensions.Unity.CeilToInt(Vector2)
+  fullName: Bdeshi.Helpers.Utility.Extensions.Unity.CeilToInt(Vector2)
+  nameWithType: Unity.CeilToInt(Vector2)
+- uid: Bdeshi.Helpers.Utility.Extensions.Unity.CeilToInt*
+  name: CeilToInt
+  href: api/Bdeshi.Helpers.Utility.Extensions.Unity.html#Bdeshi_Helpers_Utility_Extensions_Unity_CeilToInt_
+  commentId: Overload:Bdeshi.Helpers.Utility.Extensions.Unity.CeilToInt
+  isSpec: "True"
+  fullName: Bdeshi.Helpers.Utility.Extensions.Unity.CeilToInt
+  nameWithType: Unity.CeilToInt
 - uid: Bdeshi.Helpers.Utility.Extensions.Unity.Contains(LayerMask,GameObject)
   name: Contains(LayerMask, GameObject)
   href: api/Bdeshi.Helpers.Utility.Extensions.Unity.html#Bdeshi_Helpers_Utility_Extensions_Unity_Contains_LayerMask_GameObject_
@@ -2159,6 +2321,38 @@ references:
   isSpec: "True"
   fullName: Bdeshi.Helpers.Utility.Extensions.Unity.GenerateDifferentColors
   nameWithType: Unity.GenerateDifferentColors
+- uid: Bdeshi.Helpers.Utility.Extensions.Unity.GetComponentIfNull*
+  name: GetComponentIfNull
+  href: api/Bdeshi.Helpers.Utility.Extensions.Unity.html#Bdeshi_Helpers_Utility_Extensions_Unity_GetComponentIfNull_
+  commentId: Overload:Bdeshi.Helpers.Utility.Extensions.Unity.GetComponentIfNull
+  isSpec: "True"
+  fullName: Bdeshi.Helpers.Utility.Extensions.Unity.GetComponentIfNull
+  nameWithType: Unity.GetComponentIfNull
+- uid: Bdeshi.Helpers.Utility.Extensions.Unity.GetComponentIfNull``1(MonoBehaviour,``0)
+  name: GetComponentIfNull<T>(MonoBehaviour, T)
+  href: api/Bdeshi.Helpers.Utility.Extensions.Unity.html#Bdeshi_Helpers_Utility_Extensions_Unity_GetComponentIfNull__1_MonoBehaviour___0_
+  commentId: M:Bdeshi.Helpers.Utility.Extensions.Unity.GetComponentIfNull``1(MonoBehaviour,``0)
+  name.vb: GetComponentIfNull(Of T)(MonoBehaviour, T)
+  fullName: Bdeshi.Helpers.Utility.Extensions.Unity.GetComponentIfNull<T>(MonoBehaviour, T)
+  fullName.vb: Bdeshi.Helpers.Utility.Extensions.Unity.GetComponentIfNull(Of T)(MonoBehaviour, T)
+  nameWithType: Unity.GetComponentIfNull<T>(MonoBehaviour, T)
+  nameWithType.vb: Unity.GetComponentIfNull(Of T)(MonoBehaviour, T)
+- uid: Bdeshi.Helpers.Utility.Extensions.Unity.GetComponentInParentIfNull*
+  name: GetComponentInParentIfNull
+  href: api/Bdeshi.Helpers.Utility.Extensions.Unity.html#Bdeshi_Helpers_Utility_Extensions_Unity_GetComponentInParentIfNull_
+  commentId: Overload:Bdeshi.Helpers.Utility.Extensions.Unity.GetComponentInParentIfNull
+  isSpec: "True"
+  fullName: Bdeshi.Helpers.Utility.Extensions.Unity.GetComponentInParentIfNull
+  nameWithType: Unity.GetComponentInParentIfNull
+- uid: Bdeshi.Helpers.Utility.Extensions.Unity.GetComponentInParentIfNull``1(MonoBehaviour,``0)
+  name: GetComponentInParentIfNull<T>(MonoBehaviour, T)
+  href: api/Bdeshi.Helpers.Utility.Extensions.Unity.html#Bdeshi_Helpers_Utility_Extensions_Unity_GetComponentInParentIfNull__1_MonoBehaviour___0_
+  commentId: M:Bdeshi.Helpers.Utility.Extensions.Unity.GetComponentInParentIfNull``1(MonoBehaviour,``0)
+  name.vb: GetComponentInParentIfNull(Of T)(MonoBehaviour, T)
+  fullName: Bdeshi.Helpers.Utility.Extensions.Unity.GetComponentInParentIfNull<T>(MonoBehaviour, T)
+  fullName.vb: Bdeshi.Helpers.Utility.Extensions.Unity.GetComponentInParentIfNull(Of T)(MonoBehaviour, T)
+  nameWithType: Unity.GetComponentInParentIfNull<T>(MonoBehaviour, T)
+  nameWithType.vb: Unity.GetComponentInParentIfNull(Of T)(MonoBehaviour, T)
 - uid: Bdeshi.Helpers.Utility.Extensions.Unity.IsBetween(Vector3Int,Vector3Int,Vector3Int)
   name: IsBetween(Vector3Int, Vector3Int, Vector3Int)
   href: api/Bdeshi.Helpers.Utility.Extensions.Unity.html#Bdeshi_Helpers_Utility_Extensions_Unity_IsBetween_Vector3Int_Vector3Int_Vector3Int_
@@ -2242,6 +2436,19 @@ references:
   isSpec: "True"
   fullName: Bdeshi.Helpers.Utility.Extensions.Unity.MaintainZ
   nameWithType: Unity.MaintainZ
+- uid: Bdeshi.Helpers.Utility.Extensions.Unity.MaxAxis(Vector3)
+  name: MaxAxis(Vector3)
+  href: api/Bdeshi.Helpers.Utility.Extensions.Unity.html#Bdeshi_Helpers_Utility_Extensions_Unity_MaxAxis_Vector3_
+  commentId: M:Bdeshi.Helpers.Utility.Extensions.Unity.MaxAxis(Vector3)
+  fullName: Bdeshi.Helpers.Utility.Extensions.Unity.MaxAxis(Vector3)
+  nameWithType: Unity.MaxAxis(Vector3)
+- uid: Bdeshi.Helpers.Utility.Extensions.Unity.MaxAxis*
+  name: MaxAxis
+  href: api/Bdeshi.Helpers.Utility.Extensions.Unity.html#Bdeshi_Helpers_Utility_Extensions_Unity_MaxAxis_
+  commentId: Overload:Bdeshi.Helpers.Utility.Extensions.Unity.MaxAxis
+  isSpec: "True"
+  fullName: Bdeshi.Helpers.Utility.Extensions.Unity.MaxAxis
+  nameWithType: Unity.MaxAxis
 - uid: Bdeshi.Helpers.Utility.Extensions.Unity.OverrideX(Vector2,System.Single)
   name: OverrideX(Vector2, float)
   href: api/Bdeshi.Helpers.Utility.Extensions.Unity.html#Bdeshi_Helpers_Utility_Extensions_Unity_OverrideX_Vector2_System_Single_
@@ -2269,6 +2476,12 @@ references:
   fullName.vb: Bdeshi.Helpers.Utility.Extensions.Unity.OverrideX(Vector3, Single)
   nameWithType: Unity.OverrideX(Vector3, float)
   nameWithType.vb: Unity.OverrideX(Vector3, Single)
+- uid: Bdeshi.Helpers.Utility.Extensions.Unity.OverrideX(Vector3,Vector3)
+  name: OverrideX(Vector3, Vector3)
+  href: api/Bdeshi.Helpers.Utility.Extensions.Unity.html#Bdeshi_Helpers_Utility_Extensions_Unity_OverrideX_Vector3_Vector3_
+  commentId: M:Bdeshi.Helpers.Utility.Extensions.Unity.OverrideX(Vector3,Vector3)
+  fullName: Bdeshi.Helpers.Utility.Extensions.Unity.OverrideX(Vector3, Vector3)
+  nameWithType: Unity.OverrideX(Vector3, Vector3)
 - uid: Bdeshi.Helpers.Utility.Extensions.Unity.OverrideX(Vector3Int,System.Int32)
   name: OverrideX(Vector3Int, int)
   href: api/Bdeshi.Helpers.Utility.Extensions.Unity.html#Bdeshi_Helpers_Utility_Extensions_Unity_OverrideX_Vector3Int_System_Int32_
@@ -2312,6 +2525,12 @@ references:
   fullName.vb: Bdeshi.Helpers.Utility.Extensions.Unity.OverrideY(Vector3, Single)
   nameWithType: Unity.OverrideY(Vector3, float)
   nameWithType.vb: Unity.OverrideY(Vector3, Single)
+- uid: Bdeshi.Helpers.Utility.Extensions.Unity.OverrideY(Vector3,Vector3)
+  name: OverrideY(Vector3, Vector3)
+  href: api/Bdeshi.Helpers.Utility.Extensions.Unity.html#Bdeshi_Helpers_Utility_Extensions_Unity_OverrideY_Vector3_Vector3_
+  commentId: M:Bdeshi.Helpers.Utility.Extensions.Unity.OverrideY(Vector3,Vector3)
+  fullName: Bdeshi.Helpers.Utility.Extensions.Unity.OverrideY(Vector3, Vector3)
+  nameWithType: Unity.OverrideY(Vector3, Vector3)
 - uid: Bdeshi.Helpers.Utility.Extensions.Unity.OverrideY(Vector3Int,System.Int32)
   name: OverrideY(Vector3Int, int)
   href: api/Bdeshi.Helpers.Utility.Extensions.Unity.html#Bdeshi_Helpers_Utility_Extensions_Unity_OverrideY_Vector3Int_System_Int32_
@@ -2337,6 +2556,12 @@ references:
   fullName.vb: Bdeshi.Helpers.Utility.Extensions.Unity.OverrideZ(Vector3, Single)
   nameWithType: Unity.OverrideZ(Vector3, float)
   nameWithType.vb: Unity.OverrideZ(Vector3, Single)
+- uid: Bdeshi.Helpers.Utility.Extensions.Unity.OverrideZ(Vector3,Vector3)
+  name: OverrideZ(Vector3, Vector3)
+  href: api/Bdeshi.Helpers.Utility.Extensions.Unity.html#Bdeshi_Helpers_Utility_Extensions_Unity_OverrideZ_Vector3_Vector3_
+  commentId: M:Bdeshi.Helpers.Utility.Extensions.Unity.OverrideZ(Vector3,Vector3)
+  fullName: Bdeshi.Helpers.Utility.Extensions.Unity.OverrideZ(Vector3, Vector3)
+  nameWithType: Unity.OverrideZ(Vector3, Vector3)
 - uid: Bdeshi.Helpers.Utility.Extensions.Unity.OverrideZ(Vector3Int,System.Int32)
   name: OverrideZ(Vector3Int, int)
   href: api/Bdeshi.Helpers.Utility.Extensions.Unity.html#Bdeshi_Helpers_Utility_Extensions_Unity_OverrideZ_Vector3Int_System_Int32_
@@ -2385,6 +2610,28 @@ references:
   isSpec: "True"
   fullName: Bdeshi.Helpers.Utility.Extensions.Unity.Rotated
   nameWithType: Unity.Rotated
+- uid: Bdeshi.Helpers.Utility.Extensions.Unity.RoundToInt(Vector2)
+  name: RoundToInt(Vector2)
+  href: api/Bdeshi.Helpers.Utility.Extensions.Unity.html#Bdeshi_Helpers_Utility_Extensions_Unity_RoundToInt_Vector2_
+  commentId: M:Bdeshi.Helpers.Utility.Extensions.Unity.RoundToInt(Vector2)
+  fullName: Bdeshi.Helpers.Utility.Extensions.Unity.RoundToInt(Vector2)
+  nameWithType: Unity.RoundToInt(Vector2)
+- uid: Bdeshi.Helpers.Utility.Extensions.Unity.RoundToInt*
+  name: RoundToInt
+  href: api/Bdeshi.Helpers.Utility.Extensions.Unity.html#Bdeshi_Helpers_Utility_Extensions_Unity_RoundToInt_
+  commentId: Overload:Bdeshi.Helpers.Utility.Extensions.Unity.RoundToInt
+  isSpec: "True"
+  fullName: Bdeshi.Helpers.Utility.Extensions.Unity.RoundToInt
+  nameWithType: Unity.RoundToInt
+- uid: Bdeshi.Helpers.Utility.Extensions.Unity.SetAlpha(Image,System.Single)
+  name: SetAlpha(Image, float)
+  href: api/Bdeshi.Helpers.Utility.Extensions.Unity.html#Bdeshi_Helpers_Utility_Extensions_Unity_SetAlpha_Image_System_Single_
+  commentId: M:Bdeshi.Helpers.Utility.Extensions.Unity.SetAlpha(Image,System.Single)
+  name.vb: SetAlpha(Image, Single)
+  fullName: Bdeshi.Helpers.Utility.Extensions.Unity.SetAlpha(Image, float)
+  fullName.vb: Bdeshi.Helpers.Utility.Extensions.Unity.SetAlpha(Image, Single)
+  nameWithType: Unity.SetAlpha(Image, float)
+  nameWithType.vb: Unity.SetAlpha(Image, Single)
 - uid: Bdeshi.Helpers.Utility.Extensions.Unity.SetAlpha(LineRenderer,System.Single)
   name: SetAlpha(LineRenderer, float)
   href: api/Bdeshi.Helpers.Utility.Extensions.Unity.html#Bdeshi_Helpers_Utility_Extensions_Unity_SetAlpha_LineRenderer_System_Single_
@@ -2452,6 +2699,22 @@ references:
   fullName.vb: Bdeshi.Helpers.Utility.Extensions.Unity.Shuffle(Of T)(System.Collections.Generic.IList(Of T))
   nameWithType: Unity.Shuffle<T>(IList<T>)
   nameWithType.vb: Unity.Shuffle(Of T)(IList(Of T))
+- uid: Bdeshi.Helpers.Utility.Extensions.Unity.WithZ(Vector2,System.Single)
+  name: WithZ(Vector2, float)
+  href: api/Bdeshi.Helpers.Utility.Extensions.Unity.html#Bdeshi_Helpers_Utility_Extensions_Unity_WithZ_Vector2_System_Single_
+  commentId: M:Bdeshi.Helpers.Utility.Extensions.Unity.WithZ(Vector2,System.Single)
+  name.vb: WithZ(Vector2, Single)
+  fullName: Bdeshi.Helpers.Utility.Extensions.Unity.WithZ(Vector2, float)
+  fullName.vb: Bdeshi.Helpers.Utility.Extensions.Unity.WithZ(Vector2, Single)
+  nameWithType: Unity.WithZ(Vector2, float)
+  nameWithType.vb: Unity.WithZ(Vector2, Single)
+- uid: Bdeshi.Helpers.Utility.Extensions.Unity.WithZ*
+  name: WithZ
+  href: api/Bdeshi.Helpers.Utility.Extensions.Unity.html#Bdeshi_Helpers_Utility_Extensions_Unity_WithZ_
+  commentId: Overload:Bdeshi.Helpers.Utility.Extensions.Unity.WithZ
+  isSpec: "True"
+  fullName: Bdeshi.Helpers.Utility.Extensions.Unity.WithZ
+  nameWithType: Unity.WithZ
 - uid: Bdeshi.Helpers.Utility.Extensions.Unity.addAngleOffset(Transform,System.Single)
   name: addAngleOffset(Transform, float)
   href: api/Bdeshi.Helpers.Utility.Extensions.Unity.html#Bdeshi_Helpers_Utility_Extensions_Unity_addAngleOffset_Transform_System_Single_
@@ -3433,6 +3696,24 @@ references:
   fullName.vb: Bdeshi.Helpers.Utility.PooledMonoBehaviorList(Of T).New
   nameWithType: PooledMonoBehaviorList<T>.PooledMonoBehaviorList
   nameWithType.vb: PooledMonoBehaviorList(Of T).New
+- uid: Bdeshi.Helpers.Utility.PooledMonoBehaviorList`1.AddCount(System.Int32)
+  name: AddCount(int)
+  href: api/Bdeshi.Helpers.Utility.PooledMonoBehaviorList-1.html#Bdeshi_Helpers_Utility_PooledMonoBehaviorList_1_AddCount_System_Int32_
+  commentId: M:Bdeshi.Helpers.Utility.PooledMonoBehaviorList`1.AddCount(System.Int32)
+  name.vb: AddCount(Integer)
+  fullName: Bdeshi.Helpers.Utility.PooledMonoBehaviorList<T>.AddCount(int)
+  fullName.vb: Bdeshi.Helpers.Utility.PooledMonoBehaviorList(Of T).AddCount(Integer)
+  nameWithType: PooledMonoBehaviorList<T>.AddCount(int)
+  nameWithType.vb: PooledMonoBehaviorList(Of T).AddCount(Integer)
+- uid: Bdeshi.Helpers.Utility.PooledMonoBehaviorList`1.AddCount*
+  name: AddCount
+  href: api/Bdeshi.Helpers.Utility.PooledMonoBehaviorList-1.html#Bdeshi_Helpers_Utility_PooledMonoBehaviorList_1_AddCount_
+  commentId: Overload:Bdeshi.Helpers.Utility.PooledMonoBehaviorList`1.AddCount
+  isSpec: "True"
+  fullName: Bdeshi.Helpers.Utility.PooledMonoBehaviorList<T>.AddCount
+  fullName.vb: Bdeshi.Helpers.Utility.PooledMonoBehaviorList(Of T).AddCount
+  nameWithType: PooledMonoBehaviorList<T>.AddCount
+  nameWithType.vb: PooledMonoBehaviorList(Of T).AddCount
 - uid: Bdeshi.Helpers.Utility.PooledMonoBehaviorList`1.ClearAndForget(System.Int32)
   name: ClearAndForget(int)
   href: api/Bdeshi.Helpers.Utility.PooledMonoBehaviorList-1.html#Bdeshi_Helpers_Utility_PooledMonoBehaviorList_1_ClearAndForget_System_Int32_
@@ -3635,6 +3916,23 @@ references:
   fullName.vb: Bdeshi.Helpers.Utility.PooledMonoBehaviorList(Of T).SpawnedItems
   nameWithType: PooledMonoBehaviorList<T>.SpawnedItems
   nameWithType.vb: PooledMonoBehaviorList(Of T).SpawnedItems
+- uid: Bdeshi.Helpers.Utility.PooledMonoBehaviorList`1.TotalSpawnCount
+  name: TotalSpawnCount
+  href: api/Bdeshi.Helpers.Utility.PooledMonoBehaviorList-1.html#Bdeshi_Helpers_Utility_PooledMonoBehaviorList_1_TotalSpawnCount
+  commentId: P:Bdeshi.Helpers.Utility.PooledMonoBehaviorList`1.TotalSpawnCount
+  fullName: Bdeshi.Helpers.Utility.PooledMonoBehaviorList<T>.TotalSpawnCount
+  fullName.vb: Bdeshi.Helpers.Utility.PooledMonoBehaviorList(Of T).TotalSpawnCount
+  nameWithType: PooledMonoBehaviorList<T>.TotalSpawnCount
+  nameWithType.vb: PooledMonoBehaviorList(Of T).TotalSpawnCount
+- uid: Bdeshi.Helpers.Utility.PooledMonoBehaviorList`1.TotalSpawnCount*
+  name: TotalSpawnCount
+  href: api/Bdeshi.Helpers.Utility.PooledMonoBehaviorList-1.html#Bdeshi_Helpers_Utility_PooledMonoBehaviorList_1_TotalSpawnCount_
+  commentId: Overload:Bdeshi.Helpers.Utility.PooledMonoBehaviorList`1.TotalSpawnCount
+  isSpec: "True"
+  fullName: Bdeshi.Helpers.Utility.PooledMonoBehaviorList<T>.TotalSpawnCount
+  fullName.vb: Bdeshi.Helpers.Utility.PooledMonoBehaviorList(Of T).TotalSpawnCount
+  nameWithType: PooledMonoBehaviorList<T>.TotalSpawnCount
+  nameWithType.vb: PooledMonoBehaviorList(Of T).TotalSpawnCount
 - uid: Bdeshi.Helpers.Utility.Reparenter
   name: Reparenter
   href: api/Bdeshi.Helpers.Utility.Reparenter.html
@@ -4402,6 +4700,23 @@ references:
   fullName.vb: Bdeshi.Helpers.Utility.SimpleManualMonoBehaviourPool(Of T).GetItem
   nameWithType: SimpleManualMonoBehaviourPool<T>.GetItem
   nameWithType.vb: SimpleManualMonoBehaviourPool(Of T).GetItem
+- uid: Bdeshi.Helpers.Utility.SimpleManualMonoBehaviourPool`1.PoolReserveCount
+  name: PoolReserveCount
+  href: api/Bdeshi.Helpers.Utility.SimpleManualMonoBehaviourPool-1.html#Bdeshi_Helpers_Utility_SimpleManualMonoBehaviourPool_1_PoolReserveCount
+  commentId: P:Bdeshi.Helpers.Utility.SimpleManualMonoBehaviourPool`1.PoolReserveCount
+  fullName: Bdeshi.Helpers.Utility.SimpleManualMonoBehaviourPool<T>.PoolReserveCount
+  fullName.vb: Bdeshi.Helpers.Utility.SimpleManualMonoBehaviourPool(Of T).PoolReserveCount
+  nameWithType: SimpleManualMonoBehaviourPool<T>.PoolReserveCount
+  nameWithType.vb: SimpleManualMonoBehaviourPool(Of T).PoolReserveCount
+- uid: Bdeshi.Helpers.Utility.SimpleManualMonoBehaviourPool`1.PoolReserveCount*
+  name: PoolReserveCount
+  href: api/Bdeshi.Helpers.Utility.SimpleManualMonoBehaviourPool-1.html#Bdeshi_Helpers_Utility_SimpleManualMonoBehaviourPool_1_PoolReserveCount_
+  commentId: Overload:Bdeshi.Helpers.Utility.SimpleManualMonoBehaviourPool`1.PoolReserveCount
+  isSpec: "True"
+  fullName: Bdeshi.Helpers.Utility.SimpleManualMonoBehaviourPool<T>.PoolReserveCount
+  fullName.vb: Bdeshi.Helpers.Utility.SimpleManualMonoBehaviourPool(Of T).PoolReserveCount
+  nameWithType: SimpleManualMonoBehaviourPool<T>.PoolReserveCount
+  nameWithType.vb: SimpleManualMonoBehaviourPool(Of T).PoolReserveCount
 - uid: Bdeshi.Helpers.Utility.SimpleManualMonoBehaviourPool`1.RemoveFromSpawnList(System.Collections.Generic.List{`0})
   name: RemoveFromSpawnList(List<T>)
   href: api/Bdeshi.Helpers.Utility.SimpleManualMonoBehaviourPool-1.html#Bdeshi_Helpers_Utility_SimpleManualMonoBehaviourPool_1_RemoveFromSpawnList_System_Collections_Generic_List__0__
