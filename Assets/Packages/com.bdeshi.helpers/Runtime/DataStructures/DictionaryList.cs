@@ -10,6 +10,8 @@ namespace Bdeshi.Helpers.DataStructures
         public IDictionary<TKey, List<TVal>> Dict =>_dict;
         public IEnumerable<TKey> Keys => _dict.Keys;
         public IEnumerable<List<TVal>> Values => _dict.Values;
+        
+        List<List<TVal>> pool = new List<List<TVal>>();
 
         public DictionaryList(IDictionary<TKey, List<TVal>> dict)
         {
@@ -37,9 +39,22 @@ namespace Bdeshi.Helpers.DataStructures
             }
             else
             {
-                _dict[key] = new List<TVal>() { item };
+                var l  =  GetNewList();
+                l.Add(item);
+                _dict[key] = l;
                 return false;
             }
+        }
+
+        public List<TVal> GetNewList()
+        {
+            if (pool.Count > 0)
+            {
+                var l = pool[pool.Count - 1];
+                pool.RemoveAt(pool.Count - 1);
+                return l;
+            }
+            return new List<TVal>() {  };
         }
         
         /// <summary>
@@ -57,7 +72,7 @@ namespace Bdeshi.Helpers.DataStructures
             }
             else
             {
-                list = new List<TVal>() { };
+                list = GetNewList();
                 _dict[key] = list;
                 return list;
             }
@@ -99,6 +114,11 @@ namespace Bdeshi.Helpers.DataStructures
 
         public void Clear()
         {
+            foreach (var l in _dict.Values)
+            {
+                l.Clear();
+                pool.Add(l);
+            }
             _dict.Clear();
         }
     }

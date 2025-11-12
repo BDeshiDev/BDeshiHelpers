@@ -11,6 +11,7 @@ namespace Bdeshi.Helpers.DataStructures
         public IDictionary<TKey1, Dictionary<TKey2, TVal>> Dict =>_dict;
         public IEnumerable<TKey1> Keys => _dict.Keys;
         public IEnumerable<Dictionary<TKey2, TVal>> Values => _dict.Values;
+        List<Dictionary<TKey2, TVal>> pool = new List<Dictionary<TKey2, TVal>>();
 
         public DictionaryDictionary(IDictionary<TKey1, Dictionary<TKey2, TVal>> dict)
         {
@@ -33,7 +34,7 @@ namespace Bdeshi.Helpers.DataStructures
         {
             if (!_dict.TryGetValue(key1, out var innerDict))
             {
-                _dict[key1] = innerDict = new Dictionary<TKey2, TVal>() {};
+                _dict[key1] = innerDict = GetInnerDict();
                 innerDict[key2] = item;
                 return true;
             }
@@ -41,7 +42,18 @@ namespace Bdeshi.Helpers.DataStructures
             innerDict[key2] = item;
             return false;
         }
-        
+
+        private  Dictionary<TKey2, TVal> GetInnerDict()
+        {
+            if (pool.Count > 0)
+            {
+                var d = pool[pool.Count - 1];
+                pool.RemoveAt(pool.Count - 1);
+                return d;
+            }
+            return new Dictionary<TKey2, TVal>() {};
+        }
+
         /// <summary>
         /// Adds val without checking, if inner dict doesn't exist, throw errors
         /// </summary>
@@ -125,6 +137,11 @@ namespace Bdeshi.Helpers.DataStructures
 
         public void Clear()
         {
+            foreach (var id in _dict.Values) 
+            {
+                id.Clear();
+                pool.Add(id);
+            }
             _dict.Clear();
         }
 

@@ -8,7 +8,6 @@ namespace Bdeshi.Helpers.Utility
     {
         public bool CallInAwake = true;
         public bool CallInStart = false;
-        public  bool logEnable;
         public UnityEvent e;
         private void Awake()
         {
@@ -20,22 +19,6 @@ namespace Bdeshi.Helpers.Utility
         {
             if(CallInStart)
                 e.Invoke();
-        }
-
-        private void OnEnable()
-        {
-            if (logEnable)
-            {
-                Debug.Log($"ENABLE LOGGGGGGGGGG {this}", gameObject);
-            } 
-        }
-        
-        private void OnDisable()
-        {
-            if (logEnable)
-            {
-                Debug.Log($"DISABLE LOGGGGGGGGGG {this}", gameObject);
-            } 
         }
     }
 }

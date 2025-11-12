@@ -260,16 +260,7 @@ namespace Bdeshi.Helpers.Utility.Extensions
         {
             return new Vector3(v.x * other.x, v.y * other.y, v.z * other.z);
         }
-        // public static void Shuffle<T>(this IList<T> list)  
-        // {  
-        //     for (int i = list.Count -1 ; i < list.Count; i--)
-        //     {
-        //         int k = Random.Range(0, i+1); 
-        //         
-        //         (list[k], list[i]) = (list[i], list[k]);
-        //     }
-        //
-        // }
+
         public static void Shuffle<T>(this IList<T> list)
         {
             int n = list.Count;
