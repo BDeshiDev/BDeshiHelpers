@@ -11,7 +11,7 @@ namespace Bdeshi.Helpers.DataStructures
     {
         [SerializeField] private int chargeIndex;
         [SerializeField] private List<ChargableListSlot> items = new List<ChargableListSlot>();
-        [SerializeField] private bool ChargeComplete => chargeIndex >= (items.Count) ||
+        private bool ChargeComplete => chargeIndex >= (items.Count) ||
                                                         ( chargeIndex == (items.Count - 1)
                                                           && items[chargeIndex].chargeTimer.isComplete);
 

@@ -2,6 +2,10 @@
 
 namespace Bdeshi.Helpers.Utility
 {
+    /// <summary>
+    /// Singletons that are created automatically when accessed
+    /// </summary>
+    /// <typeparam name="T"></typeparam>
     public class MonoBehaviourLazySingleton<T> : MonoBehaviour
         where T : MonoBehaviourLazySingleton<T> 
     {

@@ -4,9 +4,9 @@ using UnityEngine;
 namespace Bdeshi.Helpers.Utility
 {
     /// <summary>
-    /// Sets self as Instance without checking
-    /// BE SURE THAT THIS IS WHAT YOU WANT
-    /// DOESN'T HANDLE DUPLICATES
+    /// Singletons with static access but no strict maintenance of single instance 
+    /// DontDestroyOnLoad is not used, so it'll destroy itself on scene unload.
+    /// Useful for static instances that change on scene load
     /// </summary>
     /// <typeparam name="T"></typeparam>
     public abstract class MonoBehaviorWeakSingleton<T>:MonoBehaviour

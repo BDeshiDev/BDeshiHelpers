@@ -2,6 +2,12 @@
 
 namespace Bdeshi.Helpers.Utility
 {
+    /// <summary>
+    /// Standard non-lazy singleton
+    /// Registers self as instance if none exists, otherwise destroy self
+    /// Dont destroy on load is set as well
+    /// </summary>
+    /// <typeparam name="T"></typeparam>
     public abstract class MonoBehaviourSingletonPersistent<T> : MonoBehaviour
         where T : Component
     {

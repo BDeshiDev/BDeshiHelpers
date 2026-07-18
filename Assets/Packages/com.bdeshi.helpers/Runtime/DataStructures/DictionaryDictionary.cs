@@ -132,7 +132,7 @@ namespace Bdeshi.Helpers.DataStructures
 
         IEnumerator IEnumerable.GetEnumerator()
         {
-            return GetEnumerator();
+            return _dict.GetEnumerator();
         }
 
         public void Clear()

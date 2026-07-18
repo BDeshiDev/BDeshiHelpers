@@ -9,7 +9,7 @@ namespace Bdeshi.Helpers.Utility
     {
         public LineRenderer MainLiner;
         public LineRenderer TipLiner;
-        public LineRenderer compressionArrowExtraTip;
+        public LineRenderer arrowExtraTip;
 
         public float MainLineWidth = .25f;
         public float TipWidth = .25f;
@@ -102,9 +102,9 @@ namespace Bdeshi.Helpers.Utility
         
         private void SyncExtraTip(Vector3 dir)
         {
-            compressionArrowExtraTip.transform.position = TipLiner.transform.position;
-            compressionArrowExtraTip.SetPosition(0,TipLiner.GetPosition(0) - dir * _extraTipBorderSize);
-            compressionArrowExtraTip.SetPosition(1,TipLiner.GetPosition(1) + dir * _extraTipBorderSize);
+            arrowExtraTip.transform.position = TipLiner.transform.position;
+            arrowExtraTip.SetPosition(0,TipLiner.GetPosition(0) - dir * _extraTipBorderSize);
+            arrowExtraTip.SetPosition(1,TipLiner.GetPosition(1) + dir * _extraTipBorderSize);
         }
 
 
