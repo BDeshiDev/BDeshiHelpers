@@ -1796,12 +1796,12 @@ references:
   commentId: F:Bdeshi.Helpers.Utility.ArrowLiner._extraTipBorderSize
   fullName: Bdeshi.Helpers.Utility.ArrowLiner._extraTipBorderSize
   nameWithType: ArrowLiner._extraTipBorderSize
-- uid: Bdeshi.Helpers.Utility.ArrowLiner.compressionArrowExtraTip
-  name: compressionArrowExtraTip
-  href: api/Bdeshi.Helpers.Utility.ArrowLiner.html#Bdeshi_Helpers_Utility_ArrowLiner_compressionArrowExtraTip
-  commentId: F:Bdeshi.Helpers.Utility.ArrowLiner.compressionArrowExtraTip
-  fullName: Bdeshi.Helpers.Utility.ArrowLiner.compressionArrowExtraTip
-  nameWithType: ArrowLiner.compressionArrowExtraTip
+- uid: Bdeshi.Helpers.Utility.ArrowLiner.arrowExtraTip
+  name: arrowExtraTip
+  href: api/Bdeshi.Helpers.Utility.ArrowLiner.html#Bdeshi_Helpers_Utility_ArrowLiner_arrowExtraTip
+  commentId: F:Bdeshi.Helpers.Utility.ArrowLiner.arrowExtraTip
+  fullName: Bdeshi.Helpers.Utility.ArrowLiner.arrowExtraTip
+  nameWithType: ArrowLiner.arrowExtraTip
 - uid: Bdeshi.Helpers.Utility.ArrowLiner.toggleLineRenderers(System.Boolean)
   name: toggleLineRenderers(bool)
   href: api/Bdeshi.Helpers.Utility.ArrowLiner.html#Bdeshi_Helpers_Utility_ArrowLiner_toggleLineRenderers_System_Boolean_

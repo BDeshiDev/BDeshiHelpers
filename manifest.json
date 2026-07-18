@@ -277,7 +277,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Bdeshi.Helpers.Utility.MonoBehaviorWeakSingleton<T>",
-      "Summary": "<p sourcefile=\"api/Bdeshi.Helpers.Utility.MonoBehaviorWeakSingleton-1.yml\" sourcestartlinenumber=\"1\">Sets self as Instance without checking\nBE SURE THAT THIS IS WHAT YOU WANT\nDOESN'T HANDLE DUPLICATES</p>\n"
+      "Summary": "<p sourcefile=\"api/Bdeshi.Helpers.Utility.MonoBehaviorWeakSingleton-1.yml\" sourcestartlinenumber=\"1\">Singletons with static access but no strict maintenance of single instance\nDontDestroyOnLoad is not used, so it'll destroy itself on scene unload.\nUseful for static instances that change on scene load</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -291,7 +291,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Bdeshi.Helpers.Utility.MonoBehaviourLazySingleton<T>",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/Bdeshi.Helpers.Utility.MonoBehaviourLazySingleton-1.yml\" sourcestartlinenumber=\"1\">Singletons that are created automatically when accessed</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -305,7 +305,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Bdeshi.Helpers.Utility.MonoBehaviourSingletonPersistent<T>",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/Bdeshi.Helpers.Utility.MonoBehaviourSingletonPersistent-1.yml\" sourcestartlinenumber=\"1\">Standard non-lazy singleton\nRegisters self as instance if none exists, otherwise destroy self\nDont destroy on load is set as well</p>\n"
     },
     {
       "type": "ManagedReference",

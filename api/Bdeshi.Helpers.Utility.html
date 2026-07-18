@@ -112,18 +112,22 @@ Classes
     </dl>
     <dl class="jumplist">
       <dt><a class="xref" href="Bdeshi.Helpers.Utility.MonoBehaviorWeakSingleton-1.html">MonoBehaviorWeakSingleton&lt;T&gt;</a></dt>
-      <dd><p>Sets self as Instance without checking
-BE SURE THAT THIS IS WHAT YOU WANT
-DOESN'T HANDLE DUPLICATES</p>
+      <dd><p>Singletons with static access but no strict maintenance of single instance
+DontDestroyOnLoad is not used, so it'll destroy itself on scene unload.
+Useful for static instances that change on scene load</p>
 </dd>
     </dl>
     <dl class="jumplist">
       <dt><a class="xref" href="Bdeshi.Helpers.Utility.MonoBehaviourLazySingleton-1.html">MonoBehaviourLazySingleton&lt;T&gt;</a></dt>
-      <dd></dd>
+      <dd><p>Singletons that are created automatically when accessed</p>
+</dd>
     </dl>
     <dl class="jumplist">
       <dt><a class="xref" href="Bdeshi.Helpers.Utility.MonoBehaviourSingletonPersistent-1.html">MonoBehaviourSingletonPersistent&lt;T&gt;</a></dt>
-      <dd></dd>
+      <dd><p>Standard non-lazy singleton
+Registers self as instance if none exists, otherwise destroy self
+Dont destroy on load is set as well</p>
+</dd>
     </dl>
     <dl class="jumplist">
       <dt><a class="xref" href="Bdeshi.Helpers.Utility.PathComponent.html">PathComponent</a></dt>
