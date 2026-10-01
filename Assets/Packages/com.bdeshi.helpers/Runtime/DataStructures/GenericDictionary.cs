@@ -15,9 +15,7 @@ namespace Bdeshi.Helpers.DataStructures
         // Internal
         [SerializeField]
         private List<KeyValuePair> list = new List<KeyValuePair>();
-        [SerializeField, HideInInspector]
         private Dictionary<TKey, int> indexByKey = new Dictionary<TKey, int>();
-        [SerializeField, HideInInspector]
         private Dictionary<TKey, TValue> dict = new Dictionary<TKey, TValue>();
 
 #pragma warning disable 0414
